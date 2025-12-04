@@ -1,1 +1,0 @@
-SELECT naslov, leto FROM film
