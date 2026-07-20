@@ -6,8 +6,9 @@ def ustvari_drzava(conn):
     """
     conn.execute("""
         CREATE TABLE drzava(
-            id INTEGER PRIMARY KEY,
-            ime TEXT NOT NULL
+            id TEXT PRIMARY KEY,
+            ime TEXT NOT NULL,
+            eu TEXT
         );
     """)
 
@@ -17,19 +18,46 @@ def ustvari_mesto(conn):
     """
     conn.execute("""
         CREATE TABLE mesto(
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY,
             ime TEXT NOT NULL,
-            drzava INTEGER NOT NULL
+            priljubljenost REAL,
+            priporoceni_dnevi INTEGER,
+            drzava_id TEXT NOT NULL,
+            FOREIGN KEY (drzava_id) REFERENCES drzava(id)
         );
     """)
-
+    
+def ustvari_mesto_koordinate(conn):
+    conn.execute("""
+        CREATE TABLE mesto_koordinate(
+            mesto_id INTEGER PRIMARY KEY,
+            latitude REAL NOT NULL CHECK (latitude BETWEEN -90 AND 90),
+            longitude REAL NOT NULL CHECK (longitude BETWEEN -180 AND 180),
+            vir TEXT,
+            FOREIGN KEY (mesto_id) REFERENCES mesto(id)
+        );
+    """)
+    
+def ustvari_bliznje_mesto(conn):
+    conn.execute("""
+        CREATE TABLE bliznje_mesto(
+            mesto_id INTEGER NOT NULL,
+            bliznje_mesto_id INTEGER NOT NULL,
+            razdalja_km REAL NOT NULL CHECK (razdalja_km >= 0),
+            PRIMARY KEY (mesto_id, bliznje_mesto_id),
+            CHECK (mesto_id <> bliznje_mesto_id),
+            FOREIGN KEY (mesto_id) REFERENCES mesto(id),
+            FOREIGN KEY (bliznje_mesto_id) REFERENCES mesto(id)
+        );
+    """)
+    
 def ustvari_letnicas(conn):
     """
     Ustvari tabelo letnicas.
     """
     conn.execute("""
-        CREATE TABLE letnicas(
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+        CREATE TABLE letni_cas(
+            id INTEGER PRIMARY KEY,
             ime TEXT NOT NULL
         );
     """)
@@ -53,8 +81,10 @@ def ustvari_atrakcije(conn):
 
 if __name__ == "__main__":
     conn = sqlite3.connect("baza.sqlite")
-    ustvari_mesto(conn)
     ustvari_drzava(conn)
+    ustvari_mesto(conn)
+    ustvari_mesto_koordinate(conn)
+    ustvari_bliznje_mesto(conn)
     ustvari_letnicas(conn)
     ustvari_atrakcije(conn)
     
