@@ -61,7 +61,33 @@ def ustvari_letnicas(conn):
             ime TEXT NOT NULL
         );
     """)
+    
+def ustvari_znamenitost(conn):
+    conn.execute("""
+        CREATE TABLE znamenitost(
+            id INTEGER PRIMARY KEY,
+            ime TEXT NOT NULL,
+            ocena INTEGER CHECK (ocena BETWEEN 1 AND 5),
+            vstopnina TEXT CHECK (vstopnina IN ('DA', 'NE')),
+            za_otroke TEXT CHECK (za_otroke IN ('DA', 'NE')),
+            mesto_id INTEGER NOT NULL,
+            FOREIGN KEY (mesto_id) REFERENCES mesto(id)
+        );
+    """)
 
+def ustvari_aktivnost(conn):
+    conn.execute("""
+        CREATE TABLE aktivnost(
+            id INTEGER PRIMARY KEY,
+            ime TEXT NOT NULL,
+            ocena INTEGER CHECK (ocena BETWEEN 1 AND 5),
+            vstopnina TEXT CHECK (vstopnina IN ('DA', 'NE')),
+            za_otroke TEXT CHECK (za_otroke IN ('DA', 'NE')),
+            mesto_id INTEGER NOT NULL,
+            FOREIGN KEY (mesto_id) REFERENCES mesto(id)
+        );
+    """)
+    
 def ustvari_atrakcije(conn):
     """
     Ustvari tabelo atrakcije.
