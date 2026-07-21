@@ -1,1 +1,1001 @@
-
+id,ime,priljubljenost,priporoceni_dnevi,drzava_id
+1,Ojo de Agua,2.5,1,MX
+2,Madingou,2.0,3,CG
+3,Yueyang,3.1,4,CN
+4,Bintawan,2.9,3,PH
+5,Jundiaí,4.2,4,BR
+6,Cachoeiras de Macacu,3.7,1,BR
+7,Rio Formoso,4.2,1,BR
+8,Kamień Pomorski,1.2,4,PL
+9,Vovchans’k,1.5,4,UA
+10,Mogadishu,4.8,3,SO
+11,Kalianyar Selatan,4.5,3,ID
+12,Boevange-sur-Attert,1.5,4,LU
+13,Skaryszew,3.1,1,PL
+14,Linggou,3.5,4,CN
+15,Louisville,2.4,2,US
+16,Dabola,1.3,2,GN
+17,Göteborg,2.5,2,SE
+18,Huambo,3.8,2,PE
+19,Culasian,3.8,4,PH
+20,Zhanping,4.5,4,CN
+21,Ifakara,1.4,1,TZ
+22,Mt Peto,4.1,2,JM
+23,Nanger,1.4,3,ID
+24,Kao Liao,4.6,3,TH
+25,Kongtian,1.7,1,CN
+26,Bohutín,1.2,3,CZ
+27,Santa Cristina Couto,1.7,4,PT
+28,Youngstown,4.1,4,US
+29,Tangdong,4.0,1,CN
+30,Vinnytsya,4.7,3,UA
+31,Yayao,1.9,1,CN
+32,Peixing,3.2,3,CN
+33,Itacurubí del Rosario,4.8,2,PY
+34,Grugul,4.8,2,ID
+35,Guder Lao,4.8,4,ID
+36,Siraway,3.3,3,PH
+37,Tuncheng,1.0,4,CN
+38,Shibi,1.9,3,CN
+39,Shibīn al Qanāţir,3.9,4,EG
+40,Zagnitkiv,2.8,1,UA
+41,Pueblo Nuevo,4.2,3,PE
+42,Kronoby,4.4,3,FI
+43,Västervik,3.3,1,SE
+44,Verkh-Usugli,2.1,3,RU
+45,Pedregal,1.4,4,PA
+46,Fujinomiya,1.0,3,JP
+47,Kuala Lumpur,3.3,1,MY
+48,El Hamma,3.2,1,TN
+49,Huangyuan Chengguanzhen,3.4,4,CN
+50,Tomorlog,2.8,1,CN
+51,Niort,3.0,4,FR
+52,Sampao,4.2,2,PH
+53,Mali Iđoš,3.5,3,RS
+54,Xinmin,4.3,3,CN
+55,Paiçandu,2.8,1,BR
+56,Lyaskelya,3.2,1,RU
+57,Rumburk,2.7,2,CZ
+58,Strogino,1.2,4,RU
+59,Montería,2.0,3,CO
+60,Tobi Village,2.1,2,PW
+61,Longhua,3.8,3,CN
+62,Newcastle,1.3,2,KN
+63,Kashima,2.6,2,JP
+64,Santa Quitéria do Maranhão,5.0,1,BR
+65,Fengshan,1.4,2,CN
+66,Mazatenango,4.6,2,GT
+67,Figueiras,4.9,4,PT
+68,Maranura,3.8,3,PE
+69,Ashford,3.7,3,IE
+70,Longshan,2.8,1,CN
+71,Jiangkou,4.4,4,CN
+72,Amarillo,4.3,2,US
+73,Wanga,3.6,2,ID
+74,Rokiciny,3.6,3,PL
+75,Danao,2.6,3,PH
+76,Krolevets’,4.2,3,UA
+77,Cristóbal,1.3,2,DO
+78,Kalisangkrah Lor,4.9,3,ID
+79,Xindai,1.6,3,CN
+80,La Coipa,4.8,4,PE
+81,Nago,4.0,1,JP
+82,Klwów,1.8,2,PL
+83,Banjar Kampungbugis,1.9,4,ID
+84,Lakha Nëvre,3.7,4,RU
+85,Kérkyra,3.9,1,GR
+86,Montes,4.6,1,PT
+87,Tonekābon,3.5,1,IR
+88,Maco,4.2,3,PH
+89,To’rtko’l Shahri,1.9,1,UZ
+90,Kadipaten,3.9,4,ID
+91,Géfyra,5.0,4,GR
+92,Cipatujah,3.5,1,ID
+93,Koryukivka,3.5,1,UA
+94,Pujiang,3.4,2,CN
+95,San Nicolas,1.7,2,PH
+96,Ogod,4.4,1,PH
+97,Barranco de Loba,1.7,1,CO
+98,Antes,3.1,1,PT
+99,Foros de Salvaterra,3.1,4,PT
+100,Oemofa,2.9,4,ID
+101,Guling,2.8,3,CN
+102,Zākhū,2.5,4,IQ
+103,Mushu,4.7,2,CN
+104,Borzoy,3.1,3,RU
+105,Qiaolin,4.3,4,CN
+106,Ramat HaSharon,4.1,1,IL
+107,Melgar,3.6,4,CO
+108,Yegor’yevsk,1.2,1,RU
+109,Chunmuying,2.9,3,CN
+110,Gornorechenskiy,3.4,1,RU
+111,Zbraslav,2.2,2,CZ
+112,Guazacapán,1.3,1,GT
+113,Shancheng,1.9,1,CN
+114,Bondokodi,1.1,3,ID
+115,Boston,3.6,2,US
+116,Suwalan,4.6,3,ID
+117,Gobō,4.6,3,JP
+118,Saparua,2.9,1,ID
+119,Osoyoos,3.1,4,CA
+120,Bibirevo,4.0,2,RU
+121,Fontinha,4.0,4,PT
+122,Lat Lum Kaeo,4.7,3,TH
+123,Panacan,1.2,4,PH
+124,Solânea,2.3,4,BR
+125,Zhouyuan,2.5,2,CN
+126,Hongshan,2.5,3,CN
+127,Venda do Alcaide,3.8,3,PT
+128,Iowa City,1.1,1,US
+129,Toutai,4.1,2,CN
+130,Miraflores,4.3,1,PE
+131,Goubangzi,2.2,2,CN
+132,Mompós,2.5,3,CO
+133,Brzeźnica,4.1,2,PL
+134,Vasyl'evsky Ostrov,4.3,4,RU
+135,Panorama,3.9,3,BR
+136,Pasirpanjang,1.2,2,ID
+137,Shijak,2.2,1,AL
+138,Kortesjärvi,2.3,3,FI
+139,Ushuaia,4.1,3,AR
+140,Cola,3.6,2,CN
+141,Ponong,4.2,3,PH
+142,Del Pilar,3.5,2,PH
+143,Banjar Jagasatru,3.3,3,ID
+144,Reszel,1.8,4,PL
+145,Nartkala,4.6,1,RU
+146,Marondera,3.5,3,ZW
+147,Kolomak,3.1,2,UA
+148,Jinjing,1.4,1,CN
+149,Liandu,1.1,3,CN
+150,Hammam Sousse,3.8,4,TN
+151,Guanhães,1.2,2,BR
+152,Bello,1.7,3,CO
+153,Samanco,1.8,1,PE
+154,Dyurtyuli,1.3,4,RU
+155,Karangpawitan,2.4,3,ID
+156,Maracaju,3.5,2,BR
+157,Amnat Charoen,2.9,3,TH
+158,Oras,1.8,4,PH
+159,Lizhai,4.4,2,CN
+160,Celendín,4.0,1,PE
+161,Tsyurupyns’k,2.6,2,UA
+162,Senta,1.2,3,RS
+163,Lanas,3.7,1,PH
+164,Stara Kiszewa,2.2,3,PL
+165,Barubandung,2.7,2,ID
+166,Bailizhou,3.2,3,CN
+167,Toupi,1.1,3,CN
+168,Maracanaú,4.6,2,BR
+169,Pensacola,2.0,4,US
+170,Shancheng,4.5,4,CN
+171,Tangzi,3.4,2,CN
+172,‘Alīābād-e Katūl,4.9,1,IR
+173,Oekefan,1.3,1,ID
+174,Moulins,4.0,2,FR
+175,Irtyshskiy,3.8,2,RU
+176,Singaraja,4.3,4,ID
+177,Gedongmulyo,3.2,3,ID
+178,Ak’ordat,4.6,1,ER
+179,Xarardheere,4.9,1,SO
+180,Kholbon,1.4,2,RU
+181,Filimonovo,2.3,2,RU
+182,Toba Tek Singh,3.8,4,PK
+183,Prosperous,1.5,1,IE
+184,Huancarqui,4.4,3,PE
+185,Hatavch,3.3,1,MN
+186,Riba de Ave,1.0,2,PT
+187,Frankfort,1.1,2,ZA
+188,Lijiang,4.2,3,CN
+189,Novosin’kovo,2.8,4,RU
+190,Fentange,2.0,1,LU
+191,Xilin Hot,2.6,4,CN
+192,La Paz,4.0,1,AR
+193,Kifrī,4.1,2,IQ
+194,Akwanga,3.2,4,NG
+195,Bogolyubovo,2.6,3,RU
+196,Leskovec pri Krškem,4.8,2,SI
+197,Huangjiabu,4.1,1,CN
+198,Xiwu,1.6,2,CN
+199,Viterbo,2.9,2,CO
+200,Frederiksberg,2.8,2,DK
+201,Sacramento,3.3,3,US
+202,Vidin,3.9,3,BG
+203,Upata,3.7,3,VE
+204,Agara,3.4,1,GE
+205,Ýdra,2.4,2,GR
+206,Reims,4.3,4,FR
+207,Mīrwāh Gorchani,1.4,4,PK
+208,Sydney,2.2,2,AU
+209,Guiyang,4.9,2,CN
+210,Ili,2.7,3,ID
+211,Xinjiezi,4.6,1,CN
+212,São Domingos de Rana,3.2,4,PT
+213,Jiangtou,4.9,1,CN
+214,Ryazan’,4.1,4,RU
+215,Koloniya Zastav’ye,2.5,3,UA
+216,Sasa,4.1,4,ID
+217,Ozërsk,1.0,2,RU
+218,Karagay,1.5,1,RU
+219,Bom Despacho,3.9,2,BR
+220,Carcassonne,4.9,2,FR
+221,Senovo,4.6,2,SI
+222,Xiajiashan,1.7,2,CN
+223,Hafnarfjörður,3.6,4,IS
+224,Richibucto,1.9,2,CA
+225,Nangtang,4.8,3,ID
+226,Chkalov,2.8,2,TJ
+227,Cibenda,1.8,2,ID
+228,Padangtepung,3.6,3,ID
+229,Bula,1.1,4,PH
+230,Quaraí,4.0,3,BR
+231,Semongkat,3.9,1,ID
+232,Paris 20,3.4,3,FR
+233,Bor Ondor,3.6,3,CN
+234,Cikondang,4.5,3,ID
+235,Valday,4.2,2,RU
+236,Duraznopampa,2.6,4,PE
+237,Pancheng,1.2,1,CN
+238,Krasnyy Yar,4.6,2,RU
+239,Sunduan,3.5,2,CN
+240,Kiangan,3.3,1,PH
+241,Tawaran,4.1,3,ID
+242,Erhaodi,1.0,3,CN
+243,Bakung,1.6,4,PH
+244,Inicbulan,3.7,2,PH
+245,Luxor,1.4,1,EG
+246,Washington,3.8,1,US
+247,Huyuan,2.4,2,CN
+248,Tondano,2.5,2,ID
+249,Koktal,2.6,1,KZ
+250,Huamali,3.8,4,PE
+251,Gaizhou,2.9,2,CN
+252,Athabasca,3.1,1,CA
+253,George Hill,3.5,4,AI
+254,Owase,3.2,4,JP
+255,Ladushkin,2.8,1,RU
+256,San Jacinto,4.8,2,PH
+257,Zoetermeer,3.2,4,NL
+258,Coihaique,1.6,3,CL
+259,Sjöbo,3.3,3,SE
+260,Wan Yai,2.9,1,TH
+261,Antioquia,2.1,4,CO
+262,Březová nad Svitavou,1.7,1,CZ
+263,Spuž,2.3,2,ME
+264,Pandean,3.2,2,ID
+265,Tangyin,5.0,4,CN
+266,Salaya,1.2,1,TH
+267,Nangen,2.3,3,KR
+268,Charlotte,3.4,4,US
+269,Tapan,4.2,1,ID
+270,Nikolinci,2.7,3,RS
+271,Jinbo,1.0,4,CN
+272,Kaduketug,1.2,3,ID
+273,Houston,2.5,1,US
+274,Tāybād,3.1,2,IR
+275,Paris 12,1.1,3,FR
+276,Lloqan,1.5,4,XK
+277,København,3.8,2,DK
+278,Herzliya Pituah,2.6,2,IL
+279,Čair,3.6,3,MK
+280,Mikulášovice,2.5,4,CZ
+281,La Huaca,4.9,2,PE
+282,Meliau,4.0,2,ID
+283,Kosamphi Nakhon,2.7,2,TH
+284,Ramaram,1.3,4,ID
+285,Pitanga,4.3,4,BR
+286,Senahú,3.2,2,GT
+287,Adassil,2.5,2,MA
+288,Roldanillo,1.2,1,CO
+289,Taivalkoski,3.3,1,FI
+290,Proletar,2.2,4,TJ
+291,Nurota Shahri,4.4,3,UZ
+292,Jinotega,1.4,1,NI
+293,Bisée,1.5,4,LC
+294,Kuching,3.9,4,MY
+295,San Emilio,1.6,3,PH
+296,Kinna,4.7,1,SE
+297,Xinglongchang,2.2,2,CN
+298,Blinsung,4.0,4,PH
+299,Ngandangan,2.9,1,ID
+300,Nangkaruka,2.6,2,ID
+301,Krajan,1.5,3,ID
+302,Bolong,3.9,4,PH
+303,Jijia,4.5,3,CN
+304,Örebro,2.0,1,SE
+305,Lingcheng,2.9,3,CN
+306,Sikka,1.9,2,ID
+307,Xiaochi,2.7,2,CN
+308,Karangori,3.1,2,ID
+309,Valle de Guanape,3.7,3,VE
+310,Banjaranyar,3.9,1,ID
+311,Boa Viagem,1.6,2,BR
+312,Las Vegas,2.5,3,HN
+313,Kunri,3.5,3,PK
+314,Carvoeira,2.9,1,PT
+315,Fundão,2.7,1,PT
+316,Comrat,3.6,1,MD
+317,Oekero,2.5,3,ID
+318,Chernogorsk,3.8,2,RU
+319,Yanjiang,1.4,4,CN
+320,Ritchie,2.5,4,ZA
+321,Yelat’ma,3.3,4,RU
+322,Xiaxindian,3.1,4,CN
+323,Uwelini,4.3,3,TZ
+324,Pagedangan,3.2,4,ID
+325,Mszana Dolna,3.1,1,PL
+326,Dong’ao,1.4,4,CN
+327,Kedung,4.6,2,ID
+328,Xincheng,3.7,1,CN
+329,Macon,2.6,1,US
+330,Mapalad,3.4,3,PH
+331,Lumbardhi,4.9,2,XK
+332,San Mateo,3.5,2,PH
+333,Porta,2.4,3,PT
+334,Francos,4.7,4,PT
+335,San José de Barlovento,1.9,2,VE
+336,Phimai,2.7,3,TH
+337,Vilhena,3.3,4,BR
+338,Poja,1.9,1,ID
+339,Tianzishan,2.5,3,CN
+340,Kuniran,2.1,3,ID
+341,Puerto Cabezas,2.1,4,NI
+342,Konstancin-Jeziorna,1.3,4,PL
+343,Yartsevo,3.6,2,RU
+344,Wenling,4.1,2,CN
+345,Winston Salem,3.1,3,US
+346,T’et’ri Tsqaro,2.2,1,GE
+347,Listvyanskiy,2.2,3,RU
+348,Tipaz,4.8,3,PH
+349,Kuressaare,4.4,4,EE
+350,Ti-n-Essako,4.2,4,ML
+351,Menghai,1.9,3,CN
+352,Banjar Baleagung,4.7,3,ID
+353,Somerset East,2.6,1,ZA
+354,San Lucas Tolimán,1.1,2,GT
+355,Mikstat,4.5,2,PL
+356,Haihui,3.4,4,CN
+357,Lok,1.2,4,RS
+358,Pimbalayan,2.1,2,PH
+359,Taksimo,1.5,1,RU
+360,Sinamaica,1.7,1,VE
+361,Dali,2.9,4,CN
+362,Faīẕābād,2.3,2,AF
+363,Arras,4.2,2,FR
+364,Takahata,3.6,2,JP
+365,Bagadó,2.3,4,CO
+366,Toungo,4.1,2,NG
+367,El Cantón,3.0,3,VE
+368,Bagakay,1.6,4,PH
+369,Armação,1.6,4,BR
+370,Disūq,2.6,4,EG
+371,Lubuagan,2.5,3,PH
+372,Purda,4.0,2,PL
+373,Baishi,3.2,4,CN
+374,Komorów,4.2,3,PL
+375,Brvenica,3.3,1,MK
+376,Khrebtovaya,1.7,4,RU
+377,Sandaogou,2.7,1,CN
+378,Santa Gertrudes,2.8,1,BR
+379,Wilfrido Loor Moreira,4.3,2,EC
+380,Tongzha,2.2,3,CN
+381,Kampong Chhnang,4.5,1,KH
+382,Wuluo,3.4,3,CN
+383,Tuzhai,2.9,2,CN
+384,Tucson,3.7,2,US
+385,Dukuhsia,4.2,1,ID
+386,Kovářská,3.6,1,CZ
+387,Jaboatão dos Guararapes,1.1,4,BR
+388,Catalina,1.3,2,CA
+389,Di Linh,4.0,1,VN
+390,Richmond,4.9,4,US
+391,Poręba Spytkowska,1.2,4,PL
+392,San Carlos,4.7,4,CO
+393,Placer,1.9,2,PH
+394,Kayakent,4.3,4,RU
+395,Piškorevci,3.1,2,HR
+396,Cigaras,4.2,1,PH
+397,Dežanovac,1.3,4,HR
+398,Boguszów-Gorce,4.2,3,PL
+399,Morelos,3.1,3,MX
+400,Chakwāl,4.0,1,PK
+401,Selorejo,4.1,4,ID
+402,Bonabéri,2.3,4,CM
+403,Asamankese,1.1,2,GH
+404,Dongqianhu,2.7,2,CN
+405,Rimouski,5.0,4,CA
+406,Ngulangan,4.1,2,ID
+407,Mospyne,3.0,4,UA
+408,Svalöv,2.1,2,SE
+409,Yasugichō,4.9,2,JP
+410,Blawi,3.4,3,ID
+411,Jiang’an,3.7,4,CN
+412,Qal‘eh-ye Khvājeh,2.4,2,IR
+413,Punta Gorda,2.4,4,BZ
+414,Tsiombe,1.6,4,MG
+415,Khonj,3.2,1,IR
+416,Fenggao,4.9,4,CN
+417,Socabaya,4.6,2,PE
+418,Chengnan,3.1,3,CN
+419,Izra‘,1.1,2,SY
+420,Bhamo,3.6,2,MM
+421,Akim Oda,4.0,1,GH
+422,Taoyuan,3.8,3,CN
+423,Rato,4.7,1,ID
+424,Amsterdam,2.6,1,NL
+425,Ncue,2.0,3,GQ
+426,Zhonghe,3.0,2,CN
+427,Brumado,5.0,3,BR
+428,Rosthern,4.3,4,CA
+429,Bergen,1.7,4,NO
+430,Sumilao,3.1,4,PH
+431,Cibatu,2.2,1,ID
+432,Guarulhos,1.3,2,BR
+433,Kolyshley,2.0,4,RU
+434,Olympia,2.8,4,US
+435,Conchopata,1.8,3,PE
+436,Borzna,2.8,1,UA
+437,Krasnodar,4.8,3,RU
+438,Anju,3.9,2,KP
+439,Hoxtolgay,4.3,4,CN
+440,Načeradec,4.5,2,CZ
+441,Tenggong,1.8,4,ID
+442,Áyios Yeóryios,2.9,3,GR
+443,Brampton,3.5,3,CA
+444,Accha,1.1,3,PE
+445,La Trinidad,1.1,2,PH
+446,Ban Ratsada,2.8,3,TH
+447,Karanyowka,1.3,2,BY
+448,Hekou,3.4,4,CN
+449,Cibeureum,3.4,2,ID
+450,Bambuí,2.3,2,BR
+451,Maguilling,2.5,2,PH
+452,Youfang,4.0,2,CN
+453,Loudun,3.3,1,FR
+454,Sukorejo,1.2,2,ID
+455,Hongshan,3.1,2,CN
+456,Tempe,1.9,3,US
+457,Göteborg,5.0,2,SE
+458,Dayeuhluhur,3.7,2,ID
+459,Jiangkouxu,4.4,1,CN
+460,Binangun,4.2,4,ID
+461,Cantao-an,2.8,1,PH
+462,Chicheng,1.3,4,CN
+463,Ajaccio,1.9,1,FR
+464,Taremskoye,1.6,2,RU
+465,Aguiar da Beira,1.2,2,PT
+466,Pordapor Barat,1.8,4,ID
+467,Tucheng,2.7,4,CN
+468,Khon Kaen,2.8,4,TH
+469,Kericho,2.6,3,KE
+470,Kurów,2.7,3,PL
+471,Nganane,3.8,2,TZ
+472,Nieuw Nickerie,4.6,3,SR
+473,Gaoshibei,2.0,2,CN
+474,Buôn Ma Thuột,3.3,3,VN
+475,Tanbu,4.3,4,CN
+476,Nova Era,1.2,1,BR
+477,Huibu,2.8,4,CN
+478,Burla,4.5,2,RU
+479,Qaşr Hallāl,2.4,2,TN
+480,Linköping,2.0,2,SE
+481,Heishui,1.2,4,CN
+482,Magaria,1.9,1,NE
+483,Unity,4.8,1,CA
+484,Sobo,4.7,4,ID
+485,Huicungo,1.7,3,PE
+486,Qilin,4.9,3,CN
+487,Lianyun,2.6,1,CN
+488,Moate,3.2,3,IE
+489,Concepción,4.3,3,CL
+490,Moneague,3.7,3,JM
+491,Gaotai,3.1,1,CN
+492,Rostov-na-Donu,1.9,2,RU
+493,Valongo,1.1,2,PT
+494,Kotes,2.7,4,ID
+495,Horka nad Moravou,3.9,2,CZ
+496,Donggaocun,1.3,2,CN
+497,Žabljak,2.4,1,ME
+498,Međa,2.2,3,RS
+499,Pictou,3.5,4,CA
+500,Sundsvall,4.3,2,SE
+501,Kawaguchi,4.1,2,JP
+502,Nanyuan,2.4,4,CN
+503,Az Zāhir,4.9,3,YE
+504,Sharga,2.9,3,MN
+505,Huoli,4.7,1,CN
+506,Bouna,2.2,2,CI
+507,Seririt,3.8,3,ID
+508,Buenavista,2.9,3,CO
+509,Benisheikh,4.4,1,NG
+510,Kutapanjang,2.6,1,ID
+511,Lấp Vò,4.0,1,VN
+512,Guinobatan,4.6,4,PH
+513,Tilburg,4.1,1,NL
+514,Florida,3.1,1,HN
+515,Valjevo,4.9,4,RS
+516,Balazar,1.9,1,PT
+517,Campo Largo,4.4,1,AR
+518,Xiyang,4.0,2,CN
+519,Batanamang,1.3,3,ID
+520,Mulyosari,1.2,4,ID
+521,Mertert,4.4,4,LU
+522,Contagem,3.9,2,BR
+523,Hutang,2.2,1,CN
+524,Bandung,4.7,4,ID
+525,Zhendong,2.0,1,CN
+526,Kristinestad,4.4,4,FI
+527,Sabaneta,2.4,3,VE
+528,Admiralteisky,3.8,4,RU
+529,Shar’ya,1.6,4,RU
+530,As Salţ,3.9,3,JO
+531,Long Hồ,2.1,3,VN
+532,Tukuyu,2.2,2,TZ
+533,Rincón,4.3,2,DO
+534,Seydi,4.2,3,TM
+535,Kalmar,4.7,3,SE
+536,Nanortalik,1.3,3,GL
+537,Yezhi,1.3,4,CN
+538,Kiruru,1.6,2,ID
+539,Banjar Buahan,1.1,1,ID
+540,Maca,4.4,4,PE
+541,Versailles,2.2,4,FR
+542,Lyubeshiv,2.6,2,UA
+543,Orda,1.7,1,RU
+544,Buchanan,2.8,4,LR
+545,São Luís de Montes Belos,2.0,2,BR
+546,Punta de Piedra,1.4,3,VE
+547,Qianjia,4.7,2,CN
+548,Chapecó,1.5,1,BR
+549,Xiaojian,2.5,1,CN
+550,Tolotangga,3.5,4,ID
+551,Rudziczka,1.7,2,PL
+552,Guizi,3.4,4,CN
+553,Kembangkerang Satu,1.8,1,ID
+554,Bordeaux,4.8,4,FR
+555,Nyandoma,4.6,2,RU
+556,Nova Odessa,4.8,2,BR
+557,Xinghua,3.9,1,CN
+558,Liucheng,4.5,4,CN
+559,Limmared,4.5,4,SE
+560,Atsipópoulon,4.1,2,GR
+561,A-da-Gorda,4.5,3,PT
+562,Pineleng,1.6,1,ID
+563,Wenfang,1.6,3,CN
+564,Richmond,2.7,2,ZA
+565,Jincheng,4.5,4,TW
+566,Cilampuyang,4.4,4,ID
+567,Manzanares,3.3,2,CO
+568,Ikoma,1.1,3,JP
+569,Tongyang,1.3,2,CN
+570,Saihan Tal,4.9,4,CN
+571,Gweedore,4.2,3,IE
+572,Sanqiao,4.2,2,CN
+573,Puńsk,2.2,4,PL
+574,Xiangcunxiang,3.1,2,CN
+575,Changzhou,4.1,2,CN
+576,Huangling,3.2,4,CN
+577,Otaniemi,4.3,2,FI
+578,Łubnice,2.2,1,PL
+579,Kungälv,2.3,3,SE
+580,Eisen,3.2,2,KR
+581,Kanie,4.5,3,JP
+582,Mineralnye Vody,3.5,1,RU
+583,Independencia,4.6,3,MX
+584,Lesnoye,2.8,4,RU
+585,Fahraj,5.0,2,IR
+586,Tallahassee,4.4,2,US
+587,Saint-Félicien,4.8,3,CA
+588,Gwangtan,2.8,2,KR
+589,Fontainhas,1.4,1,PT
+590,Nyagan,2.2,2,RU
+591,San Vicente,1.1,1,PH
+592,Dabao’anzhen,4.6,1,CN
+593,Schengen,3.7,4,LU
+594,Pankrushikha,4.2,1,RU
+595,Kadukandel,2.8,1,ID
+596,Tempursari Wetan,1.9,4,ID
+597,Futang,2.0,1,CN
+598,Florida,3.4,1,HN
+599,Kangping,2.7,4,CN
+600,Vale de Açores,2.6,4,PT
+601,Shangdongjie,4.2,2,CN
+602,Bayuwan,1.1,4,ID
+603,Walagar,2.1,3,ID
+604,Vinkkilä,3.6,3,FI
+605,Barra de Carrasco,2.6,1,UY
+606,Chugur,2.9,3,PE
+607,Francisco Beltrão,4.2,1,BR
+608,Xinbao,2.3,3,CN
+609,Beoga,2.0,2,ID
+610,Volzhskiy,2.7,3,RU
+611,Beicang,3.6,3,CN
+612,Vicente Guerrero,1.1,1,MX
+613,Al Fayyūm,4.5,1,EG
+614,Zapatero,4.6,3,PE
+615,Raşad,1.4,2,YE
+616,Koysinceq,4.7,3,IQ
+617,Bangonay,3.7,2,PH
+618,Thatèng,1.4,1,LA
+619,Yokohama,2.1,1,JP
+620,Gelang,4.4,4,ID
+621,Cochrane,1.6,4,CL
+622,Bajia,3.3,2,CN
+623,Ambon,1.2,2,ID
+624,Villa del Rosario,4.6,2,CO
+625,Kon Tum,2.4,4,VN
+626,Timiryazevskoye,3.9,2,RU
+627,Andkhōy,3.8,3,AF
+628,Sampungu,2.6,4,ID
+629,Calumpang,4.3,4,PH
+630,Mayingzhuang,1.3,4,CN
+631,Gonghe,1.5,1,CN
+632,Dongqiao,3.3,1,CN
+633,Richmond,3.2,4,US
+634,Bzou,4.9,4,MA
+635,Thessaloníki,3.4,1,GR
+636,Al Ghāriyah,2.5,3,SY
+637,Taiping,4.9,4,CN
+638,Chitagá,3.6,3,CO
+639,Damiao,2.1,1,CN
+640,Kampungladang,1.3,1,ID
+641,Barisan,4.5,3,ID
+642,Czerwieńsk,2.7,4,PL
+643,Elbasan,2.7,2,AL
+644,Slovenj Gradec,3.2,4,SI
+645,Alubijid,1.4,1,PH
+646,San Francisco,3.4,2,PH
+647,Embarcación,2.5,2,AR
+648,Polkowice,2.7,3,PL
+649,Aného,2.3,3,TG
+650,Qifang,4.5,2,CN
+651,Tripoli,3.2,4,LY
+652,Dalai,1.5,3,CN
+653,Brodarica,3.2,3,HR
+654,Sorang,3.7,3,KZ
+655,Batán,3.7,4,CR
+656,Töysä,1.7,4,FI
+657,Dedenëvo,3.1,3,RU
+658,Ruen,1.7,4,BG
+659,Segodim,2.2,4,PT
+660,Iquipi,1.7,2,PE
+661,Buenavista,1.6,3,PH
+662,Mahaplag,3.0,3,PH
+663,Banjar Triwangsakeliki,4.0,3,ID
+664,Thanh Xuân,1.7,1,VN
+665,Morelos,2.9,2,MX
+666,Hancheng,1.7,3,CN
+667,Malanów,3.7,1,PL
+668,Štěnovice,1.0,1,CZ
+669,Biguaçu,1.2,4,BR
+670,Concepción,1.3,1,BO
+671,Samburat,2.0,4,ID
+672,Montesson,1.1,3,FR
+673,Jincheng,3.5,2,CN
+674,Shangfang,2.3,2,CN
+675,Useldange,4.2,4,LU
+676,Villefranche-sur-Mer,4.2,3,FR
+677,Ganyesa,2.6,4,ZA
+678,Tabalong,4.1,4,PH
+679,Al Marj,4.6,3,LY
+680,Pudong,3.3,3,CN
+681,Dasongshu,3.8,1,CN
+682,Oslo,2.3,4,NO
+683,Curiapo,3.3,2,VE
+684,Prozor,4.0,2,BA
+685,Mourelos,3.6,3,PT
+686,Iquique,4.1,3,CL
+687,Shaba,1.8,4,CN
+688,Gazanjyk,4.1,1,TM
+689,Khon Buri,4.2,2,TH
+690,Hendījān,1.9,3,IR
+691,Tonglin,2.4,2,CN
+692,Élancourt,1.7,1,FR
+693,Porciúncula,1.2,2,BR
+694,Aveleda,2.3,2,PT
+695,Parnamirim,3.4,3,BR
+696,Santo Niño,3.0,3,PH
+697,Hailin,4.8,2,CN
+698,Villa del Rosario,1.5,2,CO
+699,Lijia,1.9,1,CN
+700,Yanagawamachi-saiwaichō,1.4,4,JP
+701,Huangzhai,3.9,1,CN
+702,Rafael Perazza,4.0,2,UY
+703,Kalmar,4.3,1,SE
+704,Baidoa,4.6,1,SO
+705,Guiyang,4.1,4,CN
+706,Nowy Sącz,3.7,3,PL
+707,Moravská Nová Ves,4.8,3,CZ
+708,Skeldon,3.3,2,GY
+709,Carpalho,2.5,1,PT
+710,El Ángel,1.6,4,EC
+711,Hachiōji,1.1,4,JP
+712,Aurora,2.5,4,PH
+713,Dayin,3.5,4,CN
+714,Shenjing,4.4,4,CN
+715,Curridabat,4.5,4,CR
+716,Tubarão,1.1,4,BR
+717,Calvinia,4.4,2,ZA
+718,Koszyce Wielkie,2.4,3,PL
+719,Huangjingba,1.9,2,CN
+720,Eusébio,2.7,1,BR
+721,Levski,3.9,4,BG
+722,São João da Barra,4.4,4,BR
+723,Rios Frios,3.7,1,PT
+724,Liangbing,1.2,1,CN
+725,Fujisawa,3.4,1,JP
+726,Sasa,3.2,2,ID
+727,Guadalupe,3.6,3,PH
+728,Qarah Bāgh Bāzār,2.0,2,AF
+729,Katoro,1.1,3,TZ
+730,Boulogne-sur-Mer,1.4,4,FR
+731,Kampong Cham,3.8,4,KH
+732,Zdiby,4.8,3,CZ
+733,Jönköping,4.5,2,SE
+734,Caherconlish,3.1,3,IE
+735,Sheshan,2.7,4,CN
+736,Malvinas Argentinas,2.4,1,AR
+737,Pogranichnyy,5.0,4,RU
+738,Dauphin,2.2,3,CA
+739,Stockholm,4.6,2,SE
+740,Sa Kaeo,3.9,4,TH
+741,Sagaing,1.1,3,MM
+742,Parramos,5.0,4,GT
+743,Maru,4.4,4,NG
+744,Huari,3.3,4,PE
+745,Mamponteng,3.0,2,GH
+746,Eixo,3.9,1,PT
+747,Kalininaul,3.8,4,RU
+748,Jiangmen,3.6,3,CN
+749,Krasica,4.7,4,HR
+750,Viana,4.8,3,BR
+751,Kuanfeu,2.2,3,ID
+752,Selasari,2.5,3,ID
+753,Maracha,3.1,2,UG
+754,Busia,4.2,1,KE
+755,Piekielnik,3.6,1,PL
+756,Ceres,2.2,1,AR
+757,Vodnyy,3.0,3,RU
+758,Choroszcz,2.3,1,PL
+759,Kyzylorda,3.7,1,KZ
+760,Donji Dobrić,3.2,3,RS
+761,Kailahun,4.2,2,SL
+762,Nova Era,2.4,1,BR
+763,Chuoyuan,1.9,4,CN
+764,Bukovany,1.8,2,CZ
+765,Ongi,1.6,4,MN
+766,Nauchnyy Gorodok,3.8,2,RU
+767,Brinje,2.8,1,HR
+768,Safakulevo,2.0,1,RU
+769,Kokkini Trimithia,1.7,1,CY
+770,Abakan,3.0,1,RU
+771,New Mīrpur,4.0,1,PK
+772,Batan,1.1,1,PH
+773,Mauhao,2.7,1,PH
+774,Puspajaya,4.7,2,ID
+775,Mogok,2.2,4,MM
+776,Macroom,1.6,2,IE
+777,Taytayan,1.0,2,PH
+778,High Point,2.3,4,US
+779,Eling,1.8,2,CN
+780,Tvøroyri,4.6,3,FO
+781,Waigete,2.3,4,ID
+782,Berlin,2.6,3,DE
+783,Jammāl,2.7,4,TN
+784,San Antonio,4.5,4,US
+785,Nowe,4.1,4,PL
+786,Currais,4.4,2,PT
+787,Pandanwangi,1.6,2,ID
+788,Curuan,2.5,1,PH
+789,Famagusta,4.6,3,CY
+790,Naas,1.8,2,IE
+791,Jambesari,2.3,4,ID
+792,Tarhuna,1.8,1,LY
+793,Trnava,2.7,2,CZ
+794,Nanjiao,3.2,2,CN
+795,Zhixia,3.2,2,CN
+796,Pakalongan,1.2,2,ID
+797,Nanhai,3.6,1,CN
+798,Trinidad,4.9,2,BO
+799,Ngaoundéré,3.6,4,CM
+800,Embu,2.6,1,KE
+801,Golden,3.9,3,CA
+802,Bogi,2.2,4,ID
+803,Cabanilla,4.3,4,PE
+804,Suna,3.9,1,RU
+805,A-da-Gorda,1.9,3,PT
+806,Lille,4.5,1,FR
+807,Catache,3.5,2,PE
+808,Simão Dias,3.8,1,BR
+809,Qarqania,3.7,2,SY
+810,Hongqi,3.4,2,CN
+811,Caldelas,1.3,1,PT
+812,Kan’onjichō,2.1,4,JP
+813,Katiola,1.9,3,CI
+814,Alegre,3.8,1,BR
+815,Junshan,3.9,3,CN
+816,Chao,4.3,3,PE
+817,Clorinda,2.9,1,AR
+818,Timbrangan,1.7,2,ID
+819,Vithkuq,2.8,2,AL
+820,Ngã Bảy,4.4,1,VN
+821,Ymittos,3.5,4,GR
+822,San Mariano,3.3,4,PH
+823,Jiujie,3.6,2,CN
+824,Ashley,4.7,1,GB
+825,Centre de Flacq,2.2,1,MU
+826,Paseh,2.8,4,ID
+827,Malunda,4.7,3,ID
+828,Álftanes,2.3,1,IS
+829,Sumberbatas,2.4,1,ID
+830,Baitang,2.7,1,CN
+831,Keti Bandar,3.5,4,PK
+832,Burgersfort,3.2,3,ZA
+833,Dinan,2.2,4,FR
+834,Genet,1.9,2,ET
+835,Novozavidovskiy,5.0,2,RU
+836,Malanay,3.6,1,PH
+837,Har-Us,4.9,3,MN
+838,Hamilton,2.4,2,NZ
+839,Daykitin,4.8,3,PH
+840,Sasa,2.9,3,ID
+841,Chishui,2.4,1,CN
+842,Aguazul,1.1,1,CO
+843,Velyki Sorochyntsi,1.9,4,UA
+844,Clarin,4.9,3,PH
+845,Rowokangkung,3.6,4,ID
+846,Brniště,2.2,2,CZ
+847,Zhili,1.3,3,CN
+848,Moyo,2.1,2,UG
+849,Villa del Rosario,4.5,2,AR
+850,Watuweri,2.6,4,ID
+851,Cullhuas,4.8,4,PE
+852,Olhão,4.0,1,PT
+853,Dunlewy,2.1,2,IE
+854,Momil,5.0,2,CO
+855,Cookshire-Eaton,3.4,3,CA
+856,Oslo,4.2,4,NO
+857,Fort Wayne,2.1,3,US
+858,Bukovany,1.0,2,CZ
+859,Tsyelyakhany,2.8,2,BY
+860,Binubusan,4.3,3,PH
+861,Xo’jayli Shahri,3.2,4,UZ
+862,Mora,1.1,2,CM
+863,Fengyang Fuchengzhen,2.4,3,CN
+864,Mingora,3.6,1,PK
+865,Jablonec nad Nisou,1.1,3,CZ
+866,Itapagé,3.2,4,BR
+867,Wete,2.9,3,TZ
+868,Bundoran,4.3,3,IE
+869,Putrajaya,1.0,3,MY
+870,Saint Louis,1.7,3,US
+871,Nioro,1.1,3,ML
+872,Tlutup,3.1,4,ID
+873,Petare,1.6,3,VE
+874,Mesa,2.5,4,US
+875,Caleufú,5.0,2,AR
+876,Desa Gegempalan,1.0,2,ID
+877,Bern,1.8,3,CH
+878,Piúma,1.8,3,BR
+879,Brazzaville,4.7,1,CG
+880,Tungipāra,2.3,4,BD
+881,Sørvágur,3.0,4,FO
+882,Manisi,1.2,1,CN
+883,Luna,4.2,2,PH
+884,Velké Losiny,4.4,4,CZ
+885,Godong,2.5,4,ID
+886,Linköping,4.3,1,SE
+887,Agía Varvára,1.5,2,GR
+888,Laprida,4.4,1,AR
+889,José Bonifácio,3.7,1,BR
+890,Dagou,1.3,2,CN
+891,Ozërsk,1.1,1,RU
+892,Tarumizu,2.4,2,JP
+893,Esquina,4.0,1,AR
+894,Pleasant Point,3.6,4,NZ
+895,Datun,4.2,3,CN
+896,Bhakkar,4.6,3,PK
+897,Bodzentyn,2.8,1,PL
+898,Cherga,2.7,4,RU
+899,Igarapé Açu,4.4,1,BR
+900,Penticton,2.2,4,CA
+901,Shangdu,1.4,4,CN
+902,Mascouche,2.7,4,CA
+903,Dadaha,2.1,4,ID
+904,Pule,2.2,4,ID
+905,Garešnica,2.1,2,HR
+906,Wąbrzeźno,2.3,4,PL
+907,Onsala,3.4,4,SE
+908,Mohelno,2.6,2,CZ
+909,Starokucherganovka,4.2,2,RU
+910,Kveda Chkhorots’q’u,3.1,1,GE
+911,Sorochinsk,2.8,1,RU
+912,Pisang,1.2,1,ID
+913,Marka,5.0,4,SO
+914,Amarillo,4.6,2,US
+915,New York City,3.8,2,US
+916,Spitak,2.7,2,AM
+917,Pailou,2.2,1,CN
+918,Chodów,4.0,3,PL
+919,Palangue,3.9,1,PH
+920,Bishan,1.6,4,CN
+921,Ursk,2.8,3,RU
+922,Villasis,3.5,4,PH
+923,Dahu,1.1,4,ID
+924,Butembo,2.5,2,CD
+925,Vol’no-Nadezhdinskoye,3.4,3,RU
+926,Kocēni,2.6,1,LV
+927,Xihongmen,2.3,4,CN
+928,Chedao,1.6,3,CN
+929,Bellavista,3.2,2,PE
+930,Kabongan Kidul,2.1,2,ID
+931,Sosnovaya Polyana,5.0,4,RU
+932,Sevilla,1.1,2,CO
+933,Pokachi,4.0,3,RU
+934,Umm al Qaywayn,2.8,4,AE
+935,Bukovec,2.3,1,CZ
+936,Somovo,1.4,2,RU
+937,Chengzi,3.2,1,CN
+938,Söderköping,4.2,4,SE
+939,Verdizela,4.8,2,PT
+940,La Plata,1.6,1,CO
+941,Taungoo,1.2,2,MM
+942,Yanacancha,4.2,3,PE
+943,Tucaní,3.3,2,VE
+944,Memória,1.0,4,PT
+945,Narutō,3.4,3,JP
+946,Khalīlābād,3.2,1,IR
+947,Buynichy,1.3,4,BY
+948,Emplak,2.5,2,ID
+949,That Phanom,4.3,1,TH
+950,Ar Rass,2.6,3,SA
+951,Huangzhou,2.7,1,CN
+952,El Tejocote,1.9,1,MX
+953,Ugep,3.9,3,NG
+954,Khong,3.8,2,TH
+955,Maogang,1.9,4,CN
+956,San Jose,1.7,1,PH
+957,Albany,1.1,3,US
+958,Kota Bharu,3.0,4,MY
+959,Bulqizë,3.2,3,AL
+960,Khoroshëvo-Mnevniki,3.1,1,RU
+961,Marvdasht,1.7,4,IR
+962,Bolgar,4.6,1,RU
+963,Nahāvand,1.3,1,IR
+964,Tola,1.6,4,NI
+965,Kokkónion,3.1,2,GR
+966,Pingxiang,3.1,3,CN
+967,Płońsk,2.8,4,PL
+968,Wuping,3.7,4,CN
+969,Xinxu,1.7,4,CN
+970,Santa Teresa,3.8,3,PH
+971,Saku,4.4,1,JP
+972,Menampukrajan,1.8,4,ID
+973,Neglasari,3.0,4,ID
+974,Tomilino,4.7,1,RU
+975,Cilangkap,3.4,4,ID
+976,Fudian,3.4,4,CN
+977,Anchorage,4.5,1,US
+978,Orosh,3.8,4,AL
+979,Almargem do Bispo,3.5,3,PT
+980,La Libertad,3.9,1,NI
+981,Shangtianba,2.6,2,CN
+982,El Cairo,4.6,1,CO
+983,Xiaowuzhan,4.6,1,CN
+984,Ji Paraná,4.1,4,BR
+985,Ulster Spring,1.3,1,JM
+986,Chapimarca,2.8,4,PE
+987,Tielong,3.0,1,CN
+988,Agen,1.7,4,FR
+989,Kyzylorda,4.1,3,KZ
+990,El Paso,3.5,1,US
+991,Zvenyhorodka,3.4,2,UA
+992,Bielefeld,3.2,4,DE
+993,Pigcawayan,4.7,2,PH
+994,Kabinda,2.1,1,CD
+995,Luojiang,3.9,1,CN
+996,Jermenovci,4.5,3,RS
+997,Piedra del Águila,3.9,3,AR
+998,Velikiye Luki,2.7,3,RU
+999,Novorozhdestvenskaya,3.9,2,RU
+1000,Sidokumpul,1.2,2,ID
