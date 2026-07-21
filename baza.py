@@ -142,23 +142,6 @@ def ustvari_ocena(conn):
 
 if __name__ == "__main__":
     conn = sqlite3.connect("baza.sqlite")
-    conn.execute("PRAGMA foreign_keys = ON")
-
-    # Omogoča ponovni zagon skripte brez ročnega brisanja datoteke baze.
-    conn.executescript("""
-        DROP TABLE IF EXISTS ocena;
-        DROP TABLE IF EXISTS bliznje_mesto;
-        DROP TABLE IF EXISTS mesto_koordinate;
-        DROP TABLE IF EXISTS razdalja;
-        DROP TABLE IF EXISTS dogodek;
-        DROP TABLE IF EXISTS aktivnost_letni_cas;
-        DROP TABLE IF EXISTS aktivnost;
-        DROP TABLE IF EXISTS znamenitost;
-        DROP TABLE IF EXISTS letni_cas;
-        DROP TABLE IF EXISTS mesto;
-        DROP TABLE IF EXISTS drzava;
-    """)
-
     ustvari_drzava(conn)
     ustvari_mesto(conn)
     ustvari_mesto_koordinate(conn)
@@ -170,9 +153,6 @@ if __name__ == "__main__":
     ustvari_dogodek(conn)
     ustvari_razdalja(conn)
     ustvari_ocena(conn)
-
-    conn.commit()
-    conn.close()
     print("PODATKOVNA BAZA JE USTVARJENA")
     
     
