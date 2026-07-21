@@ -2,3 +2,3463 @@ id,ime,ocena,vstopnina,za_otroke,mesto_id
 1,Sprehod po mestnem središču – Ojo de Agua,3,NE,DA,1
 2,Kolesarski ogled mesta – Madingou,2,NE,DA,2
 3,Ogled lokalne arhitekture – Yueyang,3,DA,DA,3
+4,Obisk lokalne tržnice – Bintawan,3,NE,DA,4
+5,Fotografski sprehod – Jundiaí,4,NE,NE,5
+6,Okušanje lokalne kulinarike – Cachoeiras de Macacu,4,DA,DA,6
+7,Družinski ogled mesta – Rio Formoso,5,NE,DA,7
+8,Kulturni sprehod – Kamień Pomorski,1,NE,DA,8
+9,Sprehod po mestnem središču – Vovchans’k,2,DA,DA,9
+10,Kolesarski ogled mesta – Mogadishu,5,NE,NE,10
+11,Ogled lokalne arhitekture – Kalianyar Selatan,5,NE,DA,11
+12,Obisk lokalne tržnice – Boevange-sur-Attert,2,DA,DA,12
+13,Fotografski sprehod – Skaryszew,3,NE,DA,13
+14,Okušanje lokalne kulinarike – Linggou,5,NE,DA,14
+15,Družinski ogled mesta – Louisville,2,DA,NE,15
+16,Kulturni sprehod – Dabola,1,NE,DA,16
+17,Sprehod po mestnem središču – Göteborg,3,NE,DA,17
+18,Kolesarski ogled mesta – Huambo,4,DA,DA,18
+19,Ogled lokalne arhitekture – Culasian,4,NE,DA,19
+20,Obisk lokalne tržnice – Zhanping,5,NE,NE,20
+21,Fotografski sprehod – Ifakara,2,DA,DA,21
+22,Okušanje lokalne kulinarike – Mt Peto,4,NE,DA,22
+23,Družinski ogled mesta – Nanger,1,NE,DA,23
+24,Kulturni sprehod – Kao Liao,5,DA,DA,24
+25,Sprehod po mestnem središču – Kongtian,2,NE,NE,25
+26,Kolesarski ogled mesta – Bohutín,1,NE,DA,26
+27,Ogled lokalne arhitekture – Santa Cristina Couto,2,DA,DA,27
+28,Obisk lokalne tržnice – Youngstown,5,NE,DA,28
+29,Fotografski sprehod – Tangdong,4,NE,DA,29
+30,Okušanje lokalne kulinarike – Vinnytsya,5,DA,NE,30
+31,Družinski ogled mesta – Yayao,2,NE,DA,31
+32,Kulturni sprehod – Peixing,3,NE,DA,32
+33,Sprehod po mestnem središču – Itacurubí del Rosario,5,DA,DA,33
+34,Kolesarski ogled mesta – Grugul,5,NE,DA,34
+35,Ogled lokalne arhitekture – Guder Lao,5,NE,NE,35
+36,Obisk lokalne tržnice – Siraway,3,DA,DA,36
+37,Fotografski sprehod – Tuncheng,1,NE,DA,37
+38,Okušanje lokalne kulinarike – Shibi,2,NE,DA,38
+39,Družinski ogled mesta – Shibīn al Qanāţir,4,DA,DA,39
+40,Kulturni sprehod – Zagnitkiv,3,NE,NE,40
+41,Sprehod po mestnem središču – Pueblo Nuevo,4,NE,DA,41
+42,Kolesarski ogled mesta – Kronoby,5,DA,DA,42
+43,Ogled lokalne arhitekture – Västervik,3,NE,DA,43
+44,Obisk lokalne tržnice – Verkh-Usugli,2,NE,DA,44
+45,Fotografski sprehod – Pedregal,1,DA,NE,45
+46,Okušanje lokalne kulinarike – Fujinomiya,1,NE,DA,46
+47,Družinski ogled mesta – Kuala Lumpur,3,NE,DA,47
+48,Kulturni sprehod – El Hamma,3,DA,DA,48
+49,Sprehod po mestnem središču – Huangyuan Chengguanzhen,4,NE,DA,49
+50,Kolesarski ogled mesta – Tomorlog,3,NE,NE,50
+51,Ogled lokalne arhitekture – Niort,3,DA,DA,51
+52,Obisk lokalne tržnice – Sampao,4,NE,DA,52
+53,Fotografski sprehod – Mali Iđoš,4,NE,DA,53
+54,Okušanje lokalne kulinarike – Xinmin,4,DA,DA,54
+55,Družinski ogled mesta – Paiçandu,3,NE,NE,55
+56,Kulturni sprehod – Lyaskelya,4,NE,DA,56
+57,Sprehod po mestnem središču – Rumburk,3,DA,DA,57
+58,Kolesarski ogled mesta – Strogino,1,NE,DA,58
+59,Ogled lokalne arhitekture – Montería,2,NE,DA,59
+60,Obisk lokalne tržnice – Tobi Village,2,DA,NE,60
+61,Fotografski sprehod – Longhua,4,NE,DA,61
+62,Okušanje lokalne kulinarike – Newcastle,1,NE,DA,62
+63,Družinski ogled mesta – Kashima,4,DA,DA,63
+64,Kulturni sprehod – Santa Quitéria do Maranhão,5,NE,DA,64
+65,Sprehod po mestnem središču – Fengshan,1,NE,NE,65
+66,Kolesarski ogled mesta – Mazatenango,5,DA,DA,66
+67,Ogled lokalne arhitekture – Figueiras,5,NE,DA,67
+68,Obisk lokalne tržnice – Maranura,4,NE,DA,68
+69,Fotografski sprehod – Ashford,4,DA,DA,69
+70,Okušanje lokalne kulinarike – Longshan,4,NE,NE,70
+71,Družinski ogled mesta – Jiangkou,4,NE,DA,71
+72,Kulturni sprehod – Amarillo,4,DA,DA,72
+73,Sprehod po mestnem središču – Wanga,4,NE,DA,73
+74,Kolesarski ogled mesta – Rokiciny,4,NE,DA,74
+75,Ogled lokalne arhitekture – Danao,3,DA,NE,75
+76,Obisk lokalne tržnice – Krolevets’,4,NE,DA,76
+77,Fotografski sprehod – Cristóbal,2,NE,DA,77
+78,Okušanje lokalne kulinarike – Kalisangkrah Lor,5,DA,DA,78
+79,Družinski ogled mesta – Xindai,2,NE,DA,79
+80,Kulturni sprehod – La Coipa,5,NE,NE,80
+81,Sprehod po mestnem središču – Nago,4,DA,DA,81
+82,Kolesarski ogled mesta – Klwów,2,NE,DA,82
+83,Ogled lokalne arhitekture – Banjar Kampungbugis,2,NE,DA,83
+84,Obisk lokalne tržnice – Lakha Nëvre,5,DA,DA,84
+85,Fotografski sprehod – Kérkyra,4,NE,NE,85
+86,Okušanje lokalne kulinarike – Montes,5,NE,DA,86
+87,Družinski ogled mesta – Tonekābon,4,DA,DA,87
+88,Kulturni sprehod – Maco,4,NE,DA,88
+89,Sprehod po mestnem središču – To’rtko’l Shahri,2,NE,DA,89
+90,Kolesarski ogled mesta – Kadipaten,4,DA,NE,90
+91,Ogled lokalne arhitekture – Géfyra,5,NE,DA,91
+92,Obisk lokalne tržnice – Cipatujah,4,NE,DA,92
+93,Fotografski sprehod – Koryukivka,4,DA,DA,93
+94,Okušanje lokalne kulinarike – Pujiang,3,NE,DA,94
+95,Družinski ogled mesta – San Nicolas,2,NE,NE,95
+96,Kulturni sprehod – Ogod,4,DA,DA,96
+97,Sprehod po mestnem središču – Barranco de Loba,2,NE,DA,97
+98,Kolesarski ogled mesta – Antes,4,NE,DA,98
+99,Ogled lokalne arhitekture – Foros de Salvaterra,3,DA,DA,99
+100,Obisk lokalne tržnice – Oemofa,3,NE,NE,100
+101,Fotografski sprehod – Guling,3,NE,DA,101
+102,Okušanje lokalne kulinarike – Zākhū,3,DA,DA,102
+103,Družinski ogled mesta – Mushu,5,NE,DA,103
+104,Kulturni sprehod – Borzoy,3,NE,DA,104
+105,Sprehod po mestnem središču – Qiaolin,5,DA,NE,105
+106,Kolesarski ogled mesta – Ramat HaSharon,4,NE,DA,106
+107,Ogled lokalne arhitekture – Melgar,4,NE,DA,107
+108,Obisk lokalne tržnice – Yegor’yevsk,1,DA,DA,108
+109,Fotografski sprehod – Chunmuying,3,NE,DA,109
+110,Okušanje lokalne kulinarike – Gornorechenskiy,3,NE,NE,110
+111,Družinski ogled mesta – Zbraslav,2,DA,DA,111
+112,Kulturni sprehod – Guazacapán,2,NE,DA,112
+113,Sprehod po mestnem središču – Shancheng,2,NE,DA,113
+114,Kolesarski ogled mesta – Bondokodi,1,DA,DA,114
+115,Ogled lokalne arhitekture – Boston,4,NE,NE,115
+116,Obisk lokalne tržnice – Suwalan,5,NE,DA,116
+117,Fotografski sprehod – Gobō,5,DA,DA,117
+118,Okušanje lokalne kulinarike – Saparua,3,NE,DA,118
+119,Družinski ogled mesta – Osoyoos,4,NE,DA,119
+120,Kulturni sprehod – Bibirevo,4,DA,NE,120
+121,Sprehod po mestnem središču – Fontinha,4,NE,DA,121
+122,Kolesarski ogled mesta – Lat Lum Kaeo,5,NE,DA,122
+123,Ogled lokalne arhitekture – Panacan,1,DA,DA,123
+124,Obisk lokalne tržnice – Solânea,2,NE,DA,124
+125,Fotografski sprehod – Zhouyuan,3,NE,NE,125
+126,Okušanje lokalne kulinarike – Hongshan,4,DA,DA,126
+127,Družinski ogled mesta – Venda do Alcaide,4,NE,DA,127
+128,Kulturni sprehod – Iowa City,1,NE,DA,128
+129,Sprehod po mestnem središču – Toutai,4,DA,DA,129
+130,Kolesarski ogled mesta – Miraflores,4,NE,NE,130
+131,Ogled lokalne arhitekture – Goubangzi,2,NE,DA,131
+132,Obisk lokalne tržnice – Mompós,3,DA,DA,132
+133,Fotografski sprehod – Brzeźnica,5,NE,DA,133
+134,Okušanje lokalne kulinarike – Vasyl'evsky Ostrov,4,NE,DA,134
+135,Družinski ogled mesta – Panorama,4,DA,NE,135
+136,Kulturni sprehod – Pasirpanjang,1,NE,DA,136
+137,Sprehod po mestnem središču – Shijak,2,NE,DA,137
+138,Kolesarski ogled mesta – Kortesjärvi,2,DA,DA,138
+139,Ogled lokalne arhitekture – Ushuaia,4,NE,DA,139
+140,Obisk lokalne tržnice – Cola,5,NE,NE,140
+141,Fotografski sprehod – Ponong,4,DA,DA,141
+142,Okušanje lokalne kulinarike – Del Pilar,4,NE,DA,142
+143,Družinski ogled mesta – Banjar Jagasatru,3,NE,DA,143
+144,Kulturni sprehod – Reszel,2,DA,DA,144
+145,Sprehod po mestnem središču – Nartkala,5,NE,NE,145
+146,Kolesarski ogled mesta – Marondera,4,NE,DA,146
+147,Ogled lokalne arhitekture – Kolomak,4,DA,DA,147
+148,Obisk lokalne tržnice – Jinjing,1,NE,DA,148
+149,Fotografski sprehod – Liandu,1,NE,DA,149
+150,Okušanje lokalne kulinarike – Hammam Sousse,4,DA,NE,150
+151,Družinski ogled mesta – Guanhães,1,NE,DA,151
+152,Kulturni sprehod – Bello,2,NE,DA,152
+153,Sprehod po mestnem središču – Samanco,2,DA,DA,153
+154,Kolesarski ogled mesta – Dyurtyuli,2,NE,DA,154
+155,Ogled lokalne arhitekture – Karangpawitan,2,NE,NE,155
+156,Obisk lokalne tržnice – Maracaju,4,DA,DA,156
+157,Fotografski sprehod – Amnat Charoen,3,NE,DA,157
+158,Okušanje lokalne kulinarike – Oras,2,NE,DA,158
+159,Družinski ogled mesta – Lizhai,4,DA,DA,159
+160,Kulturni sprehod – Celendín,4,NE,NE,160
+161,Sprehod po mestnem središču – Tsyurupyns’k,4,NE,DA,161
+162,Kolesarski ogled mesta – Senta,1,DA,DA,162
+163,Ogled lokalne arhitekture – Lanas,4,NE,DA,163
+164,Obisk lokalne tržnice – Stara Kiszewa,2,NE,DA,164
+165,Fotografski sprehod – Barubandung,3,DA,NE,165
+166,Okušanje lokalne kulinarike – Bailizhou,3,NE,DA,166
+167,Družinski ogled mesta – Toupi,1,NE,DA,167
+168,Kulturni sprehod – Maracanaú,5,DA,DA,168
+169,Sprehod po mestnem središču – Pensacola,2,NE,DA,169
+170,Kolesarski ogled mesta – Shancheng,5,NE,NE,170
+171,Ogled lokalne arhitekture – Tangzi,3,DA,DA,171
+172,Obisk lokalne tržnice – ‘Alīābād-e Katūl,5,NE,DA,172
+173,Fotografski sprehod – Oekefan,1,NE,DA,173
+174,Okušanje lokalne kulinarike – Moulins,4,DA,DA,174
+175,Družinski ogled mesta – Irtyshskiy,5,NE,NE,175
+176,Kulturni sprehod – Singaraja,4,NE,DA,176
+177,Sprehod po mestnem središču – Gedongmulyo,3,DA,DA,177
+178,Kolesarski ogled mesta – Ak’ordat,5,NE,DA,178
+179,Ogled lokalne arhitekture – Xarardheere,5,NE,DA,179
+180,Obisk lokalne tržnice – Kholbon,1,DA,NE,180
+181,Fotografski sprehod – Filimonovo,2,NE,DA,181
+182,Okušanje lokalne kulinarike – Toba Tek Singh,5,NE,DA,182
+183,Družinski ogled mesta – Prosperous,2,DA,DA,183
+184,Kulturni sprehod – Huancarqui,4,NE,DA,184
+185,Sprehod po mestnem središču – Hatavch,3,NE,NE,185
+186,Kolesarski ogled mesta – Riba de Ave,1,DA,DA,186
+187,Ogled lokalne arhitekture – Frankfort,1,NE,DA,187
+188,Obisk lokalne tržnice – Lijiang,4,NE,DA,188
+189,Fotografski sprehod – Novosin’kovo,4,DA,DA,189
+190,Okušanje lokalne kulinarike – Fentange,2,NE,NE,190
+191,Družinski ogled mesta – Xilin Hot,3,NE,DA,191
+192,Kulturni sprehod – La Paz,4,DA,DA,192
+193,Sprehod po mestnem središču – Kifrī,4,NE,DA,193
+194,Kolesarski ogled mesta – Akwanga,3,NE,DA,194
+195,Ogled lokalne arhitekture – Bogolyubovo,3,DA,NE,195
+196,Obisk lokalne tržnice – Leskovec pri Krškem,5,NE,DA,196
+197,Fotografski sprehod – Huangjiabu,4,NE,DA,197
+198,Okušanje lokalne kulinarike – Xiwu,2,DA,DA,198
+199,Družinski ogled mesta – Viterbo,3,NE,DA,199
+200,Kulturni sprehod – Frederiksberg,3,NE,NE,200
+201,Sprehod po mestnem središču – Sacramento,3,DA,DA,201
+202,Kolesarski ogled mesta – Vidin,4,NE,DA,202
+203,Ogled lokalne arhitekture – Upata,5,NE,DA,203
+204,Obisk lokalne tržnice – Agara,3,DA,DA,204
+205,Fotografski sprehod – Ýdra,2,NE,NE,205
+206,Okušanje lokalne kulinarike – Reims,4,NE,DA,206
+207,Družinski ogled mesta – Mīrwāh Gorchani,1,DA,DA,207
+208,Kulturni sprehod – Sydney,2,NE,DA,208
+209,Sprehod po mestnem središču – Guiyang,5,NE,DA,209
+210,Kolesarski ogled mesta – Ili,4,DA,NE,210
+211,Ogled lokalne arhitekture – Xinjiezi,5,NE,DA,211
+212,Obisk lokalne tržnice – São Domingos de Rana,3,NE,DA,212
+213,Fotografski sprehod – Jiangtou,5,DA,DA,213
+214,Okušanje lokalne kulinarike – Ryazan’,4,NE,DA,214
+215,Družinski ogled mesta – Koloniya Zastav’ye,3,NE,NE,215
+216,Kulturni sprehod – Sasa,4,DA,DA,216
+217,Sprehod po mestnem središču – Ozërsk,2,NE,DA,217
+218,Kolesarski ogled mesta – Karagay,2,NE,DA,218
+219,Ogled lokalne arhitekture – Bom Despacho,4,DA,DA,219
+220,Obisk lokalne tržnice – Carcassonne,5,NE,NE,220
+221,Fotografski sprehod – Senovo,5,NE,DA,221
+222,Okušanje lokalne kulinarike – Xiajiashan,2,DA,DA,222
+223,Družinski ogled mesta – Hafnarfjörður,4,NE,DA,223
+224,Kulturni sprehod – Richibucto,3,NE,DA,224
+225,Sprehod po mestnem središču – Nangtang,5,DA,NE,225
+226,Kolesarski ogled mesta – Chkalov,3,NE,DA,226
+227,Ogled lokalne arhitekture – Cibenda,2,NE,DA,227
+228,Obisk lokalne tržnice – Padangtepung,4,DA,DA,228
+229,Fotografski sprehod – Bula,1,NE,DA,229
+230,Okušanje lokalne kulinarike – Quaraí,4,NE,NE,230
+231,Družinski ogled mesta – Semongkat,5,DA,DA,231
+232,Kulturni sprehod – Paris 20,3,NE,DA,232
+233,Sprehod po mestnem središču – Bor Ondor,4,NE,DA,233
+234,Kolesarski ogled mesta – Cikondang,5,DA,DA,234
+235,Ogled lokalne arhitekture – Valday,4,NE,NE,235
+236,Obisk lokalne tržnice – Duraznopampa,3,NE,DA,236
+237,Fotografski sprehod – Pancheng,1,DA,DA,237
+238,Okušanje lokalne kulinarike – Krasnyy Yar,5,NE,DA,238
+239,Družinski ogled mesta – Sunduan,4,NE,DA,239
+240,Kulturni sprehod – Kiangan,3,DA,NE,240
+241,Sprehod po mestnem središču – Tawaran,4,NE,DA,241
+242,Kolesarski ogled mesta – Erhaodi,1,NE,DA,242
+243,Ogled lokalne arhitekture – Bakung,2,DA,DA,243
+244,Obisk lokalne tržnice – Inicbulan,4,NE,DA,244
+245,Fotografski sprehod – Luxor,2,NE,NE,245
+246,Okušanje lokalne kulinarike – Washington,4,DA,DA,246
+247,Družinski ogled mesta – Huyuan,2,NE,DA,247
+248,Kulturni sprehod – Tondano,3,NE,DA,248
+249,Sprehod po mestnem središču – Koktal,3,DA,DA,249
+250,Kolesarski ogled mesta – Huamali,4,NE,NE,250
+251,Ogled lokalne arhitekture – Gaizhou,3,NE,DA,251
+252,Obisk lokalne tržnice – Athabasca,4,DA,DA,252
+253,Fotografski sprehod – George Hill,4,NE,DA,253
+254,Okušanje lokalne kulinarike – Owase,3,NE,DA,254
+255,Družinski ogled mesta – Ladushkin,3,DA,NE,255
+256,Kulturni sprehod – San Jacinto,5,NE,DA,256
+257,Sprehod po mestnem središču – Zoetermeer,3,NE,DA,257
+258,Kolesarski ogled mesta – Coihaique,2,DA,DA,258
+259,Ogled lokalne arhitekture – Sjöbo,4,NE,DA,259
+260,Obisk lokalne tržnice – Wan Yai,3,NE,NE,260
+261,Fotografski sprehod – Antioquia,2,DA,DA,261
+262,Okušanje lokalne kulinarike – Březová nad Svitavou,2,NE,DA,262
+263,Družinski ogled mesta – Spuž,2,NE,DA,263
+264,Kulturni sprehod – Pandean,3,DA,DA,264
+265,Sprehod po mestnem središču – Tangyin,5,NE,NE,265
+266,Kolesarski ogled mesta – Salaya,2,NE,DA,266
+267,Ogled lokalne arhitekture – Nangen,2,DA,DA,267
+268,Obisk lokalne tržnice – Charlotte,3,NE,DA,268
+269,Fotografski sprehod – Tapan,4,NE,DA,269
+270,Okušanje lokalne kulinarike – Nikolinci,3,DA,NE,270
+271,Družinski ogled mesta – Jinbo,1,NE,DA,271
+272,Kulturni sprehod – Kaduketug,1,NE,DA,272
+273,Sprehod po mestnem središču – Houston,4,DA,DA,273
+274,Kolesarski ogled mesta – Tāybād,3,NE,DA,274
+275,Ogled lokalne arhitekture – Paris 12,1,NE,NE,275
+276,Obisk lokalne tržnice – Lloqan,2,DA,DA,276
+277,Fotografski sprehod – København,4,NE,DA,277
+278,Okušanje lokalne kulinarike – Herzliya Pituah,3,NE,DA,278
+279,Družinski ogled mesta – Čair,4,DA,DA,279
+280,Kulturni sprehod – Mikulášovice,4,NE,NE,280
+281,Sprehod po mestnem središču – La Huaca,5,NE,DA,281
+282,Kolesarski ogled mesta – Meliau,4,DA,DA,282
+283,Ogled lokalne arhitekture – Kosamphi Nakhon,3,NE,DA,283
+284,Obisk lokalne tržnice – Ramaram,1,NE,DA,284
+285,Fotografski sprehod – Pitanga,4,DA,NE,285
+286,Okušanje lokalne kulinarike – Senahú,3,NE,DA,286
+287,Družinski ogled mesta – Adassil,4,NE,DA,287
+288,Kulturni sprehod – Roldanillo,1,DA,DA,288
+289,Sprehod po mestnem središču – Taivalkoski,3,NE,DA,289
+290,Kolesarski ogled mesta – Proletar,2,NE,NE,290
+291,Ogled lokalne arhitekture – Nurota Shahri,4,DA,DA,291
+292,Obisk lokalne tržnice – Jinotega,1,NE,DA,292
+293,Fotografski sprehod – Bisée,2,NE,DA,293
+294,Okušanje lokalne kulinarike – Kuching,5,DA,DA,294
+295,Družinski ogled mesta – San Emilio,2,NE,NE,295
+296,Kulturni sprehod – Kinna,5,NE,DA,296
+297,Sprehod po mestnem središču – Xinglongchang,2,DA,DA,297
+298,Kolesarski ogled mesta – Blinsung,4,NE,DA,298
+299,Ogled lokalne arhitekture – Ngandangan,3,NE,DA,299
+300,Obisk lokalne tržnice – Nangkaruka,3,DA,NE,300
+301,Fotografski sprehod – Krajan,3,NE,DA,301
+302,Okušanje lokalne kulinarike – Bolong,4,NE,DA,302
+303,Družinski ogled mesta – Jijia,5,DA,DA,303
+304,Kulturni sprehod – Örebro,2,NE,DA,304
+305,Sprehod po mestnem središču – Lingcheng,3,NE,NE,305
+306,Kolesarski ogled mesta – Sikka,2,DA,DA,306
+307,Ogled lokalne arhitekture – Xiaochi,3,NE,DA,307
+308,Obisk lokalne tržnice – Karangori,4,NE,DA,308
+309,Fotografski sprehod – Valle de Guanape,4,DA,DA,309
+310,Okušanje lokalne kulinarike – Banjaranyar,4,NE,NE,310
+311,Družinski ogled mesta – Boa Viagem,2,NE,DA,311
+312,Kulturni sprehod – Las Vegas,3,DA,DA,312
+313,Sprehod po mestnem središču – Kunri,4,NE,DA,313
+314,Kolesarski ogled mesta – Carvoeira,3,NE,DA,314
+315,Ogled lokalne arhitekture – Fundão,4,DA,NE,315
+316,Obisk lokalne tržnice – Comrat,4,NE,DA,316
+317,Fotografski sprehod – Oekero,3,NE,DA,317
+318,Okušanje lokalne kulinarike – Chernogorsk,4,DA,DA,318
+319,Družinski ogled mesta – Yanjiang,1,NE,DA,319
+320,Kulturni sprehod – Ritchie,3,NE,NE,320
+321,Sprehod po mestnem središču – Yelat’ma,3,DA,DA,321
+322,Kolesarski ogled mesta – Xiaxindian,4,NE,DA,322
+323,Ogled lokalne arhitekture – Uwelini,4,NE,DA,323
+324,Obisk lokalne tržnice – Pagedangan,3,DA,DA,324
+325,Fotografski sprehod – Mszana Dolna,3,NE,NE,325
+326,Okušanje lokalne kulinarike – Dong’ao,1,NE,DA,326
+327,Družinski ogled mesta – Kedung,5,DA,DA,327
+328,Kulturni sprehod – Xincheng,4,NE,DA,328
+329,Sprehod po mestnem središču – Macon,4,NE,DA,329
+330,Kolesarski ogled mesta – Mapalad,3,DA,NE,330
+331,Ogled lokalne arhitekture – Lumbardhi,5,NE,DA,331
+332,Obisk lokalne tržnice – San Mateo,4,NE,DA,332
+333,Fotografski sprehod – Porta,2,DA,DA,333
+334,Okušanje lokalne kulinarike – Francos,5,NE,DA,334
+335,Družinski ogled mesta – San José de Barlovento,2,NE,NE,335
+336,Kulturni sprehod – Phimai,4,DA,DA,336
+337,Sprehod po mestnem središču – Vilhena,3,NE,DA,337
+338,Kolesarski ogled mesta – Poja,2,NE,DA,338
+339,Ogled lokalne arhitekture – Tianzishan,3,DA,DA,339
+340,Obisk lokalne tržnice – Kuniran,2,NE,NE,340
+341,Fotografski sprehod – Puerto Cabezas,2,NE,DA,341
+342,Okušanje lokalne kulinarike – Konstancin-Jeziorna,1,DA,DA,342
+343,Družinski ogled mesta – Yartsevo,5,NE,DA,343
+344,Kulturni sprehod – Wenling,4,NE,DA,344
+345,Sprehod po mestnem središču – Winston Salem,3,DA,NE,345
+346,Kolesarski ogled mesta – T’et’ri Tsqaro,2,NE,DA,346
+347,Ogled lokalne arhitekture – Listvyanskiy,2,NE,DA,347
+348,Obisk lokalne tržnice – Tipaz,5,DA,DA,348
+349,Fotografski sprehod – Kuressaare,4,NE,DA,349
+350,Okušanje lokalne kulinarike – Ti-n-Essako,5,NE,NE,350
+351,Družinski ogled mesta – Menghai,2,DA,DA,351
+352,Kulturni sprehod – Banjar Baleagung,5,NE,DA,352
+353,Sprehod po mestnem središču – Somerset East,3,NE,DA,353
+354,Kolesarski ogled mesta – San Lucas Tolimán,1,DA,DA,354
+355,Ogled lokalne arhitekture – Mikstat,5,NE,NE,355
+356,Obisk lokalne tržnice – Haihui,3,NE,DA,356
+357,Fotografski sprehod – Lok,2,DA,DA,357
+358,Okušanje lokalne kulinarike – Pimbalayan,2,NE,DA,358
+359,Družinski ogled mesta – Taksimo,2,NE,DA,359
+360,Kulturni sprehod – Sinamaica,2,DA,NE,360
+361,Sprehod po mestnem središču – Dali,3,NE,DA,361
+362,Kolesarski ogled mesta – Faīẕābād,2,NE,DA,362
+363,Ogled lokalne arhitekture – Arras,4,DA,DA,363
+364,Obisk lokalne tržnice – Takahata,5,NE,DA,364
+365,Fotografski sprehod – Bagadó,2,NE,NE,365
+366,Okušanje lokalne kulinarike – Toungo,4,DA,DA,366
+367,Družinski ogled mesta – El Cantón,3,NE,DA,367
+368,Kulturni sprehod – Bagakay,2,NE,DA,368
+369,Sprehod po mestnem središču – Armação,2,DA,DA,369
+370,Kolesarski ogled mesta – Disūq,3,NE,NE,370
+371,Ogled lokalne arhitekture – Lubuagan,4,NE,DA,371
+372,Obisk lokalne tržnice – Purda,4,DA,DA,372
+373,Fotografski sprehod – Baishi,3,NE,DA,373
+374,Okušanje lokalne kulinarike – Komorów,4,NE,DA,374
+375,Družinski ogled mesta – Brvenica,3,DA,NE,375
+376,Kulturni sprehod – Khrebtovaya,2,NE,DA,376
+377,Sprehod po mestnem središču – Sandaogou,3,NE,DA,377
+378,Kolesarski ogled mesta – Santa Gertrudes,4,DA,DA,378
+379,Ogled lokalne arhitekture – Wilfrido Loor Moreira,4,NE,DA,379
+380,Obisk lokalne tržnice – Tongzha,2,NE,NE,380
+381,Fotografski sprehod – Kampong Chhnang,5,DA,DA,381
+382,Okušanje lokalne kulinarike – Wuluo,3,NE,DA,382
+383,Družinski ogled mesta – Tuzhai,3,NE,DA,383
+384,Kulturni sprehod – Tucson,4,DA,DA,384
+385,Sprehod po mestnem središču – Dukuhsia,5,NE,NE,385
+386,Kolesarski ogled mesta – Kovářská,4,NE,DA,386
+387,Ogled lokalne arhitekture – Jaboatão dos Guararapes,1,DA,DA,387
+388,Obisk lokalne tržnice – Catalina,1,NE,DA,388
+389,Fotografski sprehod – Di Linh,4,NE,DA,389
+390,Okušanje lokalne kulinarike – Richmond,5,DA,NE,390
+391,Družinski ogled mesta – Poręba Spytkowska,1,NE,DA,391
+392,Kulturni sprehod – San Carlos,5,NE,DA,392
+393,Sprehod po mestnem središču – Placer,2,DA,DA,393
+394,Kolesarski ogled mesta – Kayakent,4,NE,DA,394
+395,Ogled lokalne arhitekture – Piškorevci,3,NE,NE,395
+396,Obisk lokalne tržnice – Cigaras,4,DA,DA,396
+397,Fotografski sprehod – Dežanovac,1,NE,DA,397
+398,Okušanje lokalne kulinarike – Boguszów-Gorce,4,NE,DA,398
+399,Družinski ogled mesta – Morelos,4,DA,DA,399
+400,Kulturni sprehod – Chakwāl,4,NE,NE,400
+401,Sprehod po mestnem središču – Selorejo,4,NE,DA,401
+402,Kolesarski ogled mesta – Bonabéri,2,DA,DA,402
+403,Ogled lokalne arhitekture – Asamankese,1,NE,DA,403
+404,Obisk lokalne tržnice – Dongqianhu,3,NE,DA,404
+405,Fotografski sprehod – Rimouski,5,DA,NE,405
+406,Okušanje lokalne kulinarike – Ngulangan,5,NE,DA,406
+407,Družinski ogled mesta – Mospyne,3,NE,DA,407
+408,Kulturni sprehod – Svalöv,2,DA,DA,408
+409,Sprehod po mestnem središču – Yasugichō,5,NE,DA,409
+410,Kolesarski ogled mesta – Blawi,3,NE,NE,410
+411,Ogled lokalne arhitekture – Jiang’an,4,DA,DA,411
+412,Obisk lokalne tržnice – Qal‘eh-ye Khvājeh,2,NE,DA,412
+413,Fotografski sprehod – Punta Gorda,3,NE,DA,413
+414,Okušanje lokalne kulinarike – Tsiombe,2,DA,DA,414
+415,Družinski ogled mesta – Khonj,3,NE,NE,415
+416,Kulturni sprehod – Fenggao,5,NE,DA,416
+417,Sprehod po mestnem središču – Socabaya,5,DA,DA,417
+418,Kolesarski ogled mesta – Chengnan,3,NE,DA,418
+419,Ogled lokalne arhitekture – Izra‘,1,NE,DA,419
+420,Obisk lokalne tržnice – Bhamo,5,DA,NE,420
+421,Fotografski sprehod – Akim Oda,4,NE,DA,421
+422,Okušanje lokalne kulinarike – Taoyuan,4,NE,DA,422
+423,Družinski ogled mesta – Rato,5,DA,DA,423
+424,Kulturni sprehod – Amsterdam,3,NE,DA,424
+425,Sprehod po mestnem središču – Ncue,2,NE,NE,425
+426,Kolesarski ogled mesta – Zhonghe,3,DA,DA,426
+427,Ogled lokalne arhitekture – Brumado,5,NE,DA,427
+428,Obisk lokalne tržnice – Rosthern,4,NE,DA,428
+429,Fotografski sprehod – Bergen,2,DA,DA,429
+430,Okušanje lokalne kulinarike – Sumilao,3,NE,NE,430
+431,Družinski ogled mesta – Cibatu,2,NE,DA,431
+432,Kulturni sprehod – Guarulhos,1,DA,DA,432
+433,Sprehod po mestnem središču – Kolyshley,2,NE,DA,433
+434,Kolesarski ogled mesta – Olympia,4,NE,DA,434
+435,Ogled lokalne arhitekture – Conchopata,2,DA,NE,435
+436,Obisk lokalne tržnice – Borzna,3,NE,DA,436
+437,Fotografski sprehod – Krasnodar,5,NE,DA,437
+438,Okušanje lokalne kulinarike – Anju,4,DA,DA,438
+439,Družinski ogled mesta – Hoxtolgay,4,NE,DA,439
+440,Kulturni sprehod – Načeradec,5,NE,NE,440
+441,Sprehod po mestnem središču – Tenggong,3,DA,DA,441
+442,Kolesarski ogled mesta – Áyios Yeóryios,3,NE,DA,442
+443,Ogled lokalne arhitekture – Brampton,4,NE,DA,443
+444,Obisk lokalne tržnice – Accha,1,DA,DA,444
+445,Fotografski sprehod – La Trinidad,1,NE,NE,445
+446,Okušanje lokalne kulinarike – Ban Ratsada,3,NE,DA,446
+447,Družinski ogled mesta – Karanyowka,1,DA,DA,447
+448,Kulturni sprehod – Hekou,4,NE,DA,448
+449,Sprehod po mestnem središču – Cibeureum,3,NE,DA,449
+450,Kolesarski ogled mesta – Bambuí,2,DA,NE,450
+451,Ogled lokalne arhitekture – Maguilling,3,NE,DA,451
+452,Obisk lokalne tržnice – Youfang,4,NE,DA,452
+453,Fotografski sprehod – Loudun,3,DA,DA,453
+454,Okušanje lokalne kulinarike – Sukorejo,1,NE,DA,454
+455,Družinski ogled mesta – Hongshan,4,NE,NE,455
+456,Kulturni sprehod – Tempe,2,DA,DA,456
+457,Sprehod po mestnem središču – Göteborg,5,NE,DA,457
+458,Kolesarski ogled mesta – Dayeuhluhur,4,NE,DA,458
+459,Ogled lokalne arhitekture – Jiangkouxu,4,DA,DA,459
+460,Obisk lokalne tržnice – Binangun,4,NE,NE,460
+461,Fotografski sprehod – Cantao-an,3,NE,DA,461
+462,Okušanje lokalne kulinarike – Chicheng,2,DA,DA,462
+463,Družinski ogled mesta – Ajaccio,2,NE,DA,463
+464,Kulturni sprehod – Taremskoye,2,NE,DA,464
+465,Sprehod po mestnem središču – Aguiar da Beira,1,DA,NE,465
+466,Kolesarski ogled mesta – Pordapor Barat,2,NE,DA,466
+467,Ogled lokalne arhitekture – Tucheng,3,NE,DA,467
+468,Obisk lokalne tržnice – Khon Kaen,3,DA,DA,468
+469,Fotografski sprehod – Kericho,4,NE,DA,469
+470,Okušanje lokalne kulinarike – Kurów,3,NE,NE,470
+471,Družinski ogled mesta – Nganane,4,DA,DA,471
+472,Kulturni sprehod – Nieuw Nickerie,5,NE,DA,472
+473,Sprehod po mestnem središču – Gaoshibei,2,NE,DA,473
+474,Kolesarski ogled mesta – Buôn Ma Thuột,3,DA,DA,474
+475,Ogled lokalne arhitekture – Tanbu,4,NE,NE,475
+476,Obisk lokalne tržnice – Nova Era,2,NE,DA,476
+477,Fotografski sprehod – Huibu,3,DA,DA,477
+478,Okušanje lokalne kulinarike – Burla,5,NE,DA,478
+479,Družinski ogled mesta – Qaşr Hallāl,2,NE,DA,479
+480,Kulturni sprehod – Linköping,2,DA,NE,480
+481,Sprehod po mestnem središču – Heishui,1,NE,DA,481
+482,Kolesarski ogled mesta – Magaria,2,NE,DA,482
+483,Ogled lokalne arhitekture – Unity,5,DA,DA,483
+484,Obisk lokalne tržnice – Sobo,5,NE,DA,484
+485,Fotografski sprehod – Huicungo,2,NE,NE,485
+486,Okušanje lokalne kulinarike – Qilin,5,DA,DA,486
+487,Družinski ogled mesta – Lianyun,3,NE,DA,487
+488,Kulturni sprehod – Moate,3,NE,DA,488
+489,Sprehod po mestnem središču – Concepción,4,DA,DA,489
+490,Kolesarski ogled mesta – Moneague,5,NE,NE,490
+491,Ogled lokalne arhitekture – Gaotai,3,NE,DA,491
+492,Obisk lokalne tržnice – Rostov-na-Donu,2,DA,DA,492
+493,Fotografski sprehod – Valongo,1,NE,DA,493
+494,Okušanje lokalne kulinarike – Kotes,3,NE,DA,494
+495,Družinski ogled mesta – Horka nad Moravou,4,DA,NE,495
+496,Kulturni sprehod – Donggaocun,1,NE,DA,496
+497,Sprehod po mestnem središču – Žabljak,3,NE,DA,497
+498,Kolesarski ogled mesta – Međa,2,DA,DA,498
+499,Ogled lokalne arhitekture – Pictou,4,NE,DA,499
+500,Obisk lokalne tržnice – Sundsvall,4,NE,NE,500
+501,Fotografski sprehod – Kawaguchi,4,DA,DA,501
+502,Okušanje lokalne kulinarike – Nanyuan,2,NE,DA,502
+503,Družinski ogled mesta – Az Zāhir,5,NE,DA,503
+504,Kulturni sprehod – Sharga,4,DA,DA,504
+505,Sprehod po mestnem središču – Huoli,5,NE,NE,505
+506,Kolesarski ogled mesta – Bouna,2,NE,DA,506
+507,Ogled lokalne arhitekture – Seririt,4,DA,DA,507
+508,Obisk lokalne tržnice – Buenavista,3,NE,DA,508
+509,Fotografski sprehod – Benisheikh,4,NE,DA,509
+510,Okušanje lokalne kulinarike – Kutapanjang,3,DA,NE,510
+511,Družinski ogled mesta – Lấp Vò,5,NE,DA,511
+512,Kulturni sprehod – Guinobatan,5,NE,DA,512
+513,Sprehod po mestnem središču – Tilburg,4,DA,DA,513
+514,Kolesarski ogled mesta – Florida,3,NE,DA,514
+515,Ogled lokalne arhitekture – Valjevo,5,NE,NE,515
+516,Obisk lokalne tržnice – Balazar,2,DA,DA,516
+517,Fotografski sprehod – Campo Largo,4,NE,DA,517
+518,Okušanje lokalne kulinarike – Xiyang,5,NE,DA,518
+519,Družinski ogled mesta – Batanamang,1,DA,DA,519
+520,Kulturni sprehod – Mulyosari,1,NE,NE,520
+521,Sprehod po mestnem središču – Mertert,4,NE,DA,521
+522,Kolesarski ogled mesta – Contagem,4,DA,DA,522
+523,Ogled lokalne arhitekture – Hutang,2,NE,DA,523
+524,Obisk lokalne tržnice – Bandung,5,NE,DA,524
+525,Fotografski sprehod – Zhendong,3,DA,NE,525
+526,Okušanje lokalne kulinarike – Kristinestad,4,NE,DA,526
+527,Družinski ogled mesta – Sabaneta,2,NE,DA,527
+528,Kulturni sprehod – Admiralteisky,4,DA,DA,528
+529,Sprehod po mestnem središču – Shar’ya,2,NE,DA,529
+530,Kolesarski ogled mesta – As Salţ,4,NE,NE,530
+531,Ogled lokalne arhitekture – Long Hồ,2,DA,DA,531
+532,Obisk lokalne tržnice – Tukuyu,3,NE,DA,532
+533,Fotografski sprehod – Rincón,4,NE,DA,533
+534,Okušanje lokalne kulinarike – Seydi,4,DA,DA,534
+535,Družinski ogled mesta – Kalmar,5,NE,NE,535
+536,Kulturni sprehod – Nanortalik,1,NE,DA,536
+537,Sprehod po mestnem središču – Yezhi,1,DA,DA,537
+538,Kolesarski ogled mesta – Kiruru,2,NE,DA,538
+539,Ogled lokalne arhitekture – Banjar Buahan,2,NE,DA,539
+540,Obisk lokalne tržnice – Maca,4,DA,NE,540
+541,Fotografski sprehod – Versailles,2,NE,DA,541
+542,Okušanje lokalne kulinarike – Lyubeshiv,3,NE,DA,542
+543,Družinski ogled mesta – Orda,2,DA,DA,543
+544,Kulturni sprehod – Buchanan,3,NE,DA,544
+545,Sprehod po mestnem središču – São Luís de Montes Belos,2,NE,NE,545
+546,Kolesarski ogled mesta – Punta de Piedra,2,DA,DA,546
+547,Ogled lokalne arhitekture – Qianjia,5,NE,DA,547
+548,Obisk lokalne tržnice – Chapecó,2,NE,DA,548
+549,Fotografski sprehod – Xiaojian,3,DA,DA,549
+550,Okušanje lokalne kulinarike – Tolotangga,4,NE,NE,550
+551,Družinski ogled mesta – Rudziczka,2,NE,DA,551
+552,Kulturni sprehod – Guizi,3,DA,DA,552
+553,Sprehod po mestnem središču – Kembangkerang Satu,3,NE,DA,553
+554,Kolesarski ogled mesta – Bordeaux,5,NE,DA,554
+555,Ogled lokalne arhitekture – Nyandoma,5,DA,NE,555
+556,Obisk lokalne tržnice – Nova Odessa,5,NE,DA,556
+557,Fotografski sprehod – Xinghua,4,NE,DA,557
+558,Okušanje lokalne kulinarike – Liucheng,5,DA,DA,558
+559,Družinski ogled mesta – Limmared,5,NE,DA,559
+560,Kulturni sprehod – Atsipópoulon,5,NE,NE,560
+561,Sprehod po mestnem središču – A-da-Gorda,5,DA,DA,561
+562,Kolesarski ogled mesta – Pineleng,2,NE,DA,562
+563,Ogled lokalne arhitekture – Wenfang,2,NE,DA,563
+564,Obisk lokalne tržnice – Richmond,3,DA,DA,564
+565,Fotografski sprehod – Jincheng,5,NE,NE,565
+566,Okušanje lokalne kulinarike – Cilampuyang,4,NE,DA,566
+567,Družinski ogled mesta – Manzanares,4,DA,DA,567
+568,Kulturni sprehod – Ikoma,1,NE,DA,568
+569,Sprehod po mestnem središču – Tongyang,1,NE,DA,569
+570,Kolesarski ogled mesta – Saihan Tal,5,DA,NE,570
+571,Ogled lokalne arhitekture – Gweedore,4,NE,DA,571
+572,Obisk lokalne tržnice – Sanqiao,4,NE,DA,572
+573,Fotografski sprehod – Puńsk,2,DA,DA,573
+574,Okušanje lokalne kulinarike – Xiangcunxiang,4,NE,DA,574
+575,Družinski ogled mesta – Changzhou,4,NE,NE,575
+576,Kulturni sprehod – Huangling,3,DA,DA,576
+577,Sprehod po mestnem središču – Otaniemi,4,NE,DA,577
+578,Kolesarski ogled mesta – Łubnice,2,NE,DA,578
+579,Ogled lokalne arhitekture – Kungälv,2,DA,DA,579
+580,Obisk lokalne tržnice – Eisen,3,NE,NE,580
+581,Fotografski sprehod – Kanie,5,NE,DA,581
+582,Okušanje lokalne kulinarike – Mineralnye Vody,4,DA,DA,582
+583,Družinski ogled mesta – Independencia,5,NE,DA,583
+584,Kulturni sprehod – Lesnoye,3,NE,DA,584
+585,Sprehod po mestnem središču – Fahraj,5,DA,NE,585
+586,Kolesarski ogled mesta – Tallahassee,4,NE,DA,586
+587,Ogled lokalne arhitekture – Saint-Félicien,5,NE,DA,587
+588,Obisk lokalne tržnice – Gwangtan,4,DA,DA,588
+589,Fotografski sprehod – Fontainhas,1,NE,DA,589
+590,Okušanje lokalne kulinarike – Nyagan,2,NE,NE,590
+591,Družinski ogled mesta – San Vicente,1,DA,DA,591
+592,Kulturni sprehod – Dabao’anzhen,5,NE,DA,592
+593,Sprehod po mestnem središču – Schengen,4,NE,DA,593
+594,Kolesarski ogled mesta – Pankrushikha,4,DA,DA,594
+595,Ogled lokalne arhitekture – Kadukandel,4,NE,NE,595
+596,Obisk lokalne tržnice – Tempursari Wetan,2,NE,DA,596
+597,Fotografski sprehod – Futang,2,DA,DA,597
+598,Okušanje lokalne kulinarike – Florida,3,NE,DA,598
+599,Družinski ogled mesta – Kangping,3,NE,DA,599
+600,Kulturni sprehod – Vale de Açores,3,DA,NE,600
+601,Sprehod po mestnem središču – Shangdongjie,4,NE,DA,601
+602,Kolesarski ogled mesta – Bayuwan,2,NE,DA,602
+603,Ogled lokalne arhitekture – Walagar,2,DA,DA,603
+604,Obisk lokalne tržnice – Vinkkilä,4,NE,DA,604
+605,Fotografski sprehod – Barra de Carrasco,3,NE,NE,605
+606,Okušanje lokalne kulinarike – Chugur,3,DA,DA,606
+607,Družinski ogled mesta – Francisco Beltrão,4,NE,DA,607
+608,Kulturni sprehod – Xinbao,2,NE,DA,608
+609,Sprehod po mestnem središču – Beoga,3,DA,DA,609
+610,Kolesarski ogled mesta – Volzhskiy,3,NE,NE,610
+611,Ogled lokalne arhitekture – Beicang,4,NE,DA,611
+612,Obisk lokalne tržnice – Vicente Guerrero,1,DA,DA,612
+613,Fotografski sprehod – Al Fayyūm,5,NE,DA,613
+614,Okušanje lokalne kulinarike – Zapatero,5,NE,DA,614
+615,Družinski ogled mesta – Raşad,1,DA,NE,615
+616,Kulturni sprehod – Koysinceq,5,NE,DA,616
+617,Sprehod po mestnem središču – Bangonay,4,NE,DA,617
+618,Kolesarski ogled mesta – Thatèng,1,DA,DA,618
+619,Ogled lokalne arhitekture – Yokohama,2,NE,DA,619
+620,Obisk lokalne tržnice – Gelang,4,NE,NE,620
+621,Fotografski sprehod – Cochrane,2,DA,DA,621
+622,Okušanje lokalne kulinarike – Bajia,3,NE,DA,622
+623,Družinski ogled mesta – Ambon,2,NE,DA,623
+624,Kulturni sprehod – Villa del Rosario,5,DA,DA,624
+625,Sprehod po mestnem središču – Kon Tum,2,NE,NE,625
+626,Kolesarski ogled mesta – Timiryazevskoye,4,NE,DA,626
+627,Ogled lokalne arhitekture – Andkhōy,4,DA,DA,627
+628,Obisk lokalne tržnice – Sampungu,3,NE,DA,628
+629,Fotografski sprehod – Calumpang,4,NE,DA,629
+630,Okušanje lokalne kulinarike – Mayingzhuang,2,DA,NE,630
+631,Družinski ogled mesta – Gonghe,2,NE,DA,631
+632,Kulturni sprehod – Dongqiao,3,NE,DA,632
+633,Sprehod po mestnem središču – Richmond,3,DA,DA,633
+634,Kolesarski ogled mesta – Bzou,5,NE,DA,634
+635,Ogled lokalne arhitekture – Thessaloníki,3,NE,NE,635
+636,Obisk lokalne tržnice – Al Ghāriyah,3,DA,DA,636
+637,Fotografski sprehod – Taiping,5,NE,DA,637
+638,Okušanje lokalne kulinarike – Chitagá,4,NE,DA,638
+639,Družinski ogled mesta – Damiao,2,DA,DA,639
+640,Kulturni sprehod – Kampungladang,1,NE,NE,640
+641,Sprehod po mestnem središču – Barisan,5,NE,DA,641
+642,Kolesarski ogled mesta – Czerwieńsk,3,DA,DA,642
+643,Ogled lokalne arhitekture – Elbasan,3,NE,DA,643
+644,Obisk lokalne tržnice – Slovenj Gradec,4,NE,DA,644
+645,Fotografski sprehod – Alubijid,1,DA,NE,645
+646,Okušanje lokalne kulinarike – San Francisco,3,NE,DA,646
+647,Družinski ogled mesta – Embarcación,3,NE,DA,647
+648,Kulturni sprehod – Polkowice,3,DA,DA,648
+649,Sprehod po mestnem središču – Aného,2,NE,DA,649
+650,Kolesarski ogled mesta – Qifang,5,NE,NE,650
+651,Ogled lokalne arhitekture – Tripoli,4,DA,DA,651
+652,Obisk lokalne tržnice – Dalai,2,NE,DA,652
+653,Fotografski sprehod – Brodarica,3,NE,DA,653
+654,Okušanje lokalne kulinarike – Sorang,4,DA,DA,654
+655,Družinski ogled mesta – Batán,4,NE,NE,655
+656,Kulturni sprehod – Töysä,2,NE,DA,656
+657,Sprehod po mestnem središču – Dedenëvo,3,DA,DA,657
+658,Kolesarski ogled mesta – Ruen,3,NE,DA,658
+659,Ogled lokalne arhitekture – Segodim,2,NE,DA,659
+660,Obisk lokalne tržnice – Iquipi,2,DA,NE,660
+661,Fotografski sprehod – Buenavista,2,NE,DA,661
+662,Okušanje lokalne kulinarike – Mahaplag,3,NE,DA,662
+663,Družinski ogled mesta – Banjar Triwangsakeliki,4,DA,DA,663
+664,Kulturni sprehod – Thanh Xuân,2,NE,DA,664
+665,Sprehod po mestnem središču – Morelos,4,NE,NE,665
+666,Kolesarski ogled mesta – Hancheng,2,DA,DA,666
+667,Ogled lokalne arhitekture – Malanów,4,NE,DA,667
+668,Obisk lokalne tržnice – Štěnovice,1,NE,DA,668
+669,Fotografski sprehod – Biguaçu,1,DA,DA,669
+670,Okušanje lokalne kulinarike – Concepción,1,NE,NE,670
+671,Družinski ogled mesta – Samburat,2,NE,DA,671
+672,Kulturni sprehod – Montesson,2,DA,DA,672
+673,Sprehod po mestnem središču – Jincheng,4,NE,DA,673
+674,Kolesarski ogled mesta – Shangfang,2,NE,DA,674
+675,Ogled lokalne arhitekture – Useldange,4,DA,NE,675
+676,Obisk lokalne tržnice – Villefranche-sur-Mer,4,NE,DA,676
+677,Fotografski sprehod – Ganyesa,3,NE,DA,677
+678,Okušanje lokalne kulinarike – Tabalong,4,DA,DA,678
+679,Družinski ogled mesta – Al Marj,5,NE,DA,679
+680,Kulturni sprehod – Pudong,3,NE,NE,680
+681,Sprehod po mestnem središču – Dasongshu,4,DA,DA,681
+682,Kolesarski ogled mesta – Oslo,2,NE,DA,682
+683,Ogled lokalne arhitekture – Curiapo,3,NE,DA,683
+684,Obisk lokalne tržnice – Prozor,4,DA,DA,684
+685,Fotografski sprehod – Mourelos,4,NE,NE,685
+686,Okušanje lokalne kulinarike – Iquique,5,NE,DA,686
+687,Družinski ogled mesta – Shaba,2,DA,DA,687
+688,Kulturni sprehod – Gazanjyk,4,NE,DA,688
+689,Sprehod po mestnem središču – Khon Buri,4,NE,DA,689
+690,Kolesarski ogled mesta – Hendījān,2,DA,NE,690
+691,Ogled lokalne arhitekture – Tonglin,2,NE,DA,691
+692,Obisk lokalne tržnice – Élancourt,2,NE,DA,692
+693,Fotografski sprehod – Porciúncula,2,DA,DA,693
+694,Okušanje lokalne kulinarike – Aveleda,2,NE,DA,694
+695,Družinski ogled mesta – Parnamirim,3,NE,NE,695
+696,Kulturni sprehod – Santo Niño,3,DA,DA,696
+697,Sprehod po mestnem središču – Hailin,5,NE,DA,697
+698,Kolesarski ogled mesta – Villa del Rosario,2,NE,DA,698
+699,Ogled lokalne arhitekture – Lijia,2,DA,DA,699
+700,Obisk lokalne tržnice – Yanagawamachi-saiwaichō,2,NE,NE,700
+701,Fotografski sprehod – Huangzhai,4,NE,DA,701
+702,Okušanje lokalne kulinarike – Rafael Perazza,4,DA,DA,702
+703,Družinski ogled mesta – Kalmar,4,NE,DA,703
+704,Kulturni sprehod – Baidoa,5,NE,DA,704
+705,Sprehod po mestnem središču – Guiyang,4,DA,NE,705
+706,Kolesarski ogled mesta – Nowy Sącz,4,NE,DA,706
+707,Ogled lokalne arhitekture – Moravská Nová Ves,5,NE,DA,707
+708,Obisk lokalne tržnice – Skeldon,3,DA,DA,708
+709,Fotografski sprehod – Carpalho,3,NE,DA,709
+710,Okušanje lokalne kulinarike – El Ángel,2,NE,NE,710
+711,Družinski ogled mesta – Hachiōji,1,DA,DA,711
+712,Kulturni sprehod – Aurora,3,NE,DA,712
+713,Sprehod po mestnem središču – Dayin,4,NE,DA,713
+714,Kolesarski ogled mesta – Shenjing,5,DA,DA,714
+715,Ogled lokalne arhitekture – Curridabat,5,NE,NE,715
+716,Obisk lokalne tržnice – Tubarão,1,NE,DA,716
+717,Fotografski sprehod – Calvinia,4,DA,DA,717
+718,Okušanje lokalne kulinarike – Koszyce Wielkie,2,NE,DA,718
+719,Družinski ogled mesta – Huangjingba,2,NE,DA,719
+720,Kulturni sprehod – Eusébio,3,DA,NE,720
+721,Sprehod po mestnem središču – Levski,5,NE,DA,721
+722,Kolesarski ogled mesta – São João da Barra,4,NE,DA,722
+723,Ogled lokalne arhitekture – Rios Frios,4,DA,DA,723
+724,Obisk lokalne tržnice – Liangbing,1,NE,DA,724
+725,Fotografski sprehod – Fujisawa,3,NE,NE,725
+726,Okušanje lokalne kulinarike – Sasa,3,DA,DA,726
+727,Družinski ogled mesta – Guadalupe,4,NE,DA,727
+728,Kulturni sprehod – Qarah Bāgh Bāzār,3,NE,DA,728
+729,Sprehod po mestnem središču – Katoro,1,DA,DA,729
+730,Kolesarski ogled mesta – Boulogne-sur-Mer,1,NE,NE,730
+731,Ogled lokalne arhitekture – Kampong Cham,4,NE,DA,731
+732,Obisk lokalne tržnice – Zdiby,5,DA,DA,732
+733,Fotografski sprehod – Jönköping,5,NE,DA,733
+734,Okušanje lokalne kulinarike – Caherconlish,3,NE,DA,734
+735,Družinski ogled mesta – Sheshan,4,DA,NE,735
+736,Kulturni sprehod – Malvinas Argentinas,2,NE,DA,736
+737,Sprehod po mestnem središču – Pogranichnyy,5,NE,DA,737
+738,Kolesarski ogled mesta – Dauphin,2,DA,DA,738
+739,Ogled lokalne arhitekture – Stockholm,5,NE,DA,739
+740,Obisk lokalne tržnice – Sa Kaeo,4,NE,NE,740
+741,Fotografski sprehod – Sagaing,1,DA,DA,741
+742,Okušanje lokalne kulinarike – Parramos,5,NE,DA,742
+743,Družinski ogled mesta – Maru,4,NE,DA,743
+744,Kulturni sprehod – Huari,3,DA,DA,744
+745,Sprehod po mestnem središču – Mamponteng,3,NE,NE,745
+746,Kolesarski ogled mesta – Eixo,4,NE,DA,746
+747,Ogled lokalne arhitekture – Kalininaul,4,DA,DA,747
+748,Obisk lokalne tržnice – Jiangmen,4,NE,DA,748
+749,Fotografski sprehod – Krasica,5,NE,DA,749
+750,Okušanje lokalne kulinarike – Viana,5,DA,NE,750
+751,Družinski ogled mesta – Kuanfeu,2,NE,DA,751
+752,Kulturni sprehod – Selasari,3,NE,DA,752
+753,Sprehod po mestnem središču – Maracha,3,DA,DA,753
+754,Kolesarski ogled mesta – Busia,4,NE,DA,754
+755,Ogled lokalne arhitekture – Piekielnik,4,NE,NE,755
+756,Obisk lokalne tržnice – Ceres,3,DA,DA,756
+757,Fotografski sprehod – Vodnyy,3,NE,DA,757
+758,Okušanje lokalne kulinarike – Choroszcz,2,NE,DA,758
+759,Družinski ogled mesta – Kyzylorda,4,DA,DA,759
+760,Kulturni sprehod – Donji Dobrić,3,NE,NE,760
+761,Sprehod po mestnem središču – Kailahun,4,NE,DA,761
+762,Kolesarski ogled mesta – Nova Era,2,DA,DA,762
+763,Ogled lokalne arhitekture – Chuoyuan,3,NE,DA,763
+764,Obisk lokalne tržnice – Bukovany,2,NE,DA,764
+765,Fotografski sprehod – Ongi,2,DA,NE,765
+766,Okušanje lokalne kulinarike – Nauchnyy Gorodok,4,NE,DA,766
+767,Družinski ogled mesta – Brinje,3,NE,DA,767
+768,Kulturni sprehod – Safakulevo,2,DA,DA,768
+769,Sprehod po mestnem središču – Kokkini Trimithia,2,NE,DA,769
+770,Kolesarski ogled mesta – Abakan,4,NE,NE,770
+771,Ogled lokalne arhitekture – New Mīrpur,4,DA,DA,771
+772,Obisk lokalne tržnice – Batan,1,NE,DA,772
+773,Fotografski sprehod – Mauhao,3,NE,DA,773
+774,Okušanje lokalne kulinarike – Puspajaya,5,DA,DA,774
+775,Družinski ogled mesta – Mogok,2,NE,NE,775
+776,Kulturni sprehod – Macroom,2,NE,DA,776
+777,Sprehod po mestnem središču – Taytayan,2,DA,DA,777
+778,Kolesarski ogled mesta – High Point,2,NE,DA,778
+779,Ogled lokalne arhitekture – Eling,2,NE,DA,779
+780,Obisk lokalne tržnice – Tvøroyri,5,DA,NE,780
+781,Fotografski sprehod – Waigete,2,NE,DA,781
+782,Okušanje lokalne kulinarike – Berlin,3,NE,DA,782
+783,Družinski ogled mesta – Jammāl,3,DA,DA,783
+784,Kulturni sprehod – San Antonio,5,NE,DA,784
+785,Sprehod po mestnem središču – Nowe,4,NE,NE,785
+786,Kolesarski ogled mesta – Currais,4,DA,DA,786
+787,Ogled lokalne arhitekture – Pandanwangi,2,NE,DA,787
+788,Obisk lokalne tržnice – Curuan,3,NE,DA,788
+789,Fotografski sprehod – Famagusta,5,DA,DA,789
+790,Okušanje lokalne kulinarike – Naas,2,NE,NE,790
+791,Družinski ogled mesta – Jambesari,3,NE,DA,791
+792,Kulturni sprehod – Tarhuna,2,DA,DA,792
+793,Sprehod po mestnem središču – Trnava,3,NE,DA,793
+794,Kolesarski ogled mesta – Nanjiao,3,NE,DA,794
+795,Ogled lokalne arhitekture – Zhixia,3,DA,NE,795
+796,Obisk lokalne tržnice – Pakalongan,1,NE,DA,796
+797,Fotografski sprehod – Nanhai,4,NE,DA,797
+798,Okušanje lokalne kulinarike – Trinidad,5,DA,DA,798
+799,Družinski ogled mesta – Ngaoundéré,4,NE,DA,799
+800,Kulturni sprehod – Embu,3,NE,NE,800
+801,Sprehod po mestnem središču – Golden,4,DA,DA,801
+802,Kolesarski ogled mesta – Bogi,2,NE,DA,802
+803,Ogled lokalne arhitekture – Cabanilla,4,NE,DA,803
+804,Obisk lokalne tržnice – Suna,4,DA,DA,804
+805,Fotografski sprehod – A-da-Gorda,3,NE,NE,805
+806,Okušanje lokalne kulinarike – Lille,5,NE,DA,806
+807,Družinski ogled mesta – Catache,4,DA,DA,807
+808,Kulturni sprehod – Simão Dias,4,NE,DA,808
+809,Sprehod po mestnem središču – Qarqania,4,NE,DA,809
+810,Kolesarski ogled mesta – Hongqi,3,DA,NE,810
+811,Ogled lokalne arhitekture – Caldelas,1,NE,DA,811
+812,Obisk lokalne tržnice – Kan’onjichō,3,NE,DA,812
+813,Fotografski sprehod – Katiola,2,DA,DA,813
+814,Okušanje lokalne kulinarike – Alegre,4,NE,DA,814
+815,Družinski ogled mesta – Junshan,4,NE,NE,815
+816,Kulturni sprehod – Chao,4,DA,DA,816
+817,Sprehod po mestnem središču – Clorinda,3,NE,DA,817
+818,Kolesarski ogled mesta – Timbrangan,2,NE,DA,818
+819,Ogled lokalne arhitekture – Vithkuq,4,DA,DA,819
+820,Obisk lokalne tržnice – Ngã Bảy,4,NE,NE,820
+821,Fotografski sprehod – Ymittos,4,NE,DA,821
+822,Okušanje lokalne kulinarike – San Mariano,3,DA,DA,822
+823,Družinski ogled mesta – Jiujie,4,NE,DA,823
+824,Kulturni sprehod – Ashley,5,NE,DA,824
+825,Sprehod po mestnem središču – Centre de Flacq,2,DA,NE,825
+826,Kolesarski ogled mesta – Paseh,4,NE,DA,826
+827,Ogled lokalne arhitekture – Malunda,5,NE,DA,827
+828,Obisk lokalne tržnice – Álftanes,2,DA,DA,828
+829,Fotografski sprehod – Sumberbatas,2,NE,DA,829
+830,Okušanje lokalne kulinarike – Baitang,3,NE,NE,830
+831,Družinski ogled mesta – Keti Bandar,4,DA,DA,831
+832,Kulturni sprehod – Burgersfort,3,NE,DA,832
+833,Sprehod po mestnem središču – Dinan,3,NE,DA,833
+834,Kolesarski ogled mesta – Genet,2,DA,DA,834
+835,Ogled lokalne arhitekture – Novozavidovskiy,5,NE,NE,835
+836,Obisk lokalne tržnice – Malanay,4,NE,DA,836
+837,Fotografski sprehod – Har-Us,5,DA,DA,837
+838,Okušanje lokalne kulinarike – Hamilton,2,NE,DA,838
+839,Družinski ogled mesta – Daykitin,5,NE,DA,839
+840,Kulturni sprehod – Sasa,4,DA,NE,840
+841,Sprehod po mestnem središču – Chishui,2,NE,DA,841
+842,Kolesarski ogled mesta – Aguazul,1,NE,DA,842
+843,Ogled lokalne arhitekture – Velyki Sorochyntsi,2,DA,DA,843
+844,Obisk lokalne tržnice – Clarin,5,NE,DA,844
+845,Fotografski sprehod – Rowokangkung,4,NE,NE,845
+846,Okušanje lokalne kulinarike – Brniště,2,DA,DA,846
+847,Družinski ogled mesta – Zhili,2,NE,DA,847
+848,Kulturni sprehod – Moyo,2,NE,DA,848
+849,Sprehod po mestnem središču – Villa del Rosario,5,DA,DA,849
+850,Kolesarski ogled mesta – Watuweri,3,NE,NE,850
+851,Ogled lokalne arhitekture – Cullhuas,5,NE,DA,851
+852,Obisk lokalne tržnice – Olhão,4,DA,DA,852
+853,Fotografski sprehod – Dunlewy,2,NE,DA,853
+854,Okušanje lokalne kulinarike – Momil,5,NE,DA,854
+855,Družinski ogled mesta – Cookshire-Eaton,3,DA,NE,855
+856,Kulturni sprehod – Oslo,4,NE,DA,856
+857,Sprehod po mestnem središču – Fort Wayne,2,NE,DA,857
+858,Kolesarski ogled mesta – Bukovany,1,DA,DA,858
+859,Ogled lokalne arhitekture – Tsyelyakhany,3,NE,DA,859
+860,Obisk lokalne tržnice – Binubusan,4,NE,NE,860
+861,Fotografski sprehod – Xo’jayli Shahri,4,DA,DA,861
+862,Okušanje lokalne kulinarike – Mora,1,NE,DA,862
+863,Družinski ogled mesta – Fengyang Fuchengzhen,2,NE,DA,863
+864,Kulturni sprehod – Mingora,4,DA,DA,864
+865,Sprehod po mestnem središču – Jablonec nad Nisou,1,NE,NE,865
+866,Kolesarski ogled mesta – Itapagé,3,NE,DA,866
+867,Ogled lokalne arhitekture – Wete,3,DA,DA,867
+868,Obisk lokalne tržnice – Bundoran,5,NE,DA,868
+869,Fotografski sprehod – Putrajaya,1,NE,DA,869
+870,Okušanje lokalne kulinarike – Saint Louis,2,DA,NE,870
+871,Družinski ogled mesta – Nioro,1,NE,DA,871
+872,Kulturni sprehod – Tlutup,3,NE,DA,872
+873,Sprehod po mestnem središču – Petare,2,DA,DA,873
+874,Kolesarski ogled mesta – Mesa,3,NE,DA,874
+875,Ogled lokalne arhitekture – Caleufú,5,NE,NE,875
+876,Obisk lokalne tržnice – Desa Gegempalan,1,DA,DA,876
+877,Fotografski sprehod – Bern,2,NE,DA,877
+878,Okušanje lokalne kulinarike – Piúma,2,NE,DA,878
+879,Družinski ogled mesta – Brazzaville,5,DA,DA,879
+880,Kulturni sprehod – Tungipāra,2,NE,NE,880
+881,Sprehod po mestnem središču – Sørvágur,3,NE,DA,881
+882,Kolesarski ogled mesta – Manisi,2,DA,DA,882
+883,Ogled lokalne arhitekture – Luna,4,NE,DA,883
+884,Obisk lokalne tržnice – Velké Losiny,4,NE,DA,884
+885,Fotografski sprehod – Godong,3,DA,NE,885
+886,Okušanje lokalne kulinarike – Linköping,4,NE,DA,886
+887,Družinski ogled mesta – Agía Varvára,2,NE,DA,887
+888,Kulturni sprehod – Laprida,4,DA,DA,888
+889,Sprehod po mestnem središču – José Bonifácio,5,NE,DA,889
+890,Kolesarski ogled mesta – Dagou,1,NE,NE,890
+891,Ogled lokalne arhitekture – Ozërsk,1,DA,DA,891
+892,Obisk lokalne tržnice – Tarumizu,2,NE,DA,892
+893,Fotografski sprehod – Esquina,4,NE,DA,893
+894,Okušanje lokalne kulinarike – Pleasant Point,4,DA,DA,894
+895,Družinski ogled mesta – Datun,4,NE,NE,895
+896,Kulturni sprehod – Bhakkar,5,NE,DA,896
+897,Sprehod po mestnem središču – Bodzentyn,3,DA,DA,897
+898,Kolesarski ogled mesta – Cherga,3,NE,DA,898
+899,Ogled lokalne arhitekture – Igarapé Açu,4,NE,DA,899
+900,Obisk lokalne tržnice – Penticton,2,DA,NE,900
+901,Fotografski sprehod – Shangdu,1,NE,DA,901
+902,Okušanje lokalne kulinarike – Mascouche,3,NE,DA,902
+903,Družinski ogled mesta – Dadaha,3,DA,DA,903
+904,Kulturni sprehod – Pule,2,NE,DA,904
+905,Sprehod po mestnem središču – Garešnica,2,NE,NE,905
+906,Kolesarski ogled mesta – Wąbrzeźno,2,DA,DA,906
+907,Ogled lokalne arhitekture – Onsala,3,NE,DA,907
+908,Obisk lokalne tržnice – Mohelno,3,NE,DA,908
+909,Fotografski sprehod – Starokucherganovka,4,DA,DA,909
+910,Okušanje lokalne kulinarike – Kveda Chkhorots’q’u,4,NE,NE,910
+911,Družinski ogled mesta – Sorochinsk,3,NE,DA,911
+912,Kulturni sprehod – Pisang,1,DA,DA,912
+913,Sprehod po mestnem središču – Marka,5,NE,DA,913
+914,Kolesarski ogled mesta – Amarillo,5,NE,DA,914
+915,Ogled lokalne arhitekture – New York City,4,DA,NE,915
+916,Obisk lokalne tržnice – Spitak,3,NE,DA,916
+917,Fotografski sprehod – Pailou,3,NE,DA,917
+918,Okušanje lokalne kulinarike – Chodów,4,DA,DA,918
+919,Družinski ogled mesta – Palangue,4,NE,DA,919
+920,Kulturni sprehod – Bishan,2,NE,NE,920
+921,Sprehod po mestnem središču – Ursk,3,DA,DA,921
+922,Kolesarski ogled mesta – Villasis,4,NE,DA,922
+923,Ogled lokalne arhitekture – Dahu,1,NE,DA,923
+924,Obisk lokalne tržnice – Butembo,4,DA,DA,924
+925,Fotografski sprehod – Vol’no-Nadezhdinskoye,3,NE,NE,925
+926,Okušanje lokalne kulinarike – Kocēni,3,NE,DA,926
+927,Družinski ogled mesta – Xihongmen,2,DA,DA,927
+928,Kulturni sprehod – Chedao,2,NE,DA,928
+929,Sprehod po mestnem središču – Bellavista,3,NE,DA,929
+930,Kolesarski ogled mesta – Kabongan Kidul,2,DA,NE,930
+931,Ogled lokalne arhitekture – Sosnovaya Polyana,5,NE,DA,931
+932,Obisk lokalne tržnice – Sevilla,1,NE,DA,932
+933,Fotografski sprehod – Pokachi,4,DA,DA,933
+934,Okušanje lokalne kulinarike – Umm al Qaywayn,3,NE,DA,934
+935,Družinski ogled mesta – Bukovec,2,NE,NE,935
+936,Kulturni sprehod – Somovo,1,DA,DA,936
+937,Sprehod po mestnem središču – Chengzi,3,NE,DA,937
+938,Kolesarski ogled mesta – Söderköping,5,NE,DA,938
+939,Ogled lokalne arhitekture – Verdizela,5,DA,DA,939
+940,Obisk lokalne tržnice – La Plata,2,NE,NE,940
+941,Fotografski sprehod – Taungoo,1,NE,DA,941
+942,Okušanje lokalne kulinarike – Yanacancha,4,DA,DA,942
+943,Družinski ogled mesta – Tucaní,3,NE,DA,943
+944,Kulturni sprehod – Memória,1,NE,DA,944
+945,Sprehod po mestnem središču – Narutō,4,DA,NE,945
+946,Kolesarski ogled mesta – Khalīlābād,3,NE,DA,946
+947,Ogled lokalne arhitekture – Buynichy,1,NE,DA,947
+948,Obisk lokalne tržnice – Emplak,3,DA,DA,948
+949,Fotografski sprehod – That Phanom,4,NE,DA,949
+950,Okušanje lokalne kulinarike – Ar Rass,3,NE,NE,950
+951,Družinski ogled mesta – Huangzhou,3,DA,DA,951
+952,Kulturni sprehod – El Tejocote,3,NE,DA,952
+953,Sprehod po mestnem središču – Ugep,4,NE,DA,953
+954,Kolesarski ogled mesta – Khong,4,DA,DA,954
+955,Ogled lokalne arhitekture – Maogang,2,NE,NE,955
+956,Obisk lokalne tržnice – San Jose,2,NE,DA,956
+957,Fotografski sprehod – Albany,1,DA,DA,957
+958,Okušanje lokalne kulinarike – Kota Bharu,3,NE,DA,958
+959,Družinski ogled mesta – Bulqizë,4,NE,DA,959
+960,Kulturni sprehod – Khoroshëvo-Mnevniki,3,DA,NE,960
+961,Sprehod po mestnem središču – Marvdasht,2,NE,DA,961
+962,Kolesarski ogled mesta – Bolgar,5,NE,DA,962
+963,Ogled lokalne arhitekture – Nahāvand,1,DA,DA,963
+964,Obisk lokalne tržnice – Tola,2,NE,DA,964
+965,Fotografski sprehod – Kokkónion,3,NE,NE,965
+966,Okušanje lokalne kulinarike – Pingxiang,4,DA,DA,966
+967,Družinski ogled mesta – Płońsk,3,NE,DA,967
+968,Kulturni sprehod – Wuping,4,NE,DA,968
+969,Sprehod po mestnem središču – Xinxu,2,DA,DA,969
+970,Kolesarski ogled mesta – Santa Teresa,4,NE,NE,970
+971,Ogled lokalne arhitekture – Saku,4,NE,DA,971
+972,Obisk lokalne tržnice – Menampukrajan,2,DA,DA,972
+973,Fotografski sprehod – Neglasari,4,NE,DA,973
+974,Okušanje lokalne kulinarike – Tomilino,5,NE,DA,974
+975,Družinski ogled mesta – Cilangkap,3,DA,NE,975
+976,Kulturni sprehod – Fudian,3,NE,DA,976
+977,Sprehod po mestnem središču – Anchorage,5,NE,DA,977
+978,Kolesarski ogled mesta – Orosh,4,DA,DA,978
+979,Ogled lokalne arhitekture – Almargem do Bispo,4,NE,DA,979
+980,Obisk lokalne tržnice – La Libertad,5,NE,NE,980
+981,Fotografski sprehod – Shangtianba,3,DA,DA,981
+982,Okušanje lokalne kulinarike – El Cairo,5,NE,DA,982
+983,Družinski ogled mesta – Xiaowuzhan,5,NE,DA,983
+984,Kulturni sprehod – Ji Paraná,4,DA,DA,984
+985,Sprehod po mestnem središču – Ulster Spring,1,NE,NE,985
+986,Kolesarski ogled mesta – Chapimarca,3,NE,DA,986
+987,Ogled lokalne arhitekture – Tielong,4,DA,DA,987
+988,Obisk lokalne tržnice – Agen,2,NE,DA,988
+989,Fotografski sprehod – Kyzylorda,4,NE,DA,989
+990,Okušanje lokalne kulinarike – El Paso,4,DA,NE,990
+991,Družinski ogled mesta – Zvenyhorodka,3,NE,DA,991
+992,Kulturni sprehod – Bielefeld,3,NE,DA,992
+993,Sprehod po mestnem središču – Pigcawayan,5,DA,DA,993
+994,Kolesarski ogled mesta – Kabinda,3,NE,DA,994
+995,Ogled lokalne arhitekture – Luojiang,4,NE,NE,995
+996,Obisk lokalne tržnice – Jermenovci,5,DA,DA,996
+997,Fotografski sprehod – Piedra del Águila,4,NE,DA,997
+998,Okušanje lokalne kulinarike – Velikiye Luki,3,NE,DA,998
+999,Družinski ogled mesta – Novorozhdestvenskaya,4,DA,DA,999
+1000,Kulturni sprehod – Sidokumpul,1,NE,NE,1000
+1001,Družinski ogled znamenitosti – Ojo de Agua,4,DA,DA,1
+1002,Koncert lokalne glasbe – Ojo de Agua,5,DA,DA,1
+1003,Voden pohod po okolici – Ojo de Agua,3,NE,DA,1
+1004,Vodena fotografska tura – Madingou,5,DA,NE,2
+1005,Jutranji ogled mesta – Madingou,3,NE,DA,2
+1006,Obisk zgodovinske četrti – Madingou,4,NE,DA,2
+1007,Otroška ustvarjalna delavnica – Yueyang,3,DA,DA,3
+1008,Sprehod ob reki – Yueyang,4,NE,DA,3
+1009,Kolesarski izlet po mestu – Yueyang,5,NE,DA,3
+1010,Ogled verske dediščine – Bintawan,4,NE,DA,4
+1011,Vožnja z ladjico – Bintawan,5,DA,DA,4
+1012,Večerni kulturni sprehod – Bintawan,3,NE,NE,4
+1013,Piknik v mestnem parku – Jundiaí,5,NE,DA,5
+1014,Degustacija lokalnih jedi – Jundiaí,3,DA,NE,5
+1015,Ulična kulinarična tura – Jundiaí,4,DA,NE,5
+1016,Sprehod skozi mestni park – Cachoeiras de Macacu,3,NE,DA,6
+1017,Izlet v naravo v okolici mesta – Cachoeiras de Macacu,4,NE,DA,6
+1018,Arhitekturni sprehod – Cachoeiras de Macacu,5,NE,DA,6
+1019,Razgledna točka in fotografiranje – Rio Formoso,4,NE,DA,7
+1020,Interaktivni znanstveni center – Rio Formoso,5,DA,DA,7
+1021,Obisk mestne knjižnice – Rio Formoso,3,NE,DA,7
+1022,Plovba po reki ali jezeru – Kamień Pomorski,5,DA,DA,8
+1023,Obisk kulturnega centra – Kamień Pomorski,3,DA,DA,8
+1024,Delavnica tradicionalnih obrti – Kamień Pomorski,4,DA,DA,8
+1025,Raziskovanje lokalnih obrti – Vovchans’k,3,DA,DA,9
+1026,Ogled mestnih znamenitosti ponoči – Vovchans’k,4,DA,NE,9
+1027,Delavnica lokalne kulinarike – Vovchans’k,5,DA,DA,9
+1028,Vožnja s turističnim avtobusom – Mogadishu,4,DA,DA,10
+1029,Obisk zgodovinskega muzeja – Mogadishu,5,DA,DA,10
+1030,Obisk umetniške galerije – Mogadishu,3,DA,DA,10
+1031,Pokušina lokalnih sladic – Kalianyar Selatan,5,DA,DA,11
+1032,Obisk živalskega vrta – Kalianyar Selatan,3,DA,DA,11
+1033,Ogled športnega objekta – Kalianyar Selatan,4,DA,DA,11
+1034,Ogled lokalne tržnice – Boevange-sur-Attert,3,NE,DA,12
+1035,Obisk botaničnega vrta – Boevange-sur-Attert,4,DA,DA,12
+1036,Večerni razgled na mesto – Boevange-sur-Attert,5,NE,DA,12
+1037,Ogled zgodovinskih zgradb – Skaryszew,4,NE,DA,13
+1038,Obisk akvarija – Skaryszew,5,DA,DA,13
+1039,Obisk lokalnega sejma – Skaryszew,3,NE,DA,13
+1040,Koncert lokalne glasbe – Linggou,5,DA,DA,14
+1041,Voden pohod po okolici – Linggou,3,NE,DA,14
+1042,Voden ogled starega mestnega jedra – Linggou,4,NE,DA,14
+1043,Jutranji ogled mesta – Louisville,3,NE,DA,15
+1044,Obisk zgodovinske četrti – Louisville,4,NE,DA,15
+1045,Družinski ogled znamenitosti – Louisville,5,DA,DA,15
+1046,Sprehod ob reki – Dabola,4,NE,DA,16
+1047,Kolesarski izlet po mestu – Dabola,5,NE,DA,16
+1048,Vodena fotografska tura – Dabola,3,DA,NE,16
+1049,Vožnja z ladjico – Göteborg,5,DA,DA,17
+1050,Večerni kulturni sprehod – Göteborg,3,NE,NE,17
+1051,Otroška ustvarjalna delavnica – Göteborg,4,DA,DA,17
+1052,Degustacija lokalnih jedi – Huambo,3,DA,NE,18
+1053,Ulična kulinarična tura – Huambo,4,DA,NE,18
+1054,Ogled verske dediščine – Huambo,5,NE,DA,18
+1055,Izlet v naravo v okolici mesta – Culasian,4,NE,DA,19
+1056,Arhitekturni sprehod – Culasian,5,NE,DA,19
+1057,Piknik v mestnem parku – Culasian,3,NE,DA,19
+1058,Interaktivni znanstveni center – Zhanping,5,DA,DA,20
+1059,Obisk mestne knjižnice – Zhanping,3,NE,DA,20
+1060,Sprehod skozi mestni park – Zhanping,4,NE,DA,20
+1061,Obisk kulturnega centra – Ifakara,3,DA,DA,21
+1062,Delavnica tradicionalnih obrti – Ifakara,4,DA,DA,21
+1063,Razgledna točka in fotografiranje – Ifakara,5,NE,DA,21
+1064,Ogled mestnih znamenitosti ponoči – Mt Peto,4,DA,NE,22
+1065,Delavnica lokalne kulinarike – Mt Peto,5,DA,DA,22
+1066,Plovba po reki ali jezeru – Mt Peto,3,DA,DA,22
+1067,Obisk zgodovinskega muzeja – Nanger,5,DA,DA,23
+1068,Obisk umetniške galerije – Nanger,3,DA,DA,23
+1069,Raziskovanje lokalnih obrti – Nanger,4,DA,DA,23
+1070,Obisk živalskega vrta – Kao Liao,3,DA,DA,24
+1071,Ogled športnega objekta – Kao Liao,4,DA,DA,24
+1072,Vožnja s turističnim avtobusom – Kao Liao,5,DA,DA,24
+1073,Obisk botaničnega vrta – Kongtian,4,DA,DA,25
+1074,Večerni razgled na mesto – Kongtian,5,NE,DA,25
+1075,Pokušina lokalnih sladic – Kongtian,3,DA,DA,25
+1076,Obisk akvarija – Bohutín,5,DA,DA,26
+1077,Obisk lokalnega sejma – Bohutín,3,NE,DA,26
+1078,Ogled lokalne tržnice – Bohutín,4,NE,DA,26
+1079,Voden pohod po okolici – Santa Cristina Couto,3,NE,DA,27
+1080,Voden ogled starega mestnega jedra – Santa Cristina Couto,4,NE,DA,27
+1081,Ogled zgodovinskih zgradb – Santa Cristina Couto,5,NE,DA,27
+1082,Obisk zgodovinske četrti – Youngstown,4,NE,DA,28
+1083,Družinski ogled znamenitosti – Youngstown,5,DA,DA,28
+1084,Koncert lokalne glasbe – Youngstown,3,DA,DA,28
+1085,Kolesarski izlet po mestu – Tangdong,5,NE,DA,29
+1086,Vodena fotografska tura – Tangdong,3,DA,NE,29
+1087,Jutranji ogled mesta – Tangdong,4,NE,DA,29
+1088,Večerni kulturni sprehod – Vinnytsya,3,NE,NE,30
+1089,Otroška ustvarjalna delavnica – Vinnytsya,4,DA,DA,30
+1090,Sprehod ob reki – Vinnytsya,5,NE,DA,30
+1091,Ulična kulinarična tura – Yayao,4,DA,NE,31
+1092,Ogled verske dediščine – Yayao,5,NE,DA,31
+1093,Vožnja z ladjico – Yayao,3,DA,DA,31
+1094,Arhitekturni sprehod – Peixing,5,NE,DA,32
+1095,Piknik v mestnem parku – Peixing,3,NE,DA,32
+1096,Degustacija lokalnih jedi – Peixing,4,DA,NE,32
+1097,Obisk mestne knjižnice – Itacurubí del Rosario,3,NE,DA,33
+1098,Sprehod skozi mestni park – Itacurubí del Rosario,4,NE,DA,33
+1099,Izlet v naravo v okolici mesta – Itacurubí del Rosario,5,NE,DA,33
+1100,Delavnica tradicionalnih obrti – Grugul,4,DA,DA,34
+1101,Razgledna točka in fotografiranje – Grugul,5,NE,DA,34
+1102,Interaktivni znanstveni center – Grugul,3,DA,DA,34
+1103,Delavnica lokalne kulinarike – Guder Lao,5,DA,DA,35
+1104,Plovba po reki ali jezeru – Guder Lao,3,DA,DA,35
+1105,Obisk kulturnega centra – Guder Lao,4,DA,DA,35
+1106,Obisk umetniške galerije – Siraway,3,DA,DA,36
+1107,Raziskovanje lokalnih obrti – Siraway,4,DA,DA,36
+1108,Ogled mestnih znamenitosti ponoči – Siraway,5,DA,NE,36
+1109,Ogled športnega objekta – Tuncheng,4,DA,DA,37
+1110,Vožnja s turističnim avtobusom – Tuncheng,5,DA,DA,37
+1111,Obisk zgodovinskega muzeja – Tuncheng,3,DA,DA,37
+1112,Večerni razgled na mesto – Shibi,5,NE,DA,38
+1113,Pokušina lokalnih sladic – Shibi,3,DA,DA,38
+1114,Obisk živalskega vrta – Shibi,4,DA,DA,38
+1115,Obisk lokalnega sejma – Shibīn al Qanāţir,3,NE,DA,39
+1116,Ogled lokalne tržnice – Shibīn al Qanāţir,4,NE,DA,39
+1117,Obisk botaničnega vrta – Shibīn al Qanāţir,5,DA,DA,39
+1118,Voden ogled starega mestnega jedra – Zagnitkiv,4,NE,DA,40
+1119,Ogled zgodovinskih zgradb – Zagnitkiv,5,NE,DA,40
+1120,Obisk akvarija – Zagnitkiv,3,DA,DA,40
+1121,Družinski ogled znamenitosti – Pueblo Nuevo,5,DA,DA,41
+1122,Koncert lokalne glasbe – Pueblo Nuevo,3,DA,DA,41
+1123,Voden pohod po okolici – Pueblo Nuevo,4,NE,DA,41
+1124,Vodena fotografska tura – Kronoby,3,DA,NE,42
+1125,Jutranji ogled mesta – Kronoby,4,NE,DA,42
+1126,Obisk zgodovinske četrti – Kronoby,5,NE,DA,42
+1127,Otroška ustvarjalna delavnica – Västervik,4,DA,DA,43
+1128,Sprehod ob reki – Västervik,5,NE,DA,43
+1129,Kolesarski izlet po mestu – Västervik,3,NE,DA,43
+1130,Ogled verske dediščine – Verkh-Usugli,5,NE,DA,44
+1131,Vožnja z ladjico – Verkh-Usugli,3,DA,DA,44
+1132,Večerni kulturni sprehod – Verkh-Usugli,4,NE,NE,44
+1133,Piknik v mestnem parku – Pedregal,3,NE,DA,45
+1134,Degustacija lokalnih jedi – Pedregal,4,DA,NE,45
+1135,Ulična kulinarična tura – Pedregal,5,DA,NE,45
+1136,Sprehod skozi mestni park – Fujinomiya,4,NE,DA,46
+1137,Izlet v naravo v okolici mesta – Fujinomiya,5,NE,DA,46
+1138,Arhitekturni sprehod – Fujinomiya,3,NE,DA,46
+1139,Razgledna točka in fotografiranje – Kuala Lumpur,5,NE,DA,47
+1140,Interaktivni znanstveni center – Kuala Lumpur,3,DA,DA,47
+1141,Obisk mestne knjižnice – Kuala Lumpur,4,NE,DA,47
+1142,Plovba po reki ali jezeru – El Hamma,3,DA,DA,48
+1143,Obisk kulturnega centra – El Hamma,4,DA,DA,48
+1144,Delavnica tradicionalnih obrti – El Hamma,5,DA,DA,48
+1145,Raziskovanje lokalnih obrti – Huangyuan Chengguanzhen,4,DA,DA,49
+1146,Ogled mestnih znamenitosti ponoči – Huangyuan Chengguanzhen,5,DA,NE,49
+1147,Delavnica lokalne kulinarike – Huangyuan Chengguanzhen,3,DA,DA,49
+1148,Vožnja s turističnim avtobusom – Tomorlog,5,DA,DA,50
+1149,Obisk zgodovinskega muzeja – Tomorlog,3,DA,DA,50
+1150,Obisk umetniške galerije – Tomorlog,4,DA,DA,50
+1151,Pokušina lokalnih sladic – Niort,3,DA,DA,51
+1152,Obisk živalskega vrta – Niort,4,DA,DA,51
+1153,Ogled športnega objekta – Niort,5,DA,DA,51
+1154,Ogled lokalne tržnice – Sampao,4,NE,DA,52
+1155,Obisk botaničnega vrta – Sampao,5,DA,DA,52
+1156,Večerni razgled na mesto – Sampao,3,NE,DA,52
+1157,Ogled zgodovinskih zgradb – Mali Iđoš,5,NE,DA,53
+1158,Obisk akvarija – Mali Iđoš,3,DA,DA,53
+1159,Obisk lokalnega sejma – Mali Iđoš,4,NE,DA,53
+1160,Koncert lokalne glasbe – Xinmin,3,DA,DA,54
+1161,Voden pohod po okolici – Xinmin,4,NE,DA,54
+1162,Voden ogled starega mestnega jedra – Xinmin,5,NE,DA,54
+1163,Jutranji ogled mesta – Paiçandu,4,NE,DA,55
+1164,Obisk zgodovinske četrti – Paiçandu,5,NE,DA,55
+1165,Družinski ogled znamenitosti – Paiçandu,3,DA,DA,55
+1166,Sprehod ob reki – Lyaskelya,5,NE,DA,56
+1167,Kolesarski izlet po mestu – Lyaskelya,3,NE,DA,56
+1168,Vodena fotografska tura – Lyaskelya,4,DA,NE,56
+1169,Vožnja z ladjico – Rumburk,3,DA,DA,57
+1170,Večerni kulturni sprehod – Rumburk,4,NE,NE,57
+1171,Otroška ustvarjalna delavnica – Rumburk,5,DA,DA,57
+1172,Degustacija lokalnih jedi – Strogino,4,DA,NE,58
+1173,Ulična kulinarična tura – Strogino,5,DA,NE,58
+1174,Ogled verske dediščine – Strogino,3,NE,DA,58
+1175,Izlet v naravo v okolici mesta – Montería,5,NE,DA,59
+1176,Arhitekturni sprehod – Montería,3,NE,DA,59
+1177,Piknik v mestnem parku – Montería,4,NE,DA,59
+1178,Interaktivni znanstveni center – Tobi Village,3,DA,DA,60
+1179,Obisk mestne knjižnice – Tobi Village,4,NE,DA,60
+1180,Sprehod skozi mestni park – Tobi Village,5,NE,DA,60
+1181,Obisk kulturnega centra – Longhua,4,DA,DA,61
+1182,Delavnica tradicionalnih obrti – Longhua,5,DA,DA,61
+1183,Razgledna točka in fotografiranje – Longhua,3,NE,DA,61
+1184,Ogled mestnih znamenitosti ponoči – Newcastle,5,DA,NE,62
+1185,Delavnica lokalne kulinarike – Newcastle,3,DA,DA,62
+1186,Plovba po reki ali jezeru – Newcastle,4,DA,DA,62
+1187,Obisk zgodovinskega muzeja – Kashima,3,DA,DA,63
+1188,Obisk umetniške galerije – Kashima,4,DA,DA,63
+1189,Raziskovanje lokalnih obrti – Kashima,5,DA,DA,63
+1190,Obisk živalskega vrta – Santa Quitéria do Maranhão,4,DA,DA,64
+1191,Ogled športnega objekta – Santa Quitéria do Maranhão,5,DA,DA,64
+1192,Vožnja s turističnim avtobusom – Santa Quitéria do Maranhão,3,DA,DA,64
+1193,Obisk botaničnega vrta – Fengshan,5,DA,DA,65
+1194,Večerni razgled na mesto – Fengshan,3,NE,DA,65
+1195,Pokušina lokalnih sladic – Fengshan,4,DA,DA,65
+1196,Obisk akvarija – Mazatenango,3,DA,DA,66
+1197,Obisk lokalnega sejma – Mazatenango,4,NE,DA,66
+1198,Ogled lokalne tržnice – Mazatenango,5,NE,DA,66
+1199,Voden pohod po okolici – Figueiras,4,NE,DA,67
+1200,Voden ogled starega mestnega jedra – Figueiras,5,NE,DA,67
+1201,Ogled zgodovinskih zgradb – Figueiras,3,NE,DA,67
+1202,Obisk zgodovinske četrti – Maranura,5,NE,DA,68
+1203,Družinski ogled znamenitosti – Maranura,3,DA,DA,68
+1204,Koncert lokalne glasbe – Maranura,4,DA,DA,68
+1205,Kolesarski izlet po mestu – Ashford,3,NE,DA,69
+1206,Vodena fotografska tura – Ashford,4,DA,NE,69
+1207,Jutranji ogled mesta – Ashford,5,NE,DA,69
+1208,Večerni kulturni sprehod – Longshan,4,NE,NE,70
+1209,Otroška ustvarjalna delavnica – Longshan,5,DA,DA,70
+1210,Sprehod ob reki – Longshan,3,NE,DA,70
+1211,Ulična kulinarična tura – Jiangkou,5,DA,NE,71
+1212,Ogled verske dediščine – Jiangkou,3,NE,DA,71
+1213,Vožnja z ladjico – Jiangkou,4,DA,DA,71
+1214,Arhitekturni sprehod – Amarillo,3,NE,DA,72
+1215,Piknik v mestnem parku – Amarillo,4,NE,DA,72
+1216,Degustacija lokalnih jedi – Amarillo,5,DA,NE,72
+1217,Obisk mestne knjižnice – Wanga,4,NE,DA,73
+1218,Sprehod skozi mestni park – Wanga,5,NE,DA,73
+1219,Izlet v naravo v okolici mesta – Wanga,3,NE,DA,73
+1220,Delavnica tradicionalnih obrti – Rokiciny,5,DA,DA,74
+1221,Razgledna točka in fotografiranje – Rokiciny,3,NE,DA,74
+1222,Interaktivni znanstveni center – Rokiciny,4,DA,DA,74
+1223,Delavnica lokalne kulinarike – Danao,3,DA,DA,75
+1224,Plovba po reki ali jezeru – Danao,4,DA,DA,75
+1225,Obisk kulturnega centra – Danao,5,DA,DA,75
+1226,Obisk umetniške galerije – Krolevets’,4,DA,DA,76
+1227,Raziskovanje lokalnih obrti – Krolevets’,5,DA,DA,76
+1228,Ogled mestnih znamenitosti ponoči – Krolevets’,3,DA,NE,76
+1229,Ogled športnega objekta – Cristóbal,5,DA,DA,77
+1230,Vožnja s turističnim avtobusom – Cristóbal,3,DA,DA,77
+1231,Obisk zgodovinskega muzeja – Cristóbal,4,DA,DA,77
+1232,Večerni razgled na mesto – Kalisangkrah Lor,3,NE,DA,78
+1233,Pokušina lokalnih sladic – Kalisangkrah Lor,4,DA,DA,78
+1234,Obisk živalskega vrta – Kalisangkrah Lor,5,DA,DA,78
+1235,Obisk lokalnega sejma – Xindai,4,NE,DA,79
+1236,Ogled lokalne tržnice – Xindai,5,NE,DA,79
+1237,Obisk botaničnega vrta – Xindai,3,DA,DA,79
+1238,Voden ogled starega mestnega jedra – La Coipa,5,NE,DA,80
+1239,Ogled zgodovinskih zgradb – La Coipa,3,NE,DA,80
+1240,Obisk akvarija – La Coipa,4,DA,DA,80
+1241,Družinski ogled znamenitosti – Nago,3,DA,DA,81
+1242,Koncert lokalne glasbe – Nago,4,DA,DA,81
+1243,Voden pohod po okolici – Nago,5,NE,DA,81
+1244,Vodena fotografska tura – Klwów,4,DA,NE,82
+1245,Jutranji ogled mesta – Klwów,5,NE,DA,82
+1246,Obisk zgodovinske četrti – Klwów,3,NE,DA,82
+1247,Otroška ustvarjalna delavnica – Banjar Kampungbugis,5,DA,DA,83
+1248,Sprehod ob reki – Banjar Kampungbugis,3,NE,DA,83
+1249,Kolesarski izlet po mestu – Banjar Kampungbugis,4,NE,DA,83
+1250,Ogled verske dediščine – Lakha Nëvre,3,NE,DA,84
+1251,Vožnja z ladjico – Lakha Nëvre,4,DA,DA,84
+1252,Večerni kulturni sprehod – Lakha Nëvre,5,NE,NE,84
+1253,Piknik v mestnem parku – Kérkyra,4,NE,DA,85
+1254,Degustacija lokalnih jedi – Kérkyra,5,DA,NE,85
+1255,Ulična kulinarična tura – Kérkyra,3,DA,NE,85
+1256,Sprehod skozi mestni park – Montes,5,NE,DA,86
+1257,Izlet v naravo v okolici mesta – Montes,3,NE,DA,86
+1258,Arhitekturni sprehod – Montes,4,NE,DA,86
+1259,Razgledna točka in fotografiranje – Tonekābon,3,NE,DA,87
+1260,Interaktivni znanstveni center – Tonekābon,4,DA,DA,87
+1261,Obisk mestne knjižnice – Tonekābon,5,NE,DA,87
+1262,Plovba po reki ali jezeru – Maco,4,DA,DA,88
+1263,Obisk kulturnega centra – Maco,5,DA,DA,88
+1264,Delavnica tradicionalnih obrti – Maco,3,DA,DA,88
+1265,Raziskovanje lokalnih obrti – To’rtko’l Shahri,5,DA,DA,89
+1266,Ogled mestnih znamenitosti ponoči – To’rtko’l Shahri,3,DA,NE,89
+1267,Delavnica lokalne kulinarike – To’rtko’l Shahri,4,DA,DA,89
+1268,Vožnja s turističnim avtobusom – Kadipaten,3,DA,DA,90
+1269,Obisk zgodovinskega muzeja – Kadipaten,4,DA,DA,90
+1270,Obisk umetniške galerije – Kadipaten,5,DA,DA,90
+1271,Pokušina lokalnih sladic – Géfyra,4,DA,DA,91
+1272,Obisk živalskega vrta – Géfyra,5,DA,DA,91
+1273,Ogled športnega objekta – Géfyra,3,DA,DA,91
+1274,Ogled lokalne tržnice – Cipatujah,5,NE,DA,92
+1275,Obisk botaničnega vrta – Cipatujah,3,DA,DA,92
+1276,Večerni razgled na mesto – Cipatujah,4,NE,DA,92
+1277,Ogled zgodovinskih zgradb – Koryukivka,3,NE,DA,93
+1278,Obisk akvarija – Koryukivka,4,DA,DA,93
+1279,Obisk lokalnega sejma – Koryukivka,5,NE,DA,93
+1280,Koncert lokalne glasbe – Pujiang,4,DA,DA,94
+1281,Voden pohod po okolici – Pujiang,5,NE,DA,94
+1282,Voden ogled starega mestnega jedra – Pujiang,3,NE,DA,94
+1283,Jutranji ogled mesta – San Nicolas,5,NE,DA,95
+1284,Obisk zgodovinske četrti – San Nicolas,3,NE,DA,95
+1285,Družinski ogled znamenitosti – San Nicolas,4,DA,DA,95
+1286,Sprehod ob reki – Ogod,3,NE,DA,96
+1287,Kolesarski izlet po mestu – Ogod,4,NE,DA,96
+1288,Vodena fotografska tura – Ogod,5,DA,NE,96
+1289,Vožnja z ladjico – Barranco de Loba,4,DA,DA,97
+1290,Večerni kulturni sprehod – Barranco de Loba,5,NE,NE,97
+1291,Otroška ustvarjalna delavnica – Barranco de Loba,3,DA,DA,97
+1292,Degustacija lokalnih jedi – Antes,5,DA,NE,98
+1293,Ulična kulinarična tura – Antes,3,DA,NE,98
+1294,Ogled verske dediščine – Antes,4,NE,DA,98
+1295,Izlet v naravo v okolici mesta – Foros de Salvaterra,3,NE,DA,99
+1296,Arhitekturni sprehod – Foros de Salvaterra,4,NE,DA,99
+1297,Piknik v mestnem parku – Foros de Salvaterra,5,NE,DA,99
+1298,Interaktivni znanstveni center – Oemofa,4,DA,DA,100
+1299,Obisk mestne knjižnice – Oemofa,5,NE,DA,100
+1300,Sprehod skozi mestni park – Oemofa,3,NE,DA,100
+1301,Obisk kulturnega centra – Guling,5,DA,DA,101
+1302,Delavnica tradicionalnih obrti – Guling,3,DA,DA,101
+1303,Razgledna točka in fotografiranje – Guling,4,NE,DA,101
+1304,Ogled mestnih znamenitosti ponoči – Zākhū,3,DA,NE,102
+1305,Delavnica lokalne kulinarike – Zākhū,4,DA,DA,102
+1306,Plovba po reki ali jezeru – Zākhū,5,DA,DA,102
+1307,Obisk zgodovinskega muzeja – Mushu,4,DA,DA,103
+1308,Obisk umetniške galerije – Mushu,5,DA,DA,103
+1309,Raziskovanje lokalnih obrti – Mushu,3,DA,DA,103
+1310,Obisk živalskega vrta – Borzoy,5,DA,DA,104
+1311,Ogled športnega objekta – Borzoy,3,DA,DA,104
+1312,Vožnja s turističnim avtobusom – Borzoy,4,DA,DA,104
+1313,Obisk botaničnega vrta – Qiaolin,3,DA,DA,105
+1314,Večerni razgled na mesto – Qiaolin,4,NE,DA,105
+1315,Pokušina lokalnih sladic – Qiaolin,5,DA,DA,105
+1316,Obisk akvarija – Ramat HaSharon,4,DA,DA,106
+1317,Obisk lokalnega sejma – Ramat HaSharon,5,NE,DA,106
+1318,Ogled lokalne tržnice – Ramat HaSharon,3,NE,DA,106
+1319,Voden pohod po okolici – Melgar,5,NE,DA,107
+1320,Voden ogled starega mestnega jedra – Melgar,3,NE,DA,107
+1321,Ogled zgodovinskih zgradb – Melgar,4,NE,DA,107
+1322,Obisk zgodovinske četrti – Yegor’yevsk,3,NE,DA,108
+1323,Družinski ogled znamenitosti – Yegor’yevsk,4,DA,DA,108
+1324,Koncert lokalne glasbe – Yegor’yevsk,5,DA,DA,108
+1325,Kolesarski izlet po mestu – Chunmuying,4,NE,DA,109
+1326,Vodena fotografska tura – Chunmuying,5,DA,NE,109
+1327,Jutranji ogled mesta – Chunmuying,3,NE,DA,109
+1328,Večerni kulturni sprehod – Gornorechenskiy,5,NE,NE,110
+1329,Otroška ustvarjalna delavnica – Gornorechenskiy,3,DA,DA,110
+1330,Sprehod ob reki – Gornorechenskiy,4,NE,DA,110
+1331,Ulična kulinarična tura – Zbraslav,3,DA,NE,111
+1332,Ogled verske dediščine – Zbraslav,4,NE,DA,111
+1333,Vožnja z ladjico – Zbraslav,5,DA,DA,111
+1334,Arhitekturni sprehod – Guazacapán,4,NE,DA,112
+1335,Piknik v mestnem parku – Guazacapán,5,NE,DA,112
+1336,Degustacija lokalnih jedi – Guazacapán,3,DA,NE,112
+1337,Obisk mestne knjižnice – Shancheng,5,NE,DA,113
+1338,Sprehod skozi mestni park – Shancheng,3,NE,DA,113
+1339,Izlet v naravo v okolici mesta – Shancheng,4,NE,DA,113
+1340,Delavnica tradicionalnih obrti – Bondokodi,3,DA,DA,114
+1341,Razgledna točka in fotografiranje – Bondokodi,4,NE,DA,114
+1342,Interaktivni znanstveni center – Bondokodi,5,DA,DA,114
+1343,Delavnica lokalne kulinarike – Boston,4,DA,DA,115
+1344,Plovba po reki ali jezeru – Boston,5,DA,DA,115
+1345,Obisk kulturnega centra – Boston,3,DA,DA,115
+1346,Obisk umetniške galerije – Suwalan,5,DA,DA,116
+1347,Raziskovanje lokalnih obrti – Suwalan,3,DA,DA,116
+1348,Ogled mestnih znamenitosti ponoči – Suwalan,4,DA,NE,116
+1349,Ogled športnega objekta – Gobō,3,DA,DA,117
+1350,Vožnja s turističnim avtobusom – Gobō,4,DA,DA,117
+1351,Obisk zgodovinskega muzeja – Gobō,5,DA,DA,117
+1352,Večerni razgled na mesto – Saparua,4,NE,DA,118
+1353,Pokušina lokalnih sladic – Saparua,5,DA,DA,118
+1354,Obisk živalskega vrta – Saparua,3,DA,DA,118
+1355,Obisk lokalnega sejma – Osoyoos,5,NE,DA,119
+1356,Ogled lokalne tržnice – Osoyoos,3,NE,DA,119
+1357,Obisk botaničnega vrta – Osoyoos,4,DA,DA,119
+1358,Voden ogled starega mestnega jedra – Bibirevo,3,NE,DA,120
+1359,Ogled zgodovinskih zgradb – Bibirevo,4,NE,DA,120
+1360,Obisk akvarija – Bibirevo,5,DA,DA,120
+1361,Družinski ogled znamenitosti – Fontinha,4,DA,DA,121
+1362,Koncert lokalne glasbe – Fontinha,5,DA,DA,121
+1363,Voden pohod po okolici – Fontinha,3,NE,DA,121
+1364,Vodena fotografska tura – Lat Lum Kaeo,5,DA,NE,122
+1365,Jutranji ogled mesta – Lat Lum Kaeo,3,NE,DA,122
+1366,Obisk zgodovinske četrti – Lat Lum Kaeo,4,NE,DA,122
+1367,Otroška ustvarjalna delavnica – Panacan,3,DA,DA,123
+1368,Sprehod ob reki – Panacan,4,NE,DA,123
+1369,Kolesarski izlet po mestu – Panacan,5,NE,DA,123
+1370,Ogled verske dediščine – Solânea,4,NE,DA,124
+1371,Vožnja z ladjico – Solânea,5,DA,DA,124
+1372,Večerni kulturni sprehod – Solânea,3,NE,NE,124
+1373,Piknik v mestnem parku – Zhouyuan,5,NE,DA,125
+1374,Degustacija lokalnih jedi – Zhouyuan,3,DA,NE,125
+1375,Ulična kulinarična tura – Zhouyuan,4,DA,NE,125
+1376,Sprehod skozi mestni park – Hongshan,3,NE,DA,126
+1377,Izlet v naravo v okolici mesta – Hongshan,4,NE,DA,126
+1378,Arhitekturni sprehod – Hongshan,5,NE,DA,126
+1379,Razgledna točka in fotografiranje – Venda do Alcaide,4,NE,DA,127
+1380,Interaktivni znanstveni center – Venda do Alcaide,5,DA,DA,127
+1381,Obisk mestne knjižnice – Venda do Alcaide,3,NE,DA,127
+1382,Plovba po reki ali jezeru – Iowa City,5,DA,DA,128
+1383,Obisk kulturnega centra – Iowa City,3,DA,DA,128
+1384,Delavnica tradicionalnih obrti – Iowa City,4,DA,DA,128
+1385,Raziskovanje lokalnih obrti – Toutai,3,DA,DA,129
+1386,Ogled mestnih znamenitosti ponoči – Toutai,4,DA,NE,129
+1387,Delavnica lokalne kulinarike – Toutai,5,DA,DA,129
+1388,Vožnja s turističnim avtobusom – Miraflores,4,DA,DA,130
+1389,Obisk zgodovinskega muzeja – Miraflores,5,DA,DA,130
+1390,Obisk umetniške galerije – Miraflores,3,DA,DA,130
+1391,Pokušina lokalnih sladic – Goubangzi,5,DA,DA,131
+1392,Obisk živalskega vrta – Goubangzi,3,DA,DA,131
+1393,Ogled športnega objekta – Goubangzi,4,DA,DA,131
+1394,Ogled lokalne tržnice – Mompós,3,NE,DA,132
+1395,Obisk botaničnega vrta – Mompós,4,DA,DA,132
+1396,Večerni razgled na mesto – Mompós,5,NE,DA,132
+1397,Ogled zgodovinskih zgradb – Brzeźnica,4,NE,DA,133
+1398,Obisk akvarija – Brzeźnica,5,DA,DA,133
+1399,Obisk lokalnega sejma – Brzeźnica,3,NE,DA,133
+1400,Koncert lokalne glasbe – Vasyl'evsky Ostrov,5,DA,DA,134
+1401,Voden pohod po okolici – Vasyl'evsky Ostrov,3,NE,DA,134
+1402,Voden ogled starega mestnega jedra – Vasyl'evsky Ostrov,4,NE,DA,134
+1403,Jutranji ogled mesta – Panorama,3,NE,DA,135
+1404,Obisk zgodovinske četrti – Panorama,4,NE,DA,135
+1405,Družinski ogled znamenitosti – Panorama,5,DA,DA,135
+1406,Sprehod ob reki – Pasirpanjang,4,NE,DA,136
+1407,Kolesarski izlet po mestu – Pasirpanjang,5,NE,DA,136
+1408,Vodena fotografska tura – Pasirpanjang,3,DA,NE,136
+1409,Vožnja z ladjico – Shijak,5,DA,DA,137
+1410,Večerni kulturni sprehod – Shijak,3,NE,NE,137
+1411,Otroška ustvarjalna delavnica – Shijak,4,DA,DA,137
+1412,Degustacija lokalnih jedi – Kortesjärvi,3,DA,NE,138
+1413,Ulična kulinarična tura – Kortesjärvi,4,DA,NE,138
+1414,Ogled verske dediščine – Kortesjärvi,5,NE,DA,138
+1415,Izlet v naravo v okolici mesta – Ushuaia,4,NE,DA,139
+1416,Arhitekturni sprehod – Ushuaia,5,NE,DA,139
+1417,Piknik v mestnem parku – Ushuaia,3,NE,DA,139
+1418,Interaktivni znanstveni center – Cola,5,DA,DA,140
+1419,Obisk mestne knjižnice – Cola,3,NE,DA,140
+1420,Sprehod skozi mestni park – Cola,4,NE,DA,140
+1421,Obisk kulturnega centra – Ponong,3,DA,DA,141
+1422,Delavnica tradicionalnih obrti – Ponong,4,DA,DA,141
+1423,Razgledna točka in fotografiranje – Ponong,5,NE,DA,141
+1424,Ogled mestnih znamenitosti ponoči – Del Pilar,4,DA,NE,142
+1425,Delavnica lokalne kulinarike – Del Pilar,5,DA,DA,142
+1426,Plovba po reki ali jezeru – Del Pilar,3,DA,DA,142
+1427,Obisk zgodovinskega muzeja – Banjar Jagasatru,5,DA,DA,143
+1428,Obisk umetniške galerije – Banjar Jagasatru,3,DA,DA,143
+1429,Raziskovanje lokalnih obrti – Banjar Jagasatru,4,DA,DA,143
+1430,Obisk živalskega vrta – Reszel,3,DA,DA,144
+1431,Ogled športnega objekta – Reszel,4,DA,DA,144
+1432,Vožnja s turističnim avtobusom – Reszel,5,DA,DA,144
+1433,Obisk botaničnega vrta – Nartkala,4,DA,DA,145
+1434,Večerni razgled na mesto – Nartkala,5,NE,DA,145
+1435,Pokušina lokalnih sladic – Nartkala,3,DA,DA,145
+1436,Obisk akvarija – Marondera,5,DA,DA,146
+1437,Obisk lokalnega sejma – Marondera,3,NE,DA,146
+1438,Ogled lokalne tržnice – Marondera,4,NE,DA,146
+1439,Voden pohod po okolici – Kolomak,3,NE,DA,147
+1440,Voden ogled starega mestnega jedra – Kolomak,4,NE,DA,147
+1441,Ogled zgodovinskih zgradb – Kolomak,5,NE,DA,147
+1442,Obisk zgodovinske četrti – Jinjing,4,NE,DA,148
+1443,Družinski ogled znamenitosti – Jinjing,5,DA,DA,148
+1444,Koncert lokalne glasbe – Jinjing,3,DA,DA,148
+1445,Kolesarski izlet po mestu – Liandu,5,NE,DA,149
+1446,Vodena fotografska tura – Liandu,3,DA,NE,149
+1447,Jutranji ogled mesta – Liandu,4,NE,DA,149
+1448,Večerni kulturni sprehod – Hammam Sousse,3,NE,NE,150
+1449,Otroška ustvarjalna delavnica – Hammam Sousse,4,DA,DA,150
+1450,Sprehod ob reki – Hammam Sousse,5,NE,DA,150
+1451,Ulična kulinarična tura – Guanhães,4,DA,NE,151
+1452,Ogled verske dediščine – Guanhães,5,NE,DA,151
+1453,Vožnja z ladjico – Guanhães,3,DA,DA,151
+1454,Arhitekturni sprehod – Bello,5,NE,DA,152
+1455,Piknik v mestnem parku – Bello,3,NE,DA,152
+1456,Degustacija lokalnih jedi – Bello,4,DA,NE,152
+1457,Obisk mestne knjižnice – Samanco,3,NE,DA,153
+1458,Sprehod skozi mestni park – Samanco,4,NE,DA,153
+1459,Izlet v naravo v okolici mesta – Samanco,5,NE,DA,153
+1460,Delavnica tradicionalnih obrti – Dyurtyuli,4,DA,DA,154
+1461,Razgledna točka in fotografiranje – Dyurtyuli,5,NE,DA,154
+1462,Interaktivni znanstveni center – Dyurtyuli,3,DA,DA,154
+1463,Delavnica lokalne kulinarike – Karangpawitan,5,DA,DA,155
+1464,Plovba po reki ali jezeru – Karangpawitan,3,DA,DA,155
+1465,Obisk kulturnega centra – Karangpawitan,4,DA,DA,155
+1466,Obisk umetniške galerije – Maracaju,3,DA,DA,156
+1467,Raziskovanje lokalnih obrti – Maracaju,4,DA,DA,156
+1468,Ogled mestnih znamenitosti ponoči – Maracaju,5,DA,NE,156
+1469,Ogled športnega objekta – Amnat Charoen,4,DA,DA,157
+1470,Vožnja s turističnim avtobusom – Amnat Charoen,5,DA,DA,157
+1471,Obisk zgodovinskega muzeja – Amnat Charoen,3,DA,DA,157
+1472,Večerni razgled na mesto – Oras,5,NE,DA,158
+1473,Pokušina lokalnih sladic – Oras,3,DA,DA,158
+1474,Obisk živalskega vrta – Oras,4,DA,DA,158
+1475,Obisk lokalnega sejma – Lizhai,3,NE,DA,159
+1476,Ogled lokalne tržnice – Lizhai,4,NE,DA,159
+1477,Obisk botaničnega vrta – Lizhai,5,DA,DA,159
+1478,Voden ogled starega mestnega jedra – Celendín,4,NE,DA,160
+1479,Ogled zgodovinskih zgradb – Celendín,5,NE,DA,160
+1480,Obisk akvarija – Celendín,3,DA,DA,160
+1481,Družinski ogled znamenitosti – Tsyurupyns’k,5,DA,DA,161
+1482,Koncert lokalne glasbe – Tsyurupyns’k,3,DA,DA,161
+1483,Voden pohod po okolici – Tsyurupyns’k,4,NE,DA,161
+1484,Vodena fotografska tura – Senta,3,DA,NE,162
+1485,Jutranji ogled mesta – Senta,4,NE,DA,162
+1486,Obisk zgodovinske četrti – Senta,5,NE,DA,162
+1487,Otroška ustvarjalna delavnica – Lanas,4,DA,DA,163
+1488,Sprehod ob reki – Lanas,5,NE,DA,163
+1489,Kolesarski izlet po mestu – Lanas,3,NE,DA,163
+1490,Ogled verske dediščine – Stara Kiszewa,5,NE,DA,164
+1491,Vožnja z ladjico – Stara Kiszewa,3,DA,DA,164
+1492,Večerni kulturni sprehod – Stara Kiszewa,4,NE,NE,164
+1493,Piknik v mestnem parku – Barubandung,3,NE,DA,165
+1494,Degustacija lokalnih jedi – Barubandung,4,DA,NE,165
+1495,Ulična kulinarična tura – Barubandung,5,DA,NE,165
+1496,Sprehod skozi mestni park – Bailizhou,4,NE,DA,166
+1497,Izlet v naravo v okolici mesta – Bailizhou,5,NE,DA,166
+1498,Arhitekturni sprehod – Bailizhou,3,NE,DA,166
+1499,Razgledna točka in fotografiranje – Toupi,5,NE,DA,167
+1500,Interaktivni znanstveni center – Toupi,3,DA,DA,167
+1501,Obisk mestne knjižnice – Toupi,4,NE,DA,167
+1502,Plovba po reki ali jezeru – Maracanaú,3,DA,DA,168
+1503,Obisk kulturnega centra – Maracanaú,4,DA,DA,168
+1504,Delavnica tradicionalnih obrti – Maracanaú,5,DA,DA,168
+1505,Raziskovanje lokalnih obrti – Pensacola,4,DA,DA,169
+1506,Ogled mestnih znamenitosti ponoči – Pensacola,5,DA,NE,169
+1507,Delavnica lokalne kulinarike – Pensacola,3,DA,DA,169
+1508,Vožnja s turističnim avtobusom – Shancheng,5,DA,DA,170
+1509,Obisk zgodovinskega muzeja – Shancheng,3,DA,DA,170
+1510,Obisk umetniške galerije – Shancheng,4,DA,DA,170
+1511,Pokušina lokalnih sladic – Tangzi,3,DA,DA,171
+1512,Obisk živalskega vrta – Tangzi,4,DA,DA,171
+1513,Ogled športnega objekta – Tangzi,5,DA,DA,171
+1514,Ogled lokalne tržnice – ‘Alīābād-e Katūl,4,NE,DA,172
+1515,Obisk botaničnega vrta – ‘Alīābād-e Katūl,5,DA,DA,172
+1516,Večerni razgled na mesto – ‘Alīābād-e Katūl,3,NE,DA,172
+1517,Ogled zgodovinskih zgradb – Oekefan,5,NE,DA,173
+1518,Obisk akvarija – Oekefan,3,DA,DA,173
+1519,Obisk lokalnega sejma – Oekefan,4,NE,DA,173
+1520,Koncert lokalne glasbe – Moulins,3,DA,DA,174
+1521,Voden pohod po okolici – Moulins,4,NE,DA,174
+1522,Voden ogled starega mestnega jedra – Moulins,5,NE,DA,174
+1523,Jutranji ogled mesta – Irtyshskiy,4,NE,DA,175
+1524,Obisk zgodovinske četrti – Irtyshskiy,5,NE,DA,175
+1525,Družinski ogled znamenitosti – Irtyshskiy,3,DA,DA,175
+1526,Sprehod ob reki – Singaraja,5,NE,DA,176
+1527,Kolesarski izlet po mestu – Singaraja,3,NE,DA,176
+1528,Vodena fotografska tura – Singaraja,4,DA,NE,176
+1529,Vožnja z ladjico – Gedongmulyo,3,DA,DA,177
+1530,Večerni kulturni sprehod – Gedongmulyo,4,NE,NE,177
+1531,Otroška ustvarjalna delavnica – Gedongmulyo,5,DA,DA,177
+1532,Degustacija lokalnih jedi – Ak’ordat,4,DA,NE,178
+1533,Ulična kulinarična tura – Ak’ordat,5,DA,NE,178
+1534,Ogled verske dediščine – Ak’ordat,3,NE,DA,178
+1535,Izlet v naravo v okolici mesta – Xarardheere,5,NE,DA,179
+1536,Arhitekturni sprehod – Xarardheere,3,NE,DA,179
+1537,Piknik v mestnem parku – Xarardheere,4,NE,DA,179
+1538,Interaktivni znanstveni center – Kholbon,3,DA,DA,180
+1539,Obisk mestne knjižnice – Kholbon,4,NE,DA,180
+1540,Sprehod skozi mestni park – Kholbon,5,NE,DA,180
+1541,Obisk kulturnega centra – Filimonovo,4,DA,DA,181
+1542,Delavnica tradicionalnih obrti – Filimonovo,5,DA,DA,181
+1543,Razgledna točka in fotografiranje – Filimonovo,3,NE,DA,181
+1544,Ogled mestnih znamenitosti ponoči – Toba Tek Singh,5,DA,NE,182
+1545,Delavnica lokalne kulinarike – Toba Tek Singh,3,DA,DA,182
+1546,Plovba po reki ali jezeru – Toba Tek Singh,4,DA,DA,182
+1547,Obisk zgodovinskega muzeja – Prosperous,3,DA,DA,183
+1548,Obisk umetniške galerije – Prosperous,4,DA,DA,183
+1549,Raziskovanje lokalnih obrti – Prosperous,5,DA,DA,183
+1550,Obisk živalskega vrta – Huancarqui,4,DA,DA,184
+1551,Ogled športnega objekta – Huancarqui,5,DA,DA,184
+1552,Vožnja s turističnim avtobusom – Huancarqui,3,DA,DA,184
+1553,Obisk botaničnega vrta – Hatavch,5,DA,DA,185
+1554,Večerni razgled na mesto – Hatavch,3,NE,DA,185
+1555,Pokušina lokalnih sladic – Hatavch,4,DA,DA,185
+1556,Obisk akvarija – Riba de Ave,3,DA,DA,186
+1557,Obisk lokalnega sejma – Riba de Ave,4,NE,DA,186
+1558,Ogled lokalne tržnice – Riba de Ave,5,NE,DA,186
+1559,Voden pohod po okolici – Frankfort,4,NE,DA,187
+1560,Voden ogled starega mestnega jedra – Frankfort,5,NE,DA,187
+1561,Ogled zgodovinskih zgradb – Frankfort,3,NE,DA,187
+1562,Obisk zgodovinske četrti – Lijiang,5,NE,DA,188
+1563,Družinski ogled znamenitosti – Lijiang,3,DA,DA,188
+1564,Koncert lokalne glasbe – Lijiang,4,DA,DA,188
+1565,Kolesarski izlet po mestu – Novosin’kovo,3,NE,DA,189
+1566,Vodena fotografska tura – Novosin’kovo,4,DA,NE,189
+1567,Jutranji ogled mesta – Novosin’kovo,5,NE,DA,189
+1568,Večerni kulturni sprehod – Fentange,4,NE,NE,190
+1569,Otroška ustvarjalna delavnica – Fentange,5,DA,DA,190
+1570,Sprehod ob reki – Fentange,3,NE,DA,190
+1571,Ulična kulinarična tura – Xilin Hot,5,DA,NE,191
+1572,Ogled verske dediščine – Xilin Hot,3,NE,DA,191
+1573,Vožnja z ladjico – Xilin Hot,4,DA,DA,191
+1574,Arhitekturni sprehod – La Paz,3,NE,DA,192
+1575,Piknik v mestnem parku – La Paz,4,NE,DA,192
+1576,Degustacija lokalnih jedi – La Paz,5,DA,NE,192
+1577,Obisk mestne knjižnice – Kifrī,4,NE,DA,193
+1578,Sprehod skozi mestni park – Kifrī,5,NE,DA,193
+1579,Izlet v naravo v okolici mesta – Kifrī,3,NE,DA,193
+1580,Delavnica tradicionalnih obrti – Akwanga,5,DA,DA,194
+1581,Razgledna točka in fotografiranje – Akwanga,3,NE,DA,194
+1582,Interaktivni znanstveni center – Akwanga,4,DA,DA,194
+1583,Delavnica lokalne kulinarike – Bogolyubovo,3,DA,DA,195
+1584,Plovba po reki ali jezeru – Bogolyubovo,4,DA,DA,195
+1585,Obisk kulturnega centra – Bogolyubovo,5,DA,DA,195
+1586,Obisk umetniške galerije – Leskovec pri Krškem,4,DA,DA,196
+1587,Raziskovanje lokalnih obrti – Leskovec pri Krškem,5,DA,DA,196
+1588,Ogled mestnih znamenitosti ponoči – Leskovec pri Krškem,3,DA,NE,196
+1589,Ogled športnega objekta – Huangjiabu,5,DA,DA,197
+1590,Vožnja s turističnim avtobusom – Huangjiabu,3,DA,DA,197
+1591,Obisk zgodovinskega muzeja – Huangjiabu,4,DA,DA,197
+1592,Večerni razgled na mesto – Xiwu,3,NE,DA,198
+1593,Pokušina lokalnih sladic – Xiwu,4,DA,DA,198
+1594,Obisk živalskega vrta – Xiwu,5,DA,DA,198
+1595,Obisk lokalnega sejma – Viterbo,4,NE,DA,199
+1596,Ogled lokalne tržnice – Viterbo,5,NE,DA,199
+1597,Obisk botaničnega vrta – Viterbo,3,DA,DA,199
+1598,Voden ogled starega mestnega jedra – Frederiksberg,5,NE,DA,200
+1599,Ogled zgodovinskih zgradb – Frederiksberg,3,NE,DA,200
+1600,Obisk akvarija – Frederiksberg,4,DA,DA,200
+1601,Družinski ogled znamenitosti – Sacramento,3,DA,DA,201
+1602,Koncert lokalne glasbe – Sacramento,4,DA,DA,201
+1603,Voden pohod po okolici – Sacramento,5,NE,DA,201
+1604,Vodena fotografska tura – Vidin,4,DA,NE,202
+1605,Jutranji ogled mesta – Vidin,5,NE,DA,202
+1606,Obisk zgodovinske četrti – Vidin,3,NE,DA,202
+1607,Otroška ustvarjalna delavnica – Upata,5,DA,DA,203
+1608,Sprehod ob reki – Upata,3,NE,DA,203
+1609,Kolesarski izlet po mestu – Upata,4,NE,DA,203
+1610,Ogled verske dediščine – Agara,3,NE,DA,204
+1611,Vožnja z ladjico – Agara,4,DA,DA,204
+1612,Večerni kulturni sprehod – Agara,5,NE,NE,204
+1613,Piknik v mestnem parku – Ýdra,4,NE,DA,205
+1614,Degustacija lokalnih jedi – Ýdra,5,DA,NE,205
+1615,Ulična kulinarična tura – Ýdra,3,DA,NE,205
+1616,Sprehod skozi mestni park – Reims,5,NE,DA,206
+1617,Izlet v naravo v okolici mesta – Reims,3,NE,DA,206
+1618,Arhitekturni sprehod – Reims,4,NE,DA,206
+1619,Razgledna točka in fotografiranje – Mīrwāh Gorchani,3,NE,DA,207
+1620,Interaktivni znanstveni center – Mīrwāh Gorchani,4,DA,DA,207
+1621,Obisk mestne knjižnice – Mīrwāh Gorchani,5,NE,DA,207
+1622,Plovba po reki ali jezeru – Sydney,4,DA,DA,208
+1623,Obisk kulturnega centra – Sydney,5,DA,DA,208
+1624,Delavnica tradicionalnih obrti – Sydney,3,DA,DA,208
+1625,Raziskovanje lokalnih obrti – Guiyang,5,DA,DA,209
+1626,Ogled mestnih znamenitosti ponoči – Guiyang,3,DA,NE,209
+1627,Delavnica lokalne kulinarike – Guiyang,4,DA,DA,209
+1628,Vožnja s turističnim avtobusom – Ili,3,DA,DA,210
+1629,Obisk zgodovinskega muzeja – Ili,4,DA,DA,210
+1630,Obisk umetniške galerije – Ili,5,DA,DA,210
+1631,Pokušina lokalnih sladic – Xinjiezi,4,DA,DA,211
+1632,Obisk živalskega vrta – Xinjiezi,5,DA,DA,211
+1633,Ogled športnega objekta – Xinjiezi,3,DA,DA,211
+1634,Ogled lokalne tržnice – São Domingos de Rana,5,NE,DA,212
+1635,Obisk botaničnega vrta – São Domingos de Rana,3,DA,DA,212
+1636,Večerni razgled na mesto – São Domingos de Rana,4,NE,DA,212
+1637,Ogled zgodovinskih zgradb – Jiangtou,3,NE,DA,213
+1638,Obisk akvarija – Jiangtou,4,DA,DA,213
+1639,Obisk lokalnega sejma – Jiangtou,5,NE,DA,213
+1640,Koncert lokalne glasbe – Ryazan’,4,DA,DA,214
+1641,Voden pohod po okolici – Ryazan’,5,NE,DA,214
+1642,Voden ogled starega mestnega jedra – Ryazan’,3,NE,DA,214
+1643,Jutranji ogled mesta – Koloniya Zastav’ye,5,NE,DA,215
+1644,Obisk zgodovinske četrti – Koloniya Zastav’ye,3,NE,DA,215
+1645,Družinski ogled znamenitosti – Koloniya Zastav’ye,4,DA,DA,215
+1646,Sprehod ob reki – Sasa,3,NE,DA,216
+1647,Kolesarski izlet po mestu – Sasa,4,NE,DA,216
+1648,Vodena fotografska tura – Sasa,5,DA,NE,216
+1649,Vožnja z ladjico – Ozërsk,4,DA,DA,217
+1650,Večerni kulturni sprehod – Ozërsk,5,NE,NE,217
+1651,Otroška ustvarjalna delavnica – Ozërsk,3,DA,DA,217
+1652,Degustacija lokalnih jedi – Karagay,5,DA,NE,218
+1653,Ulična kulinarična tura – Karagay,3,DA,NE,218
+1654,Ogled verske dediščine – Karagay,4,NE,DA,218
+1655,Izlet v naravo v okolici mesta – Bom Despacho,3,NE,DA,219
+1656,Arhitekturni sprehod – Bom Despacho,4,NE,DA,219
+1657,Piknik v mestnem parku – Bom Despacho,5,NE,DA,219
+1658,Interaktivni znanstveni center – Carcassonne,4,DA,DA,220
+1659,Obisk mestne knjižnice – Carcassonne,5,NE,DA,220
+1660,Sprehod skozi mestni park – Carcassonne,3,NE,DA,220
+1661,Obisk kulturnega centra – Senovo,5,DA,DA,221
+1662,Delavnica tradicionalnih obrti – Senovo,3,DA,DA,221
+1663,Razgledna točka in fotografiranje – Senovo,4,NE,DA,221
+1664,Ogled mestnih znamenitosti ponoči – Xiajiashan,3,DA,NE,222
+1665,Delavnica lokalne kulinarike – Xiajiashan,4,DA,DA,222
+1666,Plovba po reki ali jezeru – Xiajiashan,5,DA,DA,222
+1667,Obisk zgodovinskega muzeja – Hafnarfjörður,4,DA,DA,223
+1668,Obisk umetniške galerije – Hafnarfjörður,5,DA,DA,223
+1669,Raziskovanje lokalnih obrti – Hafnarfjörður,3,DA,DA,223
+1670,Obisk živalskega vrta – Richibucto,5,DA,DA,224
+1671,Ogled športnega objekta – Richibucto,3,DA,DA,224
+1672,Vožnja s turističnim avtobusom – Richibucto,4,DA,DA,224
+1673,Obisk botaničnega vrta – Nangtang,3,DA,DA,225
+1674,Večerni razgled na mesto – Nangtang,4,NE,DA,225
+1675,Pokušina lokalnih sladic – Nangtang,5,DA,DA,225
+1676,Obisk akvarija – Chkalov,4,DA,DA,226
+1677,Obisk lokalnega sejma – Chkalov,5,NE,DA,226
+1678,Ogled lokalne tržnice – Chkalov,3,NE,DA,226
+1679,Voden pohod po okolici – Cibenda,5,NE,DA,227
+1680,Voden ogled starega mestnega jedra – Cibenda,3,NE,DA,227
+1681,Ogled zgodovinskih zgradb – Cibenda,4,NE,DA,227
+1682,Obisk zgodovinske četrti – Padangtepung,3,NE,DA,228
+1683,Družinski ogled znamenitosti – Padangtepung,4,DA,DA,228
+1684,Koncert lokalne glasbe – Padangtepung,5,DA,DA,228
+1685,Kolesarski izlet po mestu – Bula,4,NE,DA,229
+1686,Vodena fotografska tura – Bula,5,DA,NE,229
+1687,Jutranji ogled mesta – Bula,3,NE,DA,229
+1688,Večerni kulturni sprehod – Quaraí,5,NE,NE,230
+1689,Otroška ustvarjalna delavnica – Quaraí,3,DA,DA,230
+1690,Sprehod ob reki – Quaraí,4,NE,DA,230
+1691,Ulična kulinarična tura – Semongkat,3,DA,NE,231
+1692,Ogled verske dediščine – Semongkat,4,NE,DA,231
+1693,Vožnja z ladjico – Semongkat,5,DA,DA,231
+1694,Arhitekturni sprehod – Paris 20,4,NE,DA,232
+1695,Piknik v mestnem parku – Paris 20,5,NE,DA,232
+1696,Degustacija lokalnih jedi – Paris 20,3,DA,NE,232
+1697,Obisk mestne knjižnice – Bor Ondor,5,NE,DA,233
+1698,Sprehod skozi mestni park – Bor Ondor,3,NE,DA,233
+1699,Izlet v naravo v okolici mesta – Bor Ondor,4,NE,DA,233
+1700,Delavnica tradicionalnih obrti – Cikondang,3,DA,DA,234
+1701,Razgledna točka in fotografiranje – Cikondang,4,NE,DA,234
+1702,Interaktivni znanstveni center – Cikondang,5,DA,DA,234
+1703,Delavnica lokalne kulinarike – Valday,4,DA,DA,235
+1704,Plovba po reki ali jezeru – Valday,5,DA,DA,235
+1705,Obisk kulturnega centra – Valday,3,DA,DA,235
+1706,Obisk umetniške galerije – Duraznopampa,5,DA,DA,236
+1707,Raziskovanje lokalnih obrti – Duraznopampa,3,DA,DA,236
+1708,Ogled mestnih znamenitosti ponoči – Duraznopampa,4,DA,NE,236
+1709,Ogled športnega objekta – Pancheng,3,DA,DA,237
+1710,Vožnja s turističnim avtobusom – Pancheng,4,DA,DA,237
+1711,Obisk zgodovinskega muzeja – Pancheng,5,DA,DA,237
+1712,Večerni razgled na mesto – Krasnyy Yar,4,NE,DA,238
+1713,Pokušina lokalnih sladic – Krasnyy Yar,5,DA,DA,238
+1714,Obisk živalskega vrta – Krasnyy Yar,3,DA,DA,238
+1715,Obisk lokalnega sejma – Sunduan,5,NE,DA,239
+1716,Ogled lokalne tržnice – Sunduan,3,NE,DA,239
+1717,Obisk botaničnega vrta – Sunduan,4,DA,DA,239
+1718,Voden ogled starega mestnega jedra – Kiangan,3,NE,DA,240
+1719,Ogled zgodovinskih zgradb – Kiangan,4,NE,DA,240
+1720,Obisk akvarija – Kiangan,5,DA,DA,240
+1721,Družinski ogled znamenitosti – Tawaran,4,DA,DA,241
+1722,Koncert lokalne glasbe – Tawaran,5,DA,DA,241
+1723,Voden pohod po okolici – Tawaran,3,NE,DA,241
+1724,Vodena fotografska tura – Erhaodi,5,DA,NE,242
+1725,Jutranji ogled mesta – Erhaodi,3,NE,DA,242
+1726,Obisk zgodovinske četrti – Erhaodi,4,NE,DA,242
+1727,Otroška ustvarjalna delavnica – Bakung,3,DA,DA,243
+1728,Sprehod ob reki – Bakung,4,NE,DA,243
+1729,Kolesarski izlet po mestu – Bakung,5,NE,DA,243
+1730,Ogled verske dediščine – Inicbulan,4,NE,DA,244
+1731,Vožnja z ladjico – Inicbulan,5,DA,DA,244
+1732,Večerni kulturni sprehod – Inicbulan,3,NE,NE,244
+1733,Piknik v mestnem parku – Luxor,5,NE,DA,245
+1734,Degustacija lokalnih jedi – Luxor,3,DA,NE,245
+1735,Ulična kulinarična tura – Luxor,4,DA,NE,245
+1736,Sprehod skozi mestni park – Washington,3,NE,DA,246
+1737,Izlet v naravo v okolici mesta – Washington,4,NE,DA,246
+1738,Arhitekturni sprehod – Washington,5,NE,DA,246
+1739,Razgledna točka in fotografiranje – Huyuan,4,NE,DA,247
+1740,Interaktivni znanstveni center – Huyuan,5,DA,DA,247
+1741,Obisk mestne knjižnice – Huyuan,3,NE,DA,247
+1742,Plovba po reki ali jezeru – Tondano,5,DA,DA,248
+1743,Obisk kulturnega centra – Tondano,3,DA,DA,248
+1744,Delavnica tradicionalnih obrti – Tondano,4,DA,DA,248
+1745,Raziskovanje lokalnih obrti – Koktal,3,DA,DA,249
+1746,Ogled mestnih znamenitosti ponoči – Koktal,4,DA,NE,249
+1747,Delavnica lokalne kulinarike – Koktal,5,DA,DA,249
+1748,Vožnja s turističnim avtobusom – Huamali,4,DA,DA,250
+1749,Obisk zgodovinskega muzeja – Huamali,5,DA,DA,250
+1750,Obisk umetniške galerije – Huamali,3,DA,DA,250
+1751,Pokušina lokalnih sladic – Gaizhou,5,DA,DA,251
+1752,Obisk živalskega vrta – Gaizhou,3,DA,DA,251
+1753,Ogled športnega objekta – Gaizhou,4,DA,DA,251
+1754,Ogled lokalne tržnice – Athabasca,3,NE,DA,252
+1755,Obisk botaničnega vrta – Athabasca,4,DA,DA,252
+1756,Večerni razgled na mesto – Athabasca,5,NE,DA,252
+1757,Ogled zgodovinskih zgradb – George Hill,4,NE,DA,253
+1758,Obisk akvarija – George Hill,5,DA,DA,253
+1759,Obisk lokalnega sejma – George Hill,3,NE,DA,253
+1760,Koncert lokalne glasbe – Owase,5,DA,DA,254
+1761,Voden pohod po okolici – Owase,3,NE,DA,254
+1762,Voden ogled starega mestnega jedra – Owase,4,NE,DA,254
+1763,Jutranji ogled mesta – Ladushkin,3,NE,DA,255
+1764,Obisk zgodovinske četrti – Ladushkin,4,NE,DA,255
+1765,Družinski ogled znamenitosti – Ladushkin,5,DA,DA,255
+1766,Sprehod ob reki – San Jacinto,4,NE,DA,256
+1767,Kolesarski izlet po mestu – San Jacinto,5,NE,DA,256
+1768,Vodena fotografska tura – San Jacinto,3,DA,NE,256
+1769,Vožnja z ladjico – Zoetermeer,5,DA,DA,257
+1770,Večerni kulturni sprehod – Zoetermeer,3,NE,NE,257
+1771,Otroška ustvarjalna delavnica – Zoetermeer,4,DA,DA,257
+1772,Degustacija lokalnih jedi – Coihaique,3,DA,NE,258
+1773,Ulična kulinarična tura – Coihaique,4,DA,NE,258
+1774,Ogled verske dediščine – Coihaique,5,NE,DA,258
+1775,Izlet v naravo v okolici mesta – Sjöbo,4,NE,DA,259
+1776,Arhitekturni sprehod – Sjöbo,5,NE,DA,259
+1777,Piknik v mestnem parku – Sjöbo,3,NE,DA,259
+1778,Interaktivni znanstveni center – Wan Yai,5,DA,DA,260
+1779,Obisk mestne knjižnice – Wan Yai,3,NE,DA,260
+1780,Sprehod skozi mestni park – Wan Yai,4,NE,DA,260
+1781,Obisk kulturnega centra – Antioquia,3,DA,DA,261
+1782,Delavnica tradicionalnih obrti – Antioquia,4,DA,DA,261
+1783,Razgledna točka in fotografiranje – Antioquia,5,NE,DA,261
+1784,Ogled mestnih znamenitosti ponoči – Březová nad Svitavou,4,DA,NE,262
+1785,Delavnica lokalne kulinarike – Březová nad Svitavou,5,DA,DA,262
+1786,Plovba po reki ali jezeru – Březová nad Svitavou,3,DA,DA,262
+1787,Obisk zgodovinskega muzeja – Spuž,5,DA,DA,263
+1788,Obisk umetniške galerije – Spuž,3,DA,DA,263
+1789,Raziskovanje lokalnih obrti – Spuž,4,DA,DA,263
+1790,Obisk živalskega vrta – Pandean,3,DA,DA,264
+1791,Ogled športnega objekta – Pandean,4,DA,DA,264
+1792,Vožnja s turističnim avtobusom – Pandean,5,DA,DA,264
+1793,Obisk botaničnega vrta – Tangyin,4,DA,DA,265
+1794,Večerni razgled na mesto – Tangyin,5,NE,DA,265
+1795,Pokušina lokalnih sladic – Tangyin,3,DA,DA,265
+1796,Obisk akvarija – Salaya,5,DA,DA,266
+1797,Obisk lokalnega sejma – Salaya,3,NE,DA,266
+1798,Ogled lokalne tržnice – Salaya,4,NE,DA,266
+1799,Voden pohod po okolici – Nangen,3,NE,DA,267
+1800,Voden ogled starega mestnega jedra – Nangen,4,NE,DA,267
+1801,Ogled zgodovinskih zgradb – Nangen,5,NE,DA,267
+1802,Obisk zgodovinske četrti – Charlotte,4,NE,DA,268
+1803,Družinski ogled znamenitosti – Charlotte,5,DA,DA,268
+1804,Koncert lokalne glasbe – Charlotte,3,DA,DA,268
+1805,Kolesarski izlet po mestu – Tapan,5,NE,DA,269
+1806,Vodena fotografska tura – Tapan,3,DA,NE,269
+1807,Jutranji ogled mesta – Tapan,4,NE,DA,269
+1808,Večerni kulturni sprehod – Nikolinci,3,NE,NE,270
+1809,Otroška ustvarjalna delavnica – Nikolinci,4,DA,DA,270
+1810,Sprehod ob reki – Nikolinci,5,NE,DA,270
+1811,Ulična kulinarična tura – Jinbo,4,DA,NE,271
+1812,Ogled verske dediščine – Jinbo,5,NE,DA,271
+1813,Vožnja z ladjico – Jinbo,3,DA,DA,271
+1814,Arhitekturni sprehod – Kaduketug,5,NE,DA,272
+1815,Piknik v mestnem parku – Kaduketug,3,NE,DA,272
+1816,Degustacija lokalnih jedi – Kaduketug,4,DA,NE,272
+1817,Obisk mestne knjižnice – Houston,3,NE,DA,273
+1818,Sprehod skozi mestni park – Houston,4,NE,DA,273
+1819,Izlet v naravo v okolici mesta – Houston,5,NE,DA,273
+1820,Delavnica tradicionalnih obrti – Tāybād,4,DA,DA,274
+1821,Razgledna točka in fotografiranje – Tāybād,5,NE,DA,274
+1822,Interaktivni znanstveni center – Tāybād,3,DA,DA,274
+1823,Delavnica lokalne kulinarike – Paris 12,5,DA,DA,275
+1824,Plovba po reki ali jezeru – Paris 12,3,DA,DA,275
+1825,Obisk kulturnega centra – Paris 12,4,DA,DA,275
+1826,Obisk umetniške galerije – Lloqan,3,DA,DA,276
+1827,Raziskovanje lokalnih obrti – Lloqan,4,DA,DA,276
+1828,Ogled mestnih znamenitosti ponoči – Lloqan,5,DA,NE,276
+1829,Ogled športnega objekta – København,4,DA,DA,277
+1830,Vožnja s turističnim avtobusom – København,5,DA,DA,277
+1831,Obisk zgodovinskega muzeja – København,3,DA,DA,277
+1832,Večerni razgled na mesto – Herzliya Pituah,5,NE,DA,278
+1833,Pokušina lokalnih sladic – Herzliya Pituah,3,DA,DA,278
+1834,Obisk živalskega vrta – Herzliya Pituah,4,DA,DA,278
+1835,Obisk lokalnega sejma – Čair,3,NE,DA,279
+1836,Ogled lokalne tržnice – Čair,4,NE,DA,279
+1837,Obisk botaničnega vrta – Čair,5,DA,DA,279
+1838,Voden ogled starega mestnega jedra – Mikulášovice,4,NE,DA,280
+1839,Ogled zgodovinskih zgradb – Mikulášovice,5,NE,DA,280
+1840,Obisk akvarija – Mikulášovice,3,DA,DA,280
+1841,Družinski ogled znamenitosti – La Huaca,5,DA,DA,281
+1842,Koncert lokalne glasbe – La Huaca,3,DA,DA,281
+1843,Voden pohod po okolici – La Huaca,4,NE,DA,281
+1844,Vodena fotografska tura – Meliau,3,DA,NE,282
+1845,Jutranji ogled mesta – Meliau,4,NE,DA,282
+1846,Obisk zgodovinske četrti – Meliau,5,NE,DA,282
+1847,Otroška ustvarjalna delavnica – Kosamphi Nakhon,4,DA,DA,283
+1848,Sprehod ob reki – Kosamphi Nakhon,5,NE,DA,283
+1849,Kolesarski izlet po mestu – Kosamphi Nakhon,3,NE,DA,283
+1850,Ogled verske dediščine – Ramaram,5,NE,DA,284
+1851,Vožnja z ladjico – Ramaram,3,DA,DA,284
+1852,Večerni kulturni sprehod – Ramaram,4,NE,NE,284
+1853,Piknik v mestnem parku – Pitanga,3,NE,DA,285
+1854,Degustacija lokalnih jedi – Pitanga,4,DA,NE,285
+1855,Ulična kulinarična tura – Pitanga,5,DA,NE,285
+1856,Sprehod skozi mestni park – Senahú,4,NE,DA,286
+1857,Izlet v naravo v okolici mesta – Senahú,5,NE,DA,286
+1858,Arhitekturni sprehod – Senahú,3,NE,DA,286
+1859,Razgledna točka in fotografiranje – Adassil,5,NE,DA,287
+1860,Interaktivni znanstveni center – Adassil,3,DA,DA,287
+1861,Obisk mestne knjižnice – Adassil,4,NE,DA,287
+1862,Plovba po reki ali jezeru – Roldanillo,3,DA,DA,288
+1863,Obisk kulturnega centra – Roldanillo,4,DA,DA,288
+1864,Delavnica tradicionalnih obrti – Roldanillo,5,DA,DA,288
+1865,Raziskovanje lokalnih obrti – Taivalkoski,4,DA,DA,289
+1866,Ogled mestnih znamenitosti ponoči – Taivalkoski,5,DA,NE,289
+1867,Delavnica lokalne kulinarike – Taivalkoski,3,DA,DA,289
+1868,Vožnja s turističnim avtobusom – Proletar,5,DA,DA,290
+1869,Obisk zgodovinskega muzeja – Proletar,3,DA,DA,290
+1870,Obisk umetniške galerije – Proletar,4,DA,DA,290
+1871,Pokušina lokalnih sladic – Nurota Shahri,3,DA,DA,291
+1872,Obisk živalskega vrta – Nurota Shahri,4,DA,DA,291
+1873,Ogled športnega objekta – Nurota Shahri,5,DA,DA,291
+1874,Ogled lokalne tržnice – Jinotega,4,NE,DA,292
+1875,Obisk botaničnega vrta – Jinotega,5,DA,DA,292
+1876,Večerni razgled na mesto – Jinotega,3,NE,DA,292
+1877,Ogled zgodovinskih zgradb – Bisée,5,NE,DA,293
+1878,Obisk akvarija – Bisée,3,DA,DA,293
+1879,Obisk lokalnega sejma – Bisée,4,NE,DA,293
+1880,Koncert lokalne glasbe – Kuching,3,DA,DA,294
+1881,Voden pohod po okolici – Kuching,4,NE,DA,294
+1882,Voden ogled starega mestnega jedra – Kuching,5,NE,DA,294
+1883,Jutranji ogled mesta – San Emilio,4,NE,DA,295
+1884,Obisk zgodovinske četrti – San Emilio,5,NE,DA,295
+1885,Družinski ogled znamenitosti – San Emilio,3,DA,DA,295
+1886,Sprehod ob reki – Kinna,5,NE,DA,296
+1887,Kolesarski izlet po mestu – Kinna,3,NE,DA,296
+1888,Vodena fotografska tura – Kinna,4,DA,NE,296
+1889,Vožnja z ladjico – Xinglongchang,3,DA,DA,297
+1890,Večerni kulturni sprehod – Xinglongchang,4,NE,NE,297
+1891,Otroška ustvarjalna delavnica – Xinglongchang,5,DA,DA,297
+1892,Degustacija lokalnih jedi – Blinsung,4,DA,NE,298
+1893,Ulična kulinarična tura – Blinsung,5,DA,NE,298
+1894,Ogled verske dediščine – Blinsung,3,NE,DA,298
+1895,Izlet v naravo v okolici mesta – Ngandangan,5,NE,DA,299
+1896,Arhitekturni sprehod – Ngandangan,3,NE,DA,299
+1897,Piknik v mestnem parku – Ngandangan,4,NE,DA,299
+1898,Interaktivni znanstveni center – Nangkaruka,3,DA,DA,300
+1899,Obisk mestne knjižnice – Nangkaruka,4,NE,DA,300
+1900,Sprehod skozi mestni park – Nangkaruka,5,NE,DA,300
+1901,Obisk kulturnega centra – Krajan,4,DA,DA,301
+1902,Delavnica tradicionalnih obrti – Krajan,5,DA,DA,301
+1903,Razgledna točka in fotografiranje – Krajan,3,NE,DA,301
+1904,Ogled mestnih znamenitosti ponoči – Bolong,5,DA,NE,302
+1905,Delavnica lokalne kulinarike – Bolong,3,DA,DA,302
+1906,Plovba po reki ali jezeru – Bolong,4,DA,DA,302
+1907,Obisk zgodovinskega muzeja – Jijia,3,DA,DA,303
+1908,Obisk umetniške galerije – Jijia,4,DA,DA,303
+1909,Raziskovanje lokalnih obrti – Jijia,5,DA,DA,303
+1910,Obisk živalskega vrta – Örebro,4,DA,DA,304
+1911,Ogled športnega objekta – Örebro,5,DA,DA,304
+1912,Vožnja s turističnim avtobusom – Örebro,3,DA,DA,304
+1913,Obisk botaničnega vrta – Lingcheng,5,DA,DA,305
+1914,Večerni razgled na mesto – Lingcheng,3,NE,DA,305
+1915,Pokušina lokalnih sladic – Lingcheng,4,DA,DA,305
+1916,Obisk akvarija – Sikka,3,DA,DA,306
+1917,Obisk lokalnega sejma – Sikka,4,NE,DA,306
+1918,Ogled lokalne tržnice – Sikka,5,NE,DA,306
+1919,Voden pohod po okolici – Xiaochi,4,NE,DA,307
+1920,Voden ogled starega mestnega jedra – Xiaochi,5,NE,DA,307
+1921,Ogled zgodovinskih zgradb – Xiaochi,3,NE,DA,307
+1922,Obisk zgodovinske četrti – Karangori,5,NE,DA,308
+1923,Družinski ogled znamenitosti – Karangori,3,DA,DA,308
+1924,Koncert lokalne glasbe – Karangori,4,DA,DA,308
+1925,Kolesarski izlet po mestu – Valle de Guanape,3,NE,DA,309
+1926,Vodena fotografska tura – Valle de Guanape,4,DA,NE,309
+1927,Jutranji ogled mesta – Valle de Guanape,5,NE,DA,309
+1928,Večerni kulturni sprehod – Banjaranyar,4,NE,NE,310
+1929,Otroška ustvarjalna delavnica – Banjaranyar,5,DA,DA,310
+1930,Sprehod ob reki – Banjaranyar,3,NE,DA,310
+1931,Ulična kulinarična tura – Boa Viagem,5,DA,NE,311
+1932,Ogled verske dediščine – Boa Viagem,3,NE,DA,311
+1933,Vožnja z ladjico – Boa Viagem,4,DA,DA,311
+1934,Arhitekturni sprehod – Las Vegas,3,NE,DA,312
+1935,Piknik v mestnem parku – Las Vegas,4,NE,DA,312
+1936,Degustacija lokalnih jedi – Las Vegas,5,DA,NE,312
+1937,Obisk mestne knjižnice – Kunri,4,NE,DA,313
+1938,Sprehod skozi mestni park – Kunri,5,NE,DA,313
+1939,Izlet v naravo v okolici mesta – Kunri,3,NE,DA,313
+1940,Delavnica tradicionalnih obrti – Carvoeira,5,DA,DA,314
+1941,Razgledna točka in fotografiranje – Carvoeira,3,NE,DA,314
+1942,Interaktivni znanstveni center – Carvoeira,4,DA,DA,314
+1943,Delavnica lokalne kulinarike – Fundão,3,DA,DA,315
+1944,Plovba po reki ali jezeru – Fundão,4,DA,DA,315
+1945,Obisk kulturnega centra – Fundão,5,DA,DA,315
+1946,Obisk umetniške galerije – Comrat,4,DA,DA,316
+1947,Raziskovanje lokalnih obrti – Comrat,5,DA,DA,316
+1948,Ogled mestnih znamenitosti ponoči – Comrat,3,DA,NE,316
+1949,Ogled športnega objekta – Oekero,5,DA,DA,317
+1950,Vožnja s turističnim avtobusom – Oekero,3,DA,DA,317
+1951,Obisk zgodovinskega muzeja – Oekero,4,DA,DA,317
+1952,Večerni razgled na mesto – Chernogorsk,3,NE,DA,318
+1953,Pokušina lokalnih sladic – Chernogorsk,4,DA,DA,318
+1954,Obisk živalskega vrta – Chernogorsk,5,DA,DA,318
+1955,Obisk lokalnega sejma – Yanjiang,4,NE,DA,319
+1956,Ogled lokalne tržnice – Yanjiang,5,NE,DA,319
+1957,Obisk botaničnega vrta – Yanjiang,3,DA,DA,319
+1958,Voden ogled starega mestnega jedra – Ritchie,5,NE,DA,320
+1959,Ogled zgodovinskih zgradb – Ritchie,3,NE,DA,320
+1960,Obisk akvarija – Ritchie,4,DA,DA,320
+1961,Družinski ogled znamenitosti – Yelat’ma,3,DA,DA,321
+1962,Koncert lokalne glasbe – Yelat’ma,4,DA,DA,321
+1963,Voden pohod po okolici – Yelat’ma,5,NE,DA,321
+1964,Vodena fotografska tura – Xiaxindian,4,DA,NE,322
+1965,Jutranji ogled mesta – Xiaxindian,5,NE,DA,322
+1966,Obisk zgodovinske četrti – Xiaxindian,3,NE,DA,322
+1967,Otroška ustvarjalna delavnica – Uwelini,5,DA,DA,323
+1968,Sprehod ob reki – Uwelini,3,NE,DA,323
+1969,Kolesarski izlet po mestu – Uwelini,4,NE,DA,323
+1970,Ogled verske dediščine – Pagedangan,3,NE,DA,324
+1971,Vožnja z ladjico – Pagedangan,4,DA,DA,324
+1972,Večerni kulturni sprehod – Pagedangan,5,NE,NE,324
+1973,Piknik v mestnem parku – Mszana Dolna,4,NE,DA,325
+1974,Degustacija lokalnih jedi – Mszana Dolna,5,DA,NE,325
+1975,Ulična kulinarična tura – Mszana Dolna,3,DA,NE,325
+1976,Sprehod skozi mestni park – Dong’ao,5,NE,DA,326
+1977,Izlet v naravo v okolici mesta – Dong’ao,3,NE,DA,326
+1978,Arhitekturni sprehod – Dong’ao,4,NE,DA,326
+1979,Razgledna točka in fotografiranje – Kedung,3,NE,DA,327
+1980,Interaktivni znanstveni center – Kedung,4,DA,DA,327
+1981,Obisk mestne knjižnice – Kedung,5,NE,DA,327
+1982,Plovba po reki ali jezeru – Xincheng,4,DA,DA,328
+1983,Obisk kulturnega centra – Xincheng,5,DA,DA,328
+1984,Delavnica tradicionalnih obrti – Xincheng,3,DA,DA,328
+1985,Raziskovanje lokalnih obrti – Macon,5,DA,DA,329
+1986,Ogled mestnih znamenitosti ponoči – Macon,3,DA,NE,329
+1987,Delavnica lokalne kulinarike – Macon,4,DA,DA,329
+1988,Vožnja s turističnim avtobusom – Mapalad,3,DA,DA,330
+1989,Obisk zgodovinskega muzeja – Mapalad,4,DA,DA,330
+1990,Obisk umetniške galerije – Mapalad,5,DA,DA,330
+1991,Pokušina lokalnih sladic – Lumbardhi,4,DA,DA,331
+1992,Obisk živalskega vrta – Lumbardhi,5,DA,DA,331
+1993,Ogled športnega objekta – Lumbardhi,3,DA,DA,331
+1994,Ogled lokalne tržnice – San Mateo,5,NE,DA,332
+1995,Obisk botaničnega vrta – San Mateo,3,DA,DA,332
+1996,Večerni razgled na mesto – San Mateo,4,NE,DA,332
+1997,Ogled zgodovinskih zgradb – Porta,3,NE,DA,333
+1998,Obisk akvarija – Porta,4,DA,DA,333
+1999,Obisk lokalnega sejma – Porta,5,NE,DA,333
+2000,Koncert lokalne glasbe – Francos,4,DA,DA,334
+2001,Voden pohod po okolici – Francos,5,NE,DA,334
+2002,Voden ogled starega mestnega jedra – Francos,3,NE,DA,334
+2003,Jutranji ogled mesta – San José de Barlovento,5,NE,DA,335
+2004,Obisk zgodovinske četrti – San José de Barlovento,3,NE,DA,335
+2005,Družinski ogled znamenitosti – San José de Barlovento,4,DA,DA,335
+2006,Sprehod ob reki – Phimai,3,NE,DA,336
+2007,Kolesarski izlet po mestu – Phimai,4,NE,DA,336
+2008,Vodena fotografska tura – Phimai,5,DA,NE,336
+2009,Vožnja z ladjico – Vilhena,4,DA,DA,337
+2010,Večerni kulturni sprehod – Vilhena,5,NE,NE,337
+2011,Otroška ustvarjalna delavnica – Vilhena,3,DA,DA,337
+2012,Degustacija lokalnih jedi – Poja,5,DA,NE,338
+2013,Ulična kulinarična tura – Poja,3,DA,NE,338
+2014,Ogled verske dediščine – Poja,4,NE,DA,338
+2015,Izlet v naravo v okolici mesta – Tianzishan,3,NE,DA,339
+2016,Arhitekturni sprehod – Tianzishan,4,NE,DA,339
+2017,Piknik v mestnem parku – Tianzishan,5,NE,DA,339
+2018,Interaktivni znanstveni center – Kuniran,4,DA,DA,340
+2019,Obisk mestne knjižnice – Kuniran,5,NE,DA,340
+2020,Sprehod skozi mestni park – Kuniran,3,NE,DA,340
+2021,Obisk kulturnega centra – Puerto Cabezas,5,DA,DA,341
+2022,Delavnica tradicionalnih obrti – Puerto Cabezas,3,DA,DA,341
+2023,Razgledna točka in fotografiranje – Puerto Cabezas,4,NE,DA,341
+2024,Ogled mestnih znamenitosti ponoči – Konstancin-Jeziorna,3,DA,NE,342
+2025,Delavnica lokalne kulinarike – Konstancin-Jeziorna,4,DA,DA,342
+2026,Plovba po reki ali jezeru – Konstancin-Jeziorna,5,DA,DA,342
+2027,Obisk zgodovinskega muzeja – Yartsevo,4,DA,DA,343
+2028,Obisk umetniške galerije – Yartsevo,5,DA,DA,343
+2029,Raziskovanje lokalnih obrti – Yartsevo,3,DA,DA,343
+2030,Obisk živalskega vrta – Wenling,5,DA,DA,344
+2031,Ogled športnega objekta – Wenling,3,DA,DA,344
+2032,Vožnja s turističnim avtobusom – Wenling,4,DA,DA,344
+2033,Obisk botaničnega vrta – Winston Salem,3,DA,DA,345
+2034,Večerni razgled na mesto – Winston Salem,4,NE,DA,345
+2035,Pokušina lokalnih sladic – Winston Salem,5,DA,DA,345
+2036,Obisk akvarija – T’et’ri Tsqaro,4,DA,DA,346
+2037,Obisk lokalnega sejma – T’et’ri Tsqaro,5,NE,DA,346
+2038,Ogled lokalne tržnice – T’et’ri Tsqaro,3,NE,DA,346
+2039,Voden pohod po okolici – Listvyanskiy,5,NE,DA,347
+2040,Voden ogled starega mestnega jedra – Listvyanskiy,3,NE,DA,347
+2041,Ogled zgodovinskih zgradb – Listvyanskiy,4,NE,DA,347
+2042,Obisk zgodovinske četrti – Tipaz,3,NE,DA,348
+2043,Družinski ogled znamenitosti – Tipaz,4,DA,DA,348
+2044,Koncert lokalne glasbe – Tipaz,5,DA,DA,348
+2045,Kolesarski izlet po mestu – Kuressaare,4,NE,DA,349
+2046,Vodena fotografska tura – Kuressaare,5,DA,NE,349
+2047,Jutranji ogled mesta – Kuressaare,3,NE,DA,349
+2048,Večerni kulturni sprehod – Ti-n-Essako,5,NE,NE,350
+2049,Otroška ustvarjalna delavnica – Ti-n-Essako,3,DA,DA,350
+2050,Sprehod ob reki – Ti-n-Essako,4,NE,DA,350
+2051,Ulična kulinarična tura – Menghai,3,DA,NE,351
+2052,Ogled verske dediščine – Menghai,4,NE,DA,351
+2053,Vožnja z ladjico – Menghai,5,DA,DA,351
+2054,Arhitekturni sprehod – Banjar Baleagung,4,NE,DA,352
+2055,Piknik v mestnem parku – Banjar Baleagung,5,NE,DA,352
+2056,Degustacija lokalnih jedi – Banjar Baleagung,3,DA,NE,352
+2057,Obisk mestne knjižnice – Somerset East,5,NE,DA,353
+2058,Sprehod skozi mestni park – Somerset East,3,NE,DA,353
+2059,Izlet v naravo v okolici mesta – Somerset East,4,NE,DA,353
+2060,Delavnica tradicionalnih obrti – San Lucas Tolimán,3,DA,DA,354
+2061,Razgledna točka in fotografiranje – San Lucas Tolimán,4,NE,DA,354
+2062,Interaktivni znanstveni center – San Lucas Tolimán,5,DA,DA,354
+2063,Delavnica lokalne kulinarike – Mikstat,4,DA,DA,355
+2064,Plovba po reki ali jezeru – Mikstat,5,DA,DA,355
+2065,Obisk kulturnega centra – Mikstat,3,DA,DA,355
+2066,Obisk umetniške galerije – Haihui,5,DA,DA,356
+2067,Raziskovanje lokalnih obrti – Haihui,3,DA,DA,356
+2068,Ogled mestnih znamenitosti ponoči – Haihui,4,DA,NE,356
+2069,Ogled športnega objekta – Lok,3,DA,DA,357
+2070,Vožnja s turističnim avtobusom – Lok,4,DA,DA,357
+2071,Obisk zgodovinskega muzeja – Lok,5,DA,DA,357
+2072,Večerni razgled na mesto – Pimbalayan,4,NE,DA,358
+2073,Pokušina lokalnih sladic – Pimbalayan,5,DA,DA,358
+2074,Obisk živalskega vrta – Pimbalayan,3,DA,DA,358
+2075,Obisk lokalnega sejma – Taksimo,5,NE,DA,359
+2076,Ogled lokalne tržnice – Taksimo,3,NE,DA,359
+2077,Obisk botaničnega vrta – Taksimo,4,DA,DA,359
+2078,Voden ogled starega mestnega jedra – Sinamaica,3,NE,DA,360
+2079,Ogled zgodovinskih zgradb – Sinamaica,4,NE,DA,360
+2080,Obisk akvarija – Sinamaica,5,DA,DA,360
+2081,Družinski ogled znamenitosti – Dali,4,DA,DA,361
+2082,Koncert lokalne glasbe – Dali,5,DA,DA,361
+2083,Voden pohod po okolici – Dali,3,NE,DA,361
+2084,Vodena fotografska tura – Faīẕābād,5,DA,NE,362
+2085,Jutranji ogled mesta – Faīẕābād,3,NE,DA,362
+2086,Obisk zgodovinske četrti – Faīẕābād,4,NE,DA,362
+2087,Otroška ustvarjalna delavnica – Arras,3,DA,DA,363
+2088,Sprehod ob reki – Arras,4,NE,DA,363
+2089,Kolesarski izlet po mestu – Arras,5,NE,DA,363
+2090,Ogled verske dediščine – Takahata,4,NE,DA,364
+2091,Vožnja z ladjico – Takahata,5,DA,DA,364
+2092,Večerni kulturni sprehod – Takahata,3,NE,NE,364
+2093,Piknik v mestnem parku – Bagadó,5,NE,DA,365
+2094,Degustacija lokalnih jedi – Bagadó,3,DA,NE,365
+2095,Ulična kulinarična tura – Bagadó,4,DA,NE,365
+2096,Sprehod skozi mestni park – Toungo,3,NE,DA,366
+2097,Izlet v naravo v okolici mesta – Toungo,4,NE,DA,366
+2098,Arhitekturni sprehod – Toungo,5,NE,DA,366
+2099,Razgledna točka in fotografiranje – El Cantón,4,NE,DA,367
+2100,Interaktivni znanstveni center – El Cantón,5,DA,DA,367
+2101,Obisk mestne knjižnice – El Cantón,3,NE,DA,367
+2102,Plovba po reki ali jezeru – Bagakay,5,DA,DA,368
+2103,Obisk kulturnega centra – Bagakay,3,DA,DA,368
+2104,Delavnica tradicionalnih obrti – Bagakay,4,DA,DA,368
+2105,Raziskovanje lokalnih obrti – Armação,3,DA,DA,369
+2106,Ogled mestnih znamenitosti ponoči – Armação,4,DA,NE,369
+2107,Delavnica lokalne kulinarike – Armação,5,DA,DA,369
+2108,Vožnja s turističnim avtobusom – Disūq,4,DA,DA,370
+2109,Obisk zgodovinskega muzeja – Disūq,5,DA,DA,370
+2110,Obisk umetniške galerije – Disūq,3,DA,DA,370
+2111,Pokušina lokalnih sladic – Lubuagan,5,DA,DA,371
+2112,Obisk živalskega vrta – Lubuagan,3,DA,DA,371
+2113,Ogled športnega objekta – Lubuagan,4,DA,DA,371
+2114,Ogled lokalne tržnice – Purda,3,NE,DA,372
+2115,Obisk botaničnega vrta – Purda,4,DA,DA,372
+2116,Večerni razgled na mesto – Purda,5,NE,DA,372
+2117,Ogled zgodovinskih zgradb – Baishi,4,NE,DA,373
+2118,Obisk akvarija – Baishi,5,DA,DA,373
+2119,Obisk lokalnega sejma – Baishi,3,NE,DA,373
+2120,Koncert lokalne glasbe – Komorów,5,DA,DA,374
+2121,Voden pohod po okolici – Komorów,3,NE,DA,374
+2122,Voden ogled starega mestnega jedra – Komorów,4,NE,DA,374
+2123,Jutranji ogled mesta – Brvenica,3,NE,DA,375
+2124,Obisk zgodovinske četrti – Brvenica,4,NE,DA,375
+2125,Družinski ogled znamenitosti – Brvenica,5,DA,DA,375
+2126,Sprehod ob reki – Khrebtovaya,4,NE,DA,376
+2127,Kolesarski izlet po mestu – Khrebtovaya,5,NE,DA,376
+2128,Vodena fotografska tura – Khrebtovaya,3,DA,NE,376
+2129,Vožnja z ladjico – Sandaogou,5,DA,DA,377
+2130,Večerni kulturni sprehod – Sandaogou,3,NE,NE,377
+2131,Otroška ustvarjalna delavnica – Sandaogou,4,DA,DA,377
+2132,Degustacija lokalnih jedi – Santa Gertrudes,3,DA,NE,378
+2133,Ulična kulinarična tura – Santa Gertrudes,4,DA,NE,378
+2134,Ogled verske dediščine – Santa Gertrudes,5,NE,DA,378
+2135,Izlet v naravo v okolici mesta – Wilfrido Loor Moreira,4,NE,DA,379
+2136,Arhitekturni sprehod – Wilfrido Loor Moreira,5,NE,DA,379
+2137,Piknik v mestnem parku – Wilfrido Loor Moreira,3,NE,DA,379
+2138,Interaktivni znanstveni center – Tongzha,5,DA,DA,380
+2139,Obisk mestne knjižnice – Tongzha,3,NE,DA,380
+2140,Sprehod skozi mestni park – Tongzha,4,NE,DA,380
+2141,Obisk kulturnega centra – Kampong Chhnang,3,DA,DA,381
+2142,Delavnica tradicionalnih obrti – Kampong Chhnang,4,DA,DA,381
+2143,Razgledna točka in fotografiranje – Kampong Chhnang,5,NE,DA,381
+2144,Ogled mestnih znamenitosti ponoči – Wuluo,4,DA,NE,382
+2145,Delavnica lokalne kulinarike – Wuluo,5,DA,DA,382
+2146,Plovba po reki ali jezeru – Wuluo,3,DA,DA,382
+2147,Obisk zgodovinskega muzeja – Tuzhai,5,DA,DA,383
+2148,Obisk umetniške galerije – Tuzhai,3,DA,DA,383
+2149,Raziskovanje lokalnih obrti – Tuzhai,4,DA,DA,383
+2150,Obisk živalskega vrta – Tucson,3,DA,DA,384
+2151,Ogled športnega objekta – Tucson,4,DA,DA,384
+2152,Vožnja s turističnim avtobusom – Tucson,5,DA,DA,384
+2153,Obisk botaničnega vrta – Dukuhsia,4,DA,DA,385
+2154,Večerni razgled na mesto – Dukuhsia,5,NE,DA,385
+2155,Pokušina lokalnih sladic – Dukuhsia,3,DA,DA,385
+2156,Obisk akvarija – Kovářská,5,DA,DA,386
+2157,Obisk lokalnega sejma – Kovářská,3,NE,DA,386
+2158,Ogled lokalne tržnice – Kovářská,4,NE,DA,386
+2159,Voden pohod po okolici – Jaboatão dos Guararapes,3,NE,DA,387
+2160,Voden ogled starega mestnega jedra – Jaboatão dos Guararapes,4,NE,DA,387
+2161,Ogled zgodovinskih zgradb – Jaboatão dos Guararapes,5,NE,DA,387
+2162,Obisk zgodovinske četrti – Catalina,4,NE,DA,388
+2163,Družinski ogled znamenitosti – Catalina,5,DA,DA,388
+2164,Koncert lokalne glasbe – Catalina,3,DA,DA,388
+2165,Kolesarski izlet po mestu – Di Linh,5,NE,DA,389
+2166,Vodena fotografska tura – Di Linh,3,DA,NE,389
+2167,Jutranji ogled mesta – Di Linh,4,NE,DA,389
+2168,Večerni kulturni sprehod – Richmond,3,NE,NE,390
+2169,Otroška ustvarjalna delavnica – Richmond,4,DA,DA,390
+2170,Sprehod ob reki – Richmond,5,NE,DA,390
+2171,Ulična kulinarična tura – Poręba Spytkowska,4,DA,NE,391
+2172,Ogled verske dediščine – Poręba Spytkowska,5,NE,DA,391
+2173,Vožnja z ladjico – Poręba Spytkowska,3,DA,DA,391
+2174,Arhitekturni sprehod – San Carlos,5,NE,DA,392
+2175,Piknik v mestnem parku – San Carlos,3,NE,DA,392
+2176,Degustacija lokalnih jedi – San Carlos,4,DA,NE,392
+2177,Obisk mestne knjižnice – Placer,3,NE,DA,393
+2178,Sprehod skozi mestni park – Placer,4,NE,DA,393
+2179,Izlet v naravo v okolici mesta – Placer,5,NE,DA,393
+2180,Delavnica tradicionalnih obrti – Kayakent,4,DA,DA,394
+2181,Razgledna točka in fotografiranje – Kayakent,5,NE,DA,394
+2182,Interaktivni znanstveni center – Kayakent,3,DA,DA,394
+2183,Delavnica lokalne kulinarike – Piškorevci,5,DA,DA,395
+2184,Plovba po reki ali jezeru – Piškorevci,3,DA,DA,395
+2185,Obisk kulturnega centra – Piškorevci,4,DA,DA,395
+2186,Obisk umetniške galerije – Cigaras,3,DA,DA,396
+2187,Raziskovanje lokalnih obrti – Cigaras,4,DA,DA,396
+2188,Ogled mestnih znamenitosti ponoči – Cigaras,5,DA,NE,396
+2189,Ogled športnega objekta – Dežanovac,4,DA,DA,397
+2190,Vožnja s turističnim avtobusom – Dežanovac,5,DA,DA,397
+2191,Obisk zgodovinskega muzeja – Dežanovac,3,DA,DA,397
+2192,Večerni razgled na mesto – Boguszów-Gorce,5,NE,DA,398
+2193,Pokušina lokalnih sladic – Boguszów-Gorce,3,DA,DA,398
+2194,Obisk živalskega vrta – Boguszów-Gorce,4,DA,DA,398
+2195,Obisk lokalnega sejma – Morelos,3,NE,DA,399
+2196,Ogled lokalne tržnice – Morelos,4,NE,DA,399
+2197,Obisk botaničnega vrta – Morelos,5,DA,DA,399
+2198,Voden ogled starega mestnega jedra – Chakwāl,4,NE,DA,400
+2199,Ogled zgodovinskih zgradb – Chakwāl,5,NE,DA,400
+2200,Obisk akvarija – Chakwāl,3,DA,DA,400
+2201,Družinski ogled znamenitosti – Selorejo,5,DA,DA,401
+2202,Koncert lokalne glasbe – Selorejo,3,DA,DA,401
+2203,Voden pohod po okolici – Selorejo,4,NE,DA,401
+2204,Vodena fotografska tura – Bonabéri,3,DA,NE,402
+2205,Jutranji ogled mesta – Bonabéri,4,NE,DA,402
+2206,Obisk zgodovinske četrti – Bonabéri,5,NE,DA,402
+2207,Otroška ustvarjalna delavnica – Asamankese,4,DA,DA,403
+2208,Sprehod ob reki – Asamankese,5,NE,DA,403
+2209,Kolesarski izlet po mestu – Asamankese,3,NE,DA,403
+2210,Ogled verske dediščine – Dongqianhu,5,NE,DA,404
+2211,Vožnja z ladjico – Dongqianhu,3,DA,DA,404
+2212,Večerni kulturni sprehod – Dongqianhu,4,NE,NE,404
+2213,Piknik v mestnem parku – Rimouski,3,NE,DA,405
+2214,Degustacija lokalnih jedi – Rimouski,4,DA,NE,405
+2215,Ulična kulinarična tura – Rimouski,5,DA,NE,405
+2216,Sprehod skozi mestni park – Ngulangan,4,NE,DA,406
+2217,Izlet v naravo v okolici mesta – Ngulangan,5,NE,DA,406
+2218,Arhitekturni sprehod – Ngulangan,3,NE,DA,406
+2219,Razgledna točka in fotografiranje – Mospyne,5,NE,DA,407
+2220,Interaktivni znanstveni center – Mospyne,3,DA,DA,407
+2221,Obisk mestne knjižnice – Mospyne,4,NE,DA,407
+2222,Plovba po reki ali jezeru – Svalöv,3,DA,DA,408
+2223,Obisk kulturnega centra – Svalöv,4,DA,DA,408
+2224,Delavnica tradicionalnih obrti – Svalöv,5,DA,DA,408
+2225,Raziskovanje lokalnih obrti – Yasugichō,4,DA,DA,409
+2226,Ogled mestnih znamenitosti ponoči – Yasugichō,5,DA,NE,409
+2227,Delavnica lokalne kulinarike – Yasugichō,3,DA,DA,409
+2228,Vožnja s turističnim avtobusom – Blawi,5,DA,DA,410
+2229,Obisk zgodovinskega muzeja – Blawi,3,DA,DA,410
+2230,Obisk umetniške galerije – Blawi,4,DA,DA,410
+2231,Pokušina lokalnih sladic – Jiang’an,3,DA,DA,411
+2232,Obisk živalskega vrta – Jiang’an,4,DA,DA,411
+2233,Ogled športnega objekta – Jiang’an,5,DA,DA,411
+2234,Ogled lokalne tržnice – Qal‘eh-ye Khvājeh,4,NE,DA,412
+2235,Obisk botaničnega vrta – Qal‘eh-ye Khvājeh,5,DA,DA,412
+2236,Večerni razgled na mesto – Qal‘eh-ye Khvājeh,3,NE,DA,412
+2237,Ogled zgodovinskih zgradb – Punta Gorda,5,NE,DA,413
+2238,Obisk akvarija – Punta Gorda,3,DA,DA,413
+2239,Obisk lokalnega sejma – Punta Gorda,4,NE,DA,413
+2240,Koncert lokalne glasbe – Tsiombe,3,DA,DA,414
+2241,Voden pohod po okolici – Tsiombe,4,NE,DA,414
+2242,Voden ogled starega mestnega jedra – Tsiombe,5,NE,DA,414
+2243,Jutranji ogled mesta – Khonj,4,NE,DA,415
+2244,Obisk zgodovinske četrti – Khonj,5,NE,DA,415
+2245,Družinski ogled znamenitosti – Khonj,3,DA,DA,415
+2246,Sprehod ob reki – Fenggao,5,NE,DA,416
+2247,Kolesarski izlet po mestu – Fenggao,3,NE,DA,416
+2248,Vodena fotografska tura – Fenggao,4,DA,NE,416
+2249,Vožnja z ladjico – Socabaya,3,DA,DA,417
+2250,Večerni kulturni sprehod – Socabaya,4,NE,NE,417
+2251,Otroška ustvarjalna delavnica – Socabaya,5,DA,DA,417
+2252,Degustacija lokalnih jedi – Chengnan,4,DA,NE,418
+2253,Ulična kulinarična tura – Chengnan,5,DA,NE,418
+2254,Ogled verske dediščine – Chengnan,3,NE,DA,418
+2255,Izlet v naravo v okolici mesta – Izra‘,5,NE,DA,419
+2256,Arhitekturni sprehod – Izra‘,3,NE,DA,419
+2257,Piknik v mestnem parku – Izra‘,4,NE,DA,419
+2258,Interaktivni znanstveni center – Bhamo,3,DA,DA,420
+2259,Obisk mestne knjižnice – Bhamo,4,NE,DA,420
+2260,Sprehod skozi mestni park – Bhamo,5,NE,DA,420
+2261,Obisk kulturnega centra – Akim Oda,4,DA,DA,421
+2262,Delavnica tradicionalnih obrti – Akim Oda,5,DA,DA,421
+2263,Razgledna točka in fotografiranje – Akim Oda,3,NE,DA,421
+2264,Ogled mestnih znamenitosti ponoči – Taoyuan,5,DA,NE,422
+2265,Delavnica lokalne kulinarike – Taoyuan,3,DA,DA,422
+2266,Plovba po reki ali jezeru – Taoyuan,4,DA,DA,422
+2267,Obisk zgodovinskega muzeja – Rato,3,DA,DA,423
+2268,Obisk umetniške galerije – Rato,4,DA,DA,423
+2269,Raziskovanje lokalnih obrti – Rato,5,DA,DA,423
+2270,Obisk živalskega vrta – Amsterdam,4,DA,DA,424
+2271,Ogled športnega objekta – Amsterdam,5,DA,DA,424
+2272,Vožnja s turističnim avtobusom – Amsterdam,3,DA,DA,424
+2273,Obisk botaničnega vrta – Ncue,5,DA,DA,425
+2274,Večerni razgled na mesto – Ncue,3,NE,DA,425
+2275,Pokušina lokalnih sladic – Ncue,4,DA,DA,425
+2276,Obisk akvarija – Zhonghe,3,DA,DA,426
+2277,Obisk lokalnega sejma – Zhonghe,4,NE,DA,426
+2278,Ogled lokalne tržnice – Zhonghe,5,NE,DA,426
+2279,Voden pohod po okolici – Brumado,4,NE,DA,427
+2280,Voden ogled starega mestnega jedra – Brumado,5,NE,DA,427
+2281,Ogled zgodovinskih zgradb – Brumado,3,NE,DA,427
+2282,Obisk zgodovinske četrti – Rosthern,5,NE,DA,428
+2283,Družinski ogled znamenitosti – Rosthern,3,DA,DA,428
+2284,Koncert lokalne glasbe – Rosthern,4,DA,DA,428
+2285,Kolesarski izlet po mestu – Bergen,3,NE,DA,429
+2286,Vodena fotografska tura – Bergen,4,DA,NE,429
+2287,Jutranji ogled mesta – Bergen,5,NE,DA,429
+2288,Večerni kulturni sprehod – Sumilao,4,NE,NE,430
+2289,Otroška ustvarjalna delavnica – Sumilao,5,DA,DA,430
+2290,Sprehod ob reki – Sumilao,3,NE,DA,430
+2291,Ulična kulinarična tura – Cibatu,5,DA,NE,431
+2292,Ogled verske dediščine – Cibatu,3,NE,DA,431
+2293,Vožnja z ladjico – Cibatu,4,DA,DA,431
+2294,Arhitekturni sprehod – Guarulhos,3,NE,DA,432
+2295,Piknik v mestnem parku – Guarulhos,4,NE,DA,432
+2296,Degustacija lokalnih jedi – Guarulhos,5,DA,NE,432
+2297,Obisk mestne knjižnice – Kolyshley,4,NE,DA,433
+2298,Sprehod skozi mestni park – Kolyshley,5,NE,DA,433
+2299,Izlet v naravo v okolici mesta – Kolyshley,3,NE,DA,433
+2300,Delavnica tradicionalnih obrti – Olympia,5,DA,DA,434
+2301,Razgledna točka in fotografiranje – Olympia,3,NE,DA,434
+2302,Interaktivni znanstveni center – Olympia,4,DA,DA,434
+2303,Delavnica lokalne kulinarike – Conchopata,3,DA,DA,435
+2304,Plovba po reki ali jezeru – Conchopata,4,DA,DA,435
+2305,Obisk kulturnega centra – Conchopata,5,DA,DA,435
+2306,Obisk umetniške galerije – Borzna,4,DA,DA,436
+2307,Raziskovanje lokalnih obrti – Borzna,5,DA,DA,436
+2308,Ogled mestnih znamenitosti ponoči – Borzna,3,DA,NE,436
+2309,Ogled športnega objekta – Krasnodar,5,DA,DA,437
+2310,Vožnja s turističnim avtobusom – Krasnodar,3,DA,DA,437
+2311,Obisk zgodovinskega muzeja – Krasnodar,4,DA,DA,437
+2312,Večerni razgled na mesto – Anju,3,NE,DA,438
+2313,Pokušina lokalnih sladic – Anju,4,DA,DA,438
+2314,Obisk živalskega vrta – Anju,5,DA,DA,438
+2315,Obisk lokalnega sejma – Hoxtolgay,4,NE,DA,439
+2316,Ogled lokalne tržnice – Hoxtolgay,5,NE,DA,439
+2317,Obisk botaničnega vrta – Hoxtolgay,3,DA,DA,439
+2318,Voden ogled starega mestnega jedra – Načeradec,5,NE,DA,440
+2319,Ogled zgodovinskih zgradb – Načeradec,3,NE,DA,440
+2320,Obisk akvarija – Načeradec,4,DA,DA,440
+2321,Družinski ogled znamenitosti – Tenggong,3,DA,DA,441
+2322,Koncert lokalne glasbe – Tenggong,4,DA,DA,441
+2323,Voden pohod po okolici – Tenggong,5,NE,DA,441
+2324,Vodena fotografska tura – Áyios Yeóryios,4,DA,NE,442
+2325,Jutranji ogled mesta – Áyios Yeóryios,5,NE,DA,442
+2326,Obisk zgodovinske četrti – Áyios Yeóryios,3,NE,DA,442
+2327,Otroška ustvarjalna delavnica – Brampton,5,DA,DA,443
+2328,Sprehod ob reki – Brampton,3,NE,DA,443
+2329,Kolesarski izlet po mestu – Brampton,4,NE,DA,443
+2330,Ogled verske dediščine – Accha,3,NE,DA,444
+2331,Vožnja z ladjico – Accha,4,DA,DA,444
+2332,Večerni kulturni sprehod – Accha,5,NE,NE,444
+2333,Piknik v mestnem parku – La Trinidad,4,NE,DA,445
+2334,Degustacija lokalnih jedi – La Trinidad,5,DA,NE,445
+2335,Ulična kulinarična tura – La Trinidad,3,DA,NE,445
+2336,Sprehod skozi mestni park – Ban Ratsada,5,NE,DA,446
+2337,Izlet v naravo v okolici mesta – Ban Ratsada,3,NE,DA,446
+2338,Arhitekturni sprehod – Ban Ratsada,4,NE,DA,446
+2339,Razgledna točka in fotografiranje – Karanyowka,3,NE,DA,447
+2340,Interaktivni znanstveni center – Karanyowka,4,DA,DA,447
+2341,Obisk mestne knjižnice – Karanyowka,5,NE,DA,447
+2342,Plovba po reki ali jezeru – Hekou,4,DA,DA,448
+2343,Obisk kulturnega centra – Hekou,5,DA,DA,448
+2344,Delavnica tradicionalnih obrti – Hekou,3,DA,DA,448
+2345,Raziskovanje lokalnih obrti – Cibeureum,5,DA,DA,449
+2346,Ogled mestnih znamenitosti ponoči – Cibeureum,3,DA,NE,449
+2347,Delavnica lokalne kulinarike – Cibeureum,4,DA,DA,449
+2348,Vožnja s turističnim avtobusom – Bambuí,3,DA,DA,450
+2349,Obisk zgodovinskega muzeja – Bambuí,4,DA,DA,450
+2350,Obisk umetniške galerije – Bambuí,5,DA,DA,450
+2351,Pokušina lokalnih sladic – Maguilling,4,DA,DA,451
+2352,Obisk živalskega vrta – Maguilling,5,DA,DA,451
+2353,Ogled športnega objekta – Maguilling,3,DA,DA,451
+2354,Ogled lokalne tržnice – Youfang,5,NE,DA,452
+2355,Obisk botaničnega vrta – Youfang,3,DA,DA,452
+2356,Večerni razgled na mesto – Youfang,4,NE,DA,452
+2357,Ogled zgodovinskih zgradb – Loudun,3,NE,DA,453
+2358,Obisk akvarija – Loudun,4,DA,DA,453
+2359,Obisk lokalnega sejma – Loudun,5,NE,DA,453
+2360,Koncert lokalne glasbe – Sukorejo,4,DA,DA,454
+2361,Voden pohod po okolici – Sukorejo,5,NE,DA,454
+2362,Voden ogled starega mestnega jedra – Sukorejo,3,NE,DA,454
+2363,Jutranji ogled mesta – Hongshan,5,NE,DA,455
+2364,Obisk zgodovinske četrti – Hongshan,3,NE,DA,455
+2365,Družinski ogled znamenitosti – Hongshan,4,DA,DA,455
+2366,Sprehod ob reki – Tempe,3,NE,DA,456
+2367,Kolesarski izlet po mestu – Tempe,4,NE,DA,456
+2368,Vodena fotografska tura – Tempe,5,DA,NE,456
+2369,Vožnja z ladjico – Göteborg,4,DA,DA,457
+2370,Večerni kulturni sprehod – Göteborg,5,NE,NE,457
+2371,Otroška ustvarjalna delavnica – Göteborg,3,DA,DA,457
+2372,Degustacija lokalnih jedi – Dayeuhluhur,5,DA,NE,458
+2373,Ulična kulinarična tura – Dayeuhluhur,3,DA,NE,458
+2374,Ogled verske dediščine – Dayeuhluhur,4,NE,DA,458
+2375,Izlet v naravo v okolici mesta – Jiangkouxu,3,NE,DA,459
+2376,Arhitekturni sprehod – Jiangkouxu,4,NE,DA,459
+2377,Piknik v mestnem parku – Jiangkouxu,5,NE,DA,459
+2378,Interaktivni znanstveni center – Binangun,4,DA,DA,460
+2379,Obisk mestne knjižnice – Binangun,5,NE,DA,460
+2380,Sprehod skozi mestni park – Binangun,3,NE,DA,460
+2381,Obisk kulturnega centra – Cantao-an,5,DA,DA,461
+2382,Delavnica tradicionalnih obrti – Cantao-an,3,DA,DA,461
+2383,Razgledna točka in fotografiranje – Cantao-an,4,NE,DA,461
+2384,Ogled mestnih znamenitosti ponoči – Chicheng,3,DA,NE,462
+2385,Delavnica lokalne kulinarike – Chicheng,4,DA,DA,462
+2386,Plovba po reki ali jezeru – Chicheng,5,DA,DA,462
+2387,Obisk zgodovinskega muzeja – Ajaccio,4,DA,DA,463
+2388,Obisk umetniške galerije – Ajaccio,5,DA,DA,463
+2389,Raziskovanje lokalnih obrti – Ajaccio,3,DA,DA,463
+2390,Obisk živalskega vrta – Taremskoye,5,DA,DA,464
+2391,Ogled športnega objekta – Taremskoye,3,DA,DA,464
+2392,Obisk botaničnega vrta – Aguiar da Beira,3,DA,DA,465
+2393,Večerni razgled na mesto – Aguiar da Beira,4,NE,DA,465
+2394,Obisk akvarija – Pordapor Barat,4,DA,DA,466
+2395,Obisk lokalnega sejma – Pordapor Barat,5,NE,DA,466
+2396,Voden pohod po okolici – Tucheng,5,NE,DA,467
+2397,Voden ogled starega mestnega jedra – Tucheng,3,NE,DA,467
+2398,Obisk zgodovinske četrti – Khon Kaen,3,NE,DA,468
+2399,Družinski ogled znamenitosti – Khon Kaen,4,DA,DA,468
+2400,Kolesarski izlet po mestu – Kericho,4,NE,DA,469
+2401,Vodena fotografska tura – Kericho,5,DA,NE,469
+2402,Večerni kulturni sprehod – Kurów,5,NE,NE,470
+2403,Otroška ustvarjalna delavnica – Kurów,3,DA,DA,470
+2404,Ulična kulinarična tura – Nganane,3,DA,NE,471
+2405,Ogled verske dediščine – Nganane,4,NE,DA,471
+2406,Arhitekturni sprehod – Nieuw Nickerie,4,NE,DA,472
+2407,Piknik v mestnem parku – Nieuw Nickerie,5,NE,DA,472
+2408,Obisk mestne knjižnice – Gaoshibei,5,NE,DA,473
+2409,Sprehod skozi mestni park – Gaoshibei,3,NE,DA,473
+2410,Delavnica tradicionalnih obrti – Buôn Ma Thuột,3,DA,DA,474
+2411,Razgledna točka in fotografiranje – Buôn Ma Thuột,4,NE,DA,474
+2412,Delavnica lokalne kulinarike – Tanbu,4,DA,DA,475
+2413,Plovba po reki ali jezeru – Tanbu,5,DA,DA,475
+2414,Obisk umetniške galerije – Nova Era,5,DA,DA,476
+2415,Raziskovanje lokalnih obrti – Nova Era,3,DA,DA,476
+2416,Ogled športnega objekta – Huibu,3,DA,DA,477
+2417,Vožnja s turističnim avtobusom – Huibu,4,DA,DA,477
+2418,Večerni razgled na mesto – Burla,4,NE,DA,478
+2419,Pokušina lokalnih sladic – Burla,5,DA,DA,478
+2420,Obisk lokalnega sejma – Qaşr Hallāl,5,NE,DA,479
+2421,Ogled lokalne tržnice – Qaşr Hallāl,3,NE,DA,479
+2422,Voden ogled starega mestnega jedra – Linköping,3,NE,DA,480
+2423,Ogled zgodovinskih zgradb – Linköping,4,NE,DA,480
+2424,Družinski ogled znamenitosti – Heishui,4,DA,DA,481
+2425,Koncert lokalne glasbe – Heishui,5,DA,DA,481
+2426,Vodena fotografska tura – Magaria,5,DA,NE,482
+2427,Jutranji ogled mesta – Magaria,3,NE,DA,482
+2428,Otroška ustvarjalna delavnica – Unity,3,DA,DA,483
+2429,Sprehod ob reki – Unity,4,NE,DA,483
+2430,Ogled verske dediščine – Sobo,4,NE,DA,484
+2431,Vožnja z ladjico – Sobo,5,DA,DA,484
+2432,Piknik v mestnem parku – Huicungo,5,NE,DA,485
+2433,Degustacija lokalnih jedi – Huicungo,3,DA,NE,485
+2434,Sprehod skozi mestni park – Qilin,3,NE,DA,486
+2435,Izlet v naravo v okolici mesta – Qilin,4,NE,DA,486
+2436,Razgledna točka in fotografiranje – Lianyun,4,NE,DA,487
+2437,Interaktivni znanstveni center – Lianyun,5,DA,DA,487
+2438,Plovba po reki ali jezeru – Moate,5,DA,DA,488
+2439,Obisk kulturnega centra – Moate,3,DA,DA,488
+2440,Raziskovanje lokalnih obrti – Concepción,3,DA,DA,489
+2441,Ogled mestnih znamenitosti ponoči – Concepción,4,DA,NE,489
+2442,Vožnja s turističnim avtobusom – Moneague,4,DA,DA,490
+2443,Obisk zgodovinskega muzeja – Moneague,5,DA,DA,490
+2444,Pokušina lokalnih sladic – Gaotai,5,DA,DA,491
+2445,Obisk živalskega vrta – Gaotai,3,DA,DA,491
+2446,Ogled lokalne tržnice – Rostov-na-Donu,3,NE,DA,492
+2447,Obisk botaničnega vrta – Rostov-na-Donu,4,DA,DA,492
+2448,Ogled zgodovinskih zgradb – Valongo,4,NE,DA,493
+2449,Obisk akvarija – Valongo,5,DA,DA,493
+2450,Koncert lokalne glasbe – Kotes,5,DA,DA,494
+2451,Voden pohod po okolici – Kotes,3,NE,DA,494
+2452,Jutranji ogled mesta – Horka nad Moravou,3,NE,DA,495
+2453,Obisk zgodovinske četrti – Horka nad Moravou,4,NE,DA,495
+2454,Sprehod ob reki – Donggaocun,4,NE,DA,496
+2455,Kolesarski izlet po mestu – Donggaocun,5,NE,DA,496
+2456,Vožnja z ladjico – Žabljak,5,DA,DA,497
+2457,Večerni kulturni sprehod – Žabljak,3,NE,NE,497
+2458,Degustacija lokalnih jedi – Međa,3,DA,NE,498
+2459,Ulična kulinarična tura – Međa,4,DA,NE,498
+2460,Izlet v naravo v okolici mesta – Pictou,4,NE,DA,499
+2461,Arhitekturni sprehod – Pictou,5,NE,DA,499
+2462,Interaktivni znanstveni center – Sundsvall,5,DA,DA,500
+2463,Obisk mestne knjižnice – Sundsvall,3,NE,DA,500
+2464,Obisk kulturnega centra – Kawaguchi,3,DA,DA,501
+2465,Delavnica tradicionalnih obrti – Kawaguchi,4,DA,DA,501
+2466,Ogled mestnih znamenitosti ponoči – Nanyuan,4,DA,NE,502
+2467,Delavnica lokalne kulinarike – Nanyuan,5,DA,DA,502
+2468,Obisk zgodovinskega muzeja – Az Zāhir,5,DA,DA,503
+2469,Obisk umetniške galerije – Az Zāhir,3,DA,DA,503
+2470,Obisk živalskega vrta – Sharga,3,DA,DA,504
+2471,Ogled športnega objekta – Sharga,4,DA,DA,504
+2472,Obisk botaničnega vrta – Huoli,4,DA,DA,505
+2473,Večerni razgled na mesto – Huoli,5,NE,DA,505
+2474,Obisk akvarija – Bouna,5,DA,DA,506
+2475,Obisk lokalnega sejma – Bouna,3,NE,DA,506
+2476,Voden pohod po okolici – Seririt,3,NE,DA,507
+2477,Voden ogled starega mestnega jedra – Seririt,4,NE,DA,507
+2478,Obisk zgodovinske četrti – Buenavista,4,NE,DA,508
+2479,Družinski ogled znamenitosti – Buenavista,5,DA,DA,508
+2480,Kolesarski izlet po mestu – Benisheikh,5,NE,DA,509
+2481,Vodena fotografska tura – Benisheikh,3,DA,NE,509
+2482,Večerni kulturni sprehod – Kutapanjang,3,NE,NE,510
+2483,Otroška ustvarjalna delavnica – Kutapanjang,4,DA,DA,510
+2484,Ulična kulinarična tura – Lấp Vò,4,DA,NE,511
+2485,Ogled verske dediščine – Lấp Vò,5,NE,DA,511
+2486,Arhitekturni sprehod – Guinobatan,5,NE,DA,512
+2487,Piknik v mestnem parku – Guinobatan,3,NE,DA,512
+2488,Obisk mestne knjižnice – Tilburg,3,NE,DA,513
+2489,Sprehod skozi mestni park – Tilburg,4,NE,DA,513
+2490,Delavnica tradicionalnih obrti – Florida,4,DA,DA,514
+2491,Razgledna točka in fotografiranje – Florida,5,NE,DA,514
+2492,Delavnica lokalne kulinarike – Valjevo,5,DA,DA,515
+2493,Plovba po reki ali jezeru – Valjevo,3,DA,DA,515
+2494,Obisk umetniške galerije – Balazar,3,DA,DA,516
+2495,Raziskovanje lokalnih obrti – Balazar,4,DA,DA,516
+2496,Ogled športnega objekta – Campo Largo,4,DA,DA,517
+2497,Vožnja s turističnim avtobusom – Campo Largo,5,DA,DA,517
+2498,Večerni razgled na mesto – Xiyang,5,NE,DA,518
+2499,Pokušina lokalnih sladic – Xiyang,3,DA,DA,518
+2500,Obisk lokalnega sejma – Batanamang,3,NE,DA,519
+2501,Ogled lokalne tržnice – Batanamang,4,NE,DA,519
+2502,Voden ogled starega mestnega jedra – Mulyosari,4,NE,DA,520
+2503,Ogled zgodovinskih zgradb – Mulyosari,5,NE,DA,520
+2504,Družinski ogled znamenitosti – Mertert,5,DA,DA,521
+2505,Koncert lokalne glasbe – Mertert,3,DA,DA,521
+2506,Vodena fotografska tura – Contagem,3,DA,NE,522
+2507,Jutranji ogled mesta – Contagem,4,NE,DA,522
+2508,Otroška ustvarjalna delavnica – Hutang,4,DA,DA,523
+2509,Sprehod ob reki – Hutang,5,NE,DA,523
+2510,Ogled verske dediščine – Bandung,5,NE,DA,524
+2511,Vožnja z ladjico – Bandung,3,DA,DA,524
+2512,Piknik v mestnem parku – Zhendong,3,NE,DA,525
+2513,Degustacija lokalnih jedi – Zhendong,4,DA,NE,525
+2514,Sprehod skozi mestni park – Kristinestad,4,NE,DA,526
+2515,Izlet v naravo v okolici mesta – Kristinestad,5,NE,DA,526
+2516,Razgledna točka in fotografiranje – Sabaneta,5,NE,DA,527
+2517,Interaktivni znanstveni center – Sabaneta,3,DA,DA,527
+2518,Plovba po reki ali jezeru – Admiralteisky,3,DA,DA,528
+2519,Obisk kulturnega centra – Admiralteisky,4,DA,DA,528
+2520,Raziskovanje lokalnih obrti – Shar’ya,4,DA,DA,529
+2521,Ogled mestnih znamenitosti ponoči – Shar’ya,5,DA,NE,529
+2522,Vožnja s turističnim avtobusom – As Salţ,5,DA,DA,530
+2523,Obisk zgodovinskega muzeja – As Salţ,3,DA,DA,530
+2524,Pokušina lokalnih sladic – Long Hồ,3,DA,DA,531
+2525,Obisk živalskega vrta – Long Hồ,4,DA,DA,531
+2526,Ogled lokalne tržnice – Tukuyu,4,NE,DA,532
+2527,Obisk botaničnega vrta – Tukuyu,5,DA,DA,532
+2528,Ogled zgodovinskih zgradb – Rincón,5,NE,DA,533
+2529,Obisk akvarija – Rincón,3,DA,DA,533
+2530,Koncert lokalne glasbe – Seydi,3,DA,DA,534
+2531,Voden pohod po okolici – Seydi,4,NE,DA,534
+2532,Jutranji ogled mesta – Kalmar,4,NE,DA,535
+2533,Obisk zgodovinske četrti – Kalmar,5,NE,DA,535
+2534,Sprehod ob reki – Nanortalik,5,NE,DA,536
+2535,Kolesarski izlet po mestu – Nanortalik,3,NE,DA,536
+2536,Vožnja z ladjico – Yezhi,3,DA,DA,537
+2537,Večerni kulturni sprehod – Yezhi,4,NE,NE,537
+2538,Degustacija lokalnih jedi – Kiruru,4,DA,NE,538
+2539,Ulična kulinarična tura – Kiruru,5,DA,NE,538
+2540,Izlet v naravo v okolici mesta – Banjar Buahan,5,NE,DA,539
+2541,Arhitekturni sprehod – Banjar Buahan,3,NE,DA,539
+2542,Interaktivni znanstveni center – Maca,3,DA,DA,540
+2543,Obisk mestne knjižnice – Maca,4,NE,DA,540
+2544,Obisk kulturnega centra – Versailles,4,DA,DA,541
+2545,Delavnica tradicionalnih obrti – Versailles,5,DA,DA,541
+2546,Ogled mestnih znamenitosti ponoči – Lyubeshiv,5,DA,NE,542
+2547,Delavnica lokalne kulinarike – Lyubeshiv,3,DA,DA,542
+2548,Obisk zgodovinskega muzeja – Orda,3,DA,DA,543
+2549,Obisk umetniške galerije – Orda,4,DA,DA,543
+2550,Obisk živalskega vrta – Buchanan,4,DA,DA,544
+2551,Ogled športnega objekta – Buchanan,5,DA,DA,544
+2552,Obisk botaničnega vrta – São Luís de Montes Belos,5,DA,DA,545
+2553,Večerni razgled na mesto – São Luís de Montes Belos,3,NE,DA,545
+2554,Obisk akvarija – Punta de Piedra,3,DA,DA,546
+2555,Obisk lokalnega sejma – Punta de Piedra,4,NE,DA,546
+2556,Voden pohod po okolici – Qianjia,4,NE,DA,547
+2557,Voden ogled starega mestnega jedra – Qianjia,5,NE,DA,547
+2558,Obisk zgodovinske četrti – Chapecó,5,NE,DA,548
+2559,Družinski ogled znamenitosti – Chapecó,3,DA,DA,548
+2560,Kolesarski izlet po mestu – Xiaojian,3,NE,DA,549
+2561,Vodena fotografska tura – Xiaojian,4,DA,NE,549
+2562,Večerni kulturni sprehod – Tolotangga,4,NE,NE,550
+2563,Otroška ustvarjalna delavnica – Tolotangga,5,DA,DA,550
+2564,Ulična kulinarična tura – Rudziczka,5,DA,NE,551
+2565,Ogled verske dediščine – Rudziczka,3,NE,DA,551
+2566,Arhitekturni sprehod – Guizi,3,NE,DA,552
+2567,Piknik v mestnem parku – Guizi,4,NE,DA,552
+2568,Obisk mestne knjižnice – Kembangkerang Satu,4,NE,DA,553
+2569,Sprehod skozi mestni park – Kembangkerang Satu,5,NE,DA,553
+2570,Delavnica tradicionalnih obrti – Bordeaux,5,DA,DA,554
+2571,Razgledna točka in fotografiranje – Bordeaux,3,NE,DA,554
+2572,Delavnica lokalne kulinarike – Nyandoma,3,DA,DA,555
+2573,Plovba po reki ali jezeru – Nyandoma,4,DA,DA,555
+2574,Obisk umetniške galerije – Nova Odessa,4,DA,DA,556
+2575,Raziskovanje lokalnih obrti – Nova Odessa,5,DA,DA,556
+2576,Ogled športnega objekta – Xinghua,5,DA,DA,557
+2577,Vožnja s turističnim avtobusom – Xinghua,3,DA,DA,557
+2578,Večerni razgled na mesto – Liucheng,3,NE,DA,558
+2579,Pokušina lokalnih sladic – Liucheng,4,DA,DA,558
+2580,Obisk lokalnega sejma – Limmared,4,NE,DA,559
+2581,Ogled lokalne tržnice – Limmared,5,NE,DA,559
+2582,Voden ogled starega mestnega jedra – Atsipópoulon,5,NE,DA,560
+2583,Ogled zgodovinskih zgradb – Atsipópoulon,3,NE,DA,560
+2584,Družinski ogled znamenitosti – A-da-Gorda,3,DA,DA,561
+2585,Koncert lokalne glasbe – A-da-Gorda,4,DA,DA,561
+2586,Vodena fotografska tura – Pineleng,4,DA,NE,562
+2587,Jutranji ogled mesta – Pineleng,5,NE,DA,562
+2588,Otroška ustvarjalna delavnica – Wenfang,5,DA,DA,563
+2589,Sprehod ob reki – Wenfang,3,NE,DA,563
+2590,Ogled verske dediščine – Richmond,3,NE,DA,564
+2591,Vožnja z ladjico – Richmond,4,DA,DA,564
+2592,Piknik v mestnem parku – Jincheng,4,NE,DA,565
+2593,Degustacija lokalnih jedi – Jincheng,5,DA,NE,565
+2594,Sprehod skozi mestni park – Cilampuyang,5,NE,DA,566
+2595,Izlet v naravo v okolici mesta – Cilampuyang,3,NE,DA,566
+2596,Razgledna točka in fotografiranje – Manzanares,3,NE,DA,567
+2597,Interaktivni znanstveni center – Manzanares,4,DA,DA,567
+2598,Plovba po reki ali jezeru – Ikoma,4,DA,DA,568
+2599,Obisk kulturnega centra – Ikoma,5,DA,DA,568
+2600,Raziskovanje lokalnih obrti – Tongyang,5,DA,DA,569
+2601,Ogled mestnih znamenitosti ponoči – Tongyang,3,DA,NE,569
+2602,Vožnja s turističnim avtobusom – Saihan Tal,3,DA,DA,570
+2603,Obisk zgodovinskega muzeja – Saihan Tal,4,DA,DA,570
+2604,Pokušina lokalnih sladic – Gweedore,4,DA,DA,571
+2605,Obisk živalskega vrta – Gweedore,5,DA,DA,571
+2606,Ogled lokalne tržnice – Sanqiao,5,NE,DA,572
+2607,Obisk botaničnega vrta – Sanqiao,3,DA,DA,572
+2608,Ogled zgodovinskih zgradb – Puńsk,3,NE,DA,573
+2609,Obisk akvarija – Puńsk,4,DA,DA,573
+2610,Koncert lokalne glasbe – Xiangcunxiang,4,DA,DA,574
+2611,Voden pohod po okolici – Xiangcunxiang,5,NE,DA,574
+2612,Jutranji ogled mesta – Changzhou,5,NE,DA,575
+2613,Obisk zgodovinske četrti – Changzhou,3,NE,DA,575
+2614,Sprehod ob reki – Huangling,3,NE,DA,576
+2615,Kolesarski izlet po mestu – Huangling,4,NE,DA,576
+2616,Vožnja z ladjico – Otaniemi,4,DA,DA,577
+2617,Večerni kulturni sprehod – Otaniemi,5,NE,NE,577
+2618,Degustacija lokalnih jedi – Łubnice,5,DA,NE,578
+2619,Ulična kulinarična tura – Łubnice,3,DA,NE,578
+2620,Izlet v naravo v okolici mesta – Kungälv,3,NE,DA,579
+2621,Arhitekturni sprehod – Kungälv,4,NE,DA,579
+2622,Interaktivni znanstveni center – Eisen,4,DA,DA,580
+2623,Obisk mestne knjižnice – Eisen,5,NE,DA,580
+2624,Obisk kulturnega centra – Kanie,5,DA,DA,581
+2625,Delavnica tradicionalnih obrti – Kanie,3,DA,DA,581
+2626,Ogled mestnih znamenitosti ponoči – Mineralnye Vody,3,DA,NE,582
+2627,Delavnica lokalne kulinarike – Mineralnye Vody,4,DA,DA,582
+2628,Obisk zgodovinskega muzeja – Independencia,4,DA,DA,583
+2629,Obisk umetniške galerije – Independencia,5,DA,DA,583
+2630,Obisk živalskega vrta – Lesnoye,5,DA,DA,584
+2631,Ogled športnega objekta – Lesnoye,3,DA,DA,584
+2632,Obisk botaničnega vrta – Fahraj,3,DA,DA,585
+2633,Večerni razgled na mesto – Fahraj,4,NE,DA,585
+2634,Obisk akvarija – Tallahassee,4,DA,DA,586
+2635,Obisk lokalnega sejma – Tallahassee,5,NE,DA,586
+2636,Voden pohod po okolici – Saint-Félicien,5,NE,DA,587
+2637,Voden ogled starega mestnega jedra – Saint-Félicien,3,NE,DA,587
+2638,Obisk zgodovinske četrti – Gwangtan,3,NE,DA,588
+2639,Družinski ogled znamenitosti – Gwangtan,4,DA,DA,588
+2640,Kolesarski izlet po mestu – Fontainhas,4,NE,DA,589
+2641,Vodena fotografska tura – Fontainhas,5,DA,NE,589
+2642,Večerni kulturni sprehod – Nyagan,5,NE,NE,590
+2643,Otroška ustvarjalna delavnica – Nyagan,3,DA,DA,590
+2644,Ulična kulinarična tura – San Vicente,3,DA,NE,591
+2645,Ogled verske dediščine – San Vicente,4,NE,DA,591
+2646,Arhitekturni sprehod – Dabao’anzhen,4,NE,DA,592
+2647,Piknik v mestnem parku – Dabao’anzhen,5,NE,DA,592
+2648,Obisk mestne knjižnice – Schengen,5,NE,DA,593
+2649,Sprehod skozi mestni park – Schengen,3,NE,DA,593
+2650,Delavnica tradicionalnih obrti – Pankrushikha,3,DA,DA,594
+2651,Razgledna točka in fotografiranje – Pankrushikha,4,NE,DA,594
+2652,Delavnica lokalne kulinarike – Kadukandel,4,DA,DA,595
+2653,Plovba po reki ali jezeru – Kadukandel,5,DA,DA,595
+2654,Obisk umetniške galerije – Tempursari Wetan,5,DA,DA,596
+2655,Raziskovanje lokalnih obrti – Tempursari Wetan,3,DA,DA,596
+2656,Ogled športnega objekta – Futang,3,DA,DA,597
+2657,Vožnja s turističnim avtobusom – Futang,4,DA,DA,597
+2658,Večerni razgled na mesto – Florida,4,NE,DA,598
+2659,Pokušina lokalnih sladic – Florida,5,DA,DA,598
+2660,Obisk lokalnega sejma – Kangping,5,NE,DA,599
+2661,Ogled lokalne tržnice – Kangping,3,NE,DA,599
+2662,Voden ogled starega mestnega jedra – Vale de Açores,3,NE,DA,600
+2663,Ogled zgodovinskih zgradb – Vale de Açores,4,NE,DA,600
+2664,Družinski ogled znamenitosti – Shangdongjie,4,DA,DA,601
+2665,Koncert lokalne glasbe – Shangdongjie,5,DA,DA,601
+2666,Vodena fotografska tura – Bayuwan,5,DA,NE,602
+2667,Jutranji ogled mesta – Bayuwan,3,NE,DA,602
+2668,Otroška ustvarjalna delavnica – Walagar,3,DA,DA,603
+2669,Sprehod ob reki – Walagar,4,NE,DA,603
+2670,Ogled verske dediščine – Vinkkilä,4,NE,DA,604
+2671,Vožnja z ladjico – Vinkkilä,5,DA,DA,604
+2672,Piknik v mestnem parku – Barra de Carrasco,5,NE,DA,605
+2673,Degustacija lokalnih jedi – Barra de Carrasco,3,DA,NE,605
+2674,Sprehod skozi mestni park – Chugur,3,NE,DA,606
+2675,Izlet v naravo v okolici mesta – Chugur,4,NE,DA,606
+2676,Razgledna točka in fotografiranje – Francisco Beltrão,4,NE,DA,607
+2677,Interaktivni znanstveni center – Francisco Beltrão,5,DA,DA,607
+2678,Plovba po reki ali jezeru – Xinbao,5,DA,DA,608
+2679,Obisk kulturnega centra – Xinbao,3,DA,DA,608
+2680,Raziskovanje lokalnih obrti – Beoga,3,DA,DA,609
+2681,Ogled mestnih znamenitosti ponoči – Beoga,4,DA,NE,609
+2682,Vožnja s turističnim avtobusom – Volzhskiy,4,DA,DA,610
+2683,Obisk zgodovinskega muzeja – Volzhskiy,5,DA,DA,610
+2684,Pokušina lokalnih sladic – Beicang,5,DA,DA,611
+2685,Obisk živalskega vrta – Beicang,3,DA,DA,611
+2686,Ogled lokalne tržnice – Vicente Guerrero,3,NE,DA,612
+2687,Obisk botaničnega vrta – Vicente Guerrero,4,DA,DA,612
+2688,Ogled zgodovinskih zgradb – Al Fayyūm,4,NE,DA,613
+2689,Obisk akvarija – Al Fayyūm,5,DA,DA,613
+2690,Koncert lokalne glasbe – Zapatero,5,DA,DA,614
+2691,Voden pohod po okolici – Zapatero,3,NE,DA,614
+2692,Jutranji ogled mesta – Raşad,3,NE,DA,615
+2693,Obisk zgodovinske četrti – Raşad,4,NE,DA,615
+2694,Sprehod ob reki – Koysinceq,4,NE,DA,616
+2695,Kolesarski izlet po mestu – Koysinceq,5,NE,DA,616
+2696,Vožnja z ladjico – Bangonay,5,DA,DA,617
+2697,Večerni kulturni sprehod – Bangonay,3,NE,NE,617
+2698,Degustacija lokalnih jedi – Thatèng,3,DA,NE,618
+2699,Ulična kulinarična tura – Thatèng,4,DA,NE,618
+2700,Izlet v naravo v okolici mesta – Yokohama,4,NE,DA,619
+2701,Arhitekturni sprehod – Yokohama,5,NE,DA,619
+2702,Interaktivni znanstveni center – Gelang,5,DA,DA,620
+2703,Obisk mestne knjižnice – Gelang,3,NE,DA,620
+2704,Obisk kulturnega centra – Cochrane,3,DA,DA,621
+2705,Delavnica tradicionalnih obrti – Cochrane,4,DA,DA,621
+2706,Ogled mestnih znamenitosti ponoči – Bajia,4,DA,NE,622
+2707,Delavnica lokalne kulinarike – Bajia,5,DA,DA,622
+2708,Obisk zgodovinskega muzeja – Ambon,5,DA,DA,623
+2709,Obisk umetniške galerije – Ambon,3,DA,DA,623
+2710,Obisk živalskega vrta – Villa del Rosario,3,DA,DA,624
+2711,Ogled športnega objekta – Villa del Rosario,4,DA,DA,624
+2712,Obisk botaničnega vrta – Kon Tum,4,DA,DA,625
+2713,Večerni razgled na mesto – Kon Tum,5,NE,DA,625
+2714,Obisk akvarija – Timiryazevskoye,5,DA,DA,626
+2715,Obisk lokalnega sejma – Timiryazevskoye,3,NE,DA,626
+2716,Voden pohod po okolici – Andkhōy,3,NE,DA,627
+2717,Voden ogled starega mestnega jedra – Andkhōy,4,NE,DA,627
+2718,Obisk zgodovinske četrti – Sampungu,4,NE,DA,628
+2719,Družinski ogled znamenitosti – Sampungu,5,DA,DA,628
+2720,Kolesarski izlet po mestu – Calumpang,5,NE,DA,629
+2721,Vodena fotografska tura – Calumpang,3,DA,NE,629
+2722,Večerni kulturni sprehod – Mayingzhuang,3,NE,NE,630
+2723,Otroška ustvarjalna delavnica – Mayingzhuang,4,DA,DA,630
+2724,Ulična kulinarična tura – Gonghe,4,DA,NE,631
+2725,Ogled verske dediščine – Gonghe,5,NE,DA,631
+2726,Arhitekturni sprehod – Dongqiao,5,NE,DA,632
+2727,Piknik v mestnem parku – Dongqiao,3,NE,DA,632
+2728,Obisk mestne knjižnice – Richmond,3,NE,DA,633
+2729,Sprehod skozi mestni park – Richmond,4,NE,DA,633
+2730,Delavnica tradicionalnih obrti – Bzou,4,DA,DA,634
+2731,Razgledna točka in fotografiranje – Bzou,5,NE,DA,634
+2732,Delavnica lokalne kulinarike – Thessaloníki,5,DA,DA,635
+2733,Plovba po reki ali jezeru – Thessaloníki,3,DA,DA,635
+2734,Obisk umetniške galerije – Al Ghāriyah,3,DA,DA,636
+2735,Raziskovanje lokalnih obrti – Al Ghāriyah,4,DA,DA,636
+2736,Ogled športnega objekta – Taiping,4,DA,DA,637
+2737,Vožnja s turističnim avtobusom – Taiping,5,DA,DA,637
+2738,Večerni razgled na mesto – Chitagá,5,NE,DA,638
+2739,Pokušina lokalnih sladic – Chitagá,3,DA,DA,638
+2740,Obisk lokalnega sejma – Damiao,3,NE,DA,639
+2741,Ogled lokalne tržnice – Damiao,4,NE,DA,639
+2742,Voden ogled starega mestnega jedra – Kampungladang,4,NE,DA,640
+2743,Ogled zgodovinskih zgradb – Kampungladang,5,NE,DA,640
+2744,Družinski ogled znamenitosti – Barisan,5,DA,DA,641
+2745,Koncert lokalne glasbe – Barisan,3,DA,DA,641
+2746,Vodena fotografska tura – Czerwieńsk,3,DA,NE,642
+2747,Jutranji ogled mesta – Czerwieńsk,4,NE,DA,642
+2748,Otroška ustvarjalna delavnica – Elbasan,4,DA,DA,643
+2749,Sprehod ob reki – Elbasan,5,NE,DA,643
+2750,Ogled verske dediščine – Slovenj Gradec,5,NE,DA,644
+2751,Vožnja z ladjico – Slovenj Gradec,3,DA,DA,644
+2752,Piknik v mestnem parku – Alubijid,3,NE,DA,645
+2753,Degustacija lokalnih jedi – Alubijid,4,DA,NE,645
+2754,Sprehod skozi mestni park – San Francisco,4,NE,DA,646
+2755,Izlet v naravo v okolici mesta – San Francisco,5,NE,DA,646
+2756,Razgledna točka in fotografiranje – Embarcación,5,NE,DA,647
+2757,Interaktivni znanstveni center – Embarcación,3,DA,DA,647
+2758,Plovba po reki ali jezeru – Polkowice,3,DA,DA,648
+2759,Obisk kulturnega centra – Polkowice,4,DA,DA,648
+2760,Raziskovanje lokalnih obrti – Aného,4,DA,DA,649
+2761,Ogled mestnih znamenitosti ponoči – Aného,5,DA,NE,649
+2762,Vožnja s turističnim avtobusom – Qifang,5,DA,DA,650
+2763,Obisk zgodovinskega muzeja – Qifang,3,DA,DA,650
+2764,Pokušina lokalnih sladic – Tripoli,3,DA,DA,651
+2765,Obisk živalskega vrta – Tripoli,4,DA,DA,651
+2766,Ogled lokalne tržnice – Dalai,4,NE,DA,652
+2767,Obisk botaničnega vrta – Dalai,5,DA,DA,652
+2768,Ogled zgodovinskih zgradb – Brodarica,5,NE,DA,653
+2769,Obisk akvarija – Brodarica,3,DA,DA,653
+2770,Koncert lokalne glasbe – Sorang,3,DA,DA,654
+2771,Voden pohod po okolici – Sorang,4,NE,DA,654
+2772,Jutranji ogled mesta – Batán,4,NE,DA,655
+2773,Obisk zgodovinske četrti – Batán,5,NE,DA,655
+2774,Sprehod ob reki – Töysä,5,NE,DA,656
+2775,Kolesarski izlet po mestu – Töysä,3,NE,DA,656
+2776,Vožnja z ladjico – Dedenëvo,3,DA,DA,657
+2777,Večerni kulturni sprehod – Dedenëvo,4,NE,NE,657
+2778,Degustacija lokalnih jedi – Ruen,4,DA,NE,658
+2779,Ulična kulinarična tura – Ruen,5,DA,NE,658
+2780,Izlet v naravo v okolici mesta – Segodim,5,NE,DA,659
+2781,Arhitekturni sprehod – Segodim,3,NE,DA,659
+2782,Interaktivni znanstveni center – Iquipi,3,DA,DA,660
+2783,Obisk mestne knjižnice – Iquipi,4,NE,DA,660
+2784,Obisk kulturnega centra – Buenavista,4,DA,DA,661
+2785,Delavnica tradicionalnih obrti – Buenavista,5,DA,DA,661
+2786,Ogled mestnih znamenitosti ponoči – Mahaplag,5,DA,NE,662
+2787,Delavnica lokalne kulinarike – Mahaplag,3,DA,DA,662
+2788,Obisk zgodovinskega muzeja – Banjar Triwangsakeliki,3,DA,DA,663
+2789,Obisk umetniške galerije – Banjar Triwangsakeliki,4,DA,DA,663
+2790,Obisk živalskega vrta – Thanh Xuân,4,DA,DA,664
+2791,Ogled športnega objekta – Thanh Xuân,5,DA,DA,664
+2792,Obisk botaničnega vrta – Morelos,5,DA,DA,665
+2793,Večerni razgled na mesto – Morelos,3,NE,DA,665
+2794,Obisk akvarija – Hancheng,3,DA,DA,666
+2795,Obisk lokalnega sejma – Hancheng,4,NE,DA,666
+2796,Voden pohod po okolici – Malanów,4,NE,DA,667
+2797,Voden ogled starega mestnega jedra – Malanów,5,NE,DA,667
+2798,Obisk zgodovinske četrti – Štěnovice,5,NE,DA,668
+2799,Družinski ogled znamenitosti – Štěnovice,3,DA,DA,668
+2800,Kolesarski izlet po mestu – Biguaçu,3,NE,DA,669
+2801,Vodena fotografska tura – Biguaçu,4,DA,NE,669
+2802,Večerni kulturni sprehod – Concepción,4,NE,NE,670
+2803,Otroška ustvarjalna delavnica – Concepción,5,DA,DA,670
+2804,Ulična kulinarična tura – Samburat,5,DA,NE,671
+2805,Ogled verske dediščine – Samburat,3,NE,DA,671
+2806,Arhitekturni sprehod – Montesson,3,NE,DA,672
+2807,Piknik v mestnem parku – Montesson,4,NE,DA,672
+2808,Obisk mestne knjižnice – Jincheng,4,NE,DA,673
+2809,Sprehod skozi mestni park – Jincheng,5,NE,DA,673
+2810,Delavnica tradicionalnih obrti – Shangfang,5,DA,DA,674
+2811,Razgledna točka in fotografiranje – Shangfang,3,NE,DA,674
+2812,Delavnica lokalne kulinarike – Useldange,3,DA,DA,675
+2813,Plovba po reki ali jezeru – Useldange,4,DA,DA,675
+2814,Obisk umetniške galerije – Villefranche-sur-Mer,4,DA,DA,676
+2815,Raziskovanje lokalnih obrti – Villefranche-sur-Mer,5,DA,DA,676
+2816,Ogled športnega objekta – Ganyesa,5,DA,DA,677
+2817,Vožnja s turističnim avtobusom – Ganyesa,3,DA,DA,677
+2818,Večerni razgled na mesto – Tabalong,3,NE,DA,678
+2819,Pokušina lokalnih sladic – Tabalong,4,DA,DA,678
+2820,Obisk lokalnega sejma – Al Marj,4,NE,DA,679
+2821,Ogled lokalne tržnice – Al Marj,5,NE,DA,679
+2822,Voden ogled starega mestnega jedra – Pudong,5,NE,DA,680
+2823,Ogled zgodovinskih zgradb – Pudong,3,NE,DA,680
+2824,Družinski ogled znamenitosti – Dasongshu,3,DA,DA,681
+2825,Koncert lokalne glasbe – Dasongshu,4,DA,DA,681
+2826,Vodena fotografska tura – Oslo,4,DA,NE,682
+2827,Jutranji ogled mesta – Oslo,5,NE,DA,682
+2828,Otroška ustvarjalna delavnica – Curiapo,5,DA,DA,683
+2829,Sprehod ob reki – Curiapo,3,NE,DA,683
+2830,Ogled verske dediščine – Prozor,3,NE,DA,684
+2831,Vožnja z ladjico – Prozor,4,DA,DA,684
+2832,Piknik v mestnem parku – Mourelos,4,NE,DA,685
+2833,Degustacija lokalnih jedi – Mourelos,5,DA,NE,685
+2834,Sprehod skozi mestni park – Iquique,5,NE,DA,686
+2835,Izlet v naravo v okolici mesta – Iquique,3,NE,DA,686
+2836,Razgledna točka in fotografiranje – Shaba,3,NE,DA,687
+2837,Interaktivni znanstveni center – Shaba,4,DA,DA,687
+2838,Plovba po reki ali jezeru – Gazanjyk,4,DA,DA,688
+2839,Obisk kulturnega centra – Gazanjyk,5,DA,DA,688
+2840,Raziskovanje lokalnih obrti – Khon Buri,5,DA,DA,689
+2841,Ogled mestnih znamenitosti ponoči – Khon Buri,3,DA,NE,689
+2842,Vožnja s turističnim avtobusom – Hendījān,3,DA,DA,690
+2843,Obisk zgodovinskega muzeja – Hendījān,4,DA,DA,690
+2844,Pokušina lokalnih sladic – Tonglin,4,DA,DA,691
+2845,Obisk živalskega vrta – Tonglin,5,DA,DA,691
+2846,Ogled lokalne tržnice – Élancourt,5,NE,DA,692
+2847,Obisk botaničnega vrta – Élancourt,3,DA,DA,692
+2848,Ogled zgodovinskih zgradb – Porciúncula,3,NE,DA,693
+2849,Obisk akvarija – Porciúncula,4,DA,DA,693
+2850,Koncert lokalne glasbe – Aveleda,4,DA,DA,694
+2851,Voden pohod po okolici – Aveleda,5,NE,DA,694
+2852,Jutranji ogled mesta – Parnamirim,5,NE,DA,695
+2853,Obisk zgodovinske četrti – Parnamirim,3,NE,DA,695
+2854,Sprehod ob reki – Santo Niño,3,NE,DA,696
+2855,Kolesarski izlet po mestu – Santo Niño,4,NE,DA,696
+2856,Vožnja z ladjico – Hailin,4,DA,DA,697
+2857,Večerni kulturni sprehod – Hailin,5,NE,NE,697
+2858,Degustacija lokalnih jedi – Villa del Rosario,5,DA,NE,698
+2859,Ulična kulinarična tura – Villa del Rosario,3,DA,NE,698
+2860,Izlet v naravo v okolici mesta – Lijia,3,NE,DA,699
+2861,Arhitekturni sprehod – Lijia,4,NE,DA,699
+2862,Interaktivni znanstveni center – Yanagawamachi-saiwaichō,4,DA,DA,700
+2863,Obisk mestne knjižnice – Yanagawamachi-saiwaichō,5,NE,DA,700
+2864,Obisk kulturnega centra – Huangzhai,5,DA,DA,701
+2865,Delavnica tradicionalnih obrti – Huangzhai,3,DA,DA,701
+2866,Ogled mestnih znamenitosti ponoči – Rafael Perazza,3,DA,NE,702
+2867,Delavnica lokalne kulinarike – Rafael Perazza,4,DA,DA,702
+2868,Obisk zgodovinskega muzeja – Kalmar,4,DA,DA,703
+2869,Obisk umetniške galerije – Kalmar,5,DA,DA,703
+2870,Obisk živalskega vrta – Baidoa,5,DA,DA,704
+2871,Ogled športnega objekta – Baidoa,3,DA,DA,704
+2872,Obisk botaničnega vrta – Guiyang,3,DA,DA,705
+2873,Večerni razgled na mesto – Guiyang,4,NE,DA,705
+2874,Obisk akvarija – Nowy Sącz,4,DA,DA,706
+2875,Obisk lokalnega sejma – Nowy Sącz,5,NE,DA,706
+2876,Voden pohod po okolici – Moravská Nová Ves,5,NE,DA,707
+2877,Voden ogled starega mestnega jedra – Moravská Nová Ves,3,NE,DA,707
+2878,Obisk zgodovinske četrti – Skeldon,3,NE,DA,708
+2879,Družinski ogled znamenitosti – Skeldon,4,DA,DA,708
+2880,Kolesarski izlet po mestu – Carpalho,4,NE,DA,709
+2881,Vodena fotografska tura – Carpalho,5,DA,NE,709
+2882,Večerni kulturni sprehod – El Ángel,5,NE,NE,710
+2883,Otroška ustvarjalna delavnica – El Ángel,3,DA,DA,710
+2884,Ulična kulinarična tura – Hachiōji,3,DA,NE,711
+2885,Ogled verske dediščine – Hachiōji,4,NE,DA,711
+2886,Arhitekturni sprehod – Aurora,4,NE,DA,712
+2887,Piknik v mestnem parku – Aurora,5,NE,DA,712
+2888,Obisk mestne knjižnice – Dayin,5,NE,DA,713
+2889,Sprehod skozi mestni park – Dayin,3,NE,DA,713
+2890,Delavnica tradicionalnih obrti – Shenjing,3,DA,DA,714
+2891,Razgledna točka in fotografiranje – Shenjing,4,NE,DA,714
+2892,Delavnica lokalne kulinarike – Curridabat,4,DA,DA,715
+2893,Plovba po reki ali jezeru – Curridabat,5,DA,DA,715
+2894,Obisk umetniške galerije – Tubarão,5,DA,DA,716
+2895,Raziskovanje lokalnih obrti – Tubarão,3,DA,DA,716
+2896,Ogled športnega objekta – Calvinia,3,DA,DA,717
+2897,Vožnja s turističnim avtobusom – Calvinia,4,DA,DA,717
+2898,Večerni razgled na mesto – Koszyce Wielkie,4,NE,DA,718
+2899,Pokušina lokalnih sladic – Koszyce Wielkie,5,DA,DA,718
+2900,Obisk lokalnega sejma – Huangjingba,5,NE,DA,719
+2901,Ogled lokalne tržnice – Huangjingba,3,NE,DA,719
+2902,Voden ogled starega mestnega jedra – Eusébio,3,NE,DA,720
+2903,Ogled zgodovinskih zgradb – Eusébio,4,NE,DA,720
+2904,Družinski ogled znamenitosti – Levski,4,DA,DA,721
+2905,Koncert lokalne glasbe – Levski,5,DA,DA,721
+2906,Vodena fotografska tura – São João da Barra,5,DA,NE,722
+2907,Jutranji ogled mesta – São João da Barra,3,NE,DA,722
+2908,Otroška ustvarjalna delavnica – Rios Frios,3,DA,DA,723
+2909,Sprehod ob reki – Rios Frios,4,NE,DA,723
+2910,Ogled verske dediščine – Liangbing,4,NE,DA,724
+2911,Vožnja z ladjico – Liangbing,5,DA,DA,724
+2912,Piknik v mestnem parku – Fujisawa,5,NE,DA,725
+2913,Degustacija lokalnih jedi – Fujisawa,3,DA,NE,725
+2914,Sprehod skozi mestni park – Sasa,3,NE,DA,726
+2915,Izlet v naravo v okolici mesta – Sasa,4,NE,DA,726
+2916,Razgledna točka in fotografiranje – Guadalupe,4,NE,DA,727
+2917,Interaktivni znanstveni center – Guadalupe,5,DA,DA,727
+2918,Plovba po reki ali jezeru – Qarah Bāgh Bāzār,5,DA,DA,728
+2919,Obisk kulturnega centra – Qarah Bāgh Bāzār,3,DA,DA,728
+2920,Raziskovanje lokalnih obrti – Katoro,3,DA,DA,729
+2921,Ogled mestnih znamenitosti ponoči – Katoro,4,DA,NE,729
+2922,Vožnja s turističnim avtobusom – Boulogne-sur-Mer,4,DA,DA,730
+2923,Obisk zgodovinskega muzeja – Boulogne-sur-Mer,5,DA,DA,730
+2924,Pokušina lokalnih sladic – Kampong Cham,5,DA,DA,731
+2925,Obisk živalskega vrta – Kampong Cham,3,DA,DA,731
+2926,Ogled lokalne tržnice – Zdiby,3,NE,DA,732
+2927,Obisk botaničnega vrta – Zdiby,4,DA,DA,732
+2928,Ogled zgodovinskih zgradb – Jönköping,4,NE,DA,733
+2929,Obisk akvarija – Jönköping,5,DA,DA,733
+2930,Koncert lokalne glasbe – Caherconlish,5,DA,DA,734
+2931,Voden pohod po okolici – Caherconlish,3,NE,DA,734
+2932,Jutranji ogled mesta – Sheshan,3,NE,DA,735
+2933,Obisk zgodovinske četrti – Sheshan,4,NE,DA,735
+2934,Sprehod ob reki – Malvinas Argentinas,4,NE,DA,736
+2935,Kolesarski izlet po mestu – Malvinas Argentinas,5,NE,DA,736
+2936,Vožnja z ladjico – Pogranichnyy,5,DA,DA,737
+2937,Večerni kulturni sprehod – Pogranichnyy,3,NE,NE,737
+2938,Degustacija lokalnih jedi – Dauphin,3,DA,NE,738
+2939,Ulična kulinarična tura – Dauphin,4,DA,NE,738
+2940,Izlet v naravo v okolici mesta – Stockholm,4,NE,DA,739
+2941,Arhitekturni sprehod – Stockholm,5,NE,DA,739
+2942,Interaktivni znanstveni center – Sa Kaeo,5,DA,DA,740
+2943,Obisk mestne knjižnice – Sa Kaeo,3,NE,DA,740
+2944,Obisk kulturnega centra – Sagaing,3,DA,DA,741
+2945,Delavnica tradicionalnih obrti – Sagaing,4,DA,DA,741
+2946,Ogled mestnih znamenitosti ponoči – Parramos,4,DA,NE,742
+2947,Delavnica lokalne kulinarike – Parramos,5,DA,DA,742
+2948,Obisk zgodovinskega muzeja – Maru,5,DA,DA,743
+2949,Obisk umetniške galerije – Maru,3,DA,DA,743
+2950,Obisk živalskega vrta – Huari,3,DA,DA,744
+2951,Ogled športnega objekta – Huari,4,DA,DA,744
+2952,Obisk botaničnega vrta – Mamponteng,4,DA,DA,745
+2953,Večerni razgled na mesto – Mamponteng,5,NE,DA,745
+2954,Obisk akvarija – Eixo,5,DA,DA,746
+2955,Obisk lokalnega sejma – Eixo,3,NE,DA,746
+2956,Voden pohod po okolici – Kalininaul,3,NE,DA,747
+2957,Voden ogled starega mestnega jedra – Kalininaul,4,NE,DA,747
+2958,Obisk zgodovinske četrti – Jiangmen,4,NE,DA,748
+2959,Družinski ogled znamenitosti – Jiangmen,5,DA,DA,748
+2960,Kolesarski izlet po mestu – Krasica,5,NE,DA,749
+2961,Vodena fotografska tura – Krasica,3,DA,NE,749
+2962,Večerni kulturni sprehod – Viana,3,NE,NE,750
+2963,Otroška ustvarjalna delavnica – Viana,4,DA,DA,750
+2964,Ulična kulinarična tura – Kuanfeu,4,DA,NE,751
+2965,Ogled verske dediščine – Kuanfeu,5,NE,DA,751
+2966,Arhitekturni sprehod – Selasari,5,NE,DA,752
+2967,Piknik v mestnem parku – Selasari,3,NE,DA,752
+2968,Obisk mestne knjižnice – Maracha,3,NE,DA,753
+2969,Sprehod skozi mestni park – Maracha,4,NE,DA,753
+2970,Delavnica tradicionalnih obrti – Busia,4,DA,DA,754
+2971,Razgledna točka in fotografiranje – Busia,5,NE,DA,754
+2972,Delavnica lokalne kulinarike – Piekielnik,5,DA,DA,755
+2973,Plovba po reki ali jezeru – Piekielnik,3,DA,DA,755
+2974,Obisk umetniške galerije – Ceres,3,DA,DA,756
+2975,Raziskovanje lokalnih obrti – Ceres,4,DA,DA,756
+2976,Ogled športnega objekta – Vodnyy,4,DA,DA,757
+2977,Vožnja s turističnim avtobusom – Vodnyy,5,DA,DA,757
+2978,Večerni razgled na mesto – Choroszcz,5,NE,DA,758
+2979,Pokušina lokalnih sladic – Choroszcz,3,DA,DA,758
+2980,Obisk lokalnega sejma – Kyzylorda,3,NE,DA,759
+2981,Ogled lokalne tržnice – Kyzylorda,4,NE,DA,759
+2982,Voden ogled starega mestnega jedra – Donji Dobrić,4,NE,DA,760
+2983,Ogled zgodovinskih zgradb – Donji Dobrić,5,NE,DA,760
+2984,Družinski ogled znamenitosti – Kailahun,5,DA,DA,761
+2985,Koncert lokalne glasbe – Kailahun,3,DA,DA,761
+2986,Vodena fotografska tura – Nova Era,3,DA,NE,762
+2987,Jutranji ogled mesta – Nova Era,4,NE,DA,762
+2988,Otroška ustvarjalna delavnica – Chuoyuan,4,DA,DA,763
+2989,Sprehod ob reki – Chuoyuan,5,NE,DA,763
+2990,Ogled verske dediščine – Bukovany,5,NE,DA,764
+2991,Vožnja z ladjico – Bukovany,3,DA,DA,764
+2992,Piknik v mestnem parku – Ongi,3,NE,DA,765
+2993,Degustacija lokalnih jedi – Ongi,4,DA,NE,765
+2994,Sprehod skozi mestni park – Nauchnyy Gorodok,4,NE,DA,766
+2995,Izlet v naravo v okolici mesta – Nauchnyy Gorodok,5,NE,DA,766
+2996,Razgledna točka in fotografiranje – Brinje,5,NE,DA,767
+2997,Interaktivni znanstveni center – Brinje,3,DA,DA,767
+2998,Plovba po reki ali jezeru – Safakulevo,3,DA,DA,768
+2999,Obisk kulturnega centra – Safakulevo,4,DA,DA,768
+3000,Raziskovanje lokalnih obrti – Kokkini Trimithia,4,DA,DA,769
+3001,Ogled mestnih znamenitosti ponoči – Kokkini Trimithia,5,DA,NE,769
+3002,Vožnja s turističnim avtobusom – Abakan,5,DA,DA,770
+3003,Obisk zgodovinskega muzeja – Abakan,3,DA,DA,770
+3004,Pokušina lokalnih sladic – New Mīrpur,3,DA,DA,771
+3005,Obisk živalskega vrta – New Mīrpur,4,DA,DA,771
+3006,Ogled lokalne tržnice – Batan,4,NE,DA,772
+3007,Obisk botaničnega vrta – Batan,5,DA,DA,772
+3008,Ogled zgodovinskih zgradb – Mauhao,5,NE,DA,773
+3009,Obisk akvarija – Mauhao,3,DA,DA,773
+3010,Koncert lokalne glasbe – Puspajaya,3,DA,DA,774
+3011,Voden pohod po okolici – Puspajaya,4,NE,DA,774
+3012,Jutranji ogled mesta – Mogok,4,NE,DA,775
+3013,Obisk zgodovinske četrti – Mogok,5,NE,DA,775
+3014,Sprehod ob reki – Macroom,5,NE,DA,776
+3015,Kolesarski izlet po mestu – Macroom,3,NE,DA,776
+3016,Vožnja z ladjico – Taytayan,3,DA,DA,777
+3017,Večerni kulturni sprehod – Taytayan,4,NE,NE,777
+3018,Degustacija lokalnih jedi – High Point,4,DA,NE,778
+3019,Ulična kulinarična tura – High Point,5,DA,NE,778
+3020,Izlet v naravo v okolici mesta – Eling,5,NE,DA,779
+3021,Arhitekturni sprehod – Eling,3,NE,DA,779
+3022,Interaktivni znanstveni center – Tvøroyri,3,DA,DA,780
+3023,Obisk mestne knjižnice – Tvøroyri,4,NE,DA,780
+3024,Obisk kulturnega centra – Waigete,4,DA,DA,781
+3025,Delavnica tradicionalnih obrti – Waigete,5,DA,DA,781
+3026,Ogled mestnih znamenitosti ponoči – Berlin,5,DA,NE,782
+3027,Delavnica lokalne kulinarike – Berlin,3,DA,DA,782
+3028,Obisk zgodovinskega muzeja – Jammāl,3,DA,DA,783
+3029,Obisk umetniške galerije – Jammāl,4,DA,DA,783
+3030,Obisk živalskega vrta – San Antonio,4,DA,DA,784
+3031,Ogled športnega objekta – San Antonio,5,DA,DA,784
+3032,Obisk botaničnega vrta – Nowe,5,DA,DA,785
+3033,Večerni razgled na mesto – Nowe,3,NE,DA,785
+3034,Obisk akvarija – Currais,3,DA,DA,786
+3035,Obisk lokalnega sejma – Currais,4,NE,DA,786
+3036,Voden pohod po okolici – Pandanwangi,4,NE,DA,787
+3037,Voden ogled starega mestnega jedra – Pandanwangi,5,NE,DA,787
+3038,Obisk zgodovinske četrti – Curuan,5,NE,DA,788
+3039,Družinski ogled znamenitosti – Curuan,3,DA,DA,788
+3040,Kolesarski izlet po mestu – Famagusta,3,NE,DA,789
+3041,Vodena fotografska tura – Famagusta,4,DA,NE,789
+3042,Večerni kulturni sprehod – Naas,4,NE,NE,790
+3043,Otroška ustvarjalna delavnica – Naas,5,DA,DA,790
+3044,Ulična kulinarična tura – Jambesari,5,DA,NE,791
+3045,Ogled verske dediščine – Jambesari,3,NE,DA,791
+3046,Arhitekturni sprehod – Tarhuna,3,NE,DA,792
+3047,Piknik v mestnem parku – Tarhuna,4,NE,DA,792
+3048,Obisk mestne knjižnice – Trnava,4,NE,DA,793
+3049,Sprehod skozi mestni park – Trnava,5,NE,DA,793
+3050,Delavnica tradicionalnih obrti – Nanjiao,5,DA,DA,794
+3051,Razgledna točka in fotografiranje – Nanjiao,3,NE,DA,794
+3052,Delavnica lokalne kulinarike – Zhixia,3,DA,DA,795
+3053,Plovba po reki ali jezeru – Zhixia,4,DA,DA,795
+3054,Obisk umetniške galerije – Pakalongan,4,DA,DA,796
+3055,Raziskovanje lokalnih obrti – Pakalongan,5,DA,DA,796
+3056,Ogled športnega objekta – Nanhai,5,DA,DA,797
+3057,Vožnja s turističnim avtobusom – Nanhai,3,DA,DA,797
+3058,Večerni razgled na mesto – Trinidad,3,NE,DA,798
+3059,Pokušina lokalnih sladic – Trinidad,4,DA,DA,798
+3060,Obisk lokalnega sejma – Ngaoundéré,4,NE,DA,799
+3061,Ogled lokalne tržnice – Ngaoundéré,5,NE,DA,799
+3062,Voden ogled starega mestnega jedra – Embu,5,NE,DA,800
+3063,Ogled zgodovinskih zgradb – Embu,3,NE,DA,800
+3064,Družinski ogled znamenitosti – Golden,3,DA,DA,801
+3065,Koncert lokalne glasbe – Golden,4,DA,DA,801
+3066,Vodena fotografska tura – Bogi,4,DA,NE,802
+3067,Jutranji ogled mesta – Bogi,5,NE,DA,802
+3068,Otroška ustvarjalna delavnica – Cabanilla,5,DA,DA,803
+3069,Sprehod ob reki – Cabanilla,3,NE,DA,803
+3070,Ogled verske dediščine – Suna,3,NE,DA,804
+3071,Vožnja z ladjico – Suna,4,DA,DA,804
+3072,Piknik v mestnem parku – A-da-Gorda,4,NE,DA,805
+3073,Degustacija lokalnih jedi – A-da-Gorda,5,DA,NE,805
+3074,Sprehod skozi mestni park – Lille,5,NE,DA,806
+3075,Izlet v naravo v okolici mesta – Lille,3,NE,DA,806
+3076,Razgledna točka in fotografiranje – Catache,3,NE,DA,807
+3077,Interaktivni znanstveni center – Catache,4,DA,DA,807
+3078,Plovba po reki ali jezeru – Simão Dias,4,DA,DA,808
+3079,Obisk kulturnega centra – Simão Dias,5,DA,DA,808
+3080,Raziskovanje lokalnih obrti – Qarqania,5,DA,DA,809
+3081,Ogled mestnih znamenitosti ponoči – Qarqania,3,DA,NE,809
+3082,Vožnja s turističnim avtobusom – Hongqi,3,DA,DA,810
+3083,Obisk zgodovinskega muzeja – Hongqi,4,DA,DA,810
+3084,Pokušina lokalnih sladic – Caldelas,4,DA,DA,811
+3085,Obisk živalskega vrta – Caldelas,5,DA,DA,811
+3086,Ogled lokalne tržnice – Kan’onjichō,5,NE,DA,812
+3087,Obisk botaničnega vrta – Kan’onjichō,3,DA,DA,812
+3088,Ogled zgodovinskih zgradb – Katiola,3,NE,DA,813
+3089,Obisk akvarija – Katiola,4,DA,DA,813
+3090,Koncert lokalne glasbe – Alegre,4,DA,DA,814
+3091,Voden pohod po okolici – Alegre,5,NE,DA,814
+3092,Jutranji ogled mesta – Junshan,5,NE,DA,815
+3093,Obisk zgodovinske četrti – Junshan,3,NE,DA,815
+3094,Sprehod ob reki – Chao,3,NE,DA,816
+3095,Kolesarski izlet po mestu – Chao,4,NE,DA,816
+3096,Vožnja z ladjico – Clorinda,4,DA,DA,817
+3097,Večerni kulturni sprehod – Clorinda,5,NE,NE,817
+3098,Degustacija lokalnih jedi – Timbrangan,5,DA,NE,818
+3099,Ulična kulinarična tura – Timbrangan,3,DA,NE,818
+3100,Izlet v naravo v okolici mesta – Vithkuq,3,NE,DA,819
+3101,Arhitekturni sprehod – Vithkuq,4,NE,DA,819
+3102,Interaktivni znanstveni center – Ngã Bảy,4,DA,DA,820
+3103,Obisk mestne knjižnice – Ngã Bảy,5,NE,DA,820
+3104,Obisk kulturnega centra – Ymittos,5,DA,DA,821
+3105,Delavnica tradicionalnih obrti – Ymittos,3,DA,DA,821
+3106,Ogled mestnih znamenitosti ponoči – San Mariano,3,DA,NE,822
+3107,Delavnica lokalne kulinarike – San Mariano,4,DA,DA,822
+3108,Obisk zgodovinskega muzeja – Jiujie,4,DA,DA,823
+3109,Obisk umetniške galerije – Jiujie,5,DA,DA,823
+3110,Obisk živalskega vrta – Ashley,5,DA,DA,824
+3111,Ogled športnega objekta – Ashley,3,DA,DA,824
+3112,Obisk botaničnega vrta – Centre de Flacq,3,DA,DA,825
+3113,Večerni razgled na mesto – Centre de Flacq,4,NE,DA,825
+3114,Obisk akvarija – Paseh,4,DA,DA,826
+3115,Obisk lokalnega sejma – Paseh,5,NE,DA,826
+3116,Voden pohod po okolici – Malunda,5,NE,DA,827
+3117,Voden ogled starega mestnega jedra – Malunda,3,NE,DA,827
+3118,Obisk zgodovinske četrti – Álftanes,3,NE,DA,828
+3119,Družinski ogled znamenitosti – Álftanes,4,DA,DA,828
+3120,Kolesarski izlet po mestu – Sumberbatas,4,NE,DA,829
+3121,Vodena fotografska tura – Sumberbatas,5,DA,NE,829
+3122,Večerni kulturni sprehod – Baitang,5,NE,NE,830
+3123,Otroška ustvarjalna delavnica – Baitang,3,DA,DA,830
+3124,Ulična kulinarična tura – Keti Bandar,3,DA,NE,831
+3125,Ogled verske dediščine – Keti Bandar,4,NE,DA,831
+3126,Arhitekturni sprehod – Burgersfort,4,NE,DA,832
+3127,Piknik v mestnem parku – Burgersfort,5,NE,DA,832
+3128,Obisk mestne knjižnice – Dinan,5,NE,DA,833
+3129,Sprehod skozi mestni park – Dinan,3,NE,DA,833
+3130,Delavnica tradicionalnih obrti – Genet,3,DA,DA,834
+3131,Razgledna točka in fotografiranje – Genet,4,NE,DA,834
+3132,Delavnica lokalne kulinarike – Novozavidovskiy,4,DA,DA,835
+3133,Plovba po reki ali jezeru – Novozavidovskiy,5,DA,DA,835
+3134,Obisk umetniške galerije – Malanay,5,DA,DA,836
+3135,Raziskovanje lokalnih obrti – Malanay,3,DA,DA,836
+3136,Ogled športnega objekta – Har-Us,3,DA,DA,837
+3137,Vožnja s turističnim avtobusom – Har-Us,4,DA,DA,837
+3138,Večerni razgled na mesto – Hamilton,4,NE,DA,838
+3139,Pokušina lokalnih sladic – Hamilton,5,DA,DA,838
+3140,Obisk lokalnega sejma – Daykitin,5,NE,DA,839
+3141,Ogled lokalne tržnice – Daykitin,3,NE,DA,839
+3142,Voden ogled starega mestnega jedra – Sasa,3,NE,DA,840
+3143,Ogled zgodovinskih zgradb – Sasa,4,NE,DA,840
+3144,Družinski ogled znamenitosti – Chishui,4,DA,DA,841
+3145,Koncert lokalne glasbe – Chishui,5,DA,DA,841
+3146,Vodena fotografska tura – Aguazul,5,DA,NE,842
+3147,Jutranji ogled mesta – Aguazul,3,NE,DA,842
+3148,Otroška ustvarjalna delavnica – Velyki Sorochyntsi,3,DA,DA,843
+3149,Sprehod ob reki – Velyki Sorochyntsi,4,NE,DA,843
+3150,Ogled verske dediščine – Clarin,4,NE,DA,844
+3151,Vožnja z ladjico – Clarin,5,DA,DA,844
+3152,Piknik v mestnem parku – Rowokangkung,5,NE,DA,845
+3153,Degustacija lokalnih jedi – Rowokangkung,3,DA,NE,845
+3154,Sprehod skozi mestni park – Brniště,3,NE,DA,846
+3155,Izlet v naravo v okolici mesta – Brniště,4,NE,DA,846
+3156,Razgledna točka in fotografiranje – Zhili,4,NE,DA,847
+3157,Interaktivni znanstveni center – Zhili,5,DA,DA,847
+3158,Plovba po reki ali jezeru – Moyo,5,DA,DA,848
+3159,Obisk kulturnega centra – Moyo,3,DA,DA,848
+3160,Raziskovanje lokalnih obrti – Villa del Rosario,3,DA,DA,849
+3161,Ogled mestnih znamenitosti ponoči – Villa del Rosario,4,DA,NE,849
+3162,Vožnja s turističnim avtobusom – Watuweri,4,DA,DA,850
+3163,Obisk zgodovinskega muzeja – Watuweri,5,DA,DA,850
+3164,Pokušina lokalnih sladic – Cullhuas,5,DA,DA,851
+3165,Obisk živalskega vrta – Cullhuas,3,DA,DA,851
+3166,Ogled lokalne tržnice – Olhão,3,NE,DA,852
+3167,Obisk botaničnega vrta – Olhão,4,DA,DA,852
+3168,Ogled zgodovinskih zgradb – Dunlewy,4,NE,DA,853
+3169,Obisk akvarija – Dunlewy,5,DA,DA,853
+3170,Koncert lokalne glasbe – Momil,5,DA,DA,854
+3171,Voden pohod po okolici – Momil,3,NE,DA,854
+3172,Jutranji ogled mesta – Cookshire-Eaton,3,NE,DA,855
+3173,Obisk zgodovinske četrti – Cookshire-Eaton,4,NE,DA,855
+3174,Sprehod ob reki – Oslo,4,NE,DA,856
+3175,Kolesarski izlet po mestu – Oslo,5,NE,DA,856
+3176,Vožnja z ladjico – Fort Wayne,5,DA,DA,857
+3177,Večerni kulturni sprehod – Fort Wayne,3,NE,NE,857
+3178,Degustacija lokalnih jedi – Bukovany,3,DA,NE,858
+3179,Ulična kulinarična tura – Bukovany,4,DA,NE,858
+3180,Izlet v naravo v okolici mesta – Tsyelyakhany,4,NE,DA,859
+3181,Arhitekturni sprehod – Tsyelyakhany,5,NE,DA,859
+3182,Interaktivni znanstveni center – Binubusan,5,DA,DA,860
+3183,Obisk mestne knjižnice – Binubusan,3,NE,DA,860
+3184,Obisk kulturnega centra – Xo’jayli Shahri,3,DA,DA,861
+3185,Delavnica tradicionalnih obrti – Xo’jayli Shahri,4,DA,DA,861
+3186,Ogled mestnih znamenitosti ponoči – Mora,4,DA,NE,862
+3187,Delavnica lokalne kulinarike – Mora,5,DA,DA,862
+3188,Obisk zgodovinskega muzeja – Fengyang Fuchengzhen,5,DA,DA,863
+3189,Obisk umetniške galerije – Fengyang Fuchengzhen,3,DA,DA,863
+3190,Obisk živalskega vrta – Mingora,3,DA,DA,864
+3191,Ogled športnega objekta – Mingora,4,DA,DA,864
+3192,Obisk botaničnega vrta – Jablonec nad Nisou,4,DA,DA,865
+3193,Večerni razgled na mesto – Jablonec nad Nisou,5,NE,DA,865
+3194,Obisk akvarija – Itapagé,5,DA,DA,866
+3195,Obisk lokalnega sejma – Itapagé,3,NE,DA,866
+3196,Voden pohod po okolici – Wete,3,NE,DA,867
+3197,Voden ogled starega mestnega jedra – Wete,4,NE,DA,867
+3198,Obisk zgodovinske četrti – Bundoran,4,NE,DA,868
+3199,Družinski ogled znamenitosti – Bundoran,5,DA,DA,868
+3200,Kolesarski izlet po mestu – Putrajaya,5,NE,DA,869
+3201,Vodena fotografska tura – Putrajaya,3,DA,NE,869
+3202,Večerni kulturni sprehod – Saint Louis,3,NE,NE,870
+3203,Otroška ustvarjalna delavnica – Saint Louis,4,DA,DA,870
+3204,Ulična kulinarična tura – Nioro,4,DA,NE,871
+3205,Ogled verske dediščine – Nioro,5,NE,DA,871
+3206,Arhitekturni sprehod – Tlutup,5,NE,DA,872
+3207,Piknik v mestnem parku – Tlutup,3,NE,DA,872
+3208,Obisk mestne knjižnice – Petare,3,NE,DA,873
+3209,Sprehod skozi mestni park – Petare,4,NE,DA,873
+3210,Delavnica tradicionalnih obrti – Mesa,4,DA,DA,874
+3211,Razgledna točka in fotografiranje – Mesa,5,NE,DA,874
+3212,Delavnica lokalne kulinarike – Caleufú,5,DA,DA,875
+3213,Plovba po reki ali jezeru – Caleufú,3,DA,DA,875
+3214,Obisk umetniške galerije – Desa Gegempalan,3,DA,DA,876
+3215,Raziskovanje lokalnih obrti – Desa Gegempalan,4,DA,DA,876
+3216,Ogled športnega objekta – Bern,4,DA,DA,877
+3217,Vožnja s turističnim avtobusom – Bern,5,DA,DA,877
+3218,Večerni razgled na mesto – Piúma,5,NE,DA,878
+3219,Pokušina lokalnih sladic – Piúma,3,DA,DA,878
+3220,Obisk lokalnega sejma – Brazzaville,3,NE,DA,879
+3221,Ogled lokalne tržnice – Brazzaville,4,NE,DA,879
+3222,Voden ogled starega mestnega jedra – Tungipāra,4,NE,DA,880
+3223,Ogled zgodovinskih zgradb – Tungipāra,5,NE,DA,880
+3224,Družinski ogled znamenitosti – Sørvágur,5,DA,DA,881
+3225,Koncert lokalne glasbe – Sørvágur,3,DA,DA,881
+3226,Vodena fotografska tura – Manisi,3,DA,NE,882
+3227,Jutranji ogled mesta – Manisi,4,NE,DA,882
+3228,Otroška ustvarjalna delavnica – Luna,4,DA,DA,883
+3229,Sprehod ob reki – Luna,5,NE,DA,883
+3230,Ogled verske dediščine – Velké Losiny,5,NE,DA,884
+3231,Vožnja z ladjico – Velké Losiny,3,DA,DA,884
+3232,Piknik v mestnem parku – Godong,3,NE,DA,885
+3233,Degustacija lokalnih jedi – Godong,4,DA,NE,885
+3234,Sprehod skozi mestni park – Linköping,4,NE,DA,886
+3235,Izlet v naravo v okolici mesta – Linköping,5,NE,DA,886
+3236,Razgledna točka in fotografiranje – Agía Varvára,5,NE,DA,887
+3237,Interaktivni znanstveni center – Agía Varvára,3,DA,DA,887
+3238,Plovba po reki ali jezeru – Laprida,3,DA,DA,888
+3239,Obisk kulturnega centra – Laprida,4,DA,DA,888
+3240,Raziskovanje lokalnih obrti – José Bonifácio,4,DA,DA,889
+3241,Ogled mestnih znamenitosti ponoči – José Bonifácio,5,DA,NE,889
+3242,Vožnja s turističnim avtobusom – Dagou,5,DA,DA,890
+3243,Obisk zgodovinskega muzeja – Dagou,3,DA,DA,890
+3244,Pokušina lokalnih sladic – Ozërsk,3,DA,DA,891
+3245,Obisk živalskega vrta – Ozërsk,4,DA,DA,891
+3246,Ogled lokalne tržnice – Tarumizu,4,NE,DA,892
+3247,Obisk botaničnega vrta – Tarumizu,5,DA,DA,892
+3248,Ogled zgodovinskih zgradb – Esquina,5,NE,DA,893
+3249,Obisk akvarija – Esquina,3,DA,DA,893
+3250,Koncert lokalne glasbe – Pleasant Point,3,DA,DA,894
+3251,Voden pohod po okolici – Pleasant Point,4,NE,DA,894
+3252,Jutranji ogled mesta – Datun,4,NE,DA,895
+3253,Obisk zgodovinske četrti – Datun,5,NE,DA,895
+3254,Sprehod ob reki – Bhakkar,5,NE,DA,896
+3255,Kolesarski izlet po mestu – Bhakkar,3,NE,DA,896
+3256,Vožnja z ladjico – Bodzentyn,3,DA,DA,897
+3257,Večerni kulturni sprehod – Bodzentyn,4,NE,NE,897
+3258,Degustacija lokalnih jedi – Cherga,4,DA,NE,898
+3259,Ulična kulinarična tura – Cherga,5,DA,NE,898
+3260,Izlet v naravo v okolici mesta – Igarapé Açu,5,NE,DA,899
+3261,Arhitekturni sprehod – Igarapé Açu,3,NE,DA,899
+3262,Interaktivni znanstveni center – Penticton,3,DA,DA,900
+3263,Obisk mestne knjižnice – Penticton,4,NE,DA,900
+3264,Obisk kulturnega centra – Shangdu,4,DA,DA,901
+3265,Delavnica tradicionalnih obrti – Shangdu,5,DA,DA,901
+3266,Ogled mestnih znamenitosti ponoči – Mascouche,5,DA,NE,902
+3267,Delavnica lokalne kulinarike – Mascouche,3,DA,DA,902
+3268,Obisk zgodovinskega muzeja – Dadaha,3,DA,DA,903
+3269,Obisk umetniške galerije – Dadaha,4,DA,DA,903
+3270,Obisk živalskega vrta – Pule,4,DA,DA,904
+3271,Ogled športnega objekta – Pule,5,DA,DA,904
+3272,Obisk botaničnega vrta – Garešnica,5,DA,DA,905
+3273,Večerni razgled na mesto – Garešnica,3,NE,DA,905
+3274,Obisk akvarija – Wąbrzeźno,3,DA,DA,906
+3275,Obisk lokalnega sejma – Wąbrzeźno,4,NE,DA,906
+3276,Voden pohod po okolici – Onsala,4,NE,DA,907
+3277,Voden ogled starega mestnega jedra – Onsala,5,NE,DA,907
+3278,Obisk zgodovinske četrti – Mohelno,5,NE,DA,908
+3279,Družinski ogled znamenitosti – Mohelno,3,DA,DA,908
+3280,Kolesarski izlet po mestu – Starokucherganovka,3,NE,DA,909
+3281,Vodena fotografska tura – Starokucherganovka,4,DA,NE,909
+3282,Večerni kulturni sprehod – Kveda Chkhorots’q’u,4,NE,NE,910
+3283,Otroška ustvarjalna delavnica – Kveda Chkhorots’q’u,5,DA,DA,910
+3284,Ulična kulinarična tura – Sorochinsk,5,DA,NE,911
+3285,Ogled verske dediščine – Sorochinsk,3,NE,DA,911
+3286,Arhitekturni sprehod – Pisang,3,NE,DA,912
+3287,Piknik v mestnem parku – Pisang,4,NE,DA,912
+3288,Obisk mestne knjižnice – Marka,4,NE,DA,913
+3289,Sprehod skozi mestni park – Marka,5,NE,DA,913
+3290,Delavnica tradicionalnih obrti – Amarillo,5,DA,DA,914
+3291,Razgledna točka in fotografiranje – Amarillo,3,NE,DA,914
+3292,Delavnica lokalne kulinarike – New York City,3,DA,DA,915
+3293,Plovba po reki ali jezeru – New York City,4,DA,DA,915
+3294,Obisk umetniške galerije – Spitak,4,DA,DA,916
+3295,Raziskovanje lokalnih obrti – Spitak,5,DA,DA,916
+3296,Ogled športnega objekta – Pailou,5,DA,DA,917
+3297,Vožnja s turističnim avtobusom – Pailou,3,DA,DA,917
+3298,Večerni razgled na mesto – Chodów,3,NE,DA,918
+3299,Pokušina lokalnih sladic – Chodów,4,DA,DA,918
+3300,Obisk lokalnega sejma – Palangue,4,NE,DA,919
+3301,Ogled lokalne tržnice – Palangue,5,NE,DA,919
+3302,Voden ogled starega mestnega jedra – Bishan,5,NE,DA,920
+3303,Ogled zgodovinskih zgradb – Bishan,3,NE,DA,920
+3304,Družinski ogled znamenitosti – Ursk,3,DA,DA,921
+3305,Koncert lokalne glasbe – Ursk,4,DA,DA,921
+3306,Vodena fotografska tura – Villasis,4,DA,NE,922
+3307,Jutranji ogled mesta – Villasis,5,NE,DA,922
+3308,Otroška ustvarjalna delavnica – Dahu,5,DA,DA,923
+3309,Sprehod ob reki – Dahu,3,NE,DA,923
+3310,Ogled verske dediščine – Butembo,3,NE,DA,924
+3311,Vožnja z ladjico – Butembo,4,DA,DA,924
+3312,Piknik v mestnem parku – Vol’no-Nadezhdinskoye,4,NE,DA,925
+3313,Degustacija lokalnih jedi – Vol’no-Nadezhdinskoye,5,DA,NE,925
+3314,Sprehod skozi mestni park – Kocēni,5,NE,DA,926
+3315,Izlet v naravo v okolici mesta – Kocēni,3,NE,DA,926
+3316,Razgledna točka in fotografiranje – Xihongmen,3,NE,DA,927
+3317,Interaktivni znanstveni center – Xihongmen,4,DA,DA,927
+3318,Plovba po reki ali jezeru – Chedao,4,DA,DA,928
+3319,Obisk kulturnega centra – Chedao,5,DA,DA,928
+3320,Raziskovanje lokalnih obrti – Bellavista,5,DA,DA,929
+3321,Ogled mestnih znamenitosti ponoči – Bellavista,3,DA,NE,929
+3322,Vožnja s turističnim avtobusom – Kabongan Kidul,3,DA,DA,930
+3323,Obisk zgodovinskega muzeja – Kabongan Kidul,4,DA,DA,930
+3324,Pokušina lokalnih sladic – Sosnovaya Polyana,4,DA,DA,931
+3325,Obisk živalskega vrta – Sosnovaya Polyana,5,DA,DA,931
+3326,Ogled lokalne tržnice – Sevilla,5,NE,DA,932
+3327,Obisk botaničnega vrta – Sevilla,3,DA,DA,932
+3328,Ogled zgodovinskih zgradb – Pokachi,3,NE,DA,933
+3329,Obisk akvarija – Pokachi,4,DA,DA,933
+3330,Koncert lokalne glasbe – Umm al Qaywayn,4,DA,DA,934
+3331,Voden pohod po okolici – Umm al Qaywayn,5,NE,DA,934
+3332,Jutranji ogled mesta – Bukovec,5,NE,DA,935
+3333,Obisk zgodovinske četrti – Bukovec,3,NE,DA,935
+3334,Sprehod ob reki – Somovo,3,NE,DA,936
+3335,Kolesarski izlet po mestu – Somovo,4,NE,DA,936
+3336,Vožnja z ladjico – Chengzi,4,DA,DA,937
+3337,Večerni kulturni sprehod – Chengzi,5,NE,NE,937
+3338,Degustacija lokalnih jedi – Söderköping,5,DA,NE,938
+3339,Ulična kulinarična tura – Söderköping,3,DA,NE,938
+3340,Izlet v naravo v okolici mesta – Verdizela,3,NE,DA,939
+3341,Arhitekturni sprehod – Verdizela,4,NE,DA,939
+3342,Interaktivni znanstveni center – La Plata,4,DA,DA,940
+3343,Obisk mestne knjižnice – La Plata,5,NE,DA,940
+3344,Obisk kulturnega centra – Taungoo,5,DA,DA,941
+3345,Delavnica tradicionalnih obrti – Taungoo,3,DA,DA,941
+3346,Ogled mestnih znamenitosti ponoči – Yanacancha,3,DA,NE,942
+3347,Delavnica lokalne kulinarike – Yanacancha,4,DA,DA,942
+3348,Obisk zgodovinskega muzeja – Tucaní,4,DA,DA,943
+3349,Obisk umetniške galerije – Tucaní,5,DA,DA,943
+3350,Obisk živalskega vrta – Memória,5,DA,DA,944
+3351,Ogled športnega objekta – Memória,3,DA,DA,944
+3352,Obisk botaničnega vrta – Narutō,3,DA,DA,945
+3353,Večerni razgled na mesto – Narutō,4,NE,DA,945
+3354,Obisk akvarija – Khalīlābād,4,DA,DA,946
+3355,Obisk lokalnega sejma – Khalīlābād,5,NE,DA,946
+3356,Voden pohod po okolici – Buynichy,5,NE,DA,947
+3357,Voden ogled starega mestnega jedra – Buynichy,3,NE,DA,947
+3358,Obisk zgodovinske četrti – Emplak,3,NE,DA,948
+3359,Družinski ogled znamenitosti – Emplak,4,DA,DA,948
+3360,Kolesarski izlet po mestu – That Phanom,4,NE,DA,949
+3361,Vodena fotografska tura – That Phanom,5,DA,NE,949
+3362,Večerni kulturni sprehod – Ar Rass,5,NE,NE,950
+3363,Otroška ustvarjalna delavnica – Ar Rass,3,DA,DA,950
+3364,Ulična kulinarična tura – Huangzhou,3,DA,NE,951
+3365,Ogled verske dediščine – Huangzhou,4,NE,DA,951
+3366,Arhitekturni sprehod – El Tejocote,4,NE,DA,952
+3367,Piknik v mestnem parku – El Tejocote,5,NE,DA,952
+3368,Obisk mestne knjižnice – Ugep,5,NE,DA,953
+3369,Sprehod skozi mestni park – Ugep,3,NE,DA,953
+3370,Delavnica tradicionalnih obrti – Khong,3,DA,DA,954
+3371,Razgledna točka in fotografiranje – Khong,4,NE,DA,954
+3372,Delavnica lokalne kulinarike – Maogang,4,DA,DA,955
+3373,Plovba po reki ali jezeru – Maogang,5,DA,DA,955
+3374,Obisk umetniške galerije – San Jose,5,DA,DA,956
+3375,Raziskovanje lokalnih obrti – San Jose,3,DA,DA,956
+3376,Ogled športnega objekta – Albany,3,DA,DA,957
+3377,Vožnja s turističnim avtobusom – Albany,4,DA,DA,957
+3378,Večerni razgled na mesto – Kota Bharu,4,NE,DA,958
+3379,Pokušina lokalnih sladic – Kota Bharu,5,DA,DA,958
+3380,Obisk lokalnega sejma – Bulqizë,5,NE,DA,959
+3381,Ogled lokalne tržnice – Bulqizë,3,NE,DA,959
+3382,Voden ogled starega mestnega jedra – Khoroshëvo-Mnevniki,3,NE,DA,960
+3383,Ogled zgodovinskih zgradb – Khoroshëvo-Mnevniki,4,NE,DA,960
+3384,Družinski ogled znamenitosti – Marvdasht,4,DA,DA,961
+3385,Koncert lokalne glasbe – Marvdasht,5,DA,DA,961
+3386,Vodena fotografska tura – Bolgar,5,DA,NE,962
+3387,Jutranji ogled mesta – Bolgar,3,NE,DA,962
+3388,Otroška ustvarjalna delavnica – Nahāvand,3,DA,DA,963
+3389,Sprehod ob reki – Nahāvand,4,NE,DA,963
+3390,Ogled verske dediščine – Tola,4,NE,DA,964
+3391,Vožnja z ladjico – Tola,5,DA,DA,964
+3392,Piknik v mestnem parku – Kokkónion,5,NE,DA,965
+3393,Degustacija lokalnih jedi – Kokkónion,3,DA,NE,965
+3394,Sprehod skozi mestni park – Pingxiang,3,NE,DA,966
+3395,Izlet v naravo v okolici mesta – Pingxiang,4,NE,DA,966
+3396,Razgledna točka in fotografiranje – Płońsk,4,NE,DA,967
+3397,Interaktivni znanstveni center – Płońsk,5,DA,DA,967
+3398,Plovba po reki ali jezeru – Wuping,5,DA,DA,968
+3399,Obisk kulturnega centra – Wuping,3,DA,DA,968
+3400,Raziskovanje lokalnih obrti – Xinxu,3,DA,DA,969
+3401,Ogled mestnih znamenitosti ponoči – Xinxu,4,DA,NE,969
+3402,Vožnja s turističnim avtobusom – Santa Teresa,4,DA,DA,970
+3403,Obisk zgodovinskega muzeja – Santa Teresa,5,DA,DA,970
+3404,Pokušina lokalnih sladic – Saku,5,DA,DA,971
+3405,Obisk živalskega vrta – Saku,3,DA,DA,971
+3406,Ogled lokalne tržnice – Menampukrajan,3,NE,DA,972
+3407,Obisk botaničnega vrta – Menampukrajan,4,DA,DA,972
+3408,Ogled zgodovinskih zgradb – Neglasari,4,NE,DA,973
+3409,Obisk akvarija – Neglasari,5,DA,DA,973
+3410,Koncert lokalne glasbe – Tomilino,5,DA,DA,974
+3411,Voden pohod po okolici – Tomilino,3,NE,DA,974
+3412,Jutranji ogled mesta – Cilangkap,3,NE,DA,975
+3413,Obisk zgodovinske četrti – Cilangkap,4,NE,DA,975
+3414,Sprehod ob reki – Fudian,4,NE,DA,976
+3415,Kolesarski izlet po mestu – Fudian,5,NE,DA,976
+3416,Vožnja z ladjico – Anchorage,5,DA,DA,977
+3417,Večerni kulturni sprehod – Anchorage,3,NE,NE,977
+3418,Degustacija lokalnih jedi – Orosh,3,DA,NE,978
+3419,Ulična kulinarična tura – Orosh,4,DA,NE,978
+3420,Izlet v naravo v okolici mesta – Almargem do Bispo,4,NE,DA,979
+3421,Arhitekturni sprehod – Almargem do Bispo,5,NE,DA,979
+3422,Interaktivni znanstveni center – La Libertad,5,DA,DA,980
+3423,Obisk mestne knjižnice – La Libertad,3,NE,DA,980
+3424,Obisk kulturnega centra – Shangtianba,3,DA,DA,981
+3425,Delavnica tradicionalnih obrti – Shangtianba,4,DA,DA,981
+3426,Ogled mestnih znamenitosti ponoči – El Cairo,4,DA,NE,982
+3427,Delavnica lokalne kulinarike – El Cairo,5,DA,DA,982
+3428,Obisk zgodovinskega muzeja – Xiaowuzhan,5,DA,DA,983
+3429,Obisk umetniške galerije – Xiaowuzhan,3,DA,DA,983
+3430,Obisk živalskega vrta – Ji Paraná,3,DA,DA,984
+3431,Ogled športnega objekta – Ji Paraná,4,DA,DA,984
+3432,Obisk botaničnega vrta – Ulster Spring,4,DA,DA,985
+3433,Večerni razgled na mesto – Ulster Spring,5,NE,DA,985
+3434,Obisk akvarija – Chapimarca,5,DA,DA,986
+3435,Obisk lokalnega sejma – Chapimarca,3,NE,DA,986
+3436,Voden pohod po okolici – Tielong,3,NE,DA,987
+3437,Voden ogled starega mestnega jedra – Tielong,4,NE,DA,987
+3438,Obisk zgodovinske četrti – Agen,4,NE,DA,988
+3439,Družinski ogled znamenitosti – Agen,5,DA,DA,988
+3440,Kolesarski izlet po mestu – Kyzylorda,5,NE,DA,989
+3441,Vodena fotografska tura – Kyzylorda,3,DA,NE,989
+3442,Večerni kulturni sprehod – El Paso,3,NE,NE,990
+3443,Otroška ustvarjalna delavnica – El Paso,4,DA,DA,990
+3444,Ulična kulinarična tura – Zvenyhorodka,4,DA,NE,991
+3445,Ogled verske dediščine – Zvenyhorodka,5,NE,DA,991
+3446,Arhitekturni sprehod – Bielefeld,5,NE,DA,992
+3447,Piknik v mestnem parku – Bielefeld,3,NE,DA,992
+3448,Obisk mestne knjižnice – Pigcawayan,3,NE,DA,993
+3449,Sprehod skozi mestni park – Pigcawayan,4,NE,DA,993
+3450,Delavnica tradicionalnih obrti – Kabinda,4,DA,DA,994
+3451,Razgledna točka in fotografiranje – Kabinda,5,NE,DA,994
+3452,Delavnica lokalne kulinarike – Luojiang,5,DA,DA,995
+3453,Plovba po reki ali jezeru – Luojiang,3,DA,DA,995
+3454,Obisk umetniške galerije – Jermenovci,3,DA,DA,996
+3455,Raziskovanje lokalnih obrti – Jermenovci,4,DA,DA,996
+3456,Ogled športnega objekta – Piedra del Águila,4,DA,DA,997
+3457,Vožnja s turističnim avtobusom – Piedra del Águila,5,DA,DA,997
+3458,Večerni razgled na mesto – Velikiye Luki,5,NE,DA,998
+3459,Pokušina lokalnih sladic – Velikiye Luki,3,DA,DA,998
+3460,Obisk lokalnega sejma – Novorozhdestvenskaya,3,NE,DA,999
+3461,Ogled lokalne tržnice – Novorozhdestvenskaya,4,NE,DA,999
+3462,Voden ogled starega mestnega jedra – Sidokumpul,4,NE,DA,1000
+3463,Ogled zgodovinskih zgradb – Sidokumpul,5,NE,DA,1000
