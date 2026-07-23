@@ -2,3 +2,2001 @@ id,ime,ocena,vstopnina,za_otroke,mesto_id
 1,Mestno središče – Ojo de Agua,3,NE,DA,1
 2,Razgledna točka – Ojo de Agua,3,NE,DA,1
 3,Mestno središče – Madingou,2,NE,DA,2
+4,Razgledna točka – Madingou,2,NE,DA,2
+5,Mestno središče – Yueyang,3,NE,DA,3
+6,Razgledna točka – Yueyang,3,NE,DA,3
+7,Mestno središče – Bintawan,3,NE,DA,4
+8,Razgledna točka – Bintawan,4,DA,DA,4
+9,Mestno središče – Jundiaí,4,NE,DA,5
+10,Razgledna točka – Jundiaí,4,NE,DA,5
+11,Mestno središče – Cachoeiras de Macacu,4,NE,DA,6
+12,Razgledna točka – Cachoeiras de Macacu,4,NE,NE,6
+13,Mestno središče – Rio Formoso,4,NE,DA,7
+14,Razgledna točka – Rio Formoso,4,NE,DA,7
+15,Mestno središče – Kamień Pomorski,1,NE,DA,8
+16,Razgledna točka – Kamień Pomorski,2,DA,DA,8
+17,Mestno središče – Vovchans’k,2,NE,DA,9
+18,Razgledna točka – Vovchans’k,2,NE,DA,9
+19,Mestno središče – Mogadishu,5,NE,DA,10
+20,Razgledna točka – Mogadishu,5,NE,DA,10
+21,Mestno središče – Kalianyar Selatan,5,NE,DA,11
+22,Razgledna točka – Kalianyar Selatan,5,NE,DA,11
+23,Mestno središče – Boevange-sur-Attert,2,NE,DA,12
+24,Razgledna točka – Boevange-sur-Attert,3,DA,NE,12
+25,Mestno središče – Skaryszew,3,NE,DA,13
+26,Razgledna točka – Skaryszew,3,NE,DA,13
+27,Mestno središče – Linggou,4,NE,DA,14
+28,Razgledna točka – Linggou,4,NE,DA,14
+29,Mestno središče – Louisville,2,NE,DA,15
+30,Razgledna točka – Louisville,2,NE,DA,15
+31,Mestno središče – Dabola,1,NE,DA,16
+32,Razgledna točka – Dabola,2,DA,DA,16
+33,Mestno središče – Göteborg,3,NE,DA,17
+34,Razgledna točka – Göteborg,3,NE,DA,17
+35,Mestno središče – Huambo,4,NE,DA,18
+36,Razgledna točka – Huambo,4,NE,NE,18
+37,Mestno središče – Culasian,4,NE,DA,19
+38,Razgledna točka – Culasian,4,NE,DA,19
+39,Mestno središče – Zhanping,5,NE,DA,20
+40,Razgledna točka – Zhanping,5,DA,DA,20
+41,Mestno središče – Ifakara,1,NE,DA,21
+42,Razgledna točka – Ifakara,1,NE,DA,21
+43,Mestno središče – Mt Peto,4,NE,DA,22
+44,Razgledna točka – Mt Peto,4,NE,DA,22
+45,Mestno središče – Nanger,1,NE,DA,23
+46,Razgledna točka – Nanger,1,NE,DA,23
+47,Mestno središče – Kao Liao,5,NE,DA,24
+48,Razgledna točka – Kao Liao,5,DA,NE,24
+49,Mestno središče – Kongtian,2,NE,DA,25
+50,Razgledna točka – Kongtian,2,NE,DA,25
+51,Mestno središče – Bohutín,1,NE,DA,26
+52,Razgledna točka – Bohutín,1,NE,DA,26
+53,Mestno središče – Santa Cristina Couto,2,NE,DA,27
+54,Razgledna točka – Santa Cristina Couto,2,NE,DA,27
+55,Mestno središče – Youngstown,4,NE,DA,28
+56,Razgledna točka – Youngstown,5,DA,DA,28
+57,Mestno središče – Tangdong,4,NE,DA,29
+58,Razgledna točka – Tangdong,4,NE,DA,29
+59,Mestno središče – Vinnytsya,5,NE,DA,30
+60,Razgledna točka – Vinnytsya,5,NE,NE,30
+61,Mestno središče – Yayao,2,NE,DA,31
+62,Razgledna točka – Yayao,2,NE,DA,31
+63,Mestno središče – Peixing,3,NE,DA,32
+64,Razgledna točka – Peixing,4,DA,DA,32
+65,Mestno središče – Itacurubí del Rosario,5,NE,DA,33
+66,Razgledna točka – Itacurubí del Rosario,5,NE,DA,33
+67,Mestno središče – Grugul,5,NE,DA,34
+68,Razgledna točka – Grugul,5,NE,DA,34
+69,Mestno središče – Guder Lao,5,NE,DA,35
+70,Razgledna točka – Guder Lao,5,NE,DA,35
+71,Mestno središče – Siraway,3,NE,DA,36
+72,Razgledna točka – Siraway,4,DA,NE,36
+73,Mestno središče – Tuncheng,1,NE,DA,37
+74,Razgledna točka – Tuncheng,1,NE,DA,37
+75,Mestno središče – Shibi,2,NE,DA,38
+76,Razgledna točka – Shibi,2,NE,DA,38
+77,Mestno središče – Shibīn al Qanāţir,4,NE,DA,39
+78,Razgledna točka – Shibīn al Qanāţir,4,NE,DA,39
+79,Mestno središče – Zagnitkiv,3,NE,DA,40
+80,Razgledna točka – Zagnitkiv,4,DA,DA,40
+81,Mestno središče – Pueblo Nuevo,4,NE,DA,41
+82,Razgledna točka – Pueblo Nuevo,4,NE,DA,41
+83,Mestno središče – Kronoby,4,NE,DA,42
+84,Razgledna točka – Kronoby,4,NE,NE,42
+85,Mestno središče – Västervik,3,NE,DA,43
+86,Razgledna točka – Västervik,3,NE,DA,43
+87,Mestno središče – Verkh-Usugli,2,NE,DA,44
+88,Razgledna točka – Verkh-Usugli,3,DA,DA,44
+89,Mestno središče – Pedregal,1,NE,DA,45
+90,Razgledna točka – Pedregal,1,NE,DA,45
+91,Mestno središče – Fujinomiya,1,NE,DA,46
+92,Razgledna točka – Fujinomiya,1,NE,DA,46
+93,Mestno središče – Kuala Lumpur,3,NE,DA,47
+94,Razgledna točka – Kuala Lumpur,3,NE,DA,47
+95,Mestno središče – El Hamma,3,NE,DA,48
+96,Razgledna točka – El Hamma,4,DA,NE,48
+97,Mestno središče – Huangyuan Chengguanzhen,3,NE,DA,49
+98,Razgledna točka – Huangyuan Chengguanzhen,3,NE,DA,49
+99,Mestno središče – Tomorlog,3,NE,DA,50
+100,Razgledna točka – Tomorlog,3,NE,DA,50
+101,Mestno središče – Niort,3,NE,DA,51
+102,Razgledna točka – Niort,3,NE,DA,51
+103,Mestno središče – Sampao,4,NE,DA,52
+104,Razgledna točka – Sampao,5,DA,DA,52
+105,Mestno središče – Mali Iđoš,4,NE,DA,53
+106,Razgledna točka – Mali Iđoš,4,NE,DA,53
+107,Mestno središče – Xinmin,4,NE,DA,54
+108,Razgledna točka – Xinmin,4,NE,NE,54
+109,Mestno središče – Paiçandu,3,NE,DA,55
+110,Razgledna točka – Paiçandu,3,NE,DA,55
+111,Mestno središče – Lyaskelya,3,NE,DA,56
+112,Razgledna točka – Lyaskelya,4,DA,DA,56
+113,Mestno središče – Rumburk,3,NE,DA,57
+114,Razgledna točka – Rumburk,3,NE,DA,57
+115,Mestno središče – Strogino,1,NE,DA,58
+116,Razgledna točka – Strogino,1,NE,DA,58
+117,Mestno središče – Montería,2,NE,DA,59
+118,Razgledna točka – Montería,2,NE,DA,59
+119,Mestno središče – Tobi Village,2,NE,DA,60
+120,Razgledna točka – Tobi Village,3,DA,NE,60
+121,Mestno središče – Longhua,4,NE,DA,61
+122,Razgledna točka – Longhua,4,NE,DA,61
+123,Mestno središče – Newcastle,1,NE,DA,62
+124,Razgledna točka – Newcastle,1,NE,DA,62
+125,Mestno središče – Kashima,3,NE,DA,63
+126,Razgledna točka – Kashima,3,NE,DA,63
+127,Mestno središče – Santa Quitéria do Maranhão,5,NE,DA,64
+128,Razgledna točka – Santa Quitéria do Maranhão,5,DA,DA,64
+129,Mestno središče – Fengshan,1,NE,DA,65
+130,Razgledna točka – Fengshan,1,NE,DA,65
+131,Mestno središče – Mazatenango,5,NE,DA,66
+132,Razgledna točka – Mazatenango,5,NE,NE,66
+133,Mestno središče – Figueiras,5,NE,DA,67
+134,Razgledna točka – Figueiras,5,NE,DA,67
+135,Mestno središče – Maranura,4,NE,DA,68
+136,Razgledna točka – Maranura,5,DA,DA,68
+137,Mestno središče – Ashford,4,NE,DA,69
+138,Razgledna točka – Ashford,4,NE,DA,69
+139,Mestno središče – Longshan,3,NE,DA,70
+140,Razgledna točka – Longshan,3,NE,DA,70
+141,Mestno središče – Jiangkou,4,NE,DA,71
+142,Razgledna točka – Jiangkou,4,NE,DA,71
+143,Mestno središče – Amarillo,4,NE,DA,72
+144,Razgledna točka – Amarillo,5,DA,NE,72
+145,Mestno središče – Wanga,4,NE,DA,73
+146,Razgledna točka – Wanga,4,NE,DA,73
+147,Mestno središče – Rokiciny,4,NE,DA,74
+148,Razgledna točka – Rokiciny,4,NE,DA,74
+149,Mestno središče – Danao,3,NE,DA,75
+150,Razgledna točka – Danao,3,NE,DA,75
+151,Mestno središče – Krolevets’,4,NE,DA,76
+152,Razgledna točka – Krolevets’,5,DA,DA,76
+153,Mestno središče – Cristóbal,1,NE,DA,77
+154,Razgledna točka – Cristóbal,1,NE,DA,77
+155,Mestno središče – Kalisangkrah Lor,5,NE,DA,78
+156,Razgledna točka – Kalisangkrah Lor,5,NE,NE,78
+157,Mestno središče – Xindai,2,NE,DA,79
+158,Razgledna točka – Xindai,2,NE,DA,79
+159,Mestno središče – La Coipa,5,NE,DA,80
+160,Razgledna točka – La Coipa,5,DA,DA,80
+161,Mestno središče – Nago,4,NE,DA,81
+162,Razgledna točka – Nago,4,NE,DA,81
+163,Mestno središče – Klwów,2,NE,DA,82
+164,Razgledna točka – Klwów,2,NE,DA,82
+165,Mestno središče – Banjar Kampungbugis,2,NE,DA,83
+166,Razgledna točka – Banjar Kampungbugis,2,NE,DA,83
+167,Mestno središče – Lakha Nëvre,4,NE,DA,84
+168,Razgledna točka – Lakha Nëvre,5,DA,NE,84
+169,Mestno središče – Kérkyra,4,NE,DA,85
+170,Razgledna točka – Kérkyra,4,NE,DA,85
+171,Mestno središče – Montes,5,NE,DA,86
+172,Razgledna točka – Montes,5,NE,DA,86
+173,Mestno središče – Tonekābon,4,NE,DA,87
+174,Razgledna točka – Tonekābon,4,NE,DA,87
+175,Mestno središče – Maco,4,NE,DA,88
+176,Razgledna točka – Maco,5,DA,DA,88
+177,Mestno središče – To’rtko’l Shahri,2,NE,DA,89
+178,Razgledna točka – To’rtko’l Shahri,2,NE,DA,89
+179,Mestno središče – Kadipaten,4,NE,DA,90
+180,Razgledna točka – Kadipaten,4,NE,NE,90
+181,Mestno središče – Géfyra,5,NE,DA,91
+182,Razgledna točka – Géfyra,5,NE,DA,91
+183,Mestno središče – Cipatujah,4,NE,DA,92
+184,Razgledna točka – Cipatujah,5,DA,DA,92
+185,Mestno središče – Koryukivka,4,NE,DA,93
+186,Razgledna točka – Koryukivka,4,NE,DA,93
+187,Mestno središče – Pujiang,3,NE,DA,94
+188,Razgledna točka – Pujiang,3,NE,DA,94
+189,Mestno središče – San Nicolas,2,NE,DA,95
+190,Razgledna točka – San Nicolas,2,NE,DA,95
+191,Mestno središče – Ogod,4,NE,DA,96
+192,Razgledna točka – Ogod,5,DA,NE,96
+193,Mestno središče – Barranco de Loba,2,NE,DA,97
+194,Razgledna točka – Barranco de Loba,2,NE,DA,97
+195,Mestno središče – Antes,3,NE,DA,98
+196,Razgledna točka – Antes,3,NE,DA,98
+197,Mestno središče – Foros de Salvaterra,3,NE,DA,99
+198,Razgledna točka – Foros de Salvaterra,3,NE,DA,99
+199,Mestno središče – Oemofa,3,NE,DA,100
+200,Razgledna točka – Oemofa,4,DA,DA,100
+201,Mestno središče – Guling,3,NE,DA,101
+202,Razgledna točka – Guling,3,NE,DA,101
+203,Mestno središče – Zākhū,3,NE,DA,102
+204,Razgledna točka – Zākhū,3,NE,NE,102
+205,Mestno središče – Mushu,5,NE,DA,103
+206,Razgledna točka – Mushu,5,NE,DA,103
+207,Mestno središče – Borzoy,3,NE,DA,104
+208,Razgledna točka – Borzoy,4,DA,DA,104
+209,Mestno središče – Qiaolin,4,NE,DA,105
+210,Razgledna točka – Qiaolin,4,NE,DA,105
+211,Mestno središče – Ramat HaSharon,4,NE,DA,106
+212,Razgledna točka – Ramat HaSharon,4,NE,DA,106
+213,Mestno središče – Melgar,4,NE,DA,107
+214,Razgledna točka – Melgar,4,NE,DA,107
+215,Mestno središče – Yegor’yevsk,1,NE,DA,108
+216,Razgledna točka – Yegor’yevsk,2,DA,NE,108
+217,Mestno središče – Chunmuying,3,NE,DA,109
+218,Razgledna točka – Chunmuying,3,NE,DA,109
+219,Mestno središče – Gornorechenskiy,3,NE,DA,110
+220,Razgledna točka – Gornorechenskiy,3,NE,DA,110
+221,Mestno središče – Zbraslav,2,NE,DA,111
+222,Razgledna točka – Zbraslav,2,NE,DA,111
+223,Mestno središče – Guazacapán,1,NE,DA,112
+224,Razgledna točka – Guazacapán,2,DA,DA,112
+225,Mestno središče – Shancheng,2,NE,DA,113
+226,Razgledna točka – Shancheng,2,NE,DA,113
+227,Mestno središče – Bondokodi,1,NE,DA,114
+228,Razgledna točka – Bondokodi,1,NE,NE,114
+229,Mestno središče – Boston,4,NE,DA,115
+230,Razgledna točka – Boston,4,NE,DA,115
+231,Mestno središče – Suwalan,5,NE,DA,116
+232,Razgledna točka – Suwalan,5,DA,DA,116
+233,Mestno središče – Gobō,5,NE,DA,117
+234,Razgledna točka – Gobō,5,NE,DA,117
+235,Mestno središče – Saparua,3,NE,DA,118
+236,Razgledna točka – Saparua,3,NE,DA,118
+237,Mestno središče – Osoyoos,3,NE,DA,119
+238,Razgledna točka – Osoyoos,3,NE,DA,119
+239,Mestno središče – Bibirevo,4,NE,DA,120
+240,Razgledna točka – Bibirevo,5,DA,NE,120
+241,Mestno središče – Fontinha,4,NE,DA,121
+242,Razgledna točka – Fontinha,4,NE,DA,121
+243,Mestno središče – Lat Lum Kaeo,5,NE,DA,122
+244,Razgledna točka – Lat Lum Kaeo,5,NE,DA,122
+245,Mestno središče – Panacan,1,NE,DA,123
+246,Razgledna točka – Panacan,1,NE,DA,123
+247,Mestno središče – Solânea,2,NE,DA,124
+248,Razgledna točka – Solânea,3,DA,DA,124
+249,Mestno središče – Zhouyuan,3,NE,DA,125
+250,Razgledna točka – Zhouyuan,3,NE,DA,125
+251,Mestno središče – Hongshan,3,NE,DA,126
+252,Razgledna točka – Hongshan,3,NE,NE,126
+253,Mestno središče – Venda do Alcaide,4,NE,DA,127
+254,Razgledna točka – Venda do Alcaide,4,NE,DA,127
+255,Mestno središče – Iowa City,1,NE,DA,128
+256,Razgledna točka – Iowa City,2,DA,DA,128
+257,Mestno središče – Toutai,4,NE,DA,129
+258,Razgledna točka – Toutai,4,NE,DA,129
+259,Mestno središče – Miraflores,4,NE,DA,130
+260,Razgledna točka – Miraflores,4,NE,DA,130
+261,Mestno središče – Goubangzi,2,NE,DA,131
+262,Razgledna točka – Goubangzi,2,NE,DA,131
+263,Mestno središče – Mompós,3,NE,DA,132
+264,Razgledna točka – Mompós,4,DA,NE,132
+265,Mestno središče – Brzeźnica,4,NE,DA,133
+266,Razgledna točka – Brzeźnica,4,NE,DA,133
+267,Mestno središče – Vasyl'evsky Ostrov,4,NE,DA,134
+268,Razgledna točka – Vasyl'evsky Ostrov,4,NE,DA,134
+269,Mestno središče – Panorama,4,NE,DA,135
+270,Razgledna točka – Panorama,4,NE,DA,135
+271,Mestno središče – Pasirpanjang,1,NE,DA,136
+272,Razgledna točka – Pasirpanjang,2,DA,DA,136
+273,Mestno središče – Shijak,2,NE,DA,137
+274,Razgledna točka – Shijak,2,NE,DA,137
+275,Mestno središče – Kortesjärvi,2,NE,DA,138
+276,Razgledna točka – Kortesjärvi,2,NE,NE,138
+277,Mestno središče – Ushuaia,4,NE,DA,139
+278,Razgledna točka – Ushuaia,4,NE,DA,139
+279,Mestno središče – Cola,4,NE,DA,140
+280,Razgledna točka – Cola,5,DA,DA,140
+281,Mestno središče – Ponong,4,NE,DA,141
+282,Razgledna točka – Ponong,4,NE,DA,141
+283,Mestno središče – Del Pilar,4,NE,DA,142
+284,Razgledna točka – Del Pilar,4,NE,DA,142
+285,Mestno središče – Banjar Jagasatru,3,NE,DA,143
+286,Razgledna točka – Banjar Jagasatru,3,NE,DA,143
+287,Mestno središče – Reszel,2,NE,DA,144
+288,Razgledna točka – Reszel,3,DA,NE,144
+289,Mestno središče – Nartkala,5,NE,DA,145
+290,Razgledna točka – Nartkala,5,NE,DA,145
+291,Mestno središče – Marondera,4,NE,DA,146
+292,Razgledna točka – Marondera,4,NE,DA,146
+293,Mestno središče – Kolomak,3,NE,DA,147
+294,Razgledna točka – Kolomak,3,NE,DA,147
+295,Mestno središče – Jinjing,1,NE,DA,148
+296,Razgledna točka – Jinjing,2,DA,DA,148
+297,Mestno središče – Liandu,1,NE,DA,149
+298,Razgledna točka – Liandu,1,NE,DA,149
+299,Mestno središče – Hammam Sousse,4,NE,DA,150
+300,Razgledna točka – Hammam Sousse,4,NE,NE,150
+301,Mestno središče – Guanhães,1,NE,DA,151
+302,Razgledna točka – Guanhães,1,NE,DA,151
+303,Mestno središče – Bello,2,NE,DA,152
+304,Razgledna točka – Bello,3,DA,DA,152
+305,Mestno središče – Samanco,2,NE,DA,153
+306,Razgledna točka – Samanco,2,NE,DA,153
+307,Mestno središče – Dyurtyuli,1,NE,DA,154
+308,Razgledna točka – Dyurtyuli,1,NE,DA,154
+309,Mestno središče – Karangpawitan,2,NE,DA,155
+310,Razgledna točka – Karangpawitan,2,NE,DA,155
+311,Mestno središče – Maracaju,4,NE,DA,156
+312,Razgledna točka – Maracaju,5,DA,NE,156
+313,Mestno središče – Amnat Charoen,3,NE,DA,157
+314,Razgledna točka – Amnat Charoen,3,NE,DA,157
+315,Mestno središče – Oras,2,NE,DA,158
+316,Razgledna točka – Oras,2,NE,DA,158
+317,Mestno središče – Lizhai,4,NE,DA,159
+318,Razgledna točka – Lizhai,4,NE,DA,159
+319,Mestno središče – Celendín,4,NE,DA,160
+320,Razgledna točka – Celendín,5,DA,DA,160
+321,Mestno središče – Tsyurupyns’k,3,NE,DA,161
+322,Razgledna točka – Tsyurupyns’k,3,NE,DA,161
+323,Mestno središče – Senta,1,NE,DA,162
+324,Razgledna točka – Senta,1,NE,NE,162
+325,Mestno središče – Lanas,4,NE,DA,163
+326,Razgledna točka – Lanas,4,NE,DA,163
+327,Mestno središče – Stara Kiszewa,2,NE,DA,164
+328,Razgledna točka – Stara Kiszewa,3,DA,DA,164
+329,Mestno središče – Barubandung,3,NE,DA,165
+330,Razgledna točka – Barubandung,3,NE,DA,165
+331,Mestno središče – Bailizhou,3,NE,DA,166
+332,Razgledna točka – Bailizhou,3,NE,DA,166
+333,Mestno središče – Toupi,1,NE,DA,167
+334,Razgledna točka – Toupi,1,NE,DA,167
+335,Mestno središče – Maracanaú,5,NE,DA,168
+336,Razgledna točka – Maracanaú,5,DA,NE,168
+337,Mestno središče – Pensacola,2,NE,DA,169
+338,Razgledna točka – Pensacola,2,NE,DA,169
+339,Mestno središče – Shancheng,5,NE,DA,170
+340,Razgledna točka – Shancheng,5,NE,DA,170
+341,Mestno središče – Tangzi,3,NE,DA,171
+342,Razgledna točka – Tangzi,3,NE,DA,171
+343,Mestno središče – ‘Alīābād-e Katūl,5,NE,DA,172
+344,Razgledna točka – ‘Alīābād-e Katūl,5,DA,DA,172
+345,Mestno središče – Oekefan,1,NE,DA,173
+346,Razgledna točka – Oekefan,1,NE,DA,173
+347,Mestno središče – Moulins,4,NE,DA,174
+348,Razgledna točka – Moulins,4,NE,NE,174
+349,Mestno središče – Irtyshskiy,4,NE,DA,175
+350,Razgledna točka – Irtyshskiy,4,NE,DA,175
+351,Mestno središče – Singaraja,4,NE,DA,176
+352,Razgledna točka – Singaraja,5,DA,DA,176
+353,Mestno središče – Gedongmulyo,3,NE,DA,177
+354,Razgledna točka – Gedongmulyo,3,NE,DA,177
+355,Mestno središče – Ak’ordat,5,NE,DA,178
+356,Razgledna točka – Ak’ordat,5,NE,DA,178
+357,Mestno središče – Xarardheere,5,NE,DA,179
+358,Razgledna točka – Xarardheere,5,NE,DA,179
+359,Mestno središče – Kholbon,1,NE,DA,180
+360,Razgledna točka – Kholbon,2,DA,NE,180
+361,Mestno središče – Filimonovo,2,NE,DA,181
+362,Razgledna točka – Filimonovo,2,NE,DA,181
+363,Mestno središče – Toba Tek Singh,4,NE,DA,182
+364,Razgledna točka – Toba Tek Singh,4,NE,DA,182
+365,Mestno središče – Prosperous,2,NE,DA,183
+366,Razgledna točka – Prosperous,2,NE,DA,183
+367,Mestno središče – Huancarqui,4,NE,DA,184
+368,Razgledna točka – Huancarqui,5,DA,DA,184
+369,Mestno središče – Hatavch,3,NE,DA,185
+370,Razgledna točka – Hatavch,3,NE,DA,185
+371,Mestno središče – Riba de Ave,1,NE,DA,186
+372,Razgledna točka – Riba de Ave,1,NE,NE,186
+373,Mestno središče – Frankfort,1,NE,DA,187
+374,Razgledna točka – Frankfort,1,NE,DA,187
+375,Mestno središče – Lijiang,4,NE,DA,188
+376,Razgledna točka – Lijiang,5,DA,DA,188
+377,Mestno središče – Novosin’kovo,3,NE,DA,189
+378,Razgledna točka – Novosin’kovo,3,NE,DA,189
+379,Mestno središče – Fentange,2,NE,DA,190
+380,Razgledna točka – Fentange,2,NE,DA,190
+381,Mestno središče – Xilin Hot,3,NE,DA,191
+382,Razgledna točka – Xilin Hot,3,NE,DA,191
+383,Mestno središče – La Paz,4,NE,DA,192
+384,Razgledna točka – La Paz,5,DA,NE,192
+385,Mestno središče – Kifrī,4,NE,DA,193
+386,Razgledna točka – Kifrī,4,NE,DA,193
+387,Mestno središče – Akwanga,3,NE,DA,194
+388,Razgledna točka – Akwanga,3,NE,DA,194
+389,Mestno središče – Bogolyubovo,3,NE,DA,195
+390,Razgledna točka – Bogolyubovo,3,NE,DA,195
+391,Mestno središče – Leskovec pri Krškem,5,NE,DA,196
+392,Razgledna točka – Leskovec pri Krškem,5,DA,DA,196
+393,Mestno središče – Huangjiabu,4,NE,DA,197
+394,Razgledna točka – Huangjiabu,4,NE,DA,197
+395,Mestno središče – Xiwu,2,NE,DA,198
+396,Razgledna točka – Xiwu,2,NE,NE,198
+397,Mestno središče – Viterbo,3,NE,DA,199
+398,Razgledna točka – Viterbo,3,NE,DA,199
+399,Mestno središče – Frederiksberg,3,NE,DA,200
+400,Razgledna točka – Frederiksberg,4,DA,DA,200
+401,Mestno središče – Sacramento,3,NE,DA,201
+402,Razgledna točka – Sacramento,3,NE,DA,201
+403,Mestno središče – Vidin,4,NE,DA,202
+404,Razgledna točka – Vidin,4,NE,DA,202
+405,Mestno središče – Upata,4,NE,DA,203
+406,Razgledna točka – Upata,4,NE,DA,203
+407,Mestno središče – Agara,3,NE,DA,204
+408,Razgledna točka – Agara,4,DA,NE,204
+409,Mestno središče – Ýdra,2,NE,DA,205
+410,Razgledna točka – Ýdra,2,NE,DA,205
+411,Mestno središče – Reims,4,NE,DA,206
+412,Razgledna točka – Reims,4,NE,DA,206
+413,Mestno središče – Mīrwāh Gorchani,1,NE,DA,207
+414,Razgledna točka – Mīrwāh Gorchani,1,NE,DA,207
+415,Mestno središče – Sydney,2,NE,DA,208
+416,Razgledna točka – Sydney,3,DA,DA,208
+417,Mestno središče – Guiyang,5,NE,DA,209
+418,Razgledna točka – Guiyang,5,NE,DA,209
+419,Mestno središče – Ili,3,NE,DA,210
+420,Razgledna točka – Ili,3,NE,NE,210
+421,Mestno središče – Xinjiezi,5,NE,DA,211
+422,Razgledna točka – Xinjiezi,5,NE,DA,211
+423,Mestno središče – São Domingos de Rana,3,NE,DA,212
+424,Razgledna točka – São Domingos de Rana,4,DA,DA,212
+425,Mestno središče – Jiangtou,5,NE,DA,213
+426,Razgledna točka – Jiangtou,5,NE,DA,213
+427,Mestno središče – Ryazan’,4,NE,DA,214
+428,Razgledna točka – Ryazan’,4,NE,DA,214
+429,Mestno središče – Koloniya Zastav’ye,3,NE,DA,215
+430,Razgledna točka – Koloniya Zastav’ye,3,NE,DA,215
+431,Mestno središče – Sasa,4,NE,DA,216
+432,Razgledna točka – Sasa,5,DA,NE,216
+433,Mestno središče – Ozërsk,1,NE,DA,217
+434,Razgledna točka – Ozërsk,1,NE,DA,217
+435,Mestno središče – Karagay,2,NE,DA,218
+436,Razgledna točka – Karagay,2,NE,DA,218
+437,Mestno središče – Bom Despacho,4,NE,DA,219
+438,Razgledna točka – Bom Despacho,4,NE,DA,219
+439,Mestno središče – Carcassonne,5,NE,DA,220
+440,Razgledna točka – Carcassonne,5,DA,DA,220
+441,Mestno središče – Senovo,5,NE,DA,221
+442,Razgledna točka – Senovo,5,NE,DA,221
+443,Mestno središče – Xiajiashan,2,NE,DA,222
+444,Razgledna točka – Xiajiashan,2,NE,NE,222
+445,Mestno središče – Hafnarfjörður,4,NE,DA,223
+446,Razgledna točka – Hafnarfjörður,4,NE,DA,223
+447,Mestno središče – Richibucto,2,NE,DA,224
+448,Razgledna točka – Richibucto,3,DA,DA,224
+449,Mestno središče – Nangtang,5,NE,DA,225
+450,Razgledna točka – Nangtang,5,NE,DA,225
+451,Mestno središče – Chkalov,3,NE,DA,226
+452,Razgledna točka – Chkalov,3,NE,DA,226
+453,Mestno središče – Cibenda,2,NE,DA,227
+454,Razgledna točka – Cibenda,2,NE,DA,227
+455,Mestno središče – Padangtepung,4,NE,DA,228
+456,Razgledna točka – Padangtepung,5,DA,NE,228
+457,Mestno središče – Bula,1,NE,DA,229
+458,Razgledna točka – Bula,1,NE,DA,229
+459,Mestno središče – Quaraí,4,NE,DA,230
+460,Razgledna točka – Quaraí,4,NE,DA,230
+461,Mestno središče – Semongkat,4,NE,DA,231
+462,Razgledna točka – Semongkat,4,NE,DA,231
+463,Mestno središče – Paris 20,3,NE,DA,232
+464,Razgledna točka – Paris 20,4,DA,DA,232
+465,Mestno središče – Bor Ondor,4,NE,DA,233
+466,Razgledna točka – Bor Ondor,4,NE,DA,233
+467,Mestno središče – Cikondang,5,NE,DA,234
+468,Razgledna točka – Cikondang,5,NE,NE,234
+469,Mestno središče – Valday,4,NE,DA,235
+470,Razgledna točka – Valday,4,NE,DA,235
+471,Mestno središče – Duraznopampa,3,NE,DA,236
+472,Razgledna točka – Duraznopampa,4,DA,DA,236
+473,Mestno središče – Pancheng,1,NE,DA,237
+474,Razgledna točka – Pancheng,1,NE,DA,237
+475,Mestno središče – Krasnyy Yar,5,NE,DA,238
+476,Razgledna točka – Krasnyy Yar,5,NE,DA,238
+477,Mestno središče – Sunduan,4,NE,DA,239
+478,Razgledna točka – Sunduan,4,NE,DA,239
+479,Mestno središče – Kiangan,3,NE,DA,240
+480,Razgledna točka – Kiangan,4,DA,NE,240
+481,Mestno središče – Tawaran,4,NE,DA,241
+482,Razgledna točka – Tawaran,4,NE,DA,241
+483,Mestno središče – Erhaodi,1,NE,DA,242
+484,Razgledna točka – Erhaodi,1,NE,DA,242
+485,Mestno središče – Bakung,2,NE,DA,243
+486,Razgledna točka – Bakung,2,NE,DA,243
+487,Mestno središče – Inicbulan,4,NE,DA,244
+488,Razgledna točka – Inicbulan,5,DA,DA,244
+489,Mestno središče – Luxor,1,NE,DA,245
+490,Razgledna točka – Luxor,1,NE,DA,245
+491,Mestno središče – Washington,4,NE,DA,246
+492,Razgledna točka – Washington,4,NE,NE,246
+493,Mestno središče – Huyuan,2,NE,DA,247
+494,Razgledna točka – Huyuan,2,NE,DA,247
+495,Mestno središče – Tondano,3,NE,DA,248
+496,Razgledna točka – Tondano,4,DA,DA,248
+497,Mestno središče – Koktal,3,NE,DA,249
+498,Razgledna točka – Koktal,3,NE,DA,249
+499,Mestno središče – Huamali,4,NE,DA,250
+500,Razgledna točka – Huamali,4,NE,DA,250
+501,Mestno središče – Gaizhou,3,NE,DA,251
+502,Razgledna točka – Gaizhou,3,NE,DA,251
+503,Mestno središče – Athabasca,3,NE,DA,252
+504,Razgledna točka – Athabasca,4,DA,NE,252
+505,Mestno središče – George Hill,4,NE,DA,253
+506,Razgledna točka – George Hill,4,NE,DA,253
+507,Mestno središče – Owase,3,NE,DA,254
+508,Razgledna točka – Owase,3,NE,DA,254
+509,Mestno središče – Ladushkin,3,NE,DA,255
+510,Razgledna točka – Ladushkin,3,NE,DA,255
+511,Mestno središče – San Jacinto,5,NE,DA,256
+512,Razgledna točka – San Jacinto,5,DA,DA,256
+513,Mestno središče – Zoetermeer,3,NE,DA,257
+514,Razgledna točka – Zoetermeer,3,NE,DA,257
+515,Mestno središče – Coihaique,2,NE,DA,258
+516,Razgledna točka – Coihaique,2,NE,NE,258
+517,Mestno središče – Sjöbo,3,NE,DA,259
+518,Razgledna točka – Sjöbo,3,NE,DA,259
+519,Mestno središče – Wan Yai,3,NE,DA,260
+520,Razgledna točka – Wan Yai,4,DA,DA,260
+521,Mestno središče – Antioquia,2,NE,DA,261
+522,Razgledna točka – Antioquia,2,NE,DA,261
+523,Mestno središče – Březová nad Svitavou,2,NE,DA,262
+524,Razgledna točka – Březová nad Svitavou,2,NE,DA,262
+525,Mestno središče – Spuž,2,NE,DA,263
+526,Razgledna točka – Spuž,2,NE,DA,263
+527,Mestno središče – Pandean,3,NE,DA,264
+528,Razgledna točka – Pandean,4,DA,NE,264
+529,Mestno središče – Tangyin,5,NE,DA,265
+530,Razgledna točka – Tangyin,5,NE,DA,265
+531,Mestno središče – Salaya,1,NE,DA,266
+532,Razgledna točka – Salaya,1,NE,DA,266
+533,Mestno središče – Nangen,2,NE,DA,267
+534,Razgledna točka – Nangen,2,NE,DA,267
+535,Mestno središče – Charlotte,3,NE,DA,268
+536,Razgledna točka – Charlotte,4,DA,DA,268
+537,Mestno središče – Tapan,4,NE,DA,269
+538,Razgledna točka – Tapan,4,NE,DA,269
+539,Mestno središče – Nikolinci,3,NE,DA,270
+540,Razgledna točka – Nikolinci,3,NE,NE,270
+541,Mestno središče – Jinbo,1,NE,DA,271
+542,Razgledna točka – Jinbo,1,NE,DA,271
+543,Mestno središče – Kaduketug,1,NE,DA,272
+544,Razgledna točka – Kaduketug,2,DA,DA,272
+545,Mestno središče – Houston,3,NE,DA,273
+546,Razgledna točka – Houston,3,NE,DA,273
+547,Mestno središče – Tāybād,3,NE,DA,274
+548,Razgledna točka – Tāybād,3,NE,DA,274
+549,Mestno središče – Paris 12,1,NE,DA,275
+550,Razgledna točka – Paris 12,1,NE,DA,275
+551,Mestno središče – Lloqan,2,NE,DA,276
+552,Razgledna točka – Lloqan,3,DA,NE,276
+553,Mestno središče – København,4,NE,DA,277
+554,Razgledna točka – København,4,NE,DA,277
+555,Mestno središče – Herzliya Pituah,3,NE,DA,278
+556,Razgledna točka – Herzliya Pituah,3,NE,DA,278
+557,Mestno središče – Čair,4,NE,DA,279
+558,Razgledna točka – Čair,4,NE,DA,279
+559,Mestno središče – Mikulášovice,3,NE,DA,280
+560,Razgledna točka – Mikulášovice,4,DA,DA,280
+561,Mestno središče – La Huaca,5,NE,DA,281
+562,Razgledna točka – La Huaca,5,NE,DA,281
+563,Mestno središče – Meliau,4,NE,DA,282
+564,Razgledna točka – Meliau,4,NE,NE,282
+565,Mestno središče – Kosamphi Nakhon,3,NE,DA,283
+566,Razgledna točka – Kosamphi Nakhon,3,NE,DA,283
+567,Mestno središče – Ramaram,1,NE,DA,284
+568,Razgledna točka – Ramaram,2,DA,DA,284
+569,Mestno središče – Pitanga,4,NE,DA,285
+570,Razgledna točka – Pitanga,4,NE,DA,285
+571,Mestno središče – Senahú,3,NE,DA,286
+572,Razgledna točka – Senahú,3,NE,DA,286
+573,Mestno središče – Adassil,3,NE,DA,287
+574,Razgledna točka – Adassil,3,NE,DA,287
+575,Mestno središče – Roldanillo,1,NE,DA,288
+576,Razgledna točka – Roldanillo,2,DA,NE,288
+577,Mestno središče – Taivalkoski,3,NE,DA,289
+578,Razgledna točka – Taivalkoski,3,NE,DA,289
+579,Mestno središče – Proletar,2,NE,DA,290
+580,Razgledna točka – Proletar,2,NE,DA,290
+581,Mestno središče – Nurota Shahri,4,NE,DA,291
+582,Razgledna točka – Nurota Shahri,4,NE,DA,291
+583,Mestno središče – Jinotega,1,NE,DA,292
+584,Razgledna točka – Jinotega,2,DA,DA,292
+585,Mestno središče – Bisée,2,NE,DA,293
+586,Razgledna točka – Bisée,2,NE,DA,293
+587,Mestno središče – Kuching,4,NE,DA,294
+588,Razgledna točka – Kuching,4,NE,NE,294
+589,Mestno središče – San Emilio,2,NE,DA,295
+590,Razgledna točka – San Emilio,2,NE,DA,295
+591,Mestno središče – Kinna,5,NE,DA,296
+592,Razgledna točka – Kinna,5,DA,DA,296
+593,Mestno središče – Xinglongchang,2,NE,DA,297
+594,Razgledna točka – Xinglongchang,2,NE,DA,297
+595,Mestno središče – Blinsung,4,NE,DA,298
+596,Razgledna točka – Blinsung,4,NE,DA,298
+597,Mestno središče – Ngandangan,3,NE,DA,299
+598,Razgledna točka – Ngandangan,3,NE,DA,299
+599,Mestno središče – Nangkaruka,3,NE,DA,300
+600,Razgledna točka – Nangkaruka,4,DA,NE,300
+601,Mestno središče – Krajan,2,NE,DA,301
+602,Razgledna točka – Krajan,2,NE,DA,301
+603,Mestno središče – Bolong,4,NE,DA,302
+604,Razgledna točka – Bolong,4,NE,DA,302
+605,Mestno središče – Jijia,5,NE,DA,303
+606,Razgledna točka – Jijia,5,NE,DA,303
+607,Mestno središče – Örebro,2,NE,DA,304
+608,Razgledna točka – Örebro,3,DA,DA,304
+609,Mestno središče – Lingcheng,3,NE,DA,305
+610,Razgledna točka – Lingcheng,3,NE,DA,305
+611,Mestno središče – Sikka,2,NE,DA,306
+612,Razgledna točka – Sikka,2,NE,NE,306
+613,Mestno središče – Xiaochi,3,NE,DA,307
+614,Razgledna točka – Xiaochi,3,NE,DA,307
+615,Mestno središče – Karangori,3,NE,DA,308
+616,Razgledna točka – Karangori,4,DA,DA,308
+617,Mestno središče – Valle de Guanape,4,NE,DA,309
+618,Razgledna točka – Valle de Guanape,4,NE,DA,309
+619,Mestno središče – Banjaranyar,4,NE,DA,310
+620,Razgledna točka – Banjaranyar,4,NE,DA,310
+621,Mestno središče – Boa Viagem,2,NE,DA,311
+622,Razgledna točka – Boa Viagem,2,NE,DA,311
+623,Mestno središče – Las Vegas,3,NE,DA,312
+624,Razgledna točka – Las Vegas,4,DA,NE,312
+625,Mestno središče – Kunri,4,NE,DA,313
+626,Razgledna točka – Kunri,4,NE,DA,313
+627,Mestno središče – Carvoeira,3,NE,DA,314
+628,Razgledna točka – Carvoeira,3,NE,DA,314
+629,Mestno središče – Fundão,3,NE,DA,315
+630,Razgledna točka – Fundão,3,NE,DA,315
+631,Mestno središče – Comrat,4,NE,DA,316
+632,Razgledna točka – Comrat,5,DA,DA,316
+633,Mestno središče – Oekero,3,NE,DA,317
+634,Razgledna točka – Oekero,3,NE,DA,317
+635,Mestno središče – Chernogorsk,4,NE,DA,318
+636,Razgledna točka – Chernogorsk,4,NE,NE,318
+637,Mestno središče – Yanjiang,1,NE,DA,319
+638,Razgledna točka – Yanjiang,1,NE,DA,319
+639,Mestno središče – Ritchie,3,NE,DA,320
+640,Razgledna točka – Ritchie,4,DA,DA,320
+641,Mestno središče – Yelat’ma,3,NE,DA,321
+642,Razgledna točka – Yelat’ma,3,NE,DA,321
+643,Mestno središče – Xiaxindian,3,NE,DA,322
+644,Razgledna točka – Xiaxindian,3,NE,DA,322
+645,Mestno središče – Uwelini,4,NE,DA,323
+646,Razgledna točka – Uwelini,4,NE,DA,323
+647,Mestno središče – Pagedangan,3,NE,DA,324
+648,Razgledna točka – Pagedangan,4,DA,NE,324
+649,Mestno središče – Mszana Dolna,3,NE,DA,325
+650,Razgledna točka – Mszana Dolna,3,NE,DA,325
+651,Mestno središče – Dong’ao,1,NE,DA,326
+652,Razgledna točka – Dong’ao,1,NE,DA,326
+653,Mestno središče – Kedung,5,NE,DA,327
+654,Razgledna točka – Kedung,5,NE,DA,327
+655,Mestno središče – Xincheng,4,NE,DA,328
+656,Razgledna točka – Xincheng,5,DA,DA,328
+657,Mestno središče – Macon,3,NE,DA,329
+658,Razgledna točka – Macon,3,NE,DA,329
+659,Mestno središče – Mapalad,3,NE,DA,330
+660,Razgledna točka – Mapalad,3,NE,NE,330
+661,Mestno središče – Lumbardhi,5,NE,DA,331
+662,Razgledna točka – Lumbardhi,5,NE,DA,331
+663,Mestno središče – San Mateo,4,NE,DA,332
+664,Razgledna točka – San Mateo,5,DA,DA,332
+665,Mestno središče – Porta,2,NE,DA,333
+666,Razgledna točka – Porta,2,NE,DA,333
+667,Mestno središče – Francos,5,NE,DA,334
+668,Razgledna točka – Francos,5,NE,DA,334
+669,Mestno središče – San José de Barlovento,2,NE,DA,335
+670,Razgledna točka – San José de Barlovento,2,NE,DA,335
+671,Mestno središče – Phimai,3,NE,DA,336
+672,Razgledna točka – Phimai,4,DA,NE,336
+673,Mestno središče – Vilhena,3,NE,DA,337
+674,Razgledna točka – Vilhena,3,NE,DA,337
+675,Mestno središče – Poja,2,NE,DA,338
+676,Razgledna točka – Poja,2,NE,DA,338
+677,Mestno središče – Tianzishan,3,NE,DA,339
+678,Razgledna točka – Tianzishan,3,NE,DA,339
+679,Mestno središče – Kuniran,2,NE,DA,340
+680,Razgledna točka – Kuniran,3,DA,DA,340
+681,Mestno središče – Puerto Cabezas,2,NE,DA,341
+682,Razgledna točka – Puerto Cabezas,2,NE,DA,341
+683,Mestno središče – Konstancin-Jeziorna,1,NE,DA,342
+684,Razgledna točka – Konstancin-Jeziorna,1,NE,NE,342
+685,Mestno središče – Yartsevo,4,NE,DA,343
+686,Razgledna točka – Yartsevo,4,NE,DA,343
+687,Mestno središče – Wenling,4,NE,DA,344
+688,Razgledna točka – Wenling,5,DA,DA,344
+689,Mestno središče – Winston Salem,3,NE,DA,345
+690,Razgledna točka – Winston Salem,3,NE,DA,345
+691,Mestno središče – T’et’ri Tsqaro,2,NE,DA,346
+692,Razgledna točka – T’et’ri Tsqaro,2,NE,DA,346
+693,Mestno središče – Listvyanskiy,2,NE,DA,347
+694,Razgledna točka – Listvyanskiy,2,NE,DA,347
+695,Mestno središče – Tipaz,5,NE,DA,348
+696,Razgledna točka – Tipaz,5,DA,NE,348
+697,Mestno središče – Kuressaare,4,NE,DA,349
+698,Razgledna točka – Kuressaare,4,NE,DA,349
+699,Mestno središče – Ti-n-Essako,4,NE,DA,350
+700,Razgledna točka – Ti-n-Essako,4,NE,DA,350
+701,Mestno središče – Menghai,2,NE,DA,351
+702,Razgledna točka – Menghai,2,NE,DA,351
+703,Mestno središče – Banjar Baleagung,5,NE,DA,352
+704,Razgledna točka – Banjar Baleagung,5,DA,DA,352
+705,Mestno središče – Somerset East,3,NE,DA,353
+706,Razgledna točka – Somerset East,3,NE,DA,353
+707,Mestno središče – San Lucas Tolimán,1,NE,DA,354
+708,Razgledna točka – San Lucas Tolimán,1,NE,NE,354
+709,Mestno središče – Mikstat,5,NE,DA,355
+710,Razgledna točka – Mikstat,5,NE,DA,355
+711,Mestno središče – Haihui,3,NE,DA,356
+712,Razgledna točka – Haihui,4,DA,DA,356
+713,Mestno središče – Lok,1,NE,DA,357
+714,Razgledna točka – Lok,1,NE,DA,357
+715,Mestno središče – Pimbalayan,2,NE,DA,358
+716,Razgledna točka – Pimbalayan,2,NE,DA,358
+717,Mestno središče – Taksimo,2,NE,DA,359
+718,Razgledna točka – Taksimo,2,NE,DA,359
+719,Mestno središče – Sinamaica,2,NE,DA,360
+720,Razgledna točka – Sinamaica,3,DA,NE,360
+721,Mestno središče – Dali,3,NE,DA,361
+722,Razgledna točka – Dali,3,NE,DA,361
+723,Mestno središče – Faīẕābād,2,NE,DA,362
+724,Razgledna točka – Faīẕābād,2,NE,DA,362
+725,Mestno središče – Arras,4,NE,DA,363
+726,Razgledna točka – Arras,4,NE,DA,363
+727,Mestno središče – Takahata,4,NE,DA,364
+728,Razgledna točka – Takahata,5,DA,DA,364
+729,Mestno središče – Bagadó,2,NE,DA,365
+730,Razgledna točka – Bagadó,2,NE,DA,365
+731,Mestno središče – Toungo,4,NE,DA,366
+732,Razgledna točka – Toungo,4,NE,NE,366
+733,Mestno središče – El Cantón,3,NE,DA,367
+734,Razgledna točka – El Cantón,3,NE,DA,367
+735,Mestno središče – Bagakay,2,NE,DA,368
+736,Razgledna točka – Bagakay,3,DA,DA,368
+737,Mestno središče – Armação,2,NE,DA,369
+738,Razgledna točka – Armação,2,NE,DA,369
+739,Mestno središče – Disūq,3,NE,DA,370
+740,Razgledna točka – Disūq,3,NE,DA,370
+741,Mestno središče – Lubuagan,3,NE,DA,371
+742,Razgledna točka – Lubuagan,3,NE,DA,371
+743,Mestno središče – Purda,4,NE,DA,372
+744,Razgledna točka – Purda,5,DA,NE,372
+745,Mestno središče – Baishi,3,NE,DA,373
+746,Razgledna točka – Baishi,3,NE,DA,373
+747,Mestno središče – Komorów,4,NE,DA,374
+748,Razgledna točka – Komorów,4,NE,DA,374
+749,Mestno središče – Brvenica,3,NE,DA,375
+750,Razgledna točka – Brvenica,3,NE,DA,375
+751,Mestno središče – Khrebtovaya,2,NE,DA,376
+752,Razgledna točka – Khrebtovaya,3,DA,DA,376
+753,Mestno središče – Sandaogou,3,NE,DA,377
+754,Razgledna točka – Sandaogou,3,NE,DA,377
+755,Mestno središče – Santa Gertrudes,3,NE,DA,378
+756,Razgledna točka – Santa Gertrudes,3,NE,NE,378
+757,Mestno središče – Wilfrido Loor Moreira,4,NE,DA,379
+758,Razgledna točka – Wilfrido Loor Moreira,4,NE,DA,379
+759,Mestno središče – Tongzha,2,NE,DA,380
+760,Razgledna točka – Tongzha,3,DA,DA,380
+761,Mestno središče – Kampong Chhnang,5,NE,DA,381
+762,Razgledna točka – Kampong Chhnang,5,NE,DA,381
+763,Mestno središče – Wuluo,3,NE,DA,382
+764,Razgledna točka – Wuluo,3,NE,DA,382
+765,Mestno središče – Tuzhai,3,NE,DA,383
+766,Razgledna točka – Tuzhai,3,NE,DA,383
+767,Mestno središče – Tucson,4,NE,DA,384
+768,Razgledna točka – Tucson,5,DA,NE,384
+769,Mestno središče – Dukuhsia,4,NE,DA,385
+770,Razgledna točka – Dukuhsia,4,NE,DA,385
+771,Mestno središče – Kovářská,4,NE,DA,386
+772,Razgledna točka – Kovářská,4,NE,DA,386
+773,Mestno središče – Jaboatão dos Guararapes,1,NE,DA,387
+774,Razgledna točka – Jaboatão dos Guararapes,1,NE,DA,387
+775,Mestno središče – Catalina,1,NE,DA,388
+776,Razgledna točka – Catalina,2,DA,DA,388
+777,Mestno središče – Di Linh,4,NE,DA,389
+778,Razgledna točka – Di Linh,4,NE,DA,389
+779,Mestno središče – Richmond,5,NE,DA,390
+780,Razgledna točka – Richmond,5,NE,NE,390
+781,Mestno središče – Poręba Spytkowska,1,NE,DA,391
+782,Razgledna točka – Poręba Spytkowska,1,NE,DA,391
+783,Mestno središče – San Carlos,5,NE,DA,392
+784,Razgledna točka – San Carlos,5,DA,DA,392
+785,Mestno središče – Placer,2,NE,DA,393
+786,Razgledna točka – Placer,2,NE,DA,393
+787,Mestno središče – Kayakent,4,NE,DA,394
+788,Razgledna točka – Kayakent,4,NE,DA,394
+789,Mestno središče – Piškorevci,3,NE,DA,395
+790,Razgledna točka – Piškorevci,3,NE,DA,395
+791,Mestno središče – Cigaras,4,NE,DA,396
+792,Razgledna točka – Cigaras,5,DA,NE,396
+793,Mestno središče – Dežanovac,1,NE,DA,397
+794,Razgledna točka – Dežanovac,1,NE,DA,397
+795,Mestno središče – Boguszów-Gorce,4,NE,DA,398
+796,Razgledna točka – Boguszów-Gorce,4,NE,DA,398
+797,Mestno središče – Morelos,3,NE,DA,399
+798,Razgledna točka – Morelos,3,NE,DA,399
+799,Mestno središče – Chakwāl,4,NE,DA,400
+800,Razgledna točka – Chakwāl,5,DA,DA,400
+801,Mestno središče – Selorejo,4,NE,DA,401
+802,Razgledna točka – Selorejo,4,NE,DA,401
+803,Mestno središče – Bonabéri,2,NE,DA,402
+804,Razgledna točka – Bonabéri,2,NE,NE,402
+805,Mestno središče – Asamankese,1,NE,DA,403
+806,Razgledna točka – Asamankese,1,NE,DA,403
+807,Mestno središče – Dongqianhu,3,NE,DA,404
+808,Razgledna točka – Dongqianhu,4,DA,DA,404
+809,Mestno središče – Rimouski,5,NE,DA,405
+810,Razgledna točka – Rimouski,5,NE,DA,405
+811,Mestno središče – Ngulangan,4,NE,DA,406
+812,Razgledna točka – Ngulangan,4,NE,DA,406
+813,Mestno središče – Mospyne,3,NE,DA,407
+814,Razgledna točka – Mospyne,3,NE,DA,407
+815,Mestno središče – Svalöv,2,NE,DA,408
+816,Razgledna točka – Svalöv,3,DA,NE,408
+817,Mestno središče – Yasugichō,5,NE,DA,409
+818,Razgledna točka – Yasugichō,5,NE,DA,409
+819,Mestno središče – Blawi,3,NE,DA,410
+820,Razgledna točka – Blawi,3,NE,DA,410
+821,Mestno središče – Jiang’an,4,NE,DA,411
+822,Razgledna točka – Jiang’an,4,NE,DA,411
+823,Mestno središče – Qal‘eh-ye Khvājeh,2,NE,DA,412
+824,Razgledna točka – Qal‘eh-ye Khvājeh,3,DA,DA,412
+825,Mestno središče – Punta Gorda,2,NE,DA,413
+826,Razgledna točka – Punta Gorda,2,NE,DA,413
+827,Mestno središče – Tsiombe,2,NE,DA,414
+828,Razgledna točka – Tsiombe,2,NE,NE,414
+829,Mestno središče – Khonj,3,NE,DA,415
+830,Razgledna točka – Khonj,3,NE,DA,415
+831,Mestno središče – Fenggao,5,NE,DA,416
+832,Razgledna točka – Fenggao,5,DA,DA,416
+833,Mestno središče – Socabaya,5,NE,DA,417
+834,Razgledna točka – Socabaya,5,NE,DA,417
+835,Mestno središče – Chengnan,3,NE,DA,418
+836,Razgledna točka – Chengnan,3,NE,DA,418
+837,Mestno središče – Izra‘,1,NE,DA,419
+838,Razgledna točka – Izra‘,1,NE,DA,419
+839,Mestno središče – Bhamo,4,NE,DA,420
+840,Razgledna točka – Bhamo,5,DA,NE,420
+841,Mestno središče – Akim Oda,4,NE,DA,421
+842,Razgledna točka – Akim Oda,4,NE,DA,421
+843,Mestno središče – Taoyuan,4,NE,DA,422
+844,Razgledna točka – Taoyuan,4,NE,DA,422
+845,Mestno središče – Rato,5,NE,DA,423
+846,Razgledna točka – Rato,5,NE,DA,423
+847,Mestno središče – Amsterdam,3,NE,DA,424
+848,Razgledna točka – Amsterdam,4,DA,DA,424
+849,Mestno središče – Ncue,2,NE,DA,425
+850,Razgledna točka – Ncue,2,NE,DA,425
+851,Mestno središče – Zhonghe,3,NE,DA,426
+852,Razgledna točka – Zhonghe,3,NE,NE,426
+853,Mestno središče – Brumado,5,NE,DA,427
+854,Razgledna točka – Brumado,5,NE,DA,427
+855,Mestno središče – Rosthern,4,NE,DA,428
+856,Razgledna točka – Rosthern,5,DA,DA,428
+857,Mestno središče – Bergen,2,NE,DA,429
+858,Razgledna točka – Bergen,2,NE,DA,429
+859,Mestno središče – Sumilao,3,NE,DA,430
+860,Razgledna točka – Sumilao,3,NE,DA,430
+861,Mestno središče – Cibatu,2,NE,DA,431
+862,Razgledna točka – Cibatu,2,NE,DA,431
+863,Mestno središče – Guarulhos,1,NE,DA,432
+864,Razgledna točka – Guarulhos,2,DA,NE,432
+865,Mestno središče – Kolyshley,2,NE,DA,433
+866,Razgledna točka – Kolyshley,2,NE,DA,433
+867,Mestno središče – Olympia,3,NE,DA,434
+868,Razgledna točka – Olympia,3,NE,DA,434
+869,Mestno središče – Conchopata,2,NE,DA,435
+870,Razgledna točka – Conchopata,2,NE,DA,435
+871,Mestno središče – Borzna,3,NE,DA,436
+872,Razgledna točka – Borzna,4,DA,DA,436
+873,Mestno središče – Krasnodar,5,NE,DA,437
+874,Razgledna točka – Krasnodar,5,NE,DA,437
+875,Mestno središče – Anju,4,NE,DA,438
+876,Razgledna točka – Anju,4,NE,NE,438
+877,Mestno središče – Hoxtolgay,4,NE,DA,439
+878,Razgledna točka – Hoxtolgay,4,NE,DA,439
+879,Mestno središče – Načeradec,5,NE,DA,440
+880,Razgledna točka – Načeradec,5,DA,DA,440
+881,Mestno središče – Tenggong,2,NE,DA,441
+882,Razgledna točka – Tenggong,2,NE,DA,441
+883,Mestno središče – Áyios Yeóryios,3,NE,DA,442
+884,Razgledna točka – Áyios Yeóryios,3,NE,DA,442
+885,Mestno središče – Brampton,4,NE,DA,443
+886,Razgledna točka – Brampton,4,NE,DA,443
+887,Mestno središče – Accha,1,NE,DA,444
+888,Razgledna točka – Accha,2,DA,NE,444
+889,Mestno središče – La Trinidad,1,NE,DA,445
+890,Razgledna točka – La Trinidad,1,NE,DA,445
+891,Mestno središče – Ban Ratsada,3,NE,DA,446
+892,Razgledna točka – Ban Ratsada,3,NE,DA,446
+893,Mestno središče – Karanyowka,1,NE,DA,447
+894,Razgledna točka – Karanyowka,1,NE,DA,447
+895,Mestno središče – Hekou,3,NE,DA,448
+896,Razgledna točka – Hekou,4,DA,DA,448
+897,Mestno središče – Cibeureum,3,NE,DA,449
+898,Razgledna točka – Cibeureum,3,NE,DA,449
+899,Mestno središče – Bambuí,2,NE,DA,450
+900,Razgledna točka – Bambuí,2,NE,NE,450
+901,Mestno središče – Maguilling,3,NE,DA,451
+902,Razgledna točka – Maguilling,3,NE,DA,451
+903,Mestno središče – Youfang,4,NE,DA,452
+904,Razgledna točka – Youfang,5,DA,DA,452
+905,Mestno središče – Loudun,3,NE,DA,453
+906,Razgledna točka – Loudun,3,NE,DA,453
+907,Mestno središče – Sukorejo,1,NE,DA,454
+908,Razgledna točka – Sukorejo,1,NE,DA,454
+909,Mestno središče – Hongshan,3,NE,DA,455
+910,Razgledna točka – Hongshan,3,NE,DA,455
+911,Mestno središče – Tempe,2,NE,DA,456
+912,Razgledna točka – Tempe,3,DA,NE,456
+913,Mestno središče – Göteborg,5,NE,DA,457
+914,Razgledna točka – Göteborg,5,NE,DA,457
+915,Mestno središče – Dayeuhluhur,4,NE,DA,458
+916,Razgledna točka – Dayeuhluhur,4,NE,DA,458
+917,Mestno središče – Jiangkouxu,4,NE,DA,459
+918,Razgledna točka – Jiangkouxu,4,NE,DA,459
+919,Mestno središče – Binangun,4,NE,DA,460
+920,Razgledna točka – Binangun,5,DA,DA,460
+921,Mestno središče – Cantao-an,3,NE,DA,461
+922,Razgledna točka – Cantao-an,3,NE,DA,461
+923,Mestno središče – Chicheng,1,NE,DA,462
+924,Razgledna točka – Chicheng,1,NE,NE,462
+925,Mestno središče – Ajaccio,2,NE,DA,463
+926,Razgledna točka – Ajaccio,2,NE,DA,463
+927,Mestno središče – Taremskoye,2,NE,DA,464
+928,Razgledna točka – Taremskoye,3,DA,DA,464
+929,Mestno središče – Aguiar da Beira,1,NE,DA,465
+930,Razgledna točka – Aguiar da Beira,1,NE,DA,465
+931,Mestno središče – Pordapor Barat,2,NE,DA,466
+932,Razgledna točka – Pordapor Barat,2,NE,DA,466
+933,Mestno središče – Tucheng,3,NE,DA,467
+934,Razgledna točka – Tucheng,3,NE,DA,467
+935,Mestno središče – Khon Kaen,3,NE,DA,468
+936,Razgledna točka – Khon Kaen,4,DA,NE,468
+937,Mestno središče – Kericho,3,NE,DA,469
+938,Razgledna točka – Kericho,3,NE,DA,469
+939,Mestno središče – Kurów,3,NE,DA,470
+940,Razgledna točka – Kurów,3,NE,DA,470
+941,Mestno središče – Nganane,4,NE,DA,471
+942,Razgledna točka – Nganane,4,NE,DA,471
+943,Mestno središče – Nieuw Nickerie,5,NE,DA,472
+944,Razgledna točka – Nieuw Nickerie,5,DA,DA,472
+945,Mestno središče – Gaoshibei,2,NE,DA,473
+946,Razgledna točka – Gaoshibei,2,NE,DA,473
+947,Mestno središče – Buôn Ma Thuột,3,NE,DA,474
+948,Razgledna točka – Buôn Ma Thuột,3,NE,NE,474
+949,Mestno središče – Tanbu,4,NE,DA,475
+950,Razgledna točka – Tanbu,4,NE,DA,475
+951,Mestno središče – Nova Era,1,NE,DA,476
+952,Razgledna točka – Nova Era,2,DA,DA,476
+953,Mestno središče – Huibu,3,NE,DA,477
+954,Razgledna točka – Huibu,3,NE,DA,477
+955,Mestno središče – Burla,5,NE,DA,478
+956,Razgledna točka – Burla,5,NE,DA,478
+957,Mestno središče – Qaşr Hallāl,2,NE,DA,479
+958,Razgledna točka – Qaşr Hallāl,2,NE,DA,479
+959,Mestno središče – Linköping,2,NE,DA,480
+960,Razgledna točka – Linköping,3,DA,NE,480
+961,Mestno središče – Heishui,1,NE,DA,481
+962,Razgledna točka – Heishui,1,NE,DA,481
+963,Mestno središče – Magaria,2,NE,DA,482
+964,Razgledna točka – Magaria,2,NE,DA,482
+965,Mestno središče – Unity,5,NE,DA,483
+966,Razgledna točka – Unity,5,NE,DA,483
+967,Mestno središče – Sobo,5,NE,DA,484
+968,Razgledna točka – Sobo,5,DA,DA,484
+969,Mestno središče – Huicungo,2,NE,DA,485
+970,Razgledna točka – Huicungo,2,NE,DA,485
+971,Mestno središče – Qilin,5,NE,DA,486
+972,Razgledna točka – Qilin,5,NE,NE,486
+973,Mestno središče – Lianyun,3,NE,DA,487
+974,Razgledna točka – Lianyun,3,NE,DA,487
+975,Mestno središče – Moate,3,NE,DA,488
+976,Razgledna točka – Moate,4,DA,DA,488
+977,Mestno središče – Concepción,4,NE,DA,489
+978,Razgledna točka – Concepción,4,NE,DA,489
+979,Mestno središče – Moneague,4,NE,DA,490
+980,Razgledna točka – Moneague,4,NE,DA,490
+981,Mestno središče – Gaotai,3,NE,DA,491
+982,Razgledna točka – Gaotai,3,NE,DA,491
+983,Mestno središče – Rostov-na-Donu,2,NE,DA,492
+984,Razgledna točka – Rostov-na-Donu,3,DA,NE,492
+985,Mestno središče – Valongo,1,NE,DA,493
+986,Razgledna točka – Valongo,1,NE,DA,493
+987,Mestno središče – Kotes,3,NE,DA,494
+988,Razgledna točka – Kotes,3,NE,DA,494
+989,Mestno središče – Horka nad Moravou,4,NE,DA,495
+990,Razgledna točka – Horka nad Moravou,4,NE,DA,495
+991,Mestno središče – Donggaocun,1,NE,DA,496
+992,Razgledna točka – Donggaocun,2,DA,DA,496
+993,Mestno središče – Žabljak,2,NE,DA,497
+994,Razgledna točka – Žabljak,2,NE,DA,497
+995,Mestno središče – Međa,2,NE,DA,498
+996,Razgledna točka – Međa,2,NE,NE,498
+997,Mestno središče – Pictou,4,NE,DA,499
+998,Razgledna točka – Pictou,4,NE,DA,499
+999,Mestno središče – Sundsvall,4,NE,DA,500
+1000,Razgledna točka – Sundsvall,5,DA,DA,500
+1001,Mestno središče – Kawaguchi,4,NE,DA,501
+1002,Razgledna točka – Kawaguchi,4,NE,DA,501
+1003,Mestno središče – Nanyuan,2,NE,DA,502
+1004,Razgledna točka – Nanyuan,2,NE,DA,502
+1005,Mestno središče – Az Zāhir,5,NE,DA,503
+1006,Razgledna točka – Az Zāhir,5,NE,DA,503
+1007,Mestno središče – Sharga,3,NE,DA,504
+1008,Razgledna točka – Sharga,4,DA,NE,504
+1009,Mestno središče – Huoli,5,NE,DA,505
+1010,Razgledna točka – Huoli,5,NE,DA,505
+1011,Mestno središče – Bouna,2,NE,DA,506
+1012,Razgledna točka – Bouna,2,NE,DA,506
+1013,Mestno središče – Seririt,4,NE,DA,507
+1014,Razgledna točka – Seririt,4,NE,DA,507
+1015,Mestno središče – Buenavista,3,NE,DA,508
+1016,Razgledna točka – Buenavista,4,DA,DA,508
+1017,Mestno središče – Benisheikh,4,NE,DA,509
+1018,Razgledna točka – Benisheikh,4,NE,DA,509
+1019,Mestno središče – Kutapanjang,3,NE,DA,510
+1020,Razgledna točka – Kutapanjang,3,NE,NE,510
+1021,Mestno središče – Lấp Vò,4,NE,DA,511
+1022,Razgledna točka – Lấp Vò,4,NE,DA,511
+1023,Mestno središče – Guinobatan,5,NE,DA,512
+1024,Razgledna točka – Guinobatan,5,DA,DA,512
+1025,Mestno središče – Tilburg,4,NE,DA,513
+1026,Razgledna točka – Tilburg,4,NE,DA,513
+1027,Mestno središče – Florida,3,NE,DA,514
+1028,Razgledna točka – Florida,3,NE,DA,514
+1029,Mestno središče – Valjevo,5,NE,DA,515
+1030,Razgledna točka – Valjevo,5,NE,DA,515
+1031,Mestno središče – Balazar,2,NE,DA,516
+1032,Razgledna točka – Balazar,3,DA,NE,516
+1033,Mestno središče – Campo Largo,4,NE,DA,517
+1034,Razgledna točka – Campo Largo,4,NE,DA,517
+1035,Mestno središče – Xiyang,4,NE,DA,518
+1036,Razgledna točka – Xiyang,4,NE,DA,518
+1037,Mestno središče – Batanamang,1,NE,DA,519
+1038,Razgledna točka – Batanamang,1,NE,DA,519
+1039,Mestno središče – Mulyosari,1,NE,DA,520
+1040,Razgledna točka – Mulyosari,2,DA,DA,520
+1041,Mestno središče – Mertert,4,NE,DA,521
+1042,Razgledna točka – Mertert,4,NE,DA,521
+1043,Mestno središče – Contagem,4,NE,DA,522
+1044,Razgledna točka – Contagem,4,NE,NE,522
+1045,Mestno središče – Hutang,2,NE,DA,523
+1046,Razgledna točka – Hutang,2,NE,DA,523
+1047,Mestno središče – Bandung,5,NE,DA,524
+1048,Razgledna točka – Bandung,5,DA,DA,524
+1049,Mestno središče – Zhendong,2,NE,DA,525
+1050,Razgledna točka – Zhendong,2,NE,DA,525
+1051,Mestno središče – Kristinestad,4,NE,DA,526
+1052,Razgledna točka – Kristinestad,4,NE,DA,526
+1053,Mestno središče – Sabaneta,2,NE,DA,527
+1054,Razgledna točka – Sabaneta,2,NE,DA,527
+1055,Mestno središče – Admiralteisky,4,NE,DA,528
+1056,Razgledna točka – Admiralteisky,5,DA,NE,528
+1057,Mestno središče – Shar’ya,2,NE,DA,529
+1058,Razgledna točka – Shar’ya,2,NE,DA,529
+1059,Mestno središče – As Salţ,4,NE,DA,530
+1060,Razgledna točka – As Salţ,4,NE,DA,530
+1061,Mestno središče – Long Hồ,2,NE,DA,531
+1062,Razgledna točka – Long Hồ,2,NE,DA,531
+1063,Mestno središče – Tukuyu,2,NE,DA,532
+1064,Razgledna točka – Tukuyu,3,DA,DA,532
+1065,Mestno središče – Rincón,4,NE,DA,533
+1066,Razgledna točka – Rincón,4,NE,DA,533
+1067,Mestno središče – Seydi,4,NE,DA,534
+1068,Razgledna točka – Seydi,4,NE,NE,534
+1069,Mestno središče – Kalmar,5,NE,DA,535
+1070,Razgledna točka – Kalmar,5,NE,DA,535
+1071,Mestno središče – Nanortalik,1,NE,DA,536
+1072,Razgledna točka – Nanortalik,2,DA,DA,536
+1073,Mestno središče – Yezhi,1,NE,DA,537
+1074,Razgledna točka – Yezhi,1,NE,DA,537
+1075,Mestno središče – Kiruru,2,NE,DA,538
+1076,Razgledna točka – Kiruru,2,NE,DA,538
+1077,Mestno središče – Banjar Buahan,1,NE,DA,539
+1078,Razgledna točka – Banjar Buahan,1,NE,DA,539
+1079,Mestno središče – Maca,4,NE,DA,540
+1080,Razgledna točka – Maca,5,DA,NE,540
+1081,Mestno središče – Versailles,2,NE,DA,541
+1082,Razgledna točka – Versailles,2,NE,DA,541
+1083,Mestno središče – Lyubeshiv,3,NE,DA,542
+1084,Razgledna točka – Lyubeshiv,3,NE,DA,542
+1085,Mestno središče – Orda,2,NE,DA,543
+1086,Razgledna točka – Orda,2,NE,DA,543
+1087,Mestno središče – Buchanan,3,NE,DA,544
+1088,Razgledna točka – Buchanan,4,DA,DA,544
+1089,Mestno središče – São Luís de Montes Belos,2,NE,DA,545
+1090,Razgledna točka – São Luís de Montes Belos,2,NE,DA,545
+1091,Mestno središče – Punta de Piedra,1,NE,DA,546
+1092,Razgledna točka – Punta de Piedra,1,NE,NE,546
+1093,Mestno središče – Qianjia,5,NE,DA,547
+1094,Razgledna točka – Qianjia,5,NE,DA,547
+1095,Mestno središče – Chapecó,2,NE,DA,548
+1096,Razgledna točka – Chapecó,3,DA,DA,548
+1097,Mestno središče – Xiaojian,3,NE,DA,549
+1098,Razgledna točka – Xiaojian,3,NE,DA,549
+1099,Mestno središče – Tolotangga,4,NE,DA,550
+1100,Razgledna točka – Tolotangga,4,NE,DA,550
+1101,Mestno središče – Rudziczka,2,NE,DA,551
+1102,Razgledna točka – Rudziczka,2,NE,DA,551
+1103,Mestno središče – Guizi,3,NE,DA,552
+1104,Razgledna točka – Guizi,4,DA,NE,552
+1105,Mestno središče – Kembangkerang Satu,2,NE,DA,553
+1106,Razgledna točka – Kembangkerang Satu,2,NE,DA,553
+1107,Mestno središče – Bordeaux,5,NE,DA,554
+1108,Razgledna točka – Bordeaux,5,NE,DA,554
+1109,Mestno središče – Nyandoma,5,NE,DA,555
+1110,Razgledna točka – Nyandoma,5,NE,DA,555
+1111,Mestno središče – Nova Odessa,5,NE,DA,556
+1112,Razgledna točka – Nova Odessa,5,DA,DA,556
+1113,Mestno središče – Xinghua,4,NE,DA,557
+1114,Razgledna točka – Xinghua,4,NE,DA,557
+1115,Mestno središče – Liucheng,5,NE,DA,558
+1116,Razgledna točka – Liucheng,5,NE,NE,558
+1117,Mestno središče – Limmared,5,NE,DA,559
+1118,Razgledna točka – Limmared,5,NE,DA,559
+1119,Mestno središče – Atsipópoulon,4,NE,DA,560
+1120,Razgledna točka – Atsipópoulon,5,DA,DA,560
+1121,Mestno središče – A-da-Gorda,5,NE,DA,561
+1122,Razgledna točka – A-da-Gorda,5,NE,DA,561
+1123,Mestno središče – Pineleng,2,NE,DA,562
+1124,Razgledna točka – Pineleng,2,NE,DA,562
+1125,Mestno središče – Wenfang,2,NE,DA,563
+1126,Razgledna točka – Wenfang,2,NE,DA,563
+1127,Mestno središče – Richmond,3,NE,DA,564
+1128,Razgledna točka – Richmond,4,DA,NE,564
+1129,Mestno središče – Jincheng,5,NE,DA,565
+1130,Razgledna točka – Jincheng,5,NE,DA,565
+1131,Mestno središče – Cilampuyang,4,NE,DA,566
+1132,Razgledna točka – Cilampuyang,4,NE,DA,566
+1133,Mestno središče – Manzanares,3,NE,DA,567
+1134,Razgledna točka – Manzanares,3,NE,DA,567
+1135,Mestno središče – Ikoma,1,NE,DA,568
+1136,Razgledna točka – Ikoma,2,DA,DA,568
+1137,Mestno središče – Tongyang,1,NE,DA,569
+1138,Razgledna točka – Tongyang,1,NE,DA,569
+1139,Mestno središče – Saihan Tal,5,NE,DA,570
+1140,Razgledna točka – Saihan Tal,5,NE,NE,570
+1141,Mestno središče – Gweedore,4,NE,DA,571
+1142,Razgledna točka – Gweedore,4,NE,DA,571
+1143,Mestno središče – Sanqiao,4,NE,DA,572
+1144,Razgledna točka – Sanqiao,5,DA,DA,572
+1145,Mestno središče – Puńsk,2,NE,DA,573
+1146,Razgledna točka – Puńsk,2,NE,DA,573
+1147,Mestno središče – Xiangcunxiang,3,NE,DA,574
+1148,Razgledna točka – Xiangcunxiang,3,NE,DA,574
+1149,Mestno središče – Changzhou,4,NE,DA,575
+1150,Razgledna točka – Changzhou,4,NE,DA,575
+1151,Mestno središče – Huangling,3,NE,DA,576
+1152,Razgledna točka – Huangling,4,DA,NE,576
+1153,Mestno središče – Otaniemi,4,NE,DA,577
+1154,Razgledna točka – Otaniemi,4,NE,DA,577
+1155,Mestno središče – Łubnice,2,NE,DA,578
+1156,Razgledna točka – Łubnice,2,NE,DA,578
+1157,Mestno središče – Kungälv,2,NE,DA,579
+1158,Razgledna točka – Kungälv,2,NE,DA,579
+1159,Mestno središče – Eisen,3,NE,DA,580
+1160,Razgledna točka – Eisen,4,DA,DA,580
+1161,Mestno središče – Kanie,5,NE,DA,581
+1162,Razgledna točka – Kanie,5,NE,DA,581
+1163,Mestno središče – Mineralnye Vody,4,NE,DA,582
+1164,Razgledna točka – Mineralnye Vody,4,NE,NE,582
+1165,Mestno središče – Independencia,5,NE,DA,583
+1166,Razgledna točka – Independencia,5,NE,DA,583
+1167,Mestno središče – Lesnoye,3,NE,DA,584
+1168,Razgledna točka – Lesnoye,4,DA,DA,584
+1169,Mestno središče – Fahraj,5,NE,DA,585
+1170,Razgledna točka – Fahraj,5,NE,DA,585
+1171,Mestno središče – Tallahassee,4,NE,DA,586
+1172,Razgledna točka – Tallahassee,4,NE,DA,586
+1173,Mestno središče – Saint-Félicien,5,NE,DA,587
+1174,Razgledna točka – Saint-Félicien,5,NE,DA,587
+1175,Mestno središče – Gwangtan,3,NE,DA,588
+1176,Razgledna točka – Gwangtan,4,DA,NE,588
+1177,Mestno središče – Fontainhas,1,NE,DA,589
+1178,Razgledna točka – Fontainhas,1,NE,DA,589
+1179,Mestno središče – Nyagan,2,NE,DA,590
+1180,Razgledna točka – Nyagan,2,NE,DA,590
+1181,Mestno središče – San Vicente,1,NE,DA,591
+1182,Razgledna točka – San Vicente,1,NE,DA,591
+1183,Mestno središče – Dabao’anzhen,5,NE,DA,592
+1184,Razgledna točka – Dabao’anzhen,5,DA,DA,592
+1185,Mestno središče – Schengen,4,NE,DA,593
+1186,Razgledna točka – Schengen,4,NE,DA,593
+1187,Mestno središče – Pankrushikha,4,NE,DA,594
+1188,Razgledna točka – Pankrushikha,4,NE,NE,594
+1189,Mestno središče – Kadukandel,3,NE,DA,595
+1190,Razgledna točka – Kadukandel,3,NE,DA,595
+1191,Mestno središče – Tempursari Wetan,2,NE,DA,596
+1192,Razgledna točka – Tempursari Wetan,3,DA,DA,596
+1193,Mestno središče – Futang,2,NE,DA,597
+1194,Razgledna točka – Futang,2,NE,DA,597
+1195,Mestno središče – Florida,3,NE,DA,598
+1196,Razgledna točka – Florida,3,NE,DA,598
+1197,Mestno središče – Kangping,3,NE,DA,599
+1198,Razgledna točka – Kangping,3,NE,DA,599
+1199,Mestno središče – Vale de Açores,3,NE,DA,600
+1200,Razgledna točka – Vale de Açores,4,DA,NE,600
+1201,Mestno središče – Shangdongjie,4,NE,DA,601
+1202,Razgledna točka – Shangdongjie,4,NE,DA,601
+1203,Mestno središče – Bayuwan,1,NE,DA,602
+1204,Razgledna točka – Bayuwan,1,NE,DA,602
+1205,Mestno središče – Walagar,2,NE,DA,603
+1206,Razgledna točka – Walagar,2,NE,DA,603
+1207,Mestno središče – Vinkkilä,4,NE,DA,604
+1208,Razgledna točka – Vinkkilä,5,DA,DA,604
+1209,Mestno središče – Barra de Carrasco,3,NE,DA,605
+1210,Razgledna točka – Barra de Carrasco,3,NE,DA,605
+1211,Mestno središče – Chugur,3,NE,DA,606
+1212,Razgledna točka – Chugur,3,NE,NE,606
+1213,Mestno središče – Francisco Beltrão,4,NE,DA,607
+1214,Razgledna točka – Francisco Beltrão,4,NE,DA,607
+1215,Mestno središče – Xinbao,2,NE,DA,608
+1216,Razgledna točka – Xinbao,3,DA,DA,608
+1217,Mestno središče – Beoga,2,NE,DA,609
+1218,Razgledna točka – Beoga,2,NE,DA,609
+1219,Mestno središče – Volzhskiy,3,NE,DA,610
+1220,Razgledna točka – Volzhskiy,3,NE,DA,610
+1221,Mestno središče – Beicang,4,NE,DA,611
+1222,Razgledna točka – Beicang,4,NE,DA,611
+1223,Mestno središče – Vicente Guerrero,1,NE,DA,612
+1224,Razgledna točka – Vicente Guerrero,2,DA,NE,612
+1225,Mestno središče – Al Fayyūm,5,NE,DA,613
+1226,Razgledna točka – Al Fayyūm,5,NE,DA,613
+1227,Mestno središče – Zapatero,5,NE,DA,614
+1228,Razgledna točka – Zapatero,5,NE,DA,614
+1229,Mestno središče – Raşad,1,NE,DA,615
+1230,Razgledna točka – Raşad,1,NE,DA,615
+1231,Mestno središče – Koysinceq,5,NE,DA,616
+1232,Razgledna točka – Koysinceq,5,DA,DA,616
+1233,Mestno središče – Bangonay,4,NE,DA,617
+1234,Razgledna točka – Bangonay,4,NE,DA,617
+1235,Mestno središče – Thatèng,1,NE,DA,618
+1236,Razgledna točka – Thatèng,1,NE,NE,618
+1237,Mestno središče – Yokohama,2,NE,DA,619
+1238,Razgledna točka – Yokohama,2,NE,DA,619
+1239,Mestno središče – Gelang,4,NE,DA,620
+1240,Razgledna točka – Gelang,5,DA,DA,620
+1241,Mestno središče – Cochrane,2,NE,DA,621
+1242,Razgledna točka – Cochrane,2,NE,DA,621
+1243,Mestno središče – Bajia,3,NE,DA,622
+1244,Razgledna točka – Bajia,3,NE,DA,622
+1245,Mestno središče – Ambon,1,NE,DA,623
+1246,Razgledna točka – Ambon,1,NE,DA,623
+1247,Mestno središče – Villa del Rosario,5,NE,DA,624
+1248,Razgledna točka – Villa del Rosario,5,DA,NE,624
+1249,Mestno središče – Kon Tum,2,NE,DA,625
+1250,Razgledna točka – Kon Tum,2,NE,DA,625
+1251,Mestno središče – Timiryazevskoye,4,NE,DA,626
+1252,Razgledna točka – Timiryazevskoye,4,NE,DA,626
+1253,Mestno središče – Andkhōy,4,NE,DA,627
+1254,Razgledna točka – Andkhōy,4,NE,DA,627
+1255,Mestno središče – Sampungu,3,NE,DA,628
+1256,Razgledna točka – Sampungu,4,DA,DA,628
+1257,Mestno središče – Calumpang,4,NE,DA,629
+1258,Razgledna točka – Calumpang,4,NE,DA,629
+1259,Mestno središče – Mayingzhuang,1,NE,DA,630
+1260,Razgledna točka – Mayingzhuang,1,NE,NE,630
+1261,Mestno središče – Gonghe,2,NE,DA,631
+1262,Razgledna točka – Gonghe,2,NE,DA,631
+1263,Mestno središče – Dongqiao,3,NE,DA,632
+1264,Razgledna točka – Dongqiao,4,DA,DA,632
+1265,Mestno središče – Richmond,3,NE,DA,633
+1266,Razgledna točka – Richmond,3,NE,DA,633
+1267,Mestno središče – Bzou,5,NE,DA,634
+1268,Razgledna točka – Bzou,5,NE,DA,634
+1269,Mestno središče – Thessaloníki,3,NE,DA,635
+1270,Razgledna točka – Thessaloníki,3,NE,DA,635
+1271,Mestno središče – Al Ghāriyah,3,NE,DA,636
+1272,Razgledna točka – Al Ghāriyah,4,DA,NE,636
+1273,Mestno središče – Taiping,5,NE,DA,637
+1274,Razgledna točka – Taiping,5,NE,DA,637
+1275,Mestno središče – Chitagá,4,NE,DA,638
+1276,Razgledna točka – Chitagá,4,NE,DA,638
+1277,Mestno središče – Damiao,2,NE,DA,639
+1278,Razgledna točka – Damiao,2,NE,DA,639
+1279,Mestno središče – Kampungladang,1,NE,DA,640
+1280,Razgledna točka – Kampungladang,2,DA,DA,640
+1281,Mestno središče – Barisan,5,NE,DA,641
+1282,Razgledna točka – Barisan,5,NE,DA,641
+1283,Mestno središče – Czerwieńsk,3,NE,DA,642
+1284,Razgledna točka – Czerwieńsk,3,NE,NE,642
+1285,Mestno središče – Elbasan,3,NE,DA,643
+1286,Razgledna točka – Elbasan,3,NE,DA,643
+1287,Mestno središče – Slovenj Gradec,3,NE,DA,644
+1288,Razgledna točka – Slovenj Gradec,4,DA,DA,644
+1289,Mestno središče – Alubijid,1,NE,DA,645
+1290,Razgledna točka – Alubijid,1,NE,DA,645
+1291,Mestno središče – San Francisco,3,NE,DA,646
+1292,Razgledna točka – San Francisco,3,NE,DA,646
+1293,Mestno središče – Embarcación,3,NE,DA,647
+1294,Razgledna točka – Embarcación,3,NE,DA,647
+1295,Mestno središče – Polkowice,3,NE,DA,648
+1296,Razgledna točka – Polkowice,4,DA,NE,648
+1297,Mestno središče – Aného,2,NE,DA,649
+1298,Razgledna točka – Aného,2,NE,DA,649
+1299,Mestno središče – Qifang,5,NE,DA,650
+1300,Razgledna točka – Qifang,5,NE,DA,650
+1301,Mestno središče – Tripoli,3,NE,DA,651
+1302,Razgledna točka – Tripoli,3,NE,DA,651
+1303,Mestno središče – Dalai,2,NE,DA,652
+1304,Razgledna točka – Dalai,3,DA,DA,652
+1305,Mestno središče – Brodarica,3,NE,DA,653
+1306,Razgledna točka – Brodarica,3,NE,DA,653
+1307,Mestno središče – Sorang,4,NE,DA,654
+1308,Razgledna točka – Sorang,4,NE,NE,654
+1309,Mestno središče – Batán,4,NE,DA,655
+1310,Razgledna točka – Batán,4,NE,DA,655
+1311,Mestno središče – Töysä,2,NE,DA,656
+1312,Razgledna točka – Töysä,3,DA,DA,656
+1313,Mestno središče – Dedenëvo,3,NE,DA,657
+1314,Razgledna točka – Dedenëvo,3,NE,DA,657
+1315,Mestno središče – Ruen,2,NE,DA,658
+1316,Razgledna točka – Ruen,2,NE,DA,658
+1317,Mestno središče – Segodim,2,NE,DA,659
+1318,Razgledna točka – Segodim,2,NE,DA,659
+1319,Mestno središče – Iquipi,2,NE,DA,660
+1320,Razgledna točka – Iquipi,3,DA,NE,660
+1321,Mestno središče – Buenavista,2,NE,DA,661
+1322,Razgledna točka – Buenavista,2,NE,DA,661
+1323,Mestno središče – Mahaplag,3,NE,DA,662
+1324,Razgledna točka – Mahaplag,3,NE,DA,662
+1325,Mestno središče – Banjar Triwangsakeliki,4,NE,DA,663
+1326,Razgledna točka – Banjar Triwangsakeliki,4,NE,DA,663
+1327,Mestno središče – Thanh Xuân,2,NE,DA,664
+1328,Razgledna točka – Thanh Xuân,3,DA,DA,664
+1329,Mestno središče – Morelos,3,NE,DA,665
+1330,Razgledna točka – Morelos,3,NE,DA,665
+1331,Mestno središče – Hancheng,2,NE,DA,666
+1332,Razgledna točka – Hancheng,2,NE,NE,666
+1333,Mestno središče – Malanów,4,NE,DA,667
+1334,Razgledna točka – Malanów,4,NE,DA,667
+1335,Mestno središče – Štěnovice,1,NE,DA,668
+1336,Razgledna točka – Štěnovice,2,DA,DA,668
+1337,Mestno središče – Biguaçu,1,NE,DA,669
+1338,Razgledna točka – Biguaçu,1,NE,DA,669
+1339,Mestno središče – Concepción,1,NE,DA,670
+1340,Razgledna točka – Concepción,1,NE,DA,670
+1341,Mestno središče – Samburat,2,NE,DA,671
+1342,Razgledna točka – Samburat,2,NE,DA,671
+1343,Mestno središče – Montesson,1,NE,DA,672
+1344,Razgledna točka – Montesson,2,DA,NE,672
+1345,Mestno središče – Jincheng,4,NE,DA,673
+1346,Razgledna točka – Jincheng,4,NE,DA,673
+1347,Mestno središče – Shangfang,2,NE,DA,674
+1348,Razgledna točka – Shangfang,2,NE,DA,674
+1349,Mestno središče – Useldange,4,NE,DA,675
+1350,Razgledna točka – Useldange,4,NE,DA,675
+1351,Mestno središče – Villefranche-sur-Mer,4,NE,DA,676
+1352,Razgledna točka – Villefranche-sur-Mer,5,DA,DA,676
+1353,Mestno središče – Ganyesa,3,NE,DA,677
+1354,Razgledna točka – Ganyesa,3,NE,DA,677
+1355,Mestno središče – Tabalong,4,NE,DA,678
+1356,Razgledna točka – Tabalong,4,NE,NE,678
+1357,Mestno središče – Al Marj,5,NE,DA,679
+1358,Razgledna točka – Al Marj,5,NE,DA,679
+1359,Mestno središče – Pudong,3,NE,DA,680
+1360,Razgledna točka – Pudong,4,DA,DA,680
+1361,Mestno središče – Dasongshu,4,NE,DA,681
+1362,Razgledna točka – Dasongshu,4,NE,DA,681
+1363,Mestno središče – Oslo,2,NE,DA,682
+1364,Razgledna točka – Oslo,2,NE,DA,682
+1365,Mestno središče – Curiapo,3,NE,DA,683
+1366,Razgledna točka – Curiapo,3,NE,DA,683
+1367,Mestno središče – Prozor,4,NE,DA,684
+1368,Razgledna točka – Prozor,5,DA,NE,684
+1369,Mestno središče – Mourelos,4,NE,DA,685
+1370,Razgledna točka – Mourelos,4,NE,DA,685
+1371,Mestno središče – Iquique,4,NE,DA,686
+1372,Razgledna točka – Iquique,4,NE,DA,686
+1373,Mestno središče – Shaba,2,NE,DA,687
+1374,Razgledna točka – Shaba,2,NE,DA,687
+1375,Mestno središče – Gazanjyk,4,NE,DA,688
+1376,Razgledna točka – Gazanjyk,5,DA,DA,688
+1377,Mestno središče – Khon Buri,4,NE,DA,689
+1378,Razgledna točka – Khon Buri,4,NE,DA,689
+1379,Mestno središče – Hendījān,2,NE,DA,690
+1380,Razgledna točka – Hendījān,2,NE,NE,690
+1381,Mestno središče – Tonglin,2,NE,DA,691
+1382,Razgledna točka – Tonglin,2,NE,DA,691
+1383,Mestno središče – Élancourt,2,NE,DA,692
+1384,Razgledna točka – Élancourt,3,DA,DA,692
+1385,Mestno središče – Porciúncula,1,NE,DA,693
+1386,Razgledna točka – Porciúncula,1,NE,DA,693
+1387,Mestno središče – Aveleda,2,NE,DA,694
+1388,Razgledna točka – Aveleda,2,NE,DA,694
+1389,Mestno središče – Parnamirim,3,NE,DA,695
+1390,Razgledna točka – Parnamirim,3,NE,DA,695
+1391,Mestno središče – Santo Niño,3,NE,DA,696
+1392,Razgledna točka – Santo Niño,4,DA,NE,696
+1393,Mestno središče – Hailin,5,NE,DA,697
+1394,Razgledna točka – Hailin,5,NE,DA,697
+1395,Mestno središče – Villa del Rosario,2,NE,DA,698
+1396,Razgledna točka – Villa del Rosario,2,NE,DA,698
+1397,Mestno središče – Lijia,2,NE,DA,699
+1398,Razgledna točka – Lijia,2,NE,DA,699
+1399,Mestno središče – Yanagawamachi-saiwaichō,1,NE,DA,700
+1400,Razgledna točka – Yanagawamachi-saiwaichō,2,DA,DA,700
+1401,Mestno središče – Huangzhai,4,NE,DA,701
+1402,Razgledna točka – Huangzhai,4,NE,DA,701
+1403,Mestno središče – Rafael Perazza,4,NE,DA,702
+1404,Razgledna točka – Rafael Perazza,4,NE,NE,702
+1405,Mestno središče – Kalmar,4,NE,DA,703
+1406,Razgledna točka – Kalmar,4,NE,DA,703
+1407,Mestno središče – Baidoa,5,NE,DA,704
+1408,Razgledna točka – Baidoa,5,DA,DA,704
+1409,Mestno središče – Guiyang,4,NE,DA,705
+1410,Razgledna točka – Guiyang,4,NE,DA,705
+1411,Mestno središče – Nowy Sącz,4,NE,DA,706
+1412,Razgledna točka – Nowy Sącz,4,NE,DA,706
+1413,Mestno središče – Moravská Nová Ves,5,NE,DA,707
+1414,Razgledna točka – Moravská Nová Ves,5,NE,DA,707
+1415,Mestno središče – Skeldon,3,NE,DA,708
+1416,Razgledna točka – Skeldon,4,DA,NE,708
+1417,Mestno središče – Carpalho,3,NE,DA,709
+1418,Razgledna točka – Carpalho,3,NE,DA,709
+1419,Mestno središče – El Ángel,2,NE,DA,710
+1420,Razgledna točka – El Ángel,2,NE,DA,710
+1421,Mestno središče – Hachiōji,1,NE,DA,711
+1422,Razgledna točka – Hachiōji,1,NE,DA,711
+1423,Mestno središče – Aurora,3,NE,DA,712
+1424,Razgledna točka – Aurora,4,DA,DA,712
+1425,Mestno središče – Dayin,4,NE,DA,713
+1426,Razgledna točka – Dayin,4,NE,DA,713
+1427,Mestno središče – Shenjing,4,NE,DA,714
+1428,Razgledna točka – Shenjing,4,NE,NE,714
+1429,Mestno središče – Curridabat,5,NE,DA,715
+1430,Razgledna točka – Curridabat,5,NE,DA,715
+1431,Mestno središče – Tubarão,1,NE,DA,716
+1432,Razgledna točka – Tubarão,2,DA,DA,716
+1433,Mestno središče – Calvinia,4,NE,DA,717
+1434,Razgledna točka – Calvinia,4,NE,DA,717
+1435,Mestno središče – Koszyce Wielkie,2,NE,DA,718
+1436,Razgledna točka – Koszyce Wielkie,2,NE,DA,718
+1437,Mestno središče – Huangjingba,2,NE,DA,719
+1438,Razgledna točka – Huangjingba,2,NE,DA,719
+1439,Mestno središče – Eusébio,3,NE,DA,720
+1440,Razgledna točka – Eusébio,4,DA,NE,720
+1441,Mestno središče – Levski,4,NE,DA,721
+1442,Razgledna točka – Levski,4,NE,DA,721
+1443,Mestno središče – São João da Barra,4,NE,DA,722
+1444,Razgledna točka – São João da Barra,4,NE,DA,722
+1445,Mestno središče – Rios Frios,4,NE,DA,723
+1446,Razgledna točka – Rios Frios,4,NE,DA,723
+1447,Mestno središče – Liangbing,1,NE,DA,724
+1448,Razgledna točka – Liangbing,2,DA,DA,724
+1449,Mestno središče – Fujisawa,3,NE,DA,725
+1450,Razgledna točka – Fujisawa,3,NE,DA,725
+1451,Mestno središče – Sasa,3,NE,DA,726
+1452,Razgledna točka – Sasa,3,NE,NE,726
+1453,Mestno središče – Guadalupe,4,NE,DA,727
+1454,Razgledna točka – Guadalupe,4,NE,DA,727
+1455,Mestno središče – Qarah Bāgh Bāzār,2,NE,DA,728
+1456,Razgledna točka – Qarah Bāgh Bāzār,3,DA,DA,728
+1457,Mestno središče – Katoro,1,NE,DA,729
+1458,Razgledna točka – Katoro,1,NE,DA,729
+1459,Mestno središče – Boulogne-sur-Mer,1,NE,DA,730
+1460,Razgledna točka – Boulogne-sur-Mer,1,NE,DA,730
+1461,Mestno središče – Kampong Cham,4,NE,DA,731
+1462,Razgledna točka – Kampong Cham,4,NE,DA,731
+1463,Mestno središče – Zdiby,5,NE,DA,732
+1464,Razgledna točka – Zdiby,5,DA,NE,732
+1465,Mestno središče – Jönköping,5,NE,DA,733
+1466,Razgledna točka – Jönköping,5,NE,DA,733
+1467,Mestno središče – Caherconlish,3,NE,DA,734
+1468,Razgledna točka – Caherconlish,3,NE,DA,734
+1469,Mestno središče – Sheshan,3,NE,DA,735
+1470,Razgledna točka – Sheshan,3,NE,DA,735
+1471,Mestno središče – Malvinas Argentinas,2,NE,DA,736
+1472,Razgledna točka – Malvinas Argentinas,3,DA,DA,736
+1473,Mestno središče – Pogranichnyy,5,NE,DA,737
+1474,Razgledna točka – Pogranichnyy,5,NE,DA,737
+1475,Mestno središče – Dauphin,2,NE,DA,738
+1476,Razgledna točka – Dauphin,2,NE,NE,738
+1477,Mestno središče – Stockholm,5,NE,DA,739
+1478,Razgledna točka – Stockholm,5,NE,DA,739
+1479,Mestno središče – Sa Kaeo,4,NE,DA,740
+1480,Razgledna točka – Sa Kaeo,5,DA,DA,740
+1481,Mestno središče – Sagaing,1,NE,DA,741
+1482,Razgledna točka – Sagaing,1,NE,DA,741
+1483,Mestno središče – Parramos,5,NE,DA,742
+1484,Razgledna točka – Parramos,5,NE,DA,742
+1485,Mestno središče – Maru,4,NE,DA,743
+1486,Razgledna točka – Maru,4,NE,DA,743
+1487,Mestno središče – Huari,3,NE,DA,744
+1488,Razgledna točka – Huari,4,DA,NE,744
+1489,Mestno središče – Mamponteng,3,NE,DA,745
+1490,Razgledna točka – Mamponteng,3,NE,DA,745
+1491,Mestno središče – Eixo,4,NE,DA,746
+1492,Razgledna točka – Eixo,4,NE,DA,746
+1493,Mestno središče – Kalininaul,4,NE,DA,747
+1494,Razgledna točka – Kalininaul,4,NE,DA,747
+1495,Mestno središče – Jiangmen,4,NE,DA,748
+1496,Razgledna točka – Jiangmen,5,DA,DA,748
+1497,Mestno središče – Krasica,5,NE,DA,749
+1498,Razgledna točka – Krasica,5,NE,DA,749
+1499,Mestno središče – Viana,5,NE,DA,750
+1500,Razgledna točka – Viana,5,NE,NE,750
+1501,Mestno središče – Kuanfeu,2,NE,DA,751
+1502,Razgledna točka – Kuanfeu,2,NE,DA,751
+1503,Mestno središče – Selasari,3,NE,DA,752
+1504,Razgledna točka – Selasari,4,DA,DA,752
+1505,Mestno središče – Maracha,3,NE,DA,753
+1506,Razgledna točka – Maracha,3,NE,DA,753
+1507,Mestno središče – Busia,4,NE,DA,754
+1508,Razgledna točka – Busia,4,NE,DA,754
+1509,Mestno središče – Piekielnik,4,NE,DA,755
+1510,Razgledna točka – Piekielnik,4,NE,DA,755
+1511,Mestno središče – Ceres,2,NE,DA,756
+1512,Razgledna točka – Ceres,3,DA,NE,756
+1513,Mestno središče – Vodnyy,3,NE,DA,757
+1514,Razgledna točka – Vodnyy,3,NE,DA,757
+1515,Mestno središče – Choroszcz,2,NE,DA,758
+1516,Razgledna točka – Choroszcz,2,NE,DA,758
+1517,Mestno središče – Kyzylorda,4,NE,DA,759
+1518,Razgledna točka – Kyzylorda,4,NE,DA,759
+1519,Mestno središče – Donji Dobrić,3,NE,DA,760
+1520,Razgledna točka – Donji Dobrić,4,DA,DA,760
+1521,Mestno središče – Kailahun,4,NE,DA,761
+1522,Razgledna točka – Kailahun,4,NE,DA,761
+1523,Mestno središče – Nova Era,2,NE,DA,762
+1524,Razgledna točka – Nova Era,2,NE,NE,762
+1525,Mestno središče – Chuoyuan,2,NE,DA,763
+1526,Razgledna točka – Chuoyuan,2,NE,DA,763
+1527,Mestno središče – Bukovany,2,NE,DA,764
+1528,Razgledna točka – Bukovany,3,DA,DA,764
+1529,Mestno središče – Ongi,2,NE,DA,765
+1530,Razgledna točka – Ongi,2,NE,DA,765
+1531,Mestno središče – Nauchnyy Gorodok,4,NE,DA,766
+1532,Razgledna točka – Nauchnyy Gorodok,4,NE,DA,766
+1533,Mestno središče – Brinje,3,NE,DA,767
+1534,Razgledna točka – Brinje,3,NE,DA,767
+1535,Mestno središče – Safakulevo,2,NE,DA,768
+1536,Razgledna točka – Safakulevo,3,DA,NE,768
+1537,Mestno središče – Kokkini Trimithia,2,NE,DA,769
+1538,Razgledna točka – Kokkini Trimithia,2,NE,DA,769
+1539,Mestno središče – Abakan,3,NE,DA,770
+1540,Razgledna točka – Abakan,3,NE,DA,770
+1541,Mestno središče – New Mīrpur,4,NE,DA,771
+1542,Razgledna točka – New Mīrpur,4,NE,DA,771
+1543,Mestno središče – Batan,1,NE,DA,772
+1544,Razgledna točka – Batan,2,DA,DA,772
+1545,Mestno središče – Mauhao,3,NE,DA,773
+1546,Razgledna točka – Mauhao,3,NE,DA,773
+1547,Mestno središče – Puspajaya,5,NE,DA,774
+1548,Razgledna točka – Puspajaya,5,NE,NE,774
+1549,Mestno središče – Mogok,2,NE,DA,775
+1550,Razgledna točka – Mogok,2,NE,DA,775
+1551,Mestno središče – Macroom,2,NE,DA,776
+1552,Razgledna točka – Macroom,3,DA,DA,776
+1553,Mestno središče – Taytayan,1,NE,DA,777
+1554,Razgledna točka – Taytayan,1,NE,DA,777
+1555,Mestno središče – High Point,2,NE,DA,778
+1556,Razgledna točka – High Point,2,NE,DA,778
+1557,Mestno središče – Eling,2,NE,DA,779
+1558,Razgledna točka – Eling,2,NE,DA,779
+1559,Mestno središče – Tvøroyri,5,NE,DA,780
+1560,Razgledna točka – Tvøroyri,5,DA,NE,780
+1561,Mestno središče – Waigete,2,NE,DA,781
+1562,Razgledna točka – Waigete,2,NE,DA,781
+1563,Mestno središče – Berlin,3,NE,DA,782
+1564,Razgledna točka – Berlin,3,NE,DA,782
+1565,Mestno središče – Jammāl,3,NE,DA,783
+1566,Razgledna točka – Jammāl,3,NE,DA,783
+1567,Mestno središče – San Antonio,5,NE,DA,784
+1568,Razgledna točka – San Antonio,5,DA,DA,784
+1569,Mestno središče – Nowe,4,NE,DA,785
+1570,Razgledna točka – Nowe,4,NE,DA,785
+1571,Mestno središče – Currais,4,NE,DA,786
+1572,Razgledna točka – Currais,4,NE,NE,786
+1573,Mestno središče – Pandanwangi,2,NE,DA,787
+1574,Razgledna točka – Pandanwangi,2,NE,DA,787
+1575,Mestno središče – Curuan,3,NE,DA,788
+1576,Razgledna točka – Curuan,4,DA,DA,788
+1577,Mestno središče – Famagusta,5,NE,DA,789
+1578,Razgledna točka – Famagusta,5,NE,DA,789
+1579,Mestno središče – Naas,2,NE,DA,790
+1580,Razgledna točka – Naas,2,NE,DA,790
+1581,Mestno središče – Jambesari,2,NE,DA,791
+1582,Razgledna točka – Jambesari,2,NE,DA,791
+1583,Mestno središče – Tarhuna,2,NE,DA,792
+1584,Razgledna točka – Tarhuna,3,DA,NE,792
+1585,Mestno središče – Trnava,3,NE,DA,793
+1586,Razgledna točka – Trnava,3,NE,DA,793
+1587,Mestno središče – Nanjiao,3,NE,DA,794
+1588,Razgledna točka – Nanjiao,3,NE,DA,794
+1589,Mestno središče – Zhixia,3,NE,DA,795
+1590,Razgledna točka – Zhixia,3,NE,DA,795
+1591,Mestno središče – Pakalongan,1,NE,DA,796
+1592,Razgledna točka – Pakalongan,2,DA,DA,796
+1593,Mestno središče – Nanhai,4,NE,DA,797
+1594,Razgledna točka – Nanhai,4,NE,DA,797
+1595,Mestno središče – Trinidad,5,NE,DA,798
+1596,Razgledna točka – Trinidad,5,NE,NE,798
+1597,Mestno središče – Ngaoundéré,4,NE,DA,799
+1598,Razgledna točka – Ngaoundéré,4,NE,DA,799
+1599,Mestno središče – Embu,3,NE,DA,800
+1600,Razgledna točka – Embu,4,DA,DA,800
+1601,Mestno središče – Golden,4,NE,DA,801
+1602,Razgledna točka – Golden,4,NE,DA,801
+1603,Mestno središče – Bogi,2,NE,DA,802
+1604,Razgledna točka – Bogi,2,NE,DA,802
+1605,Mestno središče – Cabanilla,4,NE,DA,803
+1606,Razgledna točka – Cabanilla,4,NE,DA,803
+1607,Mestno središče – Suna,4,NE,DA,804
+1608,Razgledna točka – Suna,5,DA,NE,804
+1609,Mestno središče – A-da-Gorda,2,NE,DA,805
+1610,Razgledna točka – A-da-Gorda,2,NE,DA,805
+1611,Mestno središče – Lille,5,NE,DA,806
+1612,Razgledna točka – Lille,5,NE,DA,806
+1613,Mestno središče – Catache,4,NE,DA,807
+1614,Razgledna točka – Catache,4,NE,DA,807
+1615,Mestno središče – Simão Dias,4,NE,DA,808
+1616,Razgledna točka – Simão Dias,5,DA,DA,808
+1617,Mestno središče – Qarqania,4,NE,DA,809
+1618,Razgledna točka – Qarqania,4,NE,DA,809
+1619,Mestno središče – Hongqi,3,NE,DA,810
+1620,Razgledna točka – Hongqi,3,NE,NE,810
+1621,Mestno središče – Caldelas,1,NE,DA,811
+1622,Razgledna točka – Caldelas,1,NE,DA,811
+1623,Mestno središče – Kan’onjichō,2,NE,DA,812
+1624,Razgledna točka – Kan’onjichō,3,DA,DA,812
+1625,Mestno središče – Katiola,2,NE,DA,813
+1626,Razgledna točka – Katiola,2,NE,DA,813
+1627,Mestno središče – Alegre,4,NE,DA,814
+1628,Razgledna točka – Alegre,4,NE,DA,814
+1629,Mestno središče – Junshan,4,NE,DA,815
+1630,Razgledna točka – Junshan,4,NE,DA,815
+1631,Mestno središče – Chao,4,NE,DA,816
+1632,Razgledna točka – Chao,5,DA,NE,816
+1633,Mestno središče – Clorinda,3,NE,DA,817
+1634,Razgledna točka – Clorinda,3,NE,DA,817
+1635,Mestno središče – Timbrangan,2,NE,DA,818
+1636,Razgledna točka – Timbrangan,2,NE,DA,818
+1637,Mestno središče – Vithkuq,3,NE,DA,819
+1638,Razgledna točka – Vithkuq,3,NE,DA,819
+1639,Mestno središče – Ngã Bảy,4,NE,DA,820
+1640,Razgledna točka – Ngã Bảy,5,DA,DA,820
+1641,Mestno središče – Ymittos,4,NE,DA,821
+1642,Razgledna točka – Ymittos,4,NE,DA,821
+1643,Mestno središče – San Mariano,3,NE,DA,822
+1644,Razgledna točka – San Mariano,3,NE,NE,822
+1645,Mestno središče – Jiujie,4,NE,DA,823
+1646,Razgledna točka – Jiujie,4,NE,DA,823
+1647,Mestno središče – Ashley,5,NE,DA,824
+1648,Razgledna točka – Ashley,5,DA,DA,824
+1649,Mestno središče – Centre de Flacq,2,NE,DA,825
+1650,Razgledna točka – Centre de Flacq,2,NE,DA,825
+1651,Mestno središče – Paseh,3,NE,DA,826
+1652,Razgledna točka – Paseh,3,NE,DA,826
+1653,Mestno središče – Malunda,5,NE,DA,827
+1654,Razgledna točka – Malunda,5,NE,DA,827
+1655,Mestno središče – Álftanes,2,NE,DA,828
+1656,Razgledna točka – Álftanes,3,DA,NE,828
+1657,Mestno središče – Sumberbatas,2,NE,DA,829
+1658,Razgledna točka – Sumberbatas,2,NE,DA,829
+1659,Mestno središče – Baitang,3,NE,DA,830
+1660,Razgledna točka – Baitang,3,NE,DA,830
+1661,Mestno središče – Keti Bandar,4,NE,DA,831
+1662,Razgledna točka – Keti Bandar,4,NE,DA,831
+1663,Mestno središče – Burgersfort,3,NE,DA,832
+1664,Razgledna točka – Burgersfort,4,DA,DA,832
+1665,Mestno središče – Dinan,2,NE,DA,833
+1666,Razgledna točka – Dinan,2,NE,DA,833
+1667,Mestno središče – Genet,2,NE,DA,834
+1668,Razgledna točka – Genet,2,NE,NE,834
+1669,Mestno središče – Novozavidovskiy,5,NE,DA,835
+1670,Razgledna točka – Novozavidovskiy,5,NE,DA,835
+1671,Mestno središče – Malanay,4,NE,DA,836
+1672,Razgledna točka – Malanay,5,DA,DA,836
+1673,Mestno središče – Har-Us,5,NE,DA,837
+1674,Razgledna točka – Har-Us,5,NE,DA,837
+1675,Mestno središče – Hamilton,2,NE,DA,838
+1676,Razgledna točka – Hamilton,2,NE,DA,838
+1677,Mestno središče – Daykitin,5,NE,DA,839
+1678,Razgledna točka – Daykitin,5,NE,DA,839
+1679,Mestno središče – Sasa,3,NE,DA,840
+1680,Razgledna točka – Sasa,4,DA,NE,840
+1681,Mestno središče – Chishui,2,NE,DA,841
+1682,Razgledna točka – Chishui,2,NE,DA,841
+1683,Mestno središče – Aguazul,1,NE,DA,842
+1684,Razgledna točka – Aguazul,1,NE,DA,842
+1685,Mestno središče – Velyki Sorochyntsi,2,NE,DA,843
+1686,Razgledna točka – Velyki Sorochyntsi,2,NE,DA,843
+1687,Mestno središče – Clarin,5,NE,DA,844
+1688,Razgledna točka – Clarin,5,DA,DA,844
+1689,Mestno središče – Rowokangkung,4,NE,DA,845
+1690,Razgledna točka – Rowokangkung,4,NE,DA,845
+1691,Mestno središče – Brniště,2,NE,DA,846
+1692,Razgledna točka – Brniště,2,NE,NE,846
+1693,Mestno središče – Zhili,1,NE,DA,847
+1694,Razgledna točka – Zhili,1,NE,DA,847
+1695,Mestno središče – Moyo,2,NE,DA,848
+1696,Razgledna točka – Moyo,3,DA,DA,848
+1697,Mestno središče – Villa del Rosario,5,NE,DA,849
+1698,Razgledna točka – Villa del Rosario,5,NE,DA,849
+1699,Mestno središče – Watuweri,3,NE,DA,850
+1700,Razgledna točka – Watuweri,3,NE,DA,850
+1701,Mestno središče – Cullhuas,5,NE,DA,851
+1702,Razgledna točka – Cullhuas,5,NE,DA,851
+1703,Mestno središče – Olhão,4,NE,DA,852
+1704,Razgledna točka – Olhão,5,DA,NE,852
+1705,Mestno središče – Dunlewy,2,NE,DA,853
+1706,Razgledna točka – Dunlewy,2,NE,DA,853
+1707,Mestno središče – Momil,5,NE,DA,854
+1708,Razgledna točka – Momil,5,NE,DA,854
+1709,Mestno središče – Cookshire-Eaton,3,NE,DA,855
+1710,Razgledna točka – Cookshire-Eaton,3,NE,DA,855
+1711,Mestno središče – Oslo,4,NE,DA,856
+1712,Razgledna točka – Oslo,5,DA,DA,856
+1713,Mestno središče – Fort Wayne,2,NE,DA,857
+1714,Razgledna točka – Fort Wayne,2,NE,DA,857
+1715,Mestno središče – Bukovany,1,NE,DA,858
+1716,Razgledna točka – Bukovany,1,NE,NE,858
+1717,Mestno središče – Tsyelyakhany,3,NE,DA,859
+1718,Razgledna točka – Tsyelyakhany,3,NE,DA,859
+1719,Mestno središče – Binubusan,4,NE,DA,860
+1720,Razgledna točka – Binubusan,5,DA,DA,860
+1721,Mestno središče – Xo’jayli Shahri,3,NE,DA,861
+1722,Razgledna točka – Xo’jayli Shahri,3,NE,DA,861
+1723,Mestno središče – Mora,1,NE,DA,862
+1724,Razgledna točka – Mora,1,NE,DA,862
+1725,Mestno središče – Fengyang Fuchengzhen,2,NE,DA,863
+1726,Razgledna točka – Fengyang Fuchengzhen,2,NE,DA,863
+1727,Mestno središče – Mingora,4,NE,DA,864
+1728,Razgledna točka – Mingora,5,DA,NE,864
+1729,Mestno središče – Jablonec nad Nisou,1,NE,DA,865
+1730,Razgledna točka – Jablonec nad Nisou,1,NE,DA,865
+1731,Mestno središče – Itapagé,3,NE,DA,866
+1732,Razgledna točka – Itapagé,3,NE,DA,866
+1733,Mestno središče – Wete,3,NE,DA,867
+1734,Razgledna točka – Wete,3,NE,DA,867
+1735,Mestno središče – Bundoran,4,NE,DA,868
+1736,Razgledna točka – Bundoran,5,DA,DA,868
+1737,Mestno središče – Putrajaya,1,NE,DA,869
+1738,Razgledna točka – Putrajaya,1,NE,DA,869
+1739,Mestno središče – Saint Louis,2,NE,DA,870
+1740,Razgledna točka – Saint Louis,2,NE,NE,870
+1741,Mestno središče – Nioro,1,NE,DA,871
+1742,Razgledna točka – Nioro,1,NE,DA,871
+1743,Mestno središče – Tlutup,3,NE,DA,872
+1744,Razgledna točka – Tlutup,4,DA,DA,872
+1745,Mestno središče – Petare,2,NE,DA,873
+1746,Razgledna točka – Petare,2,NE,DA,873
+1747,Mestno središče – Mesa,3,NE,DA,874
+1748,Razgledna točka – Mesa,3,NE,DA,874
+1749,Mestno središče – Caleufú,5,NE,DA,875
+1750,Razgledna točka – Caleufú,5,NE,DA,875
+1751,Mestno središče – Desa Gegempalan,1,NE,DA,876
+1752,Razgledna točka – Desa Gegempalan,2,DA,NE,876
+1753,Mestno središče – Bern,2,NE,DA,877
+1754,Razgledna točka – Bern,2,NE,DA,877
+1755,Mestno središče – Piúma,2,NE,DA,878
+1756,Razgledna točka – Piúma,2,NE,DA,878
+1757,Mestno središče – Brazzaville,5,NE,DA,879
+1758,Razgledna točka – Brazzaville,5,NE,DA,879
+1759,Mestno središče – Tungipāra,2,NE,DA,880
+1760,Razgledna točka – Tungipāra,3,DA,DA,880
+1761,Mestno središče – Sørvágur,3,NE,DA,881
+1762,Razgledna točka – Sørvágur,3,NE,DA,881
+1763,Mestno središče – Manisi,1,NE,DA,882
+1764,Razgledna točka – Manisi,1,NE,NE,882
+1765,Mestno središče – Luna,4,NE,DA,883
+1766,Razgledna točka – Luna,4,NE,DA,883
+1767,Mestno središče – Velké Losiny,4,NE,DA,884
+1768,Razgledna točka – Velké Losiny,5,DA,DA,884
+1769,Mestno središče – Godong,3,NE,DA,885
+1770,Razgledna točka – Godong,3,NE,DA,885
+1771,Mestno središče – Linköping,4,NE,DA,886
+1772,Razgledna točka – Linköping,4,NE,DA,886
+1773,Mestno središče – Agía Varvára,2,NE,DA,887
+1774,Razgledna točka – Agía Varvára,2,NE,DA,887
+1775,Mestno središče – Laprida,4,NE,DA,888
+1776,Razgledna točka – Laprida,5,DA,NE,888
+1777,Mestno središče – José Bonifácio,4,NE,DA,889
+1778,Razgledna točka – José Bonifácio,4,NE,DA,889
+1779,Mestno središče – Dagou,1,NE,DA,890
+1780,Razgledna točka – Dagou,1,NE,DA,890
+1781,Mestno središče – Ozërsk,1,NE,DA,891
+1782,Razgledna točka – Ozërsk,1,NE,DA,891
+1783,Mestno središče – Tarumizu,2,NE,DA,892
+1784,Razgledna točka – Tarumizu,3,DA,DA,892
+1785,Mestno središče – Esquina,4,NE,DA,893
+1786,Razgledna točka – Esquina,4,NE,DA,893
+1787,Mestno središče – Pleasant Point,4,NE,DA,894
+1788,Razgledna točka – Pleasant Point,4,NE,NE,894
+1789,Mestno središče – Datun,4,NE,DA,895
+1790,Razgledna točka – Datun,4,NE,DA,895
+1791,Mestno središče – Bhakkar,5,NE,DA,896
+1792,Razgledna točka – Bhakkar,5,DA,DA,896
+1793,Mestno središče – Bodzentyn,3,NE,DA,897
+1794,Razgledna točka – Bodzentyn,3,NE,DA,897
+1795,Mestno središče – Cherga,3,NE,DA,898
+1796,Razgledna točka – Cherga,3,NE,DA,898
+1797,Mestno središče – Igarapé Açu,4,NE,DA,899
+1798,Razgledna točka – Igarapé Açu,4,NE,DA,899
+1799,Mestno središče – Penticton,2,NE,DA,900
+1800,Razgledna točka – Penticton,3,DA,NE,900
+1801,Mestno središče – Shangdu,1,NE,DA,901
+1802,Razgledna točka – Shangdu,1,NE,DA,901
+1803,Mestno središče – Mascouche,3,NE,DA,902
+1804,Razgledna točka – Mascouche,3,NE,DA,902
+1805,Mestno središče – Dadaha,2,NE,DA,903
+1806,Razgledna točka – Dadaha,2,NE,DA,903
+1807,Mestno središče – Pule,2,NE,DA,904
+1808,Razgledna točka – Pule,3,DA,DA,904
+1809,Mestno središče – Garešnica,2,NE,DA,905
+1810,Razgledna točka – Garešnica,2,NE,DA,905
+1811,Mestno središče – Wąbrzeźno,2,NE,DA,906
+1812,Razgledna točka – Wąbrzeźno,2,NE,NE,906
+1813,Mestno središče – Onsala,3,NE,DA,907
+1814,Razgledna točka – Onsala,3,NE,DA,907
+1815,Mestno središče – Mohelno,3,NE,DA,908
+1816,Razgledna točka – Mohelno,4,DA,DA,908
+1817,Mestno središče – Starokucherganovka,4,NE,DA,909
+1818,Razgledna točka – Starokucherganovka,4,NE,DA,909
+1819,Mestno središče – Kveda Chkhorots’q’u,3,NE,DA,910
+1820,Razgledna točka – Kveda Chkhorots’q’u,3,NE,DA,910
+1821,Mestno središče – Sorochinsk,3,NE,DA,911
+1822,Razgledna točka – Sorochinsk,3,NE,DA,911
+1823,Mestno središče – Pisang,1,NE,DA,912
+1824,Razgledna točka – Pisang,2,DA,NE,912
+1825,Mestno središče – Marka,5,NE,DA,913
+1826,Razgledna točka – Marka,5,NE,DA,913
+1827,Mestno središče – Amarillo,5,NE,DA,914
+1828,Razgledna točka – Amarillo,5,NE,DA,914
+1829,Mestno središče – New York City,4,NE,DA,915
+1830,Razgledna točka – New York City,4,NE,DA,915
+1831,Mestno središče – Spitak,3,NE,DA,916
+1832,Razgledna točka – Spitak,4,DA,DA,916
+1833,Mestno središče – Pailou,2,NE,DA,917
+1834,Razgledna točka – Pailou,2,NE,DA,917
+1835,Mestno središče – Chodów,4,NE,DA,918
+1836,Razgledna točka – Chodów,4,NE,NE,918
+1837,Mestno središče – Palangue,4,NE,DA,919
+1838,Razgledna točka – Palangue,4,NE,DA,919
+1839,Mestno središče – Bishan,2,NE,DA,920
+1840,Razgledna točka – Bishan,3,DA,DA,920
+1841,Mestno središče – Ursk,3,NE,DA,921
+1842,Razgledna točka – Ursk,3,NE,DA,921
+1843,Mestno središče – Villasis,4,NE,DA,922
+1844,Razgledna točka – Villasis,4,NE,DA,922
+1845,Mestno središče – Dahu,1,NE,DA,923
+1846,Razgledna točka – Dahu,1,NE,DA,923
+1847,Mestno središče – Butembo,3,NE,DA,924
+1848,Razgledna točka – Butembo,4,DA,NE,924
+1849,Mestno središče – Vol’no-Nadezhdinskoye,3,NE,DA,925
+1850,Razgledna točka – Vol’no-Nadezhdinskoye,3,NE,DA,925
+1851,Mestno središče – Kocēni,3,NE,DA,926
+1852,Razgledna točka – Kocēni,3,NE,DA,926
+1853,Mestno središče – Xihongmen,2,NE,DA,927
+1854,Razgledna točka – Xihongmen,2,NE,DA,927
+1855,Mestno središče – Chedao,2,NE,DA,928
+1856,Razgledna točka – Chedao,3,DA,DA,928
+1857,Mestno središče – Bellavista,3,NE,DA,929
+1858,Razgledna točka – Bellavista,3,NE,DA,929
+1859,Mestno središče – Kabongan Kidul,2,NE,DA,930
+1860,Razgledna točka – Kabongan Kidul,2,NE,NE,930
+1861,Mestno središče – Sosnovaya Polyana,5,NE,DA,931
+1862,Razgledna točka – Sosnovaya Polyana,5,NE,DA,931
+1863,Mestno središče – Sevilla,1,NE,DA,932
+1864,Razgledna točka – Sevilla,2,DA,DA,932
+1865,Mestno središče – Pokachi,4,NE,DA,933
+1866,Razgledna točka – Pokachi,4,NE,DA,933
+1867,Mestno središče – Umm al Qaywayn,3,NE,DA,934
+1868,Razgledna točka – Umm al Qaywayn,3,NE,DA,934
+1869,Mestno središče – Bukovec,2,NE,DA,935
+1870,Razgledna točka – Bukovec,2,NE,DA,935
+1871,Mestno središče – Somovo,1,NE,DA,936
+1872,Razgledna točka – Somovo,2,DA,NE,936
+1873,Mestno središče – Chengzi,3,NE,DA,937
+1874,Razgledna točka – Chengzi,3,NE,DA,937
+1875,Mestno središče – Söderköping,4,NE,DA,938
+1876,Razgledna točka – Söderköping,4,NE,DA,938
+1877,Mestno središče – Verdizela,5,NE,DA,939
+1878,Razgledna točka – Verdizela,5,NE,DA,939
+1879,Mestno središče – La Plata,2,NE,DA,940
+1880,Razgledna točka – La Plata,3,DA,DA,940
+1881,Mestno središče – Taungoo,1,NE,DA,941
+1882,Razgledna točka – Taungoo,1,NE,DA,941
+1883,Mestno središče – Yanacancha,4,NE,DA,942
+1884,Razgledna točka – Yanacancha,4,NE,NE,942
+1885,Mestno središče – Tucaní,3,NE,DA,943
+1886,Razgledna točka – Tucaní,3,NE,DA,943
+1887,Mestno središče – Memória,1,NE,DA,944
+1888,Razgledna točka – Memória,2,DA,DA,944
+1889,Mestno središče – Narutō,3,NE,DA,945
+1890,Razgledna točka – Narutō,3,NE,DA,945
+1891,Mestno središče – Khalīlābād,3,NE,DA,946
+1892,Razgledna točka – Khalīlābād,3,NE,DA,946
+1893,Mestno središče – Buynichy,1,NE,DA,947
+1894,Razgledna točka – Buynichy,1,NE,DA,947
+1895,Mestno središče – Emplak,3,NE,DA,948
+1896,Razgledna točka – Emplak,4,DA,NE,948
+1897,Mestno središče – That Phanom,4,NE,DA,949
+1898,Razgledna točka – That Phanom,4,NE,DA,949
+1899,Mestno središče – Ar Rass,3,NE,DA,950
+1900,Razgledna točka – Ar Rass,3,NE,DA,950
+1901,Mestno središče – Huangzhou,3,NE,DA,951
+1902,Razgledna točka – Huangzhou,3,NE,DA,951
+1903,Mestno središče – El Tejocote,2,NE,DA,952
+1904,Razgledna točka – El Tejocote,3,DA,DA,952
+1905,Mestno središče – Ugep,4,NE,DA,953
+1906,Razgledna točka – Ugep,4,NE,DA,953
+1907,Mestno središče – Khong,4,NE,DA,954
+1908,Razgledna točka – Khong,4,NE,NE,954
+1909,Mestno središče – Maogang,2,NE,DA,955
+1910,Razgledna točka – Maogang,2,NE,DA,955
+1911,Mestno središče – San Jose,2,NE,DA,956
+1912,Razgledna točka – San Jose,3,DA,DA,956
+1913,Mestno središče – Albany,1,NE,DA,957
+1914,Razgledna točka – Albany,1,NE,DA,957
+1915,Mestno središče – Kota Bharu,3,NE,DA,958
+1916,Razgledna točka – Kota Bharu,3,NE,DA,958
+1917,Mestno središče – Bulqizë,3,NE,DA,959
+1918,Razgledna točka – Bulqizë,3,NE,DA,959
+1919,Mestno središče – Khoroshëvo-Mnevniki,3,NE,DA,960
+1920,Razgledna točka – Khoroshëvo-Mnevniki,4,DA,NE,960
+1921,Mestno središče – Marvdasht,2,NE,DA,961
+1922,Razgledna točka – Marvdasht,2,NE,DA,961
+1923,Mestno središče – Bolgar,5,NE,DA,962
+1924,Razgledna točka – Bolgar,5,NE,DA,962
+1925,Mestno središče – Nahāvand,1,NE,DA,963
+1926,Razgledna točka – Nahāvand,1,NE,DA,963
+1927,Mestno središče – Tola,2,NE,DA,964
+1928,Razgledna točka – Tola,3,DA,DA,964
+1929,Mestno središče – Kokkónion,3,NE,DA,965
+1930,Razgledna točka – Kokkónion,3,NE,DA,965
+1931,Mestno središče – Pingxiang,3,NE,DA,966
+1932,Razgledna točka – Pingxiang,3,NE,NE,966
+1933,Mestno središče – Płońsk,3,NE,DA,967
+1934,Razgledna točka – Płońsk,3,NE,DA,967
+1935,Mestno središče – Wuping,4,NE,DA,968
+1936,Razgledna točka – Wuping,5,DA,DA,968
+1937,Mestno središče – Xinxu,2,NE,DA,969
+1938,Razgledna točka – Xinxu,2,NE,DA,969
+1939,Mestno središče – Santa Teresa,4,NE,DA,970
+1940,Razgledna točka – Santa Teresa,4,NE,DA,970
+1941,Mestno središče – Saku,4,NE,DA,971
+1942,Razgledna točka – Saku,4,NE,DA,971
+1943,Mestno središče – Menampukrajan,2,NE,DA,972
+1944,Razgledna točka – Menampukrajan,3,DA,NE,972
+1945,Mestno središče – Neglasari,3,NE,DA,973
+1946,Razgledna točka – Neglasari,3,NE,DA,973
+1947,Mestno središče – Tomilino,5,NE,DA,974
+1948,Razgledna točka – Tomilino,5,NE,DA,974
+1949,Mestno središče – Cilangkap,3,NE,DA,975
+1950,Razgledna točka – Cilangkap,3,NE,DA,975
+1951,Mestno središče – Fudian,3,NE,DA,976
+1952,Razgledna točka – Fudian,4,DA,DA,976
+1953,Mestno središče – Anchorage,5,NE,DA,977
+1954,Razgledna točka – Anchorage,5,NE,DA,977
+1955,Mestno središče – Orosh,4,NE,DA,978
+1956,Razgledna točka – Orosh,4,NE,NE,978
+1957,Mestno središče – Almargem do Bispo,4,NE,DA,979
+1958,Razgledna točka – Almargem do Bispo,4,NE,DA,979
+1959,Mestno središče – La Libertad,4,NE,DA,980
+1960,Razgledna točka – La Libertad,5,DA,DA,980
+1961,Mestno središče – Shangtianba,3,NE,DA,981
+1962,Razgledna točka – Shangtianba,3,NE,DA,981
+1963,Mestno središče – El Cairo,5,NE,DA,982
+1964,Razgledna točka – El Cairo,5,NE,DA,982
+1965,Mestno središče – Xiaowuzhan,5,NE,DA,983
+1966,Razgledna točka – Xiaowuzhan,5,NE,DA,983
+1967,Mestno središče – Ji Paraná,4,NE,DA,984
+1968,Razgledna točka – Ji Paraná,5,DA,NE,984
+1969,Mestno središče – Ulster Spring,1,NE,DA,985
+1970,Razgledna točka – Ulster Spring,1,NE,DA,985
+1971,Mestno središče – Chapimarca,3,NE,DA,986
+1972,Razgledna točka – Chapimarca,3,NE,DA,986
+1973,Mestno središče – Tielong,3,NE,DA,987
+1974,Razgledna točka – Tielong,3,NE,DA,987
+1975,Mestno središče – Agen,2,NE,DA,988
+1976,Razgledna točka – Agen,3,DA,DA,988
+1977,Mestno središče – Kyzylorda,4,NE,DA,989
+1978,Razgledna točka – Kyzylorda,4,NE,DA,989
+1979,Mestno središče – El Paso,4,NE,DA,990
+1980,Razgledna točka – El Paso,4,NE,NE,990
+1981,Mestno središče – Zvenyhorodka,3,NE,DA,991
+1982,Razgledna točka – Zvenyhorodka,3,NE,DA,991
+1983,Mestno središče – Bielefeld,3,NE,DA,992
+1984,Razgledna točka – Bielefeld,4,DA,DA,992
+1985,Mestno središče – Pigcawayan,5,NE,DA,993
+1986,Razgledna točka – Pigcawayan,5,NE,DA,993
+1987,Mestno središče – Kabinda,2,NE,DA,994
+1988,Razgledna točka – Kabinda,2,NE,DA,994
+1989,Mestno središče – Luojiang,4,NE,DA,995
+1990,Razgledna točka – Luojiang,4,NE,DA,995
+1991,Mestno središče – Jermenovci,5,NE,DA,996
+1992,Razgledna točka – Jermenovci,5,DA,NE,996
+1993,Mestno središče – Piedra del Águila,4,NE,DA,997
+1994,Razgledna točka – Piedra del Águila,4,NE,DA,997
+1995,Mestno središče – Velikiye Luki,3,NE,DA,998
+1996,Razgledna točka – Velikiye Luki,3,NE,DA,998
+1997,Mestno središče – Novorozhdestvenskaya,4,NE,DA,999
+1998,Razgledna točka – Novorozhdestvenskaya,4,NE,DA,999
+1999,Mestno središče – Sidokumpul,1,NE,DA,1000
+2000,Razgledna točka – Sidokumpul,2,DA,DA,1000
+

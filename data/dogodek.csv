@@ -2,3 +2,1001 @@ id,ime,datum,stanje,vstopnina,za_otroke,mesto_id
 1,Mestni kulturni festival – Ojo de Agua,2027-01-07,planirano,NE,DA,1
 2,Dan lokalne kulinarike – Madingou,2027-02-14,planirano,DA,DA,2
 3,Poletni mestni sejem – Yueyang,2027-03-21,planirano,NE,DA,3
+4,Glasbeni večer – Bintawan,2027-04-28,planirano,DA,DA,4
+5,Družinski mestni dan – Jundiaí,2027-05-07,planirano,NE,DA,5
+6,Festival lokalne tradicije – Cachoeiras de Macacu,2027-06-14,planirano,DA,DA,6
+7,Mestni kulturni festival – Rio Formoso,2027-07-21,planirano,NE,NE,7
+8,Dan lokalne kulinarike – Kamień Pomorski,2027-08-28,planirano,DA,DA,8
+9,Poletni mestni sejem – Vovchans’k,2027-09-07,planirano,NE,DA,9
+10,Glasbeni večer – Mogadishu,2027-10-14,planirano,DA,DA,10
+11,Družinski mestni dan – Kalianyar Selatan,2027-11-21,planirano,NE,DA,11
+12,Festival lokalne tradicije – Boevange-sur-Attert,2027-12-28,planirano,DA,DA,12
+13,Mestni kulturni festival – Skaryszew,2027-01-07,planirano,NE,DA,13
+14,Dan lokalne kulinarike – Linggou,2027-02-14,planirano,DA,NE,14
+15,Poletni mestni sejem – Louisville,2027-03-21,planirano,NE,DA,15
+16,Glasbeni večer – Dabola,2027-04-28,planirano,DA,DA,16
+17,Družinski mestni dan – Göteborg,2027-05-07,planirano,NE,DA,17
+18,Festival lokalne tradicije – Huambo,2027-06-14,planirano,DA,DA,18
+19,Mestni kulturni festival – Culasian,2027-07-21,planirano,NE,DA,19
+20,Dan lokalne kulinarike – Zhanping,2027-08-28,planirano,DA,DA,20
+21,Poletni mestni sejem – Ifakara,2027-09-07,planirano,NE,NE,21
+22,Glasbeni večer – Mt Peto,2027-10-14,planirano,DA,DA,22
+23,Družinski mestni dan – Nanger,2027-11-21,planirano,NE,DA,23
+24,Festival lokalne tradicije – Kao Liao,2027-12-28,planirano,DA,DA,24
+25,Mestni kulturni festival – Kongtian,2027-01-07,planirano,NE,DA,25
+26,Dan lokalne kulinarike – Bohutín,2027-02-14,planirano,DA,DA,26
+27,Poletni mestni sejem – Santa Cristina Couto,2027-03-21,planirano,NE,DA,27
+28,Glasbeni večer – Youngstown,2027-04-28,planirano,DA,NE,28
+29,Družinski mestni dan – Tangdong,2027-05-07,planirano,NE,DA,29
+30,Festival lokalne tradicije – Vinnytsya,2027-06-14,planirano,DA,DA,30
+31,Mestni kulturni festival – Yayao,2027-07-21,planirano,NE,DA,31
+32,Dan lokalne kulinarike – Peixing,2027-08-28,planirano,DA,DA,32
+33,Poletni mestni sejem – Itacurubí del Rosario,2027-09-07,planirano,NE,DA,33
+34,Glasbeni večer – Grugul,2027-10-14,planirano,DA,DA,34
+35,Družinski mestni dan – Guder Lao,2027-11-21,planirano,NE,NE,35
+36,Festival lokalne tradicije – Siraway,2027-12-28,planirano,DA,DA,36
+37,Mestni kulturni festival – Tuncheng,2027-01-07,planirano,NE,DA,37
+38,Dan lokalne kulinarike – Shibi,2027-02-14,planirano,DA,DA,38
+39,Poletni mestni sejem – Shibīn al Qanāţir,2027-03-21,planirano,NE,DA,39
+40,Glasbeni večer – Zagnitkiv,2027-04-28,planirano,DA,DA,40
+41,Družinski mestni dan – Pueblo Nuevo,2027-05-07,planirano,NE,DA,41
+42,Festival lokalne tradicije – Kronoby,2027-06-14,planirano,DA,NE,42
+43,Mestni kulturni festival – Västervik,2027-07-21,planirano,NE,DA,43
+44,Dan lokalne kulinarike – Verkh-Usugli,2027-08-28,planirano,DA,DA,44
+45,Poletni mestni sejem – Pedregal,2027-09-07,planirano,NE,DA,45
+46,Glasbeni večer – Fujinomiya,2027-10-14,planirano,DA,DA,46
+47,Družinski mestni dan – Kuala Lumpur,2027-11-21,planirano,NE,DA,47
+48,Festival lokalne tradicije – El Hamma,2027-12-28,planirano,DA,DA,48
+49,Mestni kulturni festival – Huangyuan Chengguanzhen,2027-01-07,planirano,NE,NE,49
+50,Dan lokalne kulinarike – Tomorlog,2027-02-14,planirano,DA,DA,50
+51,Poletni mestni sejem – Niort,2027-03-21,planirano,NE,DA,51
+52,Glasbeni večer – Sampao,2027-04-28,planirano,DA,DA,52
+53,Družinski mestni dan – Mali Iđoš,2027-05-07,planirano,NE,DA,53
+54,Festival lokalne tradicije – Xinmin,2027-06-14,planirano,DA,DA,54
+55,Mestni kulturni festival – Paiçandu,2027-07-21,planirano,NE,DA,55
+56,Dan lokalne kulinarike – Lyaskelya,2027-08-28,planirano,DA,NE,56
+57,Poletni mestni sejem – Rumburk,2027-09-07,planirano,NE,DA,57
+58,Glasbeni večer – Strogino,2027-10-14,planirano,DA,DA,58
+59,Družinski mestni dan – Montería,2027-11-21,planirano,NE,DA,59
+60,Festival lokalne tradicije – Tobi Village,2027-12-28,planirano,DA,DA,60
+61,Mestni kulturni festival – Longhua,2027-01-07,planirano,NE,DA,61
+62,Dan lokalne kulinarike – Newcastle,2027-02-14,planirano,DA,DA,62
+63,Poletni mestni sejem – Kashima,2027-03-21,planirano,NE,NE,63
+64,Glasbeni večer – Santa Quitéria do Maranhão,2027-04-28,planirano,DA,DA,64
+65,Družinski mestni dan – Fengshan,2027-05-07,planirano,NE,DA,65
+66,Festival lokalne tradicije – Mazatenango,2027-06-14,planirano,DA,DA,66
+67,Mestni kulturni festival – Figueiras,2027-07-21,planirano,NE,DA,67
+68,Dan lokalne kulinarike – Maranura,2027-08-28,planirano,DA,DA,68
+69,Poletni mestni sejem – Ashford,2027-09-07,planirano,NE,DA,69
+70,Glasbeni večer – Longshan,2027-10-14,planirano,DA,NE,70
+71,Družinski mestni dan – Jiangkou,2027-11-21,planirano,NE,DA,71
+72,Festival lokalne tradicije – Amarillo,2027-12-28,planirano,DA,DA,72
+73,Mestni kulturni festival – Wanga,2027-01-07,planirano,NE,DA,73
+74,Dan lokalne kulinarike – Rokiciny,2027-02-14,planirano,DA,DA,74
+75,Poletni mestni sejem – Danao,2027-03-21,planirano,NE,DA,75
+76,Glasbeni večer – Krolevets’,2027-04-28,planirano,DA,DA,76
+77,Družinski mestni dan – Cristóbal,2027-05-07,planirano,NE,NE,77
+78,Festival lokalne tradicije – Kalisangkrah Lor,2027-06-14,planirano,DA,DA,78
+79,Mestni kulturni festival – Xindai,2027-07-21,planirano,NE,DA,79
+80,Dan lokalne kulinarike – La Coipa,2027-08-28,planirano,DA,DA,80
+81,Poletni mestni sejem – Nago,2027-09-07,planirano,NE,DA,81
+82,Glasbeni večer – Klwów,2027-10-14,planirano,DA,DA,82
+83,Družinski mestni dan – Banjar Kampungbugis,2027-11-21,planirano,NE,DA,83
+84,Festival lokalne tradicije – Lakha Nëvre,2027-12-28,planirano,DA,NE,84
+85,Mestni kulturni festival – Kérkyra,2027-01-07,planirano,NE,DA,85
+86,Dan lokalne kulinarike – Montes,2027-02-14,planirano,DA,DA,86
+87,Poletni mestni sejem – Tonekābon,2027-03-21,planirano,NE,DA,87
+88,Glasbeni večer – Maco,2027-04-28,planirano,DA,DA,88
+89,Družinski mestni dan – To’rtko’l Shahri,2027-05-07,planirano,NE,DA,89
+90,Festival lokalne tradicije – Kadipaten,2027-06-14,planirano,DA,DA,90
+91,Mestni kulturni festival – Géfyra,2027-07-21,planirano,NE,NE,91
+92,Dan lokalne kulinarike – Cipatujah,2027-08-28,planirano,DA,DA,92
+93,Poletni mestni sejem – Koryukivka,2027-09-07,planirano,NE,DA,93
+94,Glasbeni večer – Pujiang,2027-10-14,planirano,DA,DA,94
+95,Družinski mestni dan – San Nicolas,2027-11-21,planirano,NE,DA,95
+96,Festival lokalne tradicije – Ogod,2027-12-28,planirano,DA,DA,96
+97,Mestni kulturni festival – Barranco de Loba,2027-01-07,planirano,NE,DA,97
+98,Dan lokalne kulinarike – Antes,2027-02-14,planirano,DA,NE,98
+99,Poletni mestni sejem – Foros de Salvaterra,2027-03-21,planirano,NE,DA,99
+100,Glasbeni večer – Oemofa,2027-04-28,planirano,DA,DA,100
+101,Družinski mestni dan – Guling,2027-05-07,planirano,NE,DA,101
+102,Festival lokalne tradicije – Zākhū,2027-06-14,planirano,DA,DA,102
+103,Mestni kulturni festival – Mushu,2027-07-21,planirano,NE,DA,103
+104,Dan lokalne kulinarike – Borzoy,2027-08-28,planirano,DA,DA,104
+105,Poletni mestni sejem – Qiaolin,2027-09-07,planirano,NE,NE,105
+106,Glasbeni večer – Ramat HaSharon,2027-10-14,planirano,DA,DA,106
+107,Družinski mestni dan – Melgar,2027-11-21,planirano,NE,DA,107
+108,Festival lokalne tradicije – Yegor’yevsk,2027-12-28,planirano,DA,DA,108
+109,Mestni kulturni festival – Chunmuying,2027-01-07,planirano,NE,DA,109
+110,Dan lokalne kulinarike – Gornorechenskiy,2027-02-14,planirano,DA,DA,110
+111,Poletni mestni sejem – Zbraslav,2027-03-21,planirano,NE,DA,111
+112,Glasbeni večer – Guazacapán,2027-04-28,planirano,DA,NE,112
+113,Družinski mestni dan – Shancheng,2027-05-07,planirano,NE,DA,113
+114,Festival lokalne tradicije – Bondokodi,2027-06-14,planirano,DA,DA,114
+115,Mestni kulturni festival – Boston,2027-07-21,planirano,NE,DA,115
+116,Dan lokalne kulinarike – Suwalan,2027-08-28,planirano,DA,DA,116
+117,Poletni mestni sejem – Gobō,2027-09-07,planirano,NE,DA,117
+118,Glasbeni večer – Saparua,2027-10-14,planirano,DA,DA,118
+119,Družinski mestni dan – Osoyoos,2027-11-21,planirano,NE,NE,119
+120,Festival lokalne tradicije – Bibirevo,2027-12-28,planirano,DA,DA,120
+121,Mestni kulturni festival – Fontinha,2027-01-07,planirano,NE,DA,121
+122,Dan lokalne kulinarike – Lat Lum Kaeo,2027-02-14,planirano,DA,DA,122
+123,Poletni mestni sejem – Panacan,2027-03-21,planirano,NE,DA,123
+124,Glasbeni večer – Solânea,2027-04-28,planirano,DA,DA,124
+125,Družinski mestni dan – Zhouyuan,2027-05-07,planirano,NE,DA,125
+126,Festival lokalne tradicije – Hongshan,2027-06-14,planirano,DA,NE,126
+127,Mestni kulturni festival – Venda do Alcaide,2027-07-21,planirano,NE,DA,127
+128,Dan lokalne kulinarike – Iowa City,2027-08-28,planirano,DA,DA,128
+129,Poletni mestni sejem – Toutai,2027-09-07,planirano,NE,DA,129
+130,Glasbeni večer – Miraflores,2027-10-14,planirano,DA,DA,130
+131,Družinski mestni dan – Goubangzi,2027-11-21,planirano,NE,DA,131
+132,Festival lokalne tradicije – Mompós,2027-12-28,planirano,DA,DA,132
+133,Mestni kulturni festival – Brzeźnica,2027-01-07,planirano,NE,NE,133
+134,Dan lokalne kulinarike – Vasyl'evsky Ostrov,2027-02-14,planirano,DA,DA,134
+135,Poletni mestni sejem – Panorama,2027-03-21,planirano,NE,DA,135
+136,Glasbeni večer – Pasirpanjang,2027-04-28,planirano,DA,DA,136
+137,Družinski mestni dan – Shijak,2027-05-07,planirano,NE,DA,137
+138,Festival lokalne tradicije – Kortesjärvi,2027-06-14,planirano,DA,DA,138
+139,Mestni kulturni festival – Ushuaia,2027-07-21,planirano,NE,DA,139
+140,Dan lokalne kulinarike – Cola,2027-08-28,planirano,DA,NE,140
+141,Poletni mestni sejem – Ponong,2027-09-07,planirano,NE,DA,141
+142,Glasbeni večer – Del Pilar,2027-10-14,planirano,DA,DA,142
+143,Družinski mestni dan – Banjar Jagasatru,2027-11-21,planirano,NE,DA,143
+144,Festival lokalne tradicije – Reszel,2027-12-28,planirano,DA,DA,144
+145,Mestni kulturni festival – Nartkala,2027-01-07,planirano,NE,DA,145
+146,Dan lokalne kulinarike – Marondera,2027-02-14,planirano,DA,DA,146
+147,Poletni mestni sejem – Kolomak,2027-03-21,planirano,NE,NE,147
+148,Glasbeni večer – Jinjing,2027-04-28,planirano,DA,DA,148
+149,Družinski mestni dan – Liandu,2027-05-07,planirano,NE,DA,149
+150,Festival lokalne tradicije – Hammam Sousse,2027-06-14,planirano,DA,DA,150
+151,Mestni kulturni festival – Guanhães,2027-07-21,planirano,NE,DA,151
+152,Dan lokalne kulinarike – Bello,2027-08-28,planirano,DA,DA,152
+153,Poletni mestni sejem – Samanco,2027-09-07,planirano,NE,DA,153
+154,Glasbeni večer – Dyurtyuli,2027-10-14,planirano,DA,NE,154
+155,Družinski mestni dan – Karangpawitan,2027-11-21,planirano,NE,DA,155
+156,Festival lokalne tradicije – Maracaju,2027-12-28,planirano,DA,DA,156
+157,Mestni kulturni festival – Amnat Charoen,2027-01-07,planirano,NE,DA,157
+158,Dan lokalne kulinarike – Oras,2027-02-14,planirano,DA,DA,158
+159,Poletni mestni sejem – Lizhai,2027-03-21,planirano,NE,DA,159
+160,Glasbeni večer – Celendín,2027-04-28,planirano,DA,DA,160
+161,Družinski mestni dan – Tsyurupyns’k,2027-05-07,planirano,NE,NE,161
+162,Festival lokalne tradicije – Senta,2027-06-14,planirano,DA,DA,162
+163,Mestni kulturni festival – Lanas,2027-07-21,planirano,NE,DA,163
+164,Dan lokalne kulinarike – Stara Kiszewa,2027-08-28,planirano,DA,DA,164
+165,Poletni mestni sejem – Barubandung,2027-09-07,planirano,NE,DA,165
+166,Glasbeni večer – Bailizhou,2027-10-14,planirano,DA,DA,166
+167,Družinski mestni dan – Toupi,2027-11-21,planirano,NE,DA,167
+168,Festival lokalne tradicije – Maracanaú,2027-12-28,planirano,DA,NE,168
+169,Mestni kulturni festival – Pensacola,2027-01-07,planirano,NE,DA,169
+170,Dan lokalne kulinarike – Shancheng,2027-02-14,planirano,DA,DA,170
+171,Poletni mestni sejem – Tangzi,2027-03-21,planirano,NE,DA,171
+172,Glasbeni večer – ‘Alīābād-e Katūl,2027-04-28,planirano,DA,DA,172
+173,Družinski mestni dan – Oekefan,2027-05-07,planirano,NE,DA,173
+174,Festival lokalne tradicije – Moulins,2027-06-14,planirano,DA,DA,174
+175,Mestni kulturni festival – Irtyshskiy,2027-07-21,planirano,NE,NE,175
+176,Dan lokalne kulinarike – Singaraja,2027-08-28,planirano,DA,DA,176
+177,Poletni mestni sejem – Gedongmulyo,2027-09-07,planirano,NE,DA,177
+178,Glasbeni večer – Ak’ordat,2027-10-14,planirano,DA,DA,178
+179,Družinski mestni dan – Xarardheere,2027-11-21,planirano,NE,DA,179
+180,Festival lokalne tradicije – Kholbon,2027-12-28,planirano,DA,DA,180
+181,Mestni kulturni festival – Filimonovo,2027-01-07,planirano,NE,DA,181
+182,Dan lokalne kulinarike – Toba Tek Singh,2027-02-14,planirano,DA,NE,182
+183,Poletni mestni sejem – Prosperous,2027-03-21,planirano,NE,DA,183
+184,Glasbeni večer – Huancarqui,2027-04-28,planirano,DA,DA,184
+185,Družinski mestni dan – Hatavch,2027-05-07,planirano,NE,DA,185
+186,Festival lokalne tradicije – Riba de Ave,2027-06-14,planirano,DA,DA,186
+187,Mestni kulturni festival – Frankfort,2027-07-21,planirano,NE,DA,187
+188,Dan lokalne kulinarike – Lijiang,2027-08-28,planirano,DA,DA,188
+189,Poletni mestni sejem – Novosin’kovo,2027-09-07,planirano,NE,NE,189
+190,Glasbeni večer – Fentange,2027-10-14,planirano,DA,DA,190
+191,Družinski mestni dan – Xilin Hot,2027-11-21,planirano,NE,DA,191
+192,Festival lokalne tradicije – La Paz,2027-12-28,planirano,DA,DA,192
+193,Mestni kulturni festival – Kifrī,2027-01-07,planirano,NE,DA,193
+194,Dan lokalne kulinarike – Akwanga,2027-02-14,planirano,DA,DA,194
+195,Poletni mestni sejem – Bogolyubovo,2027-03-21,planirano,NE,DA,195
+196,Glasbeni večer – Leskovec pri Krškem,2027-04-28,planirano,DA,NE,196
+197,Družinski mestni dan – Huangjiabu,2027-05-07,planirano,NE,DA,197
+198,Festival lokalne tradicije – Xiwu,2027-06-14,planirano,DA,DA,198
+199,Mestni kulturni festival – Viterbo,2027-07-21,planirano,NE,DA,199
+200,Dan lokalne kulinarike – Frederiksberg,2027-08-28,planirano,DA,DA,200
+201,Poletni mestni sejem – Sacramento,2027-09-07,planirano,NE,DA,201
+202,Glasbeni večer – Vidin,2027-10-14,planirano,DA,DA,202
+203,Družinski mestni dan – Upata,2027-11-21,planirano,NE,NE,203
+204,Festival lokalne tradicije – Agara,2027-12-28,planirano,DA,DA,204
+205,Mestni kulturni festival – Ýdra,2027-01-07,planirano,NE,DA,205
+206,Dan lokalne kulinarike – Reims,2027-02-14,planirano,DA,DA,206
+207,Poletni mestni sejem – Mīrwāh Gorchani,2027-03-21,planirano,NE,DA,207
+208,Glasbeni večer – Sydney,2027-04-28,planirano,DA,DA,208
+209,Družinski mestni dan – Guiyang,2027-05-07,planirano,NE,DA,209
+210,Festival lokalne tradicije – Ili,2027-06-14,planirano,DA,NE,210
+211,Mestni kulturni festival – Xinjiezi,2027-07-21,planirano,NE,DA,211
+212,Dan lokalne kulinarike – São Domingos de Rana,2027-08-28,planirano,DA,DA,212
+213,Poletni mestni sejem – Jiangtou,2027-09-07,planirano,NE,DA,213
+214,Glasbeni večer – Ryazan’,2027-10-14,planirano,DA,DA,214
+215,Družinski mestni dan – Koloniya Zastav’ye,2027-11-21,planirano,NE,DA,215
+216,Festival lokalne tradicije – Sasa,2027-12-28,planirano,DA,DA,216
+217,Mestni kulturni festival – Ozërsk,2027-01-07,planirano,NE,NE,217
+218,Dan lokalne kulinarike – Karagay,2027-02-14,planirano,DA,DA,218
+219,Poletni mestni sejem – Bom Despacho,2027-03-21,planirano,NE,DA,219
+220,Glasbeni večer – Carcassonne,2027-04-28,planirano,DA,DA,220
+221,Družinski mestni dan – Senovo,2027-05-07,planirano,NE,DA,221
+222,Festival lokalne tradicije – Xiajiashan,2027-06-14,planirano,DA,DA,222
+223,Mestni kulturni festival – Hafnarfjörður,2027-07-21,planirano,NE,DA,223
+224,Dan lokalne kulinarike – Richibucto,2027-08-28,planirano,DA,NE,224
+225,Poletni mestni sejem – Nangtang,2027-09-07,planirano,NE,DA,225
+226,Glasbeni večer – Chkalov,2027-10-14,planirano,DA,DA,226
+227,Družinski mestni dan – Cibenda,2027-11-21,planirano,NE,DA,227
+228,Festival lokalne tradicije – Padangtepung,2027-12-28,planirano,DA,DA,228
+229,Mestni kulturni festival – Bula,2027-01-07,planirano,NE,DA,229
+230,Dan lokalne kulinarike – Quaraí,2027-02-14,planirano,DA,DA,230
+231,Poletni mestni sejem – Semongkat,2027-03-21,planirano,NE,NE,231
+232,Glasbeni večer – Paris 20,2027-04-28,planirano,DA,DA,232
+233,Družinski mestni dan – Bor Ondor,2027-05-07,planirano,NE,DA,233
+234,Festival lokalne tradicije – Cikondang,2027-06-14,planirano,DA,DA,234
+235,Mestni kulturni festival – Valday,2027-07-21,planirano,NE,DA,235
+236,Dan lokalne kulinarike – Duraznopampa,2027-08-28,planirano,DA,DA,236
+237,Poletni mestni sejem – Pancheng,2027-09-07,planirano,NE,DA,237
+238,Glasbeni večer – Krasnyy Yar,2027-10-14,planirano,DA,NE,238
+239,Družinski mestni dan – Sunduan,2027-11-21,planirano,NE,DA,239
+240,Festival lokalne tradicije – Kiangan,2027-12-28,planirano,DA,DA,240
+241,Mestni kulturni festival – Tawaran,2027-01-07,planirano,NE,DA,241
+242,Dan lokalne kulinarike – Erhaodi,2027-02-14,planirano,DA,DA,242
+243,Poletni mestni sejem – Bakung,2027-03-21,planirano,NE,DA,243
+244,Glasbeni večer – Inicbulan,2027-04-28,planirano,DA,DA,244
+245,Družinski mestni dan – Luxor,2027-05-07,planirano,NE,NE,245
+246,Festival lokalne tradicije – Washington,2027-06-14,planirano,DA,DA,246
+247,Mestni kulturni festival – Huyuan,2027-07-21,planirano,NE,DA,247
+248,Dan lokalne kulinarike – Tondano,2027-08-28,planirano,DA,DA,248
+249,Poletni mestni sejem – Koktal,2027-09-07,planirano,NE,DA,249
+250,Glasbeni večer – Huamali,2027-10-14,planirano,DA,DA,250
+251,Družinski mestni dan – Gaizhou,2027-11-21,planirano,NE,DA,251
+252,Festival lokalne tradicije – Athabasca,2027-12-28,planirano,DA,NE,252
+253,Mestni kulturni festival – George Hill,2027-01-07,planirano,NE,DA,253
+254,Dan lokalne kulinarike – Owase,2027-02-14,planirano,DA,DA,254
+255,Poletni mestni sejem – Ladushkin,2027-03-21,planirano,NE,DA,255
+256,Glasbeni večer – San Jacinto,2027-04-28,planirano,DA,DA,256
+257,Družinski mestni dan – Zoetermeer,2027-05-07,planirano,NE,DA,257
+258,Festival lokalne tradicije – Coihaique,2027-06-14,planirano,DA,DA,258
+259,Mestni kulturni festival – Sjöbo,2027-07-21,planirano,NE,NE,259
+260,Dan lokalne kulinarike – Wan Yai,2027-08-28,planirano,DA,DA,260
+261,Poletni mestni sejem – Antioquia,2027-09-07,planirano,NE,DA,261
+262,Glasbeni večer – Březová nad Svitavou,2027-10-14,planirano,DA,DA,262
+263,Družinski mestni dan – Spuž,2027-11-21,planirano,NE,DA,263
+264,Festival lokalne tradicije – Pandean,2027-12-28,planirano,DA,DA,264
+265,Mestni kulturni festival – Tangyin,2027-01-07,planirano,NE,DA,265
+266,Dan lokalne kulinarike – Salaya,2027-02-14,planirano,DA,NE,266
+267,Poletni mestni sejem – Nangen,2027-03-21,planirano,NE,DA,267
+268,Glasbeni večer – Charlotte,2027-04-28,planirano,DA,DA,268
+269,Družinski mestni dan – Tapan,2027-05-07,planirano,NE,DA,269
+270,Festival lokalne tradicije – Nikolinci,2027-06-14,planirano,DA,DA,270
+271,Mestni kulturni festival – Jinbo,2027-07-21,planirano,NE,DA,271
+272,Dan lokalne kulinarike – Kaduketug,2027-08-28,planirano,DA,DA,272
+273,Poletni mestni sejem – Houston,2027-09-07,planirano,NE,NE,273
+274,Glasbeni večer – Tāybād,2027-10-14,planirano,DA,DA,274
+275,Družinski mestni dan – Paris 12,2027-11-21,planirano,NE,DA,275
+276,Festival lokalne tradicije – Lloqan,2027-12-28,planirano,DA,DA,276
+277,Mestni kulturni festival – København,2027-01-07,planirano,NE,DA,277
+278,Dan lokalne kulinarike – Herzliya Pituah,2027-02-14,planirano,DA,DA,278
+279,Poletni mestni sejem – Čair,2027-03-21,planirano,NE,DA,279
+280,Glasbeni večer – Mikulášovice,2027-04-28,planirano,DA,NE,280
+281,Družinski mestni dan – La Huaca,2027-05-07,planirano,NE,DA,281
+282,Festival lokalne tradicije – Meliau,2027-06-14,planirano,DA,DA,282
+283,Mestni kulturni festival – Kosamphi Nakhon,2027-07-21,planirano,NE,DA,283
+284,Dan lokalne kulinarike – Ramaram,2027-08-28,planirano,DA,DA,284
+285,Poletni mestni sejem – Pitanga,2027-09-07,planirano,NE,DA,285
+286,Glasbeni večer – Senahú,2027-10-14,planirano,DA,DA,286
+287,Družinski mestni dan – Adassil,2027-11-21,planirano,NE,NE,287
+288,Festival lokalne tradicije – Roldanillo,2027-12-28,planirano,DA,DA,288
+289,Mestni kulturni festival – Taivalkoski,2027-01-07,planirano,NE,DA,289
+290,Dan lokalne kulinarike – Proletar,2027-02-14,planirano,DA,DA,290
+291,Poletni mestni sejem – Nurota Shahri,2027-03-21,planirano,NE,DA,291
+292,Glasbeni večer – Jinotega,2027-04-28,planirano,DA,DA,292
+293,Družinski mestni dan – Bisée,2027-05-07,planirano,NE,DA,293
+294,Festival lokalne tradicije – Kuching,2027-06-14,planirano,DA,NE,294
+295,Mestni kulturni festival – San Emilio,2027-07-21,planirano,NE,DA,295
+296,Dan lokalne kulinarike – Kinna,2027-08-28,planirano,DA,DA,296
+297,Poletni mestni sejem – Xinglongchang,2027-09-07,planirano,NE,DA,297
+298,Glasbeni večer – Blinsung,2027-10-14,planirano,DA,DA,298
+299,Družinski mestni dan – Ngandangan,2027-11-21,planirano,NE,DA,299
+300,Festival lokalne tradicije – Nangkaruka,2027-12-28,planirano,DA,DA,300
+301,Mestni kulturni festival – Krajan,2027-01-07,planirano,NE,NE,301
+302,Dan lokalne kulinarike – Bolong,2027-02-14,planirano,DA,DA,302
+303,Poletni mestni sejem – Jijia,2027-03-21,planirano,NE,DA,303
+304,Glasbeni večer – Örebro,2027-04-28,planirano,DA,DA,304
+305,Družinski mestni dan – Lingcheng,2027-05-07,planirano,NE,DA,305
+306,Festival lokalne tradicije – Sikka,2027-06-14,planirano,DA,DA,306
+307,Mestni kulturni festival – Xiaochi,2027-07-21,planirano,NE,DA,307
+308,Dan lokalne kulinarike – Karangori,2027-08-28,planirano,DA,NE,308
+309,Poletni mestni sejem – Valle de Guanape,2027-09-07,planirano,NE,DA,309
+310,Glasbeni večer – Banjaranyar,2027-10-14,planirano,DA,DA,310
+311,Družinski mestni dan – Boa Viagem,2027-11-21,planirano,NE,DA,311
+312,Festival lokalne tradicije – Las Vegas,2027-12-28,planirano,DA,DA,312
+313,Mestni kulturni festival – Kunri,2027-01-07,planirano,NE,DA,313
+314,Dan lokalne kulinarike – Carvoeira,2027-02-14,planirano,DA,DA,314
+315,Poletni mestni sejem – Fundão,2027-03-21,planirano,NE,NE,315
+316,Glasbeni večer – Comrat,2027-04-28,planirano,DA,DA,316
+317,Družinski mestni dan – Oekero,2027-05-07,planirano,NE,DA,317
+318,Festival lokalne tradicije – Chernogorsk,2027-06-14,planirano,DA,DA,318
+319,Mestni kulturni festival – Yanjiang,2027-07-21,planirano,NE,DA,319
+320,Dan lokalne kulinarike – Ritchie,2027-08-28,planirano,DA,DA,320
+321,Poletni mestni sejem – Yelat’ma,2027-09-07,planirano,NE,DA,321
+322,Glasbeni večer – Xiaxindian,2027-10-14,planirano,DA,NE,322
+323,Družinski mestni dan – Uwelini,2027-11-21,planirano,NE,DA,323
+324,Festival lokalne tradicije – Pagedangan,2027-12-28,planirano,DA,DA,324
+325,Mestni kulturni festival – Mszana Dolna,2027-01-07,planirano,NE,DA,325
+326,Dan lokalne kulinarike – Dong’ao,2027-02-14,planirano,DA,DA,326
+327,Poletni mestni sejem – Kedung,2027-03-21,planirano,NE,DA,327
+328,Glasbeni večer – Xincheng,2027-04-28,planirano,DA,DA,328
+329,Družinski mestni dan – Macon,2027-05-07,planirano,NE,NE,329
+330,Festival lokalne tradicije – Mapalad,2027-06-14,planirano,DA,DA,330
+331,Mestni kulturni festival – Lumbardhi,2027-07-21,planirano,NE,DA,331
+332,Dan lokalne kulinarike – San Mateo,2027-08-28,planirano,DA,DA,332
+333,Poletni mestni sejem – Porta,2027-09-07,planirano,NE,DA,333
+334,Glasbeni večer – Francos,2027-10-14,planirano,DA,DA,334
+335,Družinski mestni dan – San José de Barlovento,2027-11-21,planirano,NE,DA,335
+336,Festival lokalne tradicije – Phimai,2027-12-28,planirano,DA,NE,336
+337,Mestni kulturni festival – Vilhena,2027-01-07,planirano,NE,DA,337
+338,Dan lokalne kulinarike – Poja,2027-02-14,planirano,DA,DA,338
+339,Poletni mestni sejem – Tianzishan,2027-03-21,planirano,NE,DA,339
+340,Glasbeni večer – Kuniran,2027-04-28,planirano,DA,DA,340
+341,Družinski mestni dan – Puerto Cabezas,2027-05-07,planirano,NE,DA,341
+342,Festival lokalne tradicije – Konstancin-Jeziorna,2027-06-14,planirano,DA,DA,342
+343,Mestni kulturni festival – Yartsevo,2027-07-21,planirano,NE,NE,343
+344,Dan lokalne kulinarike – Wenling,2027-08-28,planirano,DA,DA,344
+345,Poletni mestni sejem – Winston Salem,2027-09-07,planirano,NE,DA,345
+346,Glasbeni večer – T’et’ri Tsqaro,2027-10-14,planirano,DA,DA,346
+347,Družinski mestni dan – Listvyanskiy,2027-11-21,planirano,NE,DA,347
+348,Festival lokalne tradicije – Tipaz,2027-12-28,planirano,DA,DA,348
+349,Mestni kulturni festival – Kuressaare,2027-01-07,planirano,NE,DA,349
+350,Dan lokalne kulinarike – Ti-n-Essako,2027-02-14,planirano,DA,NE,350
+351,Poletni mestni sejem – Menghai,2027-03-21,planirano,NE,DA,351
+352,Glasbeni večer – Banjar Baleagung,2027-04-28,planirano,DA,DA,352
+353,Družinski mestni dan – Somerset East,2027-05-07,planirano,NE,DA,353
+354,Festival lokalne tradicije – San Lucas Tolimán,2027-06-14,planirano,DA,DA,354
+355,Mestni kulturni festival – Mikstat,2027-07-21,planirano,NE,DA,355
+356,Dan lokalne kulinarike – Haihui,2027-08-28,planirano,DA,DA,356
+357,Poletni mestni sejem – Lok,2027-09-07,planirano,NE,NE,357
+358,Glasbeni večer – Pimbalayan,2027-10-14,planirano,DA,DA,358
+359,Družinski mestni dan – Taksimo,2027-11-21,planirano,NE,DA,359
+360,Festival lokalne tradicije – Sinamaica,2027-12-28,planirano,DA,DA,360
+361,Mestni kulturni festival – Dali,2027-01-07,planirano,NE,DA,361
+362,Dan lokalne kulinarike – Faīẕābād,2027-02-14,planirano,DA,DA,362
+363,Poletni mestni sejem – Arras,2027-03-21,planirano,NE,DA,363
+364,Glasbeni večer – Takahata,2027-04-28,planirano,DA,NE,364
+365,Družinski mestni dan – Bagadó,2027-05-07,planirano,NE,DA,365
+366,Festival lokalne tradicije – Toungo,2027-06-14,planirano,DA,DA,366
+367,Mestni kulturni festival – El Cantón,2027-07-21,planirano,NE,DA,367
+368,Dan lokalne kulinarike – Bagakay,2027-08-28,planirano,DA,DA,368
+369,Poletni mestni sejem – Armação,2027-09-07,planirano,NE,DA,369
+370,Glasbeni večer – Disūq,2027-10-14,planirano,DA,DA,370
+371,Družinski mestni dan – Lubuagan,2027-11-21,planirano,NE,NE,371
+372,Festival lokalne tradicije – Purda,2027-12-28,planirano,DA,DA,372
+373,Mestni kulturni festival – Baishi,2027-01-07,planirano,NE,DA,373
+374,Dan lokalne kulinarike – Komorów,2027-02-14,planirano,DA,DA,374
+375,Poletni mestni sejem – Brvenica,2027-03-21,planirano,NE,DA,375
+376,Glasbeni večer – Khrebtovaya,2027-04-28,planirano,DA,DA,376
+377,Družinski mestni dan – Sandaogou,2027-05-07,planirano,NE,DA,377
+378,Festival lokalne tradicije – Santa Gertrudes,2027-06-14,planirano,DA,NE,378
+379,Mestni kulturni festival – Wilfrido Loor Moreira,2027-07-21,planirano,NE,DA,379
+380,Dan lokalne kulinarike – Tongzha,2027-08-28,planirano,DA,DA,380
+381,Poletni mestni sejem – Kampong Chhnang,2027-09-07,planirano,NE,DA,381
+382,Glasbeni večer – Wuluo,2027-10-14,planirano,DA,DA,382
+383,Družinski mestni dan – Tuzhai,2027-11-21,planirano,NE,DA,383
+384,Festival lokalne tradicije – Tucson,2027-12-28,planirano,DA,DA,384
+385,Mestni kulturni festival – Dukuhsia,2027-01-07,planirano,NE,NE,385
+386,Dan lokalne kulinarike – Kovářská,2027-02-14,planirano,DA,DA,386
+387,Poletni mestni sejem – Jaboatão dos Guararapes,2027-03-21,planirano,NE,DA,387
+388,Glasbeni večer – Catalina,2027-04-28,planirano,DA,DA,388
+389,Družinski mestni dan – Di Linh,2027-05-07,planirano,NE,DA,389
+390,Festival lokalne tradicije – Richmond,2027-06-14,planirano,DA,DA,390
+391,Mestni kulturni festival – Poręba Spytkowska,2027-07-21,planirano,NE,DA,391
+392,Dan lokalne kulinarike – San Carlos,2027-08-28,planirano,DA,NE,392
+393,Poletni mestni sejem – Placer,2027-09-07,planirano,NE,DA,393
+394,Glasbeni večer – Kayakent,2027-10-14,planirano,DA,DA,394
+395,Družinski mestni dan – Piškorevci,2027-11-21,planirano,NE,DA,395
+396,Festival lokalne tradicije – Cigaras,2027-12-28,planirano,DA,DA,396
+397,Mestni kulturni festival – Dežanovac,2027-01-07,planirano,NE,DA,397
+398,Dan lokalne kulinarike – Boguszów-Gorce,2027-02-14,planirano,DA,DA,398
+399,Poletni mestni sejem – Morelos,2027-03-21,planirano,NE,NE,399
+400,Glasbeni večer – Chakwāl,2027-04-28,planirano,DA,DA,400
+401,Družinski mestni dan – Selorejo,2027-05-07,planirano,NE,DA,401
+402,Festival lokalne tradicije – Bonabéri,2027-06-14,planirano,DA,DA,402
+403,Mestni kulturni festival – Asamankese,2027-07-21,planirano,NE,DA,403
+404,Dan lokalne kulinarike – Dongqianhu,2027-08-28,planirano,DA,DA,404
+405,Poletni mestni sejem – Rimouski,2027-09-07,planirano,NE,DA,405
+406,Glasbeni večer – Ngulangan,2027-10-14,planirano,DA,NE,406
+407,Družinski mestni dan – Mospyne,2027-11-21,planirano,NE,DA,407
+408,Festival lokalne tradicije – Svalöv,2027-12-28,planirano,DA,DA,408
+409,Mestni kulturni festival – Yasugichō,2027-01-07,planirano,NE,DA,409
+410,Dan lokalne kulinarike – Blawi,2027-02-14,planirano,DA,DA,410
+411,Poletni mestni sejem – Jiang’an,2027-03-21,planirano,NE,DA,411
+412,Glasbeni večer – Qal‘eh-ye Khvājeh,2027-04-28,planirano,DA,DA,412
+413,Družinski mestni dan – Punta Gorda,2027-05-07,planirano,NE,NE,413
+414,Festival lokalne tradicije – Tsiombe,2027-06-14,planirano,DA,DA,414
+415,Mestni kulturni festival – Khonj,2027-07-21,planirano,NE,DA,415
+416,Dan lokalne kulinarike – Fenggao,2027-08-28,planirano,DA,DA,416
+417,Poletni mestni sejem – Socabaya,2027-09-07,planirano,NE,DA,417
+418,Glasbeni večer – Chengnan,2027-10-14,planirano,DA,DA,418
+419,Družinski mestni dan – Izra‘,2027-11-21,planirano,NE,DA,419
+420,Festival lokalne tradicije – Bhamo,2027-12-28,planirano,DA,NE,420
+421,Mestni kulturni festival – Akim Oda,2027-01-07,planirano,NE,DA,421
+422,Dan lokalne kulinarike – Taoyuan,2027-02-14,planirano,DA,DA,422
+423,Poletni mestni sejem – Rato,2027-03-21,planirano,NE,DA,423
+424,Glasbeni večer – Amsterdam,2027-04-28,planirano,DA,DA,424
+425,Družinski mestni dan – Ncue,2027-05-07,planirano,NE,DA,425
+426,Festival lokalne tradicije – Zhonghe,2027-06-14,planirano,DA,DA,426
+427,Mestni kulturni festival – Brumado,2027-07-21,planirano,NE,NE,427
+428,Dan lokalne kulinarike – Rosthern,2027-08-28,planirano,DA,DA,428
+429,Poletni mestni sejem – Bergen,2027-09-07,planirano,NE,DA,429
+430,Glasbeni večer – Sumilao,2027-10-14,planirano,DA,DA,430
+431,Družinski mestni dan – Cibatu,2027-11-21,planirano,NE,DA,431
+432,Festival lokalne tradicije – Guarulhos,2027-12-28,planirano,DA,DA,432
+433,Mestni kulturni festival – Kolyshley,2027-01-07,planirano,NE,DA,433
+434,Dan lokalne kulinarike – Olympia,2027-02-14,planirano,DA,NE,434
+435,Poletni mestni sejem – Conchopata,2027-03-21,planirano,NE,DA,435
+436,Glasbeni večer – Borzna,2027-04-28,planirano,DA,DA,436
+437,Družinski mestni dan – Krasnodar,2027-05-07,planirano,NE,DA,437
+438,Festival lokalne tradicije – Anju,2027-06-14,planirano,DA,DA,438
+439,Mestni kulturni festival – Hoxtolgay,2027-07-21,planirano,NE,DA,439
+440,Dan lokalne kulinarike – Načeradec,2027-08-28,planirano,DA,DA,440
+441,Poletni mestni sejem – Tenggong,2027-09-07,planirano,NE,NE,441
+442,Glasbeni večer – Áyios Yeóryios,2027-10-14,planirano,DA,DA,442
+443,Družinski mestni dan – Brampton,2027-11-21,planirano,NE,DA,443
+444,Festival lokalne tradicije – Accha,2027-12-28,planirano,DA,DA,444
+445,Mestni kulturni festival – La Trinidad,2027-01-07,planirano,NE,DA,445
+446,Dan lokalne kulinarike – Ban Ratsada,2027-02-14,planirano,DA,DA,446
+447,Poletni mestni sejem – Karanyowka,2027-03-21,planirano,NE,DA,447
+448,Glasbeni večer – Hekou,2027-04-28,planirano,DA,NE,448
+449,Družinski mestni dan – Cibeureum,2027-05-07,planirano,NE,DA,449
+450,Festival lokalne tradicije – Bambuí,2027-06-14,planirano,DA,DA,450
+451,Mestni kulturni festival – Maguilling,2027-07-21,planirano,NE,DA,451
+452,Dan lokalne kulinarike – Youfang,2027-08-28,planirano,DA,DA,452
+453,Poletni mestni sejem – Loudun,2027-09-07,planirano,NE,DA,453
+454,Glasbeni večer – Sukorejo,2027-10-14,planirano,DA,DA,454
+455,Družinski mestni dan – Hongshan,2027-11-21,planirano,NE,NE,455
+456,Festival lokalne tradicije – Tempe,2027-12-28,planirano,DA,DA,456
+457,Mestni kulturni festival – Göteborg,2027-01-07,planirano,NE,DA,457
+458,Dan lokalne kulinarike – Dayeuhluhur,2027-02-14,planirano,DA,DA,458
+459,Poletni mestni sejem – Jiangkouxu,2027-03-21,planirano,NE,DA,459
+460,Glasbeni večer – Binangun,2027-04-28,planirano,DA,DA,460
+461,Družinski mestni dan – Cantao-an,2027-05-07,planirano,NE,DA,461
+462,Festival lokalne tradicije – Chicheng,2027-06-14,planirano,DA,NE,462
+463,Mestni kulturni festival – Ajaccio,2027-07-21,planirano,NE,DA,463
+464,Dan lokalne kulinarike – Taremskoye,2027-08-28,planirano,DA,DA,464
+465,Poletni mestni sejem – Aguiar da Beira,2027-09-07,planirano,NE,DA,465
+466,Glasbeni večer – Pordapor Barat,2027-10-14,planirano,DA,DA,466
+467,Družinski mestni dan – Tucheng,2027-11-21,planirano,NE,DA,467
+468,Festival lokalne tradicije – Khon Kaen,2027-12-28,planirano,DA,DA,468
+469,Mestni kulturni festival – Kericho,2027-01-07,planirano,NE,NE,469
+470,Dan lokalne kulinarike – Kurów,2027-02-14,planirano,DA,DA,470
+471,Poletni mestni sejem – Nganane,2027-03-21,planirano,NE,DA,471
+472,Glasbeni večer – Nieuw Nickerie,2027-04-28,planirano,DA,DA,472
+473,Družinski mestni dan – Gaoshibei,2027-05-07,planirano,NE,DA,473
+474,Festival lokalne tradicije – Buôn Ma Thuột,2027-06-14,planirano,DA,DA,474
+475,Mestni kulturni festival – Tanbu,2027-07-21,planirano,NE,DA,475
+476,Dan lokalne kulinarike – Nova Era,2027-08-28,planirano,DA,NE,476
+477,Poletni mestni sejem – Huibu,2027-09-07,planirano,NE,DA,477
+478,Glasbeni večer – Burla,2027-10-14,planirano,DA,DA,478
+479,Družinski mestni dan – Qaşr Hallāl,2027-11-21,planirano,NE,DA,479
+480,Festival lokalne tradicije – Linköping,2027-12-28,planirano,DA,DA,480
+481,Mestni kulturni festival – Heishui,2027-01-07,planirano,NE,DA,481
+482,Dan lokalne kulinarike – Magaria,2027-02-14,planirano,DA,DA,482
+483,Poletni mestni sejem – Unity,2027-03-21,planirano,NE,NE,483
+484,Glasbeni večer – Sobo,2027-04-28,planirano,DA,DA,484
+485,Družinski mestni dan – Huicungo,2027-05-07,planirano,NE,DA,485
+486,Festival lokalne tradicije – Qilin,2027-06-14,planirano,DA,DA,486
+487,Mestni kulturni festival – Lianyun,2027-07-21,planirano,NE,DA,487
+488,Dan lokalne kulinarike – Moate,2027-08-28,planirano,DA,DA,488
+489,Poletni mestni sejem – Concepción,2027-09-07,planirano,NE,DA,489
+490,Glasbeni večer – Moneague,2027-10-14,planirano,DA,NE,490
+491,Družinski mestni dan – Gaotai,2027-11-21,planirano,NE,DA,491
+492,Festival lokalne tradicije – Rostov-na-Donu,2027-12-28,planirano,DA,DA,492
+493,Mestni kulturni festival – Valongo,2027-01-07,planirano,NE,DA,493
+494,Dan lokalne kulinarike – Kotes,2027-02-14,planirano,DA,DA,494
+495,Poletni mestni sejem – Horka nad Moravou,2027-03-21,planirano,NE,DA,495
+496,Glasbeni večer – Donggaocun,2027-04-28,planirano,DA,DA,496
+497,Družinski mestni dan – Žabljak,2027-05-07,planirano,NE,NE,497
+498,Festival lokalne tradicije – Međa,2027-06-14,planirano,DA,DA,498
+499,Mestni kulturni festival – Pictou,2027-07-21,planirano,NE,DA,499
+500,Dan lokalne kulinarike – Sundsvall,2027-08-28,planirano,DA,DA,500
+501,Poletni mestni sejem – Kawaguchi,2027-09-07,planirano,NE,DA,501
+502,Glasbeni večer – Nanyuan,2027-10-14,planirano,DA,DA,502
+503,Družinski mestni dan – Az Zāhir,2027-11-21,planirano,NE,DA,503
+504,Festival lokalne tradicije – Sharga,2027-12-28,planirano,DA,NE,504
+505,Mestni kulturni festival – Huoli,2027-01-07,planirano,NE,DA,505
+506,Dan lokalne kulinarike – Bouna,2027-02-14,planirano,DA,DA,506
+507,Poletni mestni sejem – Seririt,2027-03-21,planirano,NE,DA,507
+508,Glasbeni večer – Buenavista,2027-04-28,planirano,DA,DA,508
+509,Družinski mestni dan – Benisheikh,2027-05-07,planirano,NE,DA,509
+510,Festival lokalne tradicije – Kutapanjang,2027-06-14,planirano,DA,DA,510
+511,Mestni kulturni festival – Lấp Vò,2027-07-21,planirano,NE,NE,511
+512,Dan lokalne kulinarike – Guinobatan,2027-08-28,planirano,DA,DA,512
+513,Poletni mestni sejem – Tilburg,2027-09-07,planirano,NE,DA,513
+514,Glasbeni večer – Florida,2027-10-14,planirano,DA,DA,514
+515,Družinski mestni dan – Valjevo,2027-11-21,planirano,NE,DA,515
+516,Festival lokalne tradicije – Balazar,2027-12-28,planirano,DA,DA,516
+517,Mestni kulturni festival – Campo Largo,2027-01-07,planirano,NE,DA,517
+518,Dan lokalne kulinarike – Xiyang,2027-02-14,planirano,DA,NE,518
+519,Poletni mestni sejem – Batanamang,2027-03-21,planirano,NE,DA,519
+520,Glasbeni večer – Mulyosari,2027-04-28,planirano,DA,DA,520
+521,Družinski mestni dan – Mertert,2027-05-07,planirano,NE,DA,521
+522,Festival lokalne tradicije – Contagem,2027-06-14,planirano,DA,DA,522
+523,Mestni kulturni festival – Hutang,2027-07-21,planirano,NE,DA,523
+524,Dan lokalne kulinarike – Bandung,2027-08-28,planirano,DA,DA,524
+525,Poletni mestni sejem – Zhendong,2027-09-07,planirano,NE,NE,525
+526,Glasbeni večer – Kristinestad,2027-10-14,planirano,DA,DA,526
+527,Družinski mestni dan – Sabaneta,2027-11-21,planirano,NE,DA,527
+528,Festival lokalne tradicije – Admiralteisky,2027-12-28,planirano,DA,DA,528
+529,Mestni kulturni festival – Shar’ya,2027-01-07,planirano,NE,DA,529
+530,Dan lokalne kulinarike – As Salţ,2027-02-14,planirano,DA,DA,530
+531,Poletni mestni sejem – Long Hồ,2027-03-21,planirano,NE,DA,531
+532,Glasbeni večer – Tukuyu,2027-04-28,planirano,DA,NE,532
+533,Družinski mestni dan – Rincón,2027-05-07,planirano,NE,DA,533
+534,Festival lokalne tradicije – Seydi,2027-06-14,planirano,DA,DA,534
+535,Mestni kulturni festival – Kalmar,2027-07-21,planirano,NE,DA,535
+536,Dan lokalne kulinarike – Nanortalik,2027-08-28,planirano,DA,DA,536
+537,Poletni mestni sejem – Yezhi,2027-09-07,planirano,NE,DA,537
+538,Glasbeni večer – Kiruru,2027-10-14,planirano,DA,DA,538
+539,Družinski mestni dan – Banjar Buahan,2027-11-21,planirano,NE,NE,539
+540,Festival lokalne tradicije – Maca,2027-12-28,planirano,DA,DA,540
+541,Mestni kulturni festival – Versailles,2027-01-07,planirano,NE,DA,541
+542,Dan lokalne kulinarike – Lyubeshiv,2027-02-14,planirano,DA,DA,542
+543,Poletni mestni sejem – Orda,2027-03-21,planirano,NE,DA,543
+544,Glasbeni večer – Buchanan,2027-04-28,planirano,DA,DA,544
+545,Družinski mestni dan – São Luís de Montes Belos,2027-05-07,planirano,NE,DA,545
+546,Festival lokalne tradicije – Punta de Piedra,2027-06-14,planirano,DA,NE,546
+547,Mestni kulturni festival – Qianjia,2027-07-21,planirano,NE,DA,547
+548,Dan lokalne kulinarike – Chapecó,2027-08-28,planirano,DA,DA,548
+549,Poletni mestni sejem – Xiaojian,2027-09-07,planirano,NE,DA,549
+550,Glasbeni večer – Tolotangga,2027-10-14,planirano,DA,DA,550
+551,Družinski mestni dan – Rudziczka,2027-11-21,planirano,NE,DA,551
+552,Festival lokalne tradicije – Guizi,2027-12-28,planirano,DA,DA,552
+553,Mestni kulturni festival – Kembangkerang Satu,2027-01-07,planirano,NE,NE,553
+554,Dan lokalne kulinarike – Bordeaux,2027-02-14,planirano,DA,DA,554
+555,Poletni mestni sejem – Nyandoma,2027-03-21,planirano,NE,DA,555
+556,Glasbeni večer – Nova Odessa,2027-04-28,planirano,DA,DA,556
+557,Družinski mestni dan – Xinghua,2027-05-07,planirano,NE,DA,557
+558,Festival lokalne tradicije – Liucheng,2027-06-14,planirano,DA,DA,558
+559,Mestni kulturni festival – Limmared,2027-07-21,planirano,NE,DA,559
+560,Dan lokalne kulinarike – Atsipópoulon,2027-08-28,planirano,DA,NE,560
+561,Poletni mestni sejem – A-da-Gorda,2027-09-07,planirano,NE,DA,561
+562,Glasbeni večer – Pineleng,2027-10-14,planirano,DA,DA,562
+563,Družinski mestni dan – Wenfang,2027-11-21,planirano,NE,DA,563
+564,Festival lokalne tradicije – Richmond,2027-12-28,planirano,DA,DA,564
+565,Mestni kulturni festival – Jincheng,2027-01-07,planirano,NE,DA,565
+566,Dan lokalne kulinarike – Cilampuyang,2027-02-14,planirano,DA,DA,566
+567,Poletni mestni sejem – Manzanares,2027-03-21,planirano,NE,NE,567
+568,Glasbeni večer – Ikoma,2027-04-28,planirano,DA,DA,568
+569,Družinski mestni dan – Tongyang,2027-05-07,planirano,NE,DA,569
+570,Festival lokalne tradicije – Saihan Tal,2027-06-14,planirano,DA,DA,570
+571,Mestni kulturni festival – Gweedore,2027-07-21,planirano,NE,DA,571
+572,Dan lokalne kulinarike – Sanqiao,2027-08-28,planirano,DA,DA,572
+573,Poletni mestni sejem – Puńsk,2027-09-07,planirano,NE,DA,573
+574,Glasbeni večer – Xiangcunxiang,2027-10-14,planirano,DA,NE,574
+575,Družinski mestni dan – Changzhou,2027-11-21,planirano,NE,DA,575
+576,Festival lokalne tradicije – Huangling,2027-12-28,planirano,DA,DA,576
+577,Mestni kulturni festival – Otaniemi,2027-01-07,planirano,NE,DA,577
+578,Dan lokalne kulinarike – Łubnice,2027-02-14,planirano,DA,DA,578
+579,Poletni mestni sejem – Kungälv,2027-03-21,planirano,NE,DA,579
+580,Glasbeni večer – Eisen,2027-04-28,planirano,DA,DA,580
+581,Družinski mestni dan – Kanie,2027-05-07,planirano,NE,NE,581
+582,Festival lokalne tradicije – Mineralnye Vody,2027-06-14,planirano,DA,DA,582
+583,Mestni kulturni festival – Independencia,2027-07-21,planirano,NE,DA,583
+584,Dan lokalne kulinarike – Lesnoye,2027-08-28,planirano,DA,DA,584
+585,Poletni mestni sejem – Fahraj,2027-09-07,planirano,NE,DA,585
+586,Glasbeni večer – Tallahassee,2027-10-14,planirano,DA,DA,586
+587,Družinski mestni dan – Saint-Félicien,2027-11-21,planirano,NE,DA,587
+588,Festival lokalne tradicije – Gwangtan,2027-12-28,planirano,DA,NE,588
+589,Mestni kulturni festival – Fontainhas,2027-01-07,planirano,NE,DA,589
+590,Dan lokalne kulinarike – Nyagan,2027-02-14,planirano,DA,DA,590
+591,Poletni mestni sejem – San Vicente,2027-03-21,planirano,NE,DA,591
+592,Glasbeni večer – Dabao’anzhen,2027-04-28,planirano,DA,DA,592
+593,Družinski mestni dan – Schengen,2027-05-07,planirano,NE,DA,593
+594,Festival lokalne tradicije – Pankrushikha,2027-06-14,planirano,DA,DA,594
+595,Mestni kulturni festival – Kadukandel,2027-07-21,planirano,NE,NE,595
+596,Dan lokalne kulinarike – Tempursari Wetan,2027-08-28,planirano,DA,DA,596
+597,Poletni mestni sejem – Futang,2027-09-07,planirano,NE,DA,597
+598,Glasbeni večer – Florida,2027-10-14,planirano,DA,DA,598
+599,Družinski mestni dan – Kangping,2027-11-21,planirano,NE,DA,599
+600,Festival lokalne tradicije – Vale de Açores,2027-12-28,planirano,DA,DA,600
+601,Mestni kulturni festival – Shangdongjie,2027-01-07,planirano,NE,DA,601
+602,Dan lokalne kulinarike – Bayuwan,2027-02-14,planirano,DA,NE,602
+603,Poletni mestni sejem – Walagar,2027-03-21,planirano,NE,DA,603
+604,Glasbeni večer – Vinkkilä,2027-04-28,planirano,DA,DA,604
+605,Družinski mestni dan – Barra de Carrasco,2027-05-07,planirano,NE,DA,605
+606,Festival lokalne tradicije – Chugur,2027-06-14,planirano,DA,DA,606
+607,Mestni kulturni festival – Francisco Beltrão,2027-07-21,planirano,NE,DA,607
+608,Dan lokalne kulinarike – Xinbao,2027-08-28,planirano,DA,DA,608
+609,Poletni mestni sejem – Beoga,2027-09-07,planirano,NE,NE,609
+610,Glasbeni večer – Volzhskiy,2027-10-14,planirano,DA,DA,610
+611,Družinski mestni dan – Beicang,2027-11-21,planirano,NE,DA,611
+612,Festival lokalne tradicije – Vicente Guerrero,2027-12-28,planirano,DA,DA,612
+613,Mestni kulturni festival – Al Fayyūm,2027-01-07,planirano,NE,DA,613
+614,Dan lokalne kulinarike – Zapatero,2027-02-14,planirano,DA,DA,614
+615,Poletni mestni sejem – Raşad,2027-03-21,planirano,NE,DA,615
+616,Glasbeni večer – Koysinceq,2027-04-28,planirano,DA,NE,616
+617,Družinski mestni dan – Bangonay,2027-05-07,planirano,NE,DA,617
+618,Festival lokalne tradicije – Thatèng,2027-06-14,planirano,DA,DA,618
+619,Mestni kulturni festival – Yokohama,2027-07-21,planirano,NE,DA,619
+620,Dan lokalne kulinarike – Gelang,2027-08-28,planirano,DA,DA,620
+621,Poletni mestni sejem – Cochrane,2027-09-07,planirano,NE,DA,621
+622,Glasbeni večer – Bajia,2027-10-14,planirano,DA,DA,622
+623,Družinski mestni dan – Ambon,2027-11-21,planirano,NE,NE,623
+624,Festival lokalne tradicije – Villa del Rosario,2027-12-28,planirano,DA,DA,624
+625,Mestni kulturni festival – Kon Tum,2027-01-07,planirano,NE,DA,625
+626,Dan lokalne kulinarike – Timiryazevskoye,2027-02-14,planirano,DA,DA,626
+627,Poletni mestni sejem – Andkhōy,2027-03-21,planirano,NE,DA,627
+628,Glasbeni večer – Sampungu,2027-04-28,planirano,DA,DA,628
+629,Družinski mestni dan – Calumpang,2027-05-07,planirano,NE,DA,629
+630,Festival lokalne tradicije – Mayingzhuang,2027-06-14,planirano,DA,NE,630
+631,Mestni kulturni festival – Gonghe,2027-07-21,planirano,NE,DA,631
+632,Dan lokalne kulinarike – Dongqiao,2027-08-28,planirano,DA,DA,632
+633,Poletni mestni sejem – Richmond,2027-09-07,planirano,NE,DA,633
+634,Glasbeni večer – Bzou,2027-10-14,planirano,DA,DA,634
+635,Družinski mestni dan – Thessaloníki,2027-11-21,planirano,NE,DA,635
+636,Festival lokalne tradicije – Al Ghāriyah,2027-12-28,planirano,DA,DA,636
+637,Mestni kulturni festival – Taiping,2027-01-07,planirano,NE,NE,637
+638,Dan lokalne kulinarike – Chitagá,2027-02-14,planirano,DA,DA,638
+639,Poletni mestni sejem – Damiao,2027-03-21,planirano,NE,DA,639
+640,Glasbeni večer – Kampungladang,2027-04-28,planirano,DA,DA,640
+641,Družinski mestni dan – Barisan,2027-05-07,planirano,NE,DA,641
+642,Festival lokalne tradicije – Czerwieńsk,2027-06-14,planirano,DA,DA,642
+643,Mestni kulturni festival – Elbasan,2027-07-21,planirano,NE,DA,643
+644,Dan lokalne kulinarike – Slovenj Gradec,2027-08-28,planirano,DA,NE,644
+645,Poletni mestni sejem – Alubijid,2027-09-07,planirano,NE,DA,645
+646,Glasbeni večer – San Francisco,2027-10-14,planirano,DA,DA,646
+647,Družinski mestni dan – Embarcación,2027-11-21,planirano,NE,DA,647
+648,Festival lokalne tradicije – Polkowice,2027-12-28,planirano,DA,DA,648
+649,Mestni kulturni festival – Aného,2027-01-07,planirano,NE,DA,649
+650,Dan lokalne kulinarike – Qifang,2027-02-14,planirano,DA,DA,650
+651,Poletni mestni sejem – Tripoli,2027-03-21,planirano,NE,NE,651
+652,Glasbeni večer – Dalai,2027-04-28,planirano,DA,DA,652
+653,Družinski mestni dan – Brodarica,2027-05-07,planirano,NE,DA,653
+654,Festival lokalne tradicije – Sorang,2027-06-14,planirano,DA,DA,654
+655,Mestni kulturni festival – Batán,2027-07-21,planirano,NE,DA,655
+656,Dan lokalne kulinarike – Töysä,2027-08-28,planirano,DA,DA,656
+657,Poletni mestni sejem – Dedenëvo,2027-09-07,planirano,NE,DA,657
+658,Glasbeni večer – Ruen,2027-10-14,planirano,DA,NE,658
+659,Družinski mestni dan – Segodim,2027-11-21,planirano,NE,DA,659
+660,Festival lokalne tradicije – Iquipi,2027-12-28,planirano,DA,DA,660
+661,Mestni kulturni festival – Buenavista,2027-01-07,planirano,NE,DA,661
+662,Dan lokalne kulinarike – Mahaplag,2027-02-14,planirano,DA,DA,662
+663,Poletni mestni sejem – Banjar Triwangsakeliki,2027-03-21,planirano,NE,DA,663
+664,Glasbeni večer – Thanh Xuân,2027-04-28,planirano,DA,DA,664
+665,Družinski mestni dan – Morelos,2027-05-07,planirano,NE,NE,665
+666,Festival lokalne tradicije – Hancheng,2027-06-14,planirano,DA,DA,666
+667,Mestni kulturni festival – Malanów,2027-07-21,planirano,NE,DA,667
+668,Dan lokalne kulinarike – Štěnovice,2027-08-28,planirano,DA,DA,668
+669,Poletni mestni sejem – Biguaçu,2027-09-07,planirano,NE,DA,669
+670,Glasbeni večer – Concepción,2027-10-14,planirano,DA,DA,670
+671,Družinski mestni dan – Samburat,2027-11-21,planirano,NE,DA,671
+672,Festival lokalne tradicije – Montesson,2027-12-28,planirano,DA,NE,672
+673,Mestni kulturni festival – Jincheng,2027-01-07,planirano,NE,DA,673
+674,Dan lokalne kulinarike – Shangfang,2027-02-14,planirano,DA,DA,674
+675,Poletni mestni sejem – Useldange,2027-03-21,planirano,NE,DA,675
+676,Glasbeni večer – Villefranche-sur-Mer,2027-04-28,planirano,DA,DA,676
+677,Družinski mestni dan – Ganyesa,2027-05-07,planirano,NE,DA,677
+678,Festival lokalne tradicije – Tabalong,2027-06-14,planirano,DA,DA,678
+679,Mestni kulturni festival – Al Marj,2027-07-21,planirano,NE,NE,679
+680,Dan lokalne kulinarike – Pudong,2027-08-28,planirano,DA,DA,680
+681,Poletni mestni sejem – Dasongshu,2027-09-07,planirano,NE,DA,681
+682,Glasbeni večer – Oslo,2027-10-14,planirano,DA,DA,682
+683,Družinski mestni dan – Curiapo,2027-11-21,planirano,NE,DA,683
+684,Festival lokalne tradicije – Prozor,2027-12-28,planirano,DA,DA,684
+685,Mestni kulturni festival – Mourelos,2027-01-07,planirano,NE,DA,685
+686,Dan lokalne kulinarike – Iquique,2027-02-14,planirano,DA,NE,686
+687,Poletni mestni sejem – Shaba,2027-03-21,planirano,NE,DA,687
+688,Glasbeni večer – Gazanjyk,2027-04-28,planirano,DA,DA,688
+689,Družinski mestni dan – Khon Buri,2027-05-07,planirano,NE,DA,689
+690,Festival lokalne tradicije – Hendījān,2027-06-14,planirano,DA,DA,690
+691,Mestni kulturni festival – Tonglin,2027-07-21,planirano,NE,DA,691
+692,Dan lokalne kulinarike – Élancourt,2027-08-28,planirano,DA,DA,692
+693,Poletni mestni sejem – Porciúncula,2027-09-07,planirano,NE,NE,693
+694,Glasbeni večer – Aveleda,2027-10-14,planirano,DA,DA,694
+695,Družinski mestni dan – Parnamirim,2027-11-21,planirano,NE,DA,695
+696,Festival lokalne tradicije – Santo Niño,2027-12-28,planirano,DA,DA,696
+697,Mestni kulturni festival – Hailin,2027-01-07,planirano,NE,DA,697
+698,Dan lokalne kulinarike – Villa del Rosario,2027-02-14,planirano,DA,DA,698
+699,Poletni mestni sejem – Lijia,2027-03-21,planirano,NE,DA,699
+700,Glasbeni večer – Yanagawamachi-saiwaichō,2027-04-28,planirano,DA,NE,700
+701,Družinski mestni dan – Huangzhai,2027-05-07,planirano,NE,DA,701
+702,Festival lokalne tradicije – Rafael Perazza,2027-06-14,planirano,DA,DA,702
+703,Mestni kulturni festival – Kalmar,2027-07-21,planirano,NE,DA,703
+704,Dan lokalne kulinarike – Baidoa,2027-08-28,planirano,DA,DA,704
+705,Poletni mestni sejem – Guiyang,2027-09-07,planirano,NE,DA,705
+706,Glasbeni večer – Nowy Sącz,2027-10-14,planirano,DA,DA,706
+707,Družinski mestni dan – Moravská Nová Ves,2027-11-21,planirano,NE,NE,707
+708,Festival lokalne tradicije – Skeldon,2027-12-28,planirano,DA,DA,708
+709,Mestni kulturni festival – Carpalho,2027-01-07,planirano,NE,DA,709
+710,Dan lokalne kulinarike – El Ángel,2027-02-14,planirano,DA,DA,710
+711,Poletni mestni sejem – Hachiōji,2027-03-21,planirano,NE,DA,711
+712,Glasbeni večer – Aurora,2027-04-28,planirano,DA,DA,712
+713,Družinski mestni dan – Dayin,2027-05-07,planirano,NE,DA,713
+714,Festival lokalne tradicije – Shenjing,2027-06-14,planirano,DA,NE,714
+715,Mestni kulturni festival – Curridabat,2027-07-21,planirano,NE,DA,715
+716,Dan lokalne kulinarike – Tubarão,2027-08-28,planirano,DA,DA,716
+717,Poletni mestni sejem – Calvinia,2027-09-07,planirano,NE,DA,717
+718,Glasbeni večer – Koszyce Wielkie,2027-10-14,planirano,DA,DA,718
+719,Družinski mestni dan – Huangjingba,2027-11-21,planirano,NE,DA,719
+720,Festival lokalne tradicije – Eusébio,2027-12-28,planirano,DA,DA,720
+721,Mestni kulturni festival – Levski,2027-01-07,planirano,NE,NE,721
+722,Dan lokalne kulinarike – São João da Barra,2027-02-14,planirano,DA,DA,722
+723,Poletni mestni sejem – Rios Frios,2027-03-21,planirano,NE,DA,723
+724,Glasbeni večer – Liangbing,2027-04-28,planirano,DA,DA,724
+725,Družinski mestni dan – Fujisawa,2027-05-07,planirano,NE,DA,725
+726,Festival lokalne tradicije – Sasa,2027-06-14,planirano,DA,DA,726
+727,Mestni kulturni festival – Guadalupe,2027-07-21,planirano,NE,DA,727
+728,Dan lokalne kulinarike – Qarah Bāgh Bāzār,2027-08-28,planirano,DA,NE,728
+729,Poletni mestni sejem – Katoro,2027-09-07,planirano,NE,DA,729
+730,Glasbeni večer – Boulogne-sur-Mer,2027-10-14,planirano,DA,DA,730
+731,Družinski mestni dan – Kampong Cham,2027-11-21,planirano,NE,DA,731
+732,Festival lokalne tradicije – Zdiby,2027-12-28,planirano,DA,DA,732
+733,Mestni kulturni festival – Jönköping,2027-01-07,planirano,NE,DA,733
+734,Dan lokalne kulinarike – Caherconlish,2027-02-14,planirano,DA,DA,734
+735,Poletni mestni sejem – Sheshan,2027-03-21,planirano,NE,NE,735
+736,Glasbeni večer – Malvinas Argentinas,2027-04-28,planirano,DA,DA,736
+737,Družinski mestni dan – Pogranichnyy,2027-05-07,planirano,NE,DA,737
+738,Festival lokalne tradicije – Dauphin,2027-06-14,planirano,DA,DA,738
+739,Mestni kulturni festival – Stockholm,2027-07-21,planirano,NE,DA,739
+740,Dan lokalne kulinarike – Sa Kaeo,2027-08-28,planirano,DA,DA,740
+741,Poletni mestni sejem – Sagaing,2027-09-07,planirano,NE,DA,741
+742,Glasbeni večer – Parramos,2027-10-14,planirano,DA,NE,742
+743,Družinski mestni dan – Maru,2027-11-21,planirano,NE,DA,743
+744,Festival lokalne tradicije – Huari,2027-12-28,planirano,DA,DA,744
+745,Mestni kulturni festival – Mamponteng,2027-01-07,planirano,NE,DA,745
+746,Dan lokalne kulinarike – Eixo,2027-02-14,planirano,DA,DA,746
+747,Poletni mestni sejem – Kalininaul,2027-03-21,planirano,NE,DA,747
+748,Glasbeni večer – Jiangmen,2027-04-28,planirano,DA,DA,748
+749,Družinski mestni dan – Krasica,2027-05-07,planirano,NE,NE,749
+750,Festival lokalne tradicije – Viana,2027-06-14,planirano,DA,DA,750
+751,Mestni kulturni festival – Kuanfeu,2027-07-21,planirano,NE,DA,751
+752,Dan lokalne kulinarike – Selasari,2027-08-28,planirano,DA,DA,752
+753,Poletni mestni sejem – Maracha,2027-09-07,planirano,NE,DA,753
+754,Glasbeni večer – Busia,2027-10-14,planirano,DA,DA,754
+755,Družinski mestni dan – Piekielnik,2027-11-21,planirano,NE,DA,755
+756,Festival lokalne tradicije – Ceres,2027-12-28,planirano,DA,NE,756
+757,Mestni kulturni festival – Vodnyy,2027-01-07,planirano,NE,DA,757
+758,Dan lokalne kulinarike – Choroszcz,2027-02-14,planirano,DA,DA,758
+759,Poletni mestni sejem – Kyzylorda,2027-03-21,planirano,NE,DA,759
+760,Glasbeni večer – Donji Dobrić,2027-04-28,planirano,DA,DA,760
+761,Družinski mestni dan – Kailahun,2027-05-07,planirano,NE,DA,761
+762,Festival lokalne tradicije – Nova Era,2027-06-14,planirano,DA,DA,762
+763,Mestni kulturni festival – Chuoyuan,2027-07-21,planirano,NE,NE,763
+764,Dan lokalne kulinarike – Bukovany,2027-08-28,planirano,DA,DA,764
+765,Poletni mestni sejem – Ongi,2027-09-07,planirano,NE,DA,765
+766,Glasbeni večer – Nauchnyy Gorodok,2027-10-14,planirano,DA,DA,766
+767,Družinski mestni dan – Brinje,2027-11-21,planirano,NE,DA,767
+768,Festival lokalne tradicije – Safakulevo,2027-12-28,planirano,DA,DA,768
+769,Mestni kulturni festival – Kokkini Trimithia,2027-01-07,planirano,NE,DA,769
+770,Dan lokalne kulinarike – Abakan,2027-02-14,planirano,DA,NE,770
+771,Poletni mestni sejem – New Mīrpur,2027-03-21,planirano,NE,DA,771
+772,Glasbeni večer – Batan,2027-04-28,planirano,DA,DA,772
+773,Družinski mestni dan – Mauhao,2027-05-07,planirano,NE,DA,773
+774,Festival lokalne tradicije – Puspajaya,2027-06-14,planirano,DA,DA,774
+775,Mestni kulturni festival – Mogok,2027-07-21,planirano,NE,DA,775
+776,Dan lokalne kulinarike – Macroom,2027-08-28,planirano,DA,DA,776
+777,Poletni mestni sejem – Taytayan,2027-09-07,planirano,NE,NE,777
+778,Glasbeni večer – High Point,2027-10-14,planirano,DA,DA,778
+779,Družinski mestni dan – Eling,2027-11-21,planirano,NE,DA,779
+780,Festival lokalne tradicije – Tvøroyri,2027-12-28,planirano,DA,DA,780
+781,Mestni kulturni festival – Waigete,2027-01-07,planirano,NE,DA,781
+782,Dan lokalne kulinarike – Berlin,2027-02-14,planirano,DA,DA,782
+783,Poletni mestni sejem – Jammāl,2027-03-21,planirano,NE,DA,783
+784,Glasbeni večer – San Antonio,2027-04-28,planirano,DA,NE,784
+785,Družinski mestni dan – Nowe,2027-05-07,planirano,NE,DA,785
+786,Festival lokalne tradicije – Currais,2027-06-14,planirano,DA,DA,786
+787,Mestni kulturni festival – Pandanwangi,2027-07-21,planirano,NE,DA,787
+788,Dan lokalne kulinarike – Curuan,2027-08-28,planirano,DA,DA,788
+789,Poletni mestni sejem – Famagusta,2027-09-07,planirano,NE,DA,789
+790,Glasbeni večer – Naas,2027-10-14,planirano,DA,DA,790
+791,Družinski mestni dan – Jambesari,2027-11-21,planirano,NE,NE,791
+792,Festival lokalne tradicije – Tarhuna,2027-12-28,planirano,DA,DA,792
+793,Mestni kulturni festival – Trnava,2027-01-07,planirano,NE,DA,793
+794,Dan lokalne kulinarike – Nanjiao,2027-02-14,planirano,DA,DA,794
+795,Poletni mestni sejem – Zhixia,2027-03-21,planirano,NE,DA,795
+796,Glasbeni večer – Pakalongan,2027-04-28,planirano,DA,DA,796
+797,Družinski mestni dan – Nanhai,2027-05-07,planirano,NE,DA,797
+798,Festival lokalne tradicije – Trinidad,2027-06-14,planirano,DA,NE,798
+799,Mestni kulturni festival – Ngaoundéré,2027-07-21,planirano,NE,DA,799
+800,Dan lokalne kulinarike – Embu,2027-08-28,planirano,DA,DA,800
+801,Poletni mestni sejem – Golden,2027-09-07,planirano,NE,DA,801
+802,Glasbeni večer – Bogi,2027-10-14,planirano,DA,DA,802
+803,Družinski mestni dan – Cabanilla,2027-11-21,planirano,NE,DA,803
+804,Festival lokalne tradicije – Suna,2027-12-28,planirano,DA,DA,804
+805,Mestni kulturni festival – A-da-Gorda,2027-01-07,planirano,NE,NE,805
+806,Dan lokalne kulinarike – Lille,2027-02-14,planirano,DA,DA,806
+807,Poletni mestni sejem – Catache,2027-03-21,planirano,NE,DA,807
+808,Glasbeni večer – Simão Dias,2027-04-28,planirano,DA,DA,808
+809,Družinski mestni dan – Qarqania,2027-05-07,planirano,NE,DA,809
+810,Festival lokalne tradicije – Hongqi,2027-06-14,planirano,DA,DA,810
+811,Mestni kulturni festival – Caldelas,2027-07-21,planirano,NE,DA,811
+812,Dan lokalne kulinarike – Kan’onjichō,2027-08-28,planirano,DA,NE,812
+813,Poletni mestni sejem – Katiola,2027-09-07,planirano,NE,DA,813
+814,Glasbeni večer – Alegre,2027-10-14,planirano,DA,DA,814
+815,Družinski mestni dan – Junshan,2027-11-21,planirano,NE,DA,815
+816,Festival lokalne tradicije – Chao,2027-12-28,planirano,DA,DA,816
+817,Mestni kulturni festival – Clorinda,2027-01-07,planirano,NE,DA,817
+818,Dan lokalne kulinarike – Timbrangan,2027-02-14,planirano,DA,DA,818
+819,Poletni mestni sejem – Vithkuq,2027-03-21,planirano,NE,NE,819
+820,Glasbeni večer – Ngã Bảy,2027-04-28,planirano,DA,DA,820
+821,Družinski mestni dan – Ymittos,2027-05-07,planirano,NE,DA,821
+822,Festival lokalne tradicije – San Mariano,2027-06-14,planirano,DA,DA,822
+823,Mestni kulturni festival – Jiujie,2027-07-21,planirano,NE,DA,823
+824,Dan lokalne kulinarike – Ashley,2027-08-28,planirano,DA,DA,824
+825,Poletni mestni sejem – Centre de Flacq,2027-09-07,planirano,NE,DA,825
+826,Glasbeni večer – Paseh,2027-10-14,planirano,DA,NE,826
+827,Družinski mestni dan – Malunda,2027-11-21,planirano,NE,DA,827
+828,Festival lokalne tradicije – Álftanes,2027-12-28,planirano,DA,DA,828
+829,Mestni kulturni festival – Sumberbatas,2027-01-07,planirano,NE,DA,829
+830,Dan lokalne kulinarike – Baitang,2027-02-14,planirano,DA,DA,830
+831,Poletni mestni sejem – Keti Bandar,2027-03-21,planirano,NE,DA,831
+832,Glasbeni večer – Burgersfort,2027-04-28,planirano,DA,DA,832
+833,Družinski mestni dan – Dinan,2027-05-07,planirano,NE,NE,833
+834,Festival lokalne tradicije – Genet,2027-06-14,planirano,DA,DA,834
+835,Mestni kulturni festival – Novozavidovskiy,2027-07-21,planirano,NE,DA,835
+836,Dan lokalne kulinarike – Malanay,2027-08-28,planirano,DA,DA,836
+837,Poletni mestni sejem – Har-Us,2027-09-07,planirano,NE,DA,837
+838,Glasbeni večer – Hamilton,2027-10-14,planirano,DA,DA,838
+839,Družinski mestni dan – Daykitin,2027-11-21,planirano,NE,DA,839
+840,Festival lokalne tradicije – Sasa,2027-12-28,planirano,DA,NE,840
+841,Mestni kulturni festival – Chishui,2027-01-07,planirano,NE,DA,841
+842,Dan lokalne kulinarike – Aguazul,2027-02-14,planirano,DA,DA,842
+843,Poletni mestni sejem – Velyki Sorochyntsi,2027-03-21,planirano,NE,DA,843
+844,Glasbeni večer – Clarin,2027-04-28,planirano,DA,DA,844
+845,Družinski mestni dan – Rowokangkung,2027-05-07,planirano,NE,DA,845
+846,Festival lokalne tradicije – Brniště,2027-06-14,planirano,DA,DA,846
+847,Mestni kulturni festival – Zhili,2027-07-21,planirano,NE,NE,847
+848,Dan lokalne kulinarike – Moyo,2027-08-28,planirano,DA,DA,848
+849,Poletni mestni sejem – Villa del Rosario,2027-09-07,planirano,NE,DA,849
+850,Glasbeni večer – Watuweri,2027-10-14,planirano,DA,DA,850
+851,Družinski mestni dan – Cullhuas,2027-11-21,planirano,NE,DA,851
+852,Festival lokalne tradicije – Olhão,2027-12-28,planirano,DA,DA,852
+853,Mestni kulturni festival – Dunlewy,2027-01-07,planirano,NE,DA,853
+854,Dan lokalne kulinarike – Momil,2027-02-14,planirano,DA,NE,854
+855,Poletni mestni sejem – Cookshire-Eaton,2027-03-21,planirano,NE,DA,855
+856,Glasbeni večer – Oslo,2027-04-28,planirano,DA,DA,856
+857,Družinski mestni dan – Fort Wayne,2027-05-07,planirano,NE,DA,857
+858,Festival lokalne tradicije – Bukovany,2027-06-14,planirano,DA,DA,858
+859,Mestni kulturni festival – Tsyelyakhany,2027-07-21,planirano,NE,DA,859
+860,Dan lokalne kulinarike – Binubusan,2027-08-28,planirano,DA,DA,860
+861,Poletni mestni sejem – Xo’jayli Shahri,2027-09-07,planirano,NE,NE,861
+862,Glasbeni večer – Mora,2027-10-14,planirano,DA,DA,862
+863,Družinski mestni dan – Fengyang Fuchengzhen,2027-11-21,planirano,NE,DA,863
+864,Festival lokalne tradicije – Mingora,2027-12-28,planirano,DA,DA,864
+865,Mestni kulturni festival – Jablonec nad Nisou,2027-01-07,planirano,NE,DA,865
+866,Dan lokalne kulinarike – Itapagé,2027-02-14,planirano,DA,DA,866
+867,Poletni mestni sejem – Wete,2027-03-21,planirano,NE,DA,867
+868,Glasbeni večer – Bundoran,2027-04-28,planirano,DA,NE,868
+869,Družinski mestni dan – Putrajaya,2027-05-07,planirano,NE,DA,869
+870,Festival lokalne tradicije – Saint Louis,2027-06-14,planirano,DA,DA,870
+871,Mestni kulturni festival – Nioro,2027-07-21,planirano,NE,DA,871
+872,Dan lokalne kulinarike – Tlutup,2027-08-28,planirano,DA,DA,872
+873,Poletni mestni sejem – Petare,2027-09-07,planirano,NE,DA,873
+874,Glasbeni večer – Mesa,2027-10-14,planirano,DA,DA,874
+875,Družinski mestni dan – Caleufú,2027-11-21,planirano,NE,NE,875
+876,Festival lokalne tradicije – Desa Gegempalan,2027-12-28,planirano,DA,DA,876
+877,Mestni kulturni festival – Bern,2027-01-07,planirano,NE,DA,877
+878,Dan lokalne kulinarike – Piúma,2027-02-14,planirano,DA,DA,878
+879,Poletni mestni sejem – Brazzaville,2027-03-21,planirano,NE,DA,879
+880,Glasbeni večer – Tungipāra,2027-04-28,planirano,DA,DA,880
+881,Družinski mestni dan – Sørvágur,2027-05-07,planirano,NE,DA,881
+882,Festival lokalne tradicije – Manisi,2027-06-14,planirano,DA,NE,882
+883,Mestni kulturni festival – Luna,2027-07-21,planirano,NE,DA,883
+884,Dan lokalne kulinarike – Velké Losiny,2027-08-28,planirano,DA,DA,884
+885,Poletni mestni sejem – Godong,2027-09-07,planirano,NE,DA,885
+886,Glasbeni večer – Linköping,2027-10-14,planirano,DA,DA,886
+887,Družinski mestni dan – Agía Varvára,2027-11-21,planirano,NE,DA,887
+888,Festival lokalne tradicije – Laprida,2027-12-28,planirano,DA,DA,888
+889,Mestni kulturni festival – José Bonifácio,2027-01-07,planirano,NE,NE,889
+890,Dan lokalne kulinarike – Dagou,2027-02-14,planirano,DA,DA,890
+891,Poletni mestni sejem – Ozërsk,2027-03-21,planirano,NE,DA,891
+892,Glasbeni večer – Tarumizu,2027-04-28,planirano,DA,DA,892
+893,Družinski mestni dan – Esquina,2027-05-07,planirano,NE,DA,893
+894,Festival lokalne tradicije – Pleasant Point,2027-06-14,planirano,DA,DA,894
+895,Mestni kulturni festival – Datun,2027-07-21,planirano,NE,DA,895
+896,Dan lokalne kulinarike – Bhakkar,2027-08-28,planirano,DA,NE,896
+897,Poletni mestni sejem – Bodzentyn,2027-09-07,planirano,NE,DA,897
+898,Glasbeni večer – Cherga,2027-10-14,planirano,DA,DA,898
+899,Družinski mestni dan – Igarapé Açu,2027-11-21,planirano,NE,DA,899
+900,Festival lokalne tradicije – Penticton,2027-12-28,planirano,DA,DA,900
+901,Mestni kulturni festival – Shangdu,2027-01-07,planirano,NE,DA,901
+902,Dan lokalne kulinarike – Mascouche,2027-02-14,planirano,DA,DA,902
+903,Poletni mestni sejem – Dadaha,2027-03-21,planirano,NE,NE,903
+904,Glasbeni večer – Pule,2027-04-28,planirano,DA,DA,904
+905,Družinski mestni dan – Garešnica,2027-05-07,planirano,NE,DA,905
+906,Festival lokalne tradicije – Wąbrzeźno,2027-06-14,planirano,DA,DA,906
+907,Mestni kulturni festival – Onsala,2027-07-21,planirano,NE,DA,907
+908,Dan lokalne kulinarike – Mohelno,2027-08-28,planirano,DA,DA,908
+909,Poletni mestni sejem – Starokucherganovka,2027-09-07,planirano,NE,DA,909
+910,Glasbeni večer – Kveda Chkhorots’q’u,2027-10-14,planirano,DA,NE,910
+911,Družinski mestni dan – Sorochinsk,2027-11-21,planirano,NE,DA,911
+912,Festival lokalne tradicije – Pisang,2027-12-28,planirano,DA,DA,912
+913,Mestni kulturni festival – Marka,2027-01-07,planirano,NE,DA,913
+914,Dan lokalne kulinarike – Amarillo,2027-02-14,planirano,DA,DA,914
+915,Poletni mestni sejem – New York City,2027-03-21,planirano,NE,DA,915
+916,Glasbeni večer – Spitak,2027-04-28,planirano,DA,DA,916
+917,Družinski mestni dan – Pailou,2027-05-07,planirano,NE,NE,917
+918,Festival lokalne tradicije – Chodów,2027-06-14,planirano,DA,DA,918
+919,Mestni kulturni festival – Palangue,2027-07-21,planirano,NE,DA,919
+920,Dan lokalne kulinarike – Bishan,2027-08-28,planirano,DA,DA,920
+921,Poletni mestni sejem – Ursk,2027-09-07,planirano,NE,DA,921
+922,Glasbeni večer – Villasis,2027-10-14,planirano,DA,DA,922
+923,Družinski mestni dan – Dahu,2027-11-21,planirano,NE,DA,923
+924,Festival lokalne tradicije – Butembo,2027-12-28,planirano,DA,NE,924
+925,Mestni kulturni festival – Vol’no-Nadezhdinskoye,2027-01-07,planirano,NE,DA,925
+926,Dan lokalne kulinarike – Kocēni,2027-02-14,planirano,DA,DA,926
+927,Poletni mestni sejem – Xihongmen,2027-03-21,planirano,NE,DA,927
+928,Glasbeni večer – Chedao,2027-04-28,planirano,DA,DA,928
+929,Družinski mestni dan – Bellavista,2027-05-07,planirano,NE,DA,929
+930,Festival lokalne tradicije – Kabongan Kidul,2027-06-14,planirano,DA,DA,930
+931,Mestni kulturni festival – Sosnovaya Polyana,2027-07-21,planirano,NE,NE,931
+932,Dan lokalne kulinarike – Sevilla,2027-08-28,planirano,DA,DA,932
+933,Poletni mestni sejem – Pokachi,2027-09-07,planirano,NE,DA,933
+934,Glasbeni večer – Umm al Qaywayn,2027-10-14,planirano,DA,DA,934
+935,Družinski mestni dan – Bukovec,2027-11-21,planirano,NE,DA,935
+936,Festival lokalne tradicije – Somovo,2027-12-28,planirano,DA,DA,936
+937,Mestni kulturni festival – Chengzi,2027-01-07,planirano,NE,DA,937
+938,Dan lokalne kulinarike – Söderköping,2027-02-14,planirano,DA,NE,938
+939,Poletni mestni sejem – Verdizela,2027-03-21,planirano,NE,DA,939
+940,Glasbeni večer – La Plata,2027-04-28,planirano,DA,DA,940
+941,Družinski mestni dan – Taungoo,2027-05-07,planirano,NE,DA,941
+942,Festival lokalne tradicije – Yanacancha,2027-06-14,planirano,DA,DA,942
+943,Mestni kulturni festival – Tucaní,2027-07-21,planirano,NE,DA,943
+944,Dan lokalne kulinarike – Memória,2027-08-28,planirano,DA,DA,944
+945,Poletni mestni sejem – Narutō,2027-09-07,planirano,NE,NE,945
+946,Glasbeni večer – Khalīlābād,2027-10-14,planirano,DA,DA,946
+947,Družinski mestni dan – Buynichy,2027-11-21,planirano,NE,DA,947
+948,Festival lokalne tradicije – Emplak,2027-12-28,planirano,DA,DA,948
+949,Mestni kulturni festival – That Phanom,2027-01-07,planirano,NE,DA,949
+950,Dan lokalne kulinarike – Ar Rass,2027-02-14,planirano,DA,DA,950
+951,Poletni mestni sejem – Huangzhou,2027-03-21,planirano,NE,DA,951
+952,Glasbeni večer – El Tejocote,2027-04-28,planirano,DA,NE,952
+953,Družinski mestni dan – Ugep,2027-05-07,planirano,NE,DA,953
+954,Festival lokalne tradicije – Khong,2027-06-14,planirano,DA,DA,954
+955,Mestni kulturni festival – Maogang,2027-07-21,planirano,NE,DA,955
+956,Dan lokalne kulinarike – San Jose,2027-08-28,planirano,DA,DA,956
+957,Poletni mestni sejem – Albany,2027-09-07,planirano,NE,DA,957
+958,Glasbeni večer – Kota Bharu,2027-10-14,planirano,DA,DA,958
+959,Družinski mestni dan – Bulqizë,2027-11-21,planirano,NE,NE,959
+960,Festival lokalne tradicije – Khoroshëvo-Mnevniki,2027-12-28,planirano,DA,DA,960
+961,Mestni kulturni festival – Marvdasht,2027-01-07,planirano,NE,DA,961
+962,Dan lokalne kulinarike – Bolgar,2027-02-14,planirano,DA,DA,962
+963,Poletni mestni sejem – Nahāvand,2027-03-21,planirano,NE,DA,963
+964,Glasbeni večer – Tola,2027-04-28,planirano,DA,DA,964
+965,Družinski mestni dan – Kokkónion,2027-05-07,planirano,NE,DA,965
+966,Festival lokalne tradicije – Pingxiang,2027-06-14,planirano,DA,NE,966
+967,Mestni kulturni festival – Płońsk,2027-07-21,planirano,NE,DA,967
+968,Dan lokalne kulinarike – Wuping,2027-08-28,planirano,DA,DA,968
+969,Poletni mestni sejem – Xinxu,2027-09-07,planirano,NE,DA,969
+970,Glasbeni večer – Santa Teresa,2027-10-14,planirano,DA,DA,970
+971,Družinski mestni dan – Saku,2027-11-21,planirano,NE,DA,971
+972,Festival lokalne tradicije – Menampukrajan,2027-12-28,planirano,DA,DA,972
+973,Mestni kulturni festival – Neglasari,2027-01-07,planirano,NE,NE,973
+974,Dan lokalne kulinarike – Tomilino,2027-02-14,planirano,DA,DA,974
+975,Poletni mestni sejem – Cilangkap,2027-03-21,planirano,NE,DA,975
+976,Glasbeni večer – Fudian,2027-04-28,planirano,DA,DA,976
+977,Družinski mestni dan – Anchorage,2027-05-07,planirano,NE,DA,977
+978,Festival lokalne tradicije – Orosh,2027-06-14,planirano,DA,DA,978
+979,Mestni kulturni festival – Almargem do Bispo,2027-07-21,planirano,NE,DA,979
+980,Dan lokalne kulinarike – La Libertad,2027-08-28,planirano,DA,NE,980
+981,Poletni mestni sejem – Shangtianba,2027-09-07,planirano,NE,DA,981
+982,Glasbeni večer – El Cairo,2027-10-14,planirano,DA,DA,982
+983,Družinski mestni dan – Xiaowuzhan,2027-11-21,planirano,NE,DA,983
+984,Festival lokalne tradicije – Ji Paraná,2027-12-28,planirano,DA,DA,984
+985,Mestni kulturni festival – Ulster Spring,2027-01-07,planirano,NE,DA,985
+986,Dan lokalne kulinarike – Chapimarca,2027-02-14,planirano,DA,DA,986
+987,Poletni mestni sejem – Tielong,2027-03-21,planirano,NE,NE,987
+988,Glasbeni večer – Agen,2027-04-28,planirano,DA,DA,988
+989,Družinski mestni dan – Kyzylorda,2027-05-07,planirano,NE,DA,989
+990,Festival lokalne tradicije – El Paso,2027-06-14,planirano,DA,DA,990
+991,Mestni kulturni festival – Zvenyhorodka,2027-07-21,planirano,NE,DA,991
+992,Dan lokalne kulinarike – Bielefeld,2027-08-28,planirano,DA,DA,992
+993,Poletni mestni sejem – Pigcawayan,2027-09-07,planirano,NE,DA,993
+994,Glasbeni večer – Kabinda,2027-10-14,planirano,DA,NE,994
+995,Družinski mestni dan – Luojiang,2027-11-21,planirano,NE,DA,995
+996,Festival lokalne tradicije – Jermenovci,2027-12-28,planirano,DA,DA,996
+997,Mestni kulturni festival – Piedra del Águila,2027-01-07,planirano,NE,DA,997
+998,Dan lokalne kulinarike – Velikiye Luki,2027-02-14,planirano,DA,DA,998
+999,Poletni mestni sejem – Novorozhdestvenskaya,2027-03-21,planirano,NE,DA,999
+1000,Glasbeni večer – Sidokumpul,2027-04-28,planirano,DA,DA,1000
+
