@@ -12,17 +12,32 @@ def connect():
 def index():
     return render_template("index.html")
 
-@app.route("/mesta")
-def mesta():
+@app.route("/mesto/<int:id>")
+def mesto(id):
     conn = connect()
-    seznam_mest = conn.execute("""
-        SELECT id, ime, priljubljenost, priporoceni_dnevi
-        FROM mesto
-        ORDER BY ime
-    """).fetchall()
+ 
+    mesto_podatki = conn.execute("""
+        SELECT m.id,
+               m.ime,
+               m.priljubljenost,
+               m.priporoceni_dnevi,
+               d.ime AS drzava,
+               d.eu AS casovni_pas
+        FROM mesto m
+        JOIN drzava d ON d.id = m.drzava_id
+        WHERE m.id = ?
+    """, (id,)).fetchone()
+ 
     conn.close()
+ 
+    if mesto_podatki is None:
+        return "Mesto ne obstaja.", 404
+ 
+    return render_template(
+        "mesto.html",
+        mesto=mesto_podatki
+    )
 
-    return render_template("mesta.html", mesta=seznam_mest)
 
 if __name__ == "__main__":
     app.run(debug=True)
