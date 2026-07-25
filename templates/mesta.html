@@ -15,7 +15,12 @@ Seznam mest
 
         {% for mesto in mesta %}
             <article>
-                <h2>{{ mesto["ime"] }}</h2>
+                <h2>
+                    <a href="{{ url_for('mesto', id=mesto['id']) }}">
+                        {{ mesto["ime"] }}
+                    </a>
+                </h2>
+
 
                 <p>
                     Priljubljenost:
