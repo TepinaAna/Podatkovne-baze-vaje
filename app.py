@@ -15,16 +15,14 @@ def index():
 @app.route("/mesta")
 def mesta():
     conn = connect()
-    mesta = conn.execute("""
+    seznam_mest = conn.execute("""
         SELECT id, ime, priljubljenost, priporoceni_dnevi
         FROM mesto
         ORDER BY ime
     """).fetchall()
     conn.close()
 
-    return {
-        "mesta": [dict(mesto) for mesto in mesta]
-    }
+    return render_template("mesta.html", mesta=seznam_mest)
 
 if __name__ == "__main__":
     app.run(debug=True)
