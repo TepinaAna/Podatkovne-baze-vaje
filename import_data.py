@@ -40,7 +40,7 @@ try:
     uvozi("mesto_koordinate.csv", "mesto_koordinate")
     uvozi("bliznje_mesto.csv", "bliznje_mesto")
     uvozi("letni_cas.csv", "letni_cas")
-    uvozi("znamenitost.csv", "znamenitost")
+    uvozi("znamenitosti.csv", "znamenitost")
     uvozi("aktivnost.csv", "aktivnost")
     uvozi("aktivnost_letni_cas.csv", "aktivnost_letni_cas")
     uvozi("dogodek.csv", "dogodek")
