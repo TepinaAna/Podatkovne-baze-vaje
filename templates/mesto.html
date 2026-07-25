@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ mesto["ime"] }}
+{% endblock %}
+
+{% block content %}
+<section>
+    <h1>{{ mesto["ime"] }}</h1>
+
+    <p>
+        Država: {{ mesto["drzava"] }}
+    </p>
+
+    <p>
+        Časovni pas: {{ mesto["casovni_pas"] }}
+    </p>
+
+    <p>
+        Priljubljenost:
+        {{ mesto["priljubljenost"] }}/5
+    </p>
+
+    <p>
+        Priporočeno število dni:
+        {{ mesto["priporoceni_dnevi"] }}
+    </p>
+</section>
+
+<section>
+    <h2>Aktivnosti v mestu</h2>
+
+    {% if aktivnosti %}
+        {% for aktivnost in aktivnosti %}
+            <article>
+                <h3>{{ aktivnost["ime"] }}</h3>
+
+                <p>
+                    Ocena: {{ aktivnost["ocena"] }}/5
+                </p>
+
+                <p>
+                    Vstopnina:
+                    {{ aktivnost["vstopnina"] }}
+                </p>
+
+                <p>
+                    Primerno za otroke:
+                    {{ aktivnost["za_otroke"] }}
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>Za to mesto ni najdenih aktivnosti.</p>
+    {% endif %}
+</section>
+{% endblock %}
