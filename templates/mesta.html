@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}
+Seznam mest
+{% endblock %}
+
+{% block content %}
+    <section>
+        <h1>Svetovna mesta</h1>
+
+        <p>
+            Izberi mesto in preveri njegove aktivnosti,
+            znamenitosti in dogodke.
+        </p>
+
+        {% for mesto in mesta %}
+            <article>
+                <h2>{{ mesto["ime"] }}</h2>
+
+                <p>
+                    Priljubljenost:
+                    {{ mesto["priljubljenost"] }}
+                </p>
+
+                <p>
+                    Priporočeno število dni:
+                    {{ mesto["priporoceni_dnevi"] }}
+                </p>
+            </article>
+        {% else %}
+            <p>V podatkovni bazi ni mest.</p>
+        {% endfor %}
+    </section>
+{% endblock %}
