@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}
+Začetna stran
+{% endblock %}
+
+{% block content %}
+    <section>
+        <h1>Obisk evropskih mest</h1>
+
+        <p>
+            Spletna aplikacija omogoča raziskovanje mest,
+            aktivnosti, znamenitosti in dogodkov.
+        </p>
+
+        <a href="{{ url_for('mesta') }}">
+            Prikaži mesta
+        </a>
+    </section>
+{% endblock %}
