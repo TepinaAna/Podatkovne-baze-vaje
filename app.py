@@ -21,6 +21,7 @@ def mesto(id):
                m.ime,
                m.priljubljenost,
                m.priporoceni_dnevi,
+               d.id AS drzava_id,
                d.ime AS drzava,
                d.eu AS casovni_pas
         FROM mesto m
