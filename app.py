@@ -48,14 +48,28 @@ def mesto(id):
         WHERE m.id = ?
     """, (id,)).fetchone()
  
-    conn.close()
  
     if mesto_podatki is None:
+        conn.close()
         return "Mesto ne obstaja.", 404
- 
+        
+    aktivnosti = conn.execute("""
+        SELECT id,
+               ime,
+               ocena,
+               vstopnina,
+               za_otroke
+        FROM aktivnost
+        WHERE mesto_id = ?
+        ORDER BY ocena DESC, ime
+    """, (id,)).fetchall()
+
+    conn.close()
+    
     return render_template(
         "mesto.html",
-        mesto=mesto_podatki
+        mesto=mesto_podatki,
+        aktivnosti=aktivnosti
     )
 
 
