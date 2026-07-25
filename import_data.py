@@ -13,11 +13,21 @@ def uvozi(datoteka, tabela):
 
     with open(pot, newline="", encoding="utf-8-sig") as f:
         reader = csv.reader(f)
+
         next(reader)  # preskoči glavo
 
         for vrstica in reader:
+            # Preskoči popolnoma prazne vrstice.
+            if not vrstica:
+                continue
+
+            # Preskoči vrstice, ki vsebujejo samo prazna polja.
+            if not any(polje.strip() for polje in vrstica):
+                continue
+
             placeholder = ",".join(["?"] * len(vrstica))
             sql = f"INSERT INTO {tabela} VALUES ({placeholder})"
+
             cursor.execute(sql, vrstica)
 
     print(f"Uvoženo: {datoteka}")
