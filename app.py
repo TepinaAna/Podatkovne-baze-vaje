@@ -1,5 +1,5 @@
 import sqlite3
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -10,7 +10,7 @@ def connect():
 
 @app.route("/")
 def index():
-    return "Obisk evropskih mest"
+    return render_template("index.html")
 
 @app.route("/mesta")
 def mesta():
