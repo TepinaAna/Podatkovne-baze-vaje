@@ -5,16 +5,38 @@ Začetna stran
 {% endblock %}
 
 {% block content %}
-    <section>
-        <h1>Obisk evropskih mest</h1>
+<section>
+    <h1>Obisk evropskih mest</h1>
 
-        <p>
-            Spletna aplikacija omogoča raziskovanje mest,
-            aktivnosti, znamenitosti in dogodkov.
-        </p>
+    <p>
+        Izberi mesto in preveri njegove aktivnosti,
+        znamenitosti in dogodke.
+    </p>
 
-        <a href="{{ url_for('mesta') }}">
-            Prikaži mesta
-        </a>
-    </section>
+    {% if mesta %}
+        {% for mesto in mesta %}
+            <article>
+                <h2>
+                    <a href="{{ url_for('mesto', id=mesto['id']) }}">
+                        {{ mesto["ime"] }}
+                    </a>
+                </h2>
+
+                <p>Država: {{ mesto["drzava"] }}</p>
+
+                <p>
+                    Priljubljenost:
+                    {{ mesto["priljubljenost"] }}/5
+                </p>
+
+                <p>
+                    Priporočeno število dni:
+                    {{ mesto["priporoceni_dnevi"] }}
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>V podatkovni bazi ni mest.</p>
+    {% endif %}
+</section>
 {% endblock %}
