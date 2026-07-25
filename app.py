@@ -10,7 +10,26 @@ def connect():
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    conn = connect()
+
+    mesta = conn.execute("""
+        SELECT m.id,
+               m.ime,
+               m.priljubljenost,
+               m.priporoceni_dnevi,
+               d.ime AS drzava
+        FROM mesto m
+        JOIN drzava d ON d.id = m.drzava_id
+        ORDER BY m.priljubljenost DESC, m.ime
+        LIMIT 12
+    """).fetchall()
+
+    conn.close()
+
+    return render_template(
+        "index.html",
+        mesta=mesta
+    )
 
 @app.route("/mesto/<int:id>")
 def mesto(id):
