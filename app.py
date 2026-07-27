@@ -89,12 +89,43 @@ def mesto(id):
         parametri
     ).fetchall()
 
+    znamenitosti = conn.execute(
+    """
+    SELECT id,
+           ime,
+           ocena,
+           vstopnina,
+           za_otroke
+    FROM znamenitost
+    WHERE mesto_id = ?
+    ORDER BY ocena DESC, ime
+    """,
+    (id,)
+    ).fetchall()
+
+    dogodki = conn.execute(
+    """
+    SELECT id,
+           ime,
+           datum,
+           stanje,
+           vstopnina,
+           za_otroke
+    FROM dogodek
+    WHERE mesto_id = ?
+    ORDER BY datum, ime
+    """,
+    (id,)
+    ).fetchall()
+
     conn.close()
     
     return render_template(
         "mesto.html",
         mesto=mesto_podatki,
         aktivnosti=aktivnosti,
+        znamenitosti=znamenitosti,
+        dogodki=dogodki,
         samo_za_otroke=samo_za_otroke,
         samo_celo_leto=samo_celo_leto
     )
