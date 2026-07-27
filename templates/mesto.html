@@ -28,6 +28,44 @@
 </section>
 
 <section>
+    <h2>Obišči tudi bližnja mesta</h2>
+
+    {% if bliznja_mesta %}
+        {% for bliznje in bliznja_mesta %}
+            <article>
+                <h3>
+                    <a href="{{ url_for('mesto', id=bliznje['id']) }}">
+                        {{ bliznje["ime"] }}
+                    </a>
+                </h3>
+
+                <p>Razdalja: {{ bliznje["razdalja_km"] }} km</p>
+                <p>
+                    Priljubljenost:
+                    {{ bliznje["priljubljenost"] }}/5
+                </p>
+                <p>
+                    Priporočeno število dni:
+                    {{ bliznje["priporoceni_dnevi"] }}
+                </p>
+
+                {% if bliznje["top_znamenitost"] %}
+                    <p>
+                        Predlog ogleda:
+                        {{ bliznje["top_znamenitost"] }}
+                    </p>
+                {% endif %}
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>
+            V podatkovni bazi ni drugega mesta
+            iz iste države.
+        </p>
+    {% endif %}
+</section>
+
+<section>
     <h2>Aktivnosti v mestu</h2>
 
     <form method="GET">
@@ -111,6 +149,31 @@
         {% endfor %}
     {% else %}
         <p>Za to mesto ni najdenih znamenitosti.</p>
+    {% endif %}
+</section>
+
+<section>
+    <h2>Razdalje med znamenitostmi</h2>
+
+    {% if razdalje %}
+        {% for razdalja in razdalje %}
+            <article>
+                <p>
+                    {{ razdalja["znamenitost1"] }}
+                    ->
+                    {{ razdalja["znamenitost2"] }}
+                </p>
+                <p>
+                    Razdalja:
+                    {{ razdalja["razdalja_km"] }} km
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>
+            Za to mesto še ni vnesenih
+            razdalj med znamenitostmi.
+        </p>
     {% endif %}
 </section>
 
