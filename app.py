@@ -89,33 +89,29 @@ def mesto(id):
         parametri
     ).fetchall()
 
-    znamenitosti = conn.execute(
-    """
-    SELECT id,
-           ime,
-           ocena,
-           vstopnina,
-           za_otroke
-    FROM znamenitost
-    WHERE mesto_id = ?
-    ORDER BY ocena DESC, ime
-    """,
-    (id,)
+    znamenitosti = conn.execute("""
+        SELECT id,
+               ime,
+               ocena,
+               vstopnina,
+               za_otroke
+        FROM znamenitost
+        WHERE mesto_id = ?
+        ORDER BY ocena DESC, ime
+    """, (id,)
     ).fetchall()
 
-    dogodki = conn.execute(
-    """
-    SELECT id,
-           ime,
-           datum,
-           stanje,
-           vstopnina,
-           za_otroke
-    FROM dogodek
-    WHERE mesto_id = ?
-    ORDER BY datum, ime
-    """,
-    (id,)
+    dogodki = conn.execute("""
+        SELECT id,
+               ime,
+               datum,
+               stanje,
+               vstopnina,
+               za_otroke
+        FROM dogodek
+        WHERE mesto_id = ?
+        ORDER BY datum, ime
+    """, (id,)
     ).fetchall()
 
     conn.close()
