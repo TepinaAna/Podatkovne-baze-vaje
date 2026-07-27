@@ -76,6 +76,7 @@
                     Primerno za otroke:
                     {{ aktivnost["za_otroke"] }}
                 </p>
+                
                 <p>
                     Letni čas:
                     {% if aktivnost["stevilo_letnih_casov"] == 4 %}
@@ -90,6 +91,47 @@
         {% endfor %}
     {% else %}
         <p>Za to mesto ni najdenih aktivnosti.</p>
+    {% endif %}
+</section>
+
+<section>
+    <h2>Znamenitosti</h2>
+    
+    {% if znamenitosti %}
+        {% for znamenitost in znamenitosti %}
+            <article>
+                <h3>{{ znamenitost["ime"] }}</h3>
+                <p>Ocena: {{ znamenitost["ocena"] }}/5</p>
+                <p>Vstopnina: {{ znamenitost["vstopnina"] }}</p>
+                <p>
+                    Primerno za otroke:
+                    {{ znamenitost["za_otroke"] }}
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>Za to mesto ni najdenih znamenitosti.</p>
+    {% endif %}
+</section>
+
+<section>
+    <h2>Dogodki</h2>
+    
+        {% if dogodki %}
+            {% for dogodek in dogodki %}
+                <article>
+                    <h3>{{ dogodek["ime"] }}<h3>
+                    <p>Datum: {{ dogodek["datum"] }}</p>
+                    <p>Stanje: {{ dogodek["stanje"] }}</p>
+                    <p>Vstopnina: {{ dogodek["vstopnina"] }}</p>
+                    <p>
+                        Primerno za otroke:
+                        {{ dogodek["za_otroke"] }}
+                    </p>
+                </article>
+            {% endfor %}
+        {% else %}
+            <p>Za to mesto ni najdenih dogodkov.</p>
     {% endif %}
 </section>
 {% endblock %}
