@@ -33,6 +33,8 @@ def index():
 
 @app.route("/mesto/<int:id>")
 def mesto(id):
+    samo_za_otroke = request.args.get("za_otroke") == "DA"
+    samo_celo_leto = request.args.get("celo_leto") == "DA"
     conn = connect()
  
     mesto_podatki = conn.execute("""
@@ -53,25 +55,49 @@ def mesto(id):
         conn.close()
         return "Mesto ne obstaja.", 404
         
-    aktivnosti = conn.execute("""
-        SELECT id,
-               ime,
-               ocena,
-               vstopnina,
-               za_otroke
-        FROM aktivnost
-        WHERE mesto_id = ?
-        ORDER BY ocena DESC, ime
-    """, (id,)).fetchall()
+    query_aktivnosti = """
+        SELECT a.id,
+               a.ime,
+               a.ocena,
+               a.vstopnina,
+               a.za_otroke,
+               COUNT(DISTINCT alc.letni_cas_id) AS stevilo_letnih_casov,
+               GROUP_CONCAT(DISTINCT lc.ime) AS letni_casi
+        FROM aktivnost a
+        LEFT JOIN aktivnost_letni_cas alc
+               ON alc.aktivnost_id = a.id
+        LEFT JOIN letni_cas lc
+               ON lc.id = alc.letni_cas_id
+        WHERE a.mesto_id = ?
+    """
+    parametri = [id]
+    
+    if samo_za_otroke:
+        query_aktivnosti += " AND a.za_otroke = 'DA'"
+        
+    query_aktivnosti += " GROUP BY a.id"
+    
+    if samo_celo_leto:
+        query_aktivnosti += """
+            HAVING COUNT(DISTINCT alc.letni_cas_id) = 4
+        """
+        
+    query_aktivnosti += " ORDER BY a.ocena DESC, a.ime"
+    
+    aktivnosti = conn.execute(
+        query_aktivnosti,
+        parametri
+    ).fetchall()
 
     conn.close()
     
     return render_template(
         "mesto.html",
         mesto=mesto_podatki,
-        aktivnosti=aktivnosti
+        aktivnosti=aktivnosti,
+        samo_za_otroke=samo_za_otroke,
+        samo_celo_leto=samo_celo_leto
     )
-
 
 if __name__ == "__main__":
     app.run(debug=True)
