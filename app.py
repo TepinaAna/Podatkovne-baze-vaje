@@ -17,6 +17,7 @@ def index():
                m.ime,
                m.priljubljenost,
                m.priporoceni_dnevi,
+               d.id AS drzava_id,
                d.ime AS drzava
         FROM mesto m
         JOIN drzava d ON d.id = m.drzava_id
@@ -114,6 +115,21 @@ def mesto(id):
     """, (id,)
     ).fetchall()
 
+    razdalje = conn.execute("""
+        SELECT r.id,
+               z1.ime AS znamenitost1,
+               z2.ime AS znamenitost2,
+               r.razdalja_km
+        FROM razdalja r
+        JOIN znamenitost z1
+               ON z1.id = r.znamenitost1_id
+        JOIN znamenitost z2
+               ON z2.id = r.znamenitost2_id
+        WHERE z1.mesto_id = ?
+          AND z2.mesto_id = ?
+        ORDER BY r.razdalja_km, z1.ime, z2.ime
+    """, (id, id)).fetchall()
+
     conn.close()
     
     return render_template(
@@ -122,6 +138,8 @@ def mesto(id):
         aktivnosti=aktivnosti,
         znamenitosti=znamenitosti,
         dogodki=dogodki,
+        razdalje=razdalje,
+        bliznja_mesta=bliznja_mesta,
         samo_za_otroke=samo_za_otroke,
         samo_celo_leto=samo_celo_leto
     )
