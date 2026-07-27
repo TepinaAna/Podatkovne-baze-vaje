@@ -30,6 +30,34 @@
 <section>
     <h2>Aktivnosti v mestu</h2>
 
+    <form method="GET">
+        <label>
+            <input
+                type="checkbox"
+                name="za_otroke"
+                value="DA"
+                {% if samo_za_otroke %}checked{% endif %}
+            >
+            Samo primerno za otroke
+        </label>
+        
+        <label>
+            <input
+                type="checkbox"
+                name="celo_leto"
+                value="DA"
+                {% if samo_celo_leto %}checked{% endif %}
+            >
+            Samo aktivnosti skozi celo leto
+        </label>
+        
+        <button type="submit">Uporabi filter</button>
+        
+        <a href="{{ url_for("mesto", id=mesto["id"]) }}">
+            Počisti filtre
+        </a>
+    </form>
+
     {% if aktivnosti %}
         {% for aktivnost in aktivnosti %}
             <article>
@@ -47,6 +75,16 @@
                 <p>
                     Primerno za otroke:
                     {{ aktivnost["za_otroke"] }}
+                </p>
+                <p>
+                    Letni čas:
+                    {% if aktivnost["stevilo_letnih_casov"] == 4 %}
+                        celo leto
+                    {% elif aktivnost["letni_casi"] %}
+                        {{ aktivnost["letni_casi"]|replace(",", ", ") }}
+                    {% else %}
+                        ni podatka
+                    {% endif %}
                 </p>
             </article>
         {% endfor %}
