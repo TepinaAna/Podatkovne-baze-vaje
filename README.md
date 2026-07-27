@@ -4,4 +4,4 @@ Namen projekta je razviti spletno stran, ki uporabniku omogoča pregledno in eno
 Aplikacija omogoča tudi filtriranje aktivnosti glede na vrsto, letni čas in primernost za družine z otroki. Pri vsakem mestu so prikazana priporočila za bližnja mesta v isti državi, skupaj z razdaljo in osnovnimi podatki, kar uporabniku pomaga pri načrtovanju potovanja skozi več krajev.
 
 Uporabniki lahko mesta in ponudbo ocenjujejo, zbrane ocene pa drugim obiskovalcem olajšajo primerjavo in izbiro primerne destinacije. Glavni cilj projekta je združiti podatke o mestih, turistični ponudbi in možnostih nadaljnjega potovanja v enotno, uporabniku prijazno spletno rešitev.
-<img width="847" height="606" alt="image" src="https://github.com/user-attachments/assets/7c6210e3-5ccb-450d-9068-3b8379d420b7" />
+<img width="756" height="707" alt="image" src="https://github.com/user-attachments/assets/6f4278f3-14c2-4cfa-84b0-03c8385d9c57" />
