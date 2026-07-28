@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}
+{{ znamenitost["ime"] }}
+{% endblock %}
+{% block content %}
+<section>
+    <p>
+        Znamenitost v mestu:
+        {{ znamenitost["mesto"] }},
+        {{ znamenitost["drzava"] }}
+    </p>
+    <h1>{{ znamenitost["ime"] }}</h1>
+    <p>Ocena: {{ znamenitost["ocena"] }}/5</p>
+    <p>Vstopnina: {{ znamenitost["vstopnina"] }}</p>
+    <p>
+        Primerno za otroke:
+        {{ znamenitost["za_otroke"] }}
+    </p>
+    {% if bliznje %}
+        <h2>Bližnje znamenitosti</h2>
+        <ul>
+            {% for bliznja in bliznje %}
+                <li>
+                    <a href="{{ url_for('znamenitost', id=bliznja['id']) }}">
+                        {{ bliznja["ime"] }}
+                    </a>
+                    - {{ bliznja["razdalja_km"] }} km
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <a href="{{ url_for('mesto', id=znamenitost['mesto_id']) }}">
+        Nazaj na mesto
+    </a>
+</section>
+{% endblock %}
