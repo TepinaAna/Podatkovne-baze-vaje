@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}
+{{ dogodek["ime"] }}
+{% endblock %}
+{% block content %}
+<section>
+    <p>
+        Dogodek v mestu:
+        {{ dogodek["mesto"] }},
+        {{ dogodek["drzava"] }}
+    </p>
+    <h1>{{ dogodek["ime"] }}</h1>
+    <p>Datum: {{ dogodek["datum"] }}</p>
+    <p>Stanje: {{ dogodek["stanje"] }}</p>
+    <p>Vstopnina: {{ dogodek["vstopnina"] }}</p>
+    <p>
+        Primerno za otroke:
+        {{ dogodek["za_otroke"] }}
+    </p>
+    <a href="{{ url_for('mesto', id=dogodek['mesto_id']) }}">
+        Nazaj na mesto
+    </a>
+</section>
+{% endblock %}
