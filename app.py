@@ -214,7 +214,56 @@ def aktivnost(id):
         letni_casi=letni_casi,
         celo_leto=len(letni_casi) == 4
     )
-    
+
+@app.route("/znamenitost/<int:id>")
+def znamenitost(id):
+    conn = connect()
+    podatek = conn.execute("""
+        SELECT z.id,
+               z.ime,
+               z.ocena,
+               z.vstopnina,
+               z.za_otroke,
+               m.id AS mesto_id,
+               m.ime AS mesto,
+               d.ime AS drzava
+        FROM znamenitost z
+        JOIN mesto m
+             ON m.id = z.mesto_id
+        JOIN drzava d
+             ON d.id = m.drzava_id
+        WHERE z.id = ?
+    """, (id,)).fetchone()
+    if podatek is None:
+        conn.close()
+        abort(404)
+    bliznje = conn.execute("""
+        SELECT
+            CASE
+                WHEN r.znamenitost1_id = ? THEN z2.id
+                ELSE z1.id
+            END AS id,
+            CASE
+                WHEN r.znamenitost1_id = ? THEN z2.ime
+                ELSE z1.ime
+            END AS ime,
+            r.razdalja_km
+        FROM razdalja r
+        JOIN znamenitost z1
+             ON z1.id = r.znamenitost1_id
+        JOIN znamenitost z2
+             ON z2.id = r.znamenitost2_id
+        WHERE r.znamenitost1_id = ?
+           OR r.znamenitost2_id = ?
+        ORDER BY r.razdalja_km
+    """, (id, id, id, id)).fetchall()
+    conn.close()
+    return render_template(
+        "znamenitost.html",
+        znamenitost=podatek,
+        bliznje=bliznje
+    )
+
 if __name__ == "__main__":
     app.run(debug=True)
 
