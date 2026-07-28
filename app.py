@@ -6,6 +6,7 @@ app = Flask(__name__)
 def connect():
     conn = sqlite3.connect("baza.sqlite")
     conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys = ON")
     return conn
 
 @app.route("/")
@@ -117,7 +118,9 @@ def mesto(id):
 
     razdalje = conn.execute("""
         SELECT r.id,
+               z1.id AS znamenitost1_id,
                z1.ime AS znamenitost1,
+               z2.id AS znamenitost2_id,
                z2.ime AS znamenitost2,
                r.razdalja_km
         FROM razdalja r
@@ -130,6 +133,30 @@ def mesto(id):
         ORDER BY r.razdalja_km, z1.ime, z2.ime
     """, (id, id)).fetchall()
 
+    bliznja_mesta = conn.execute("""
+        SELECT bm.bliznje_mesto_id AS id,
+               m.ime,
+               m.priljubljenost,
+               m.priporoceni_dnevi,
+               bm.razdalja_km,
+               (
+                   SELECT z.ime
+                   FROM znamenitost z
+                   WHERE z.mesto_id = m.id
+                   ORDER BY z.ocena DESC, z.ime
+                   LIMIT 1
+               ) AS top_znamenitost
+        FROM bliznje_mesto bm
+        JOIN mesto m
+             ON m.id = bm.bliznje_mesto_id
+        WHERE bm.mesto_id = ?
+          AND m.drzava_id = ?
+        ORDER BY bm.razdalja_km,
+                 m.priljubljenost DESC,
+                 m.ime
+        LIMIT 5
+    """, (id, mesto_podatki["drzava_id"])).fetchall()
+    
     conn.close()
     
     return render_template(
