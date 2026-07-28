@@ -264,6 +264,34 @@ def znamenitost(id):
         bliznje=bliznje
     )
 
+@app.route("/dogodek/<int:id>")
+def dogodek(id):
+    conn = connect()
+    podatek = conn.execute("""
+        SELECT e.id,
+               e.ime,
+               e.datum,
+               e.stanje,
+               e.vstopnina,
+               e.za_otroke,
+               m.id AS mesto_id,
+               m.ime AS mesto,
+               d.ime AS drzava
+        FROM dogodek e
+        JOIN mesto m
+             ON m.id = e.mesto_id
+        JOIN drzava d
+             ON d.id = m.drzava_id
+        WHERE e.id = ?
+    """, (id,)).fetchone()
+    conn.close()
+    if podatek is None:
+        abort(404)
+    return render_template(
+        "dogodek.html",
+        dogodek=podatek
+    )
+    
 if __name__ == "__main__":
     app.run(debug=True)
 
