@@ -1,5 +1,5 @@
 import sqlite3
-from flask import Flask, render_template, request
+from flask import Flask, abort, render_template, request
 
 app = Flask(__name__)
 
@@ -170,7 +170,51 @@ def mesto(id):
         samo_za_otroke=samo_za_otroke,
         samo_celo_leto=samo_celo_leto
     )
+    
+@app.route("/aktivnost/<int:id>")
+def aktivnost(id):
+    conn = connect()
 
+    podatek = conn.execute("""
+        SELECT a.id,
+               a.ime,
+               a.ocena,
+               a.vstopnina,
+               a.za_otroke,
+               m.id AS mesto_id,
+               m.ime AS mesto,
+               d.ime AS drzava
+        FROM aktivnost a
+        JOIN mesto m
+             ON m.id = a.mesto_id
+        JOIN drzava d
+             ON d.id = m.drzava_id
+        WHERE a.id = ?
+    """, (id,)).fetchone()
+
+    if podatek is None:
+        conn.close()
+        abort(404)
+
+    letni_casi = conn.execute("""
+        SELECT lc.id,
+               lc.ime
+        FROM letni_cas lc
+        JOIN aktivnost_letni_cas alc
+             ON alc.letni_cas_id = lc.id
+        WHERE alc.aktivnost_id = ?
+        ORDER BY lc.id
+    """, (id,)).fetchall()
+
+    conn.close()
+
+    return render_template(
+        "aktivnost.html",
+        aktivnost=podatek,
+        letni_casi=letni_casi,
+        celo_leto=len(letni_casi) == 4
+    )
+    
 if __name__ == "__main__":
     app.run(debug=True)
 
