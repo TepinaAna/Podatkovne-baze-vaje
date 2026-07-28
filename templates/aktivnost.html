@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}
+{{ aktivnost["ime"] }}
+{% endblock %}
+{% block content %}
+<section>
+    <p>
+        Aktivnost v mestu:
+        {{ aktivnost["mesto"] }},
+        {{ aktivnost["drzava"] }}
+    </p>
+    <h1>{{ aktivnost["ime"] }}</h1>
+    <p>Ocena: {{ aktivnost["ocena"] }}/5</p>
+    <p>Vstopnina: {{ aktivnost["vstopnina"] }}</p>
+    <p>
+        Primerno za otroke:
+        {{ aktivnost["za_otroke"] }}
+    </p>
+    <h2>Razpoložljivost</h2>
+    {% if celo_leto %}
+        <p>Aktivnost je na voljo celo leto.</p>
+    {% elif letni_casi %}
+        <ul>
+            {% for letni_cas in letni_casi %}
+                <li>{{ letni_cas["ime"] }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Podatka o letnem času ni.</p>
+    {% endif %}
+    <a href="{{ url_for('mesto', id=aktivnost['mesto_id']) }}">
+        Nazaj na mesto
+    </a>
+</section>
+{% endblock %}
