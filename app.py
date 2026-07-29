@@ -448,6 +448,78 @@ def iskanje():
         za_otroke=za_otroke,
         celo_leto=celo_leto
     )
+
+@app.route("/casovni_pas", methods=["GET", "POST"])
+def casovni_pas():
+    if request.method == "POST":
+        return redirect(
+            url_for(
+                "casovni_pas",
+                pas=request.form.get("pas", "")
+            )
+        )
+    izbran = request.args.get("pas", "")
+    conn = connect()
+    pasi = conn.execute("""
+        SELECT DISTINCT eu
+        FROM drzava
+        WHERE eu IS NOT NULL
+          AND eu <> ''
+        ORDER BY eu
+    """).fetchall()
+    mesta = []
+    if izbran:
+        mesta = conn.execute("""
+            SELECT m.id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   d.ime AS drzava
+            FROM mesto m
+            JOIN drzava d
+                 ON m.drzava_id = d.id
+            WHERE d.eu = ?
+            ORDER BY m.priljubljenost DESC,
+                     m.ime
+        """, (izbran,)).fetchall()
+    predlogi = conn.execute("""
+        SELECT casovni_pas,
+               id,
+               ime,
+               priljubljenost,
+               priporoceni_dnevi,
+               drzava
+        FROM (
+            SELECT d.eu AS casovni_pas,
+                   m.id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   d.ime AS drzava,
+                   ROW_NUMBER() OVER (
+                       PARTITION BY d.eu
+                       ORDER BY
+                           m.priljubljenost DESC,
+                           m.ime
+                   ) AS vrstni_red
+Obisk evropskih mest - navodila | stran 8
+            FROM mesto m
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE d.eu IS NOT NULL
+              AND d.eu <> ''
+        )
+        WHERE vrstni_red = 1
+        ORDER BY casovni_pas
+    """).fetchall()
+    conn.close()
+    return render_template(
+        "casovni_pas.html",
+        pasi=pasi,
+        mesta=mesta,
+        izbran=izbran,
+        predlogi=predlogi
+    )
     
 if __name__ == "__main__":
     app.run(debug=True)
