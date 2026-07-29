@@ -520,6 +520,28 @@ Obisk evropskih mest - navodila | stran 8
         izbran=izbran,
         predlogi=predlogi
     )
+
+@app.route("/top")
+def top():
+    conn = connect()
+    mesta = conn.execute("""
+        SELECT m.id,
+               m.ime,
+               m.priljubljenost,
+               m.priporoceni_dnevi,
+               d.ime AS drzava
+        FROM mesto m
+        JOIN drzava d
+             ON d.id = m.drzava_id
+        ORDER BY m.priljubljenost DESC,
+                 m.ime
+        LIMIT 10
+    """).fetchall()
+    conn.close()
+    return render_template(
+        "top.html",
+        mesta=mesta
+    )
     
 if __name__ == "__main__":
     app.run(debug=True)
