@@ -1,5 +1,5 @@
 import sqlite3
-from flask import Flask, abort, render_template, request
+from flask import Flask, abort, redirect, render_template, request, url_for
 
 app = Flask(__name__)
 
@@ -290,6 +290,55 @@ def dogodek(id):
     return render_template(
         "dogodek.html",
         dogodek=podatek
+    )
+    
+@app.route("/nocitve", methods=["GET", "POST"])
+def nocitve():
+    if request.method == "POST":
+        return redirect(
+            url_for(
+                "nocitve",
+                stevilo=request.form.get("stevilo", "")
+            )
+        )
+    stevilo = request.args.get("stevilo", "")
+    izbrano_stevilo = None
+    if stevilo:
+        try:
+            izbrano_stevilo = int(stevilo)
+        except ValueError:
+            izbrano_stevilo = None
+    conn = connect()
+    moznosti = conn.execute("""
+        SELECT priporoceni_dnevi AS stevilo,
+               COUNT(*) AS st_mest
+        FROM mesto
+        GROUP BY priporoceni_dnevi
+        ORDER BY priporoceni_dnevi
+    """).fetchall()
+    mesta = []
+    if izbrano_stevilo is not None:
+        mesta = conn.execute("""
+            SELECT m.id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   d.ime AS drzava,
+                   d.eu AS casovni_pas
+            FROM mesto m
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE m.priporoceni_dnevi = ?
+            ORDER BY m.priljubljenost DESC,
+                     m.ime
+            LIMIT 200
+        """, (izbrano_stevilo,)).fetchall()
+    conn.close()
+    return render_template(
+        "nocitve.html",
+        moznosti=moznosti,
+        mesta=mesta,
+        izbrano_stevilo=izbrano_stevilo
     )
     
 if __name__ == "__main__":
