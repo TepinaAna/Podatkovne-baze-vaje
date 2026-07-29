@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}
+Nočitve
+{% endblock %}
+{% block content %}
+<section>
+    <h1>Izberi dolžino bivanja</h1>
+    <p>
+        Izberi število nočitev in poišči mesta
+        s podobno priporočeno dolžino obiska.
+    </p>
+    <form method="POST">
+        <label for="stevilo">
+            Število nočitev:
+        </label>
+        <select id="stevilo" name="stevilo" required>
+            <option value="">-- izberi --</option>
+            {% for moznost in moznosti %}
+                <option
+                    value="{{ moznost['stevilo'] }}"
+                    {% if izbrano_stevilo == moznost['stevilo'] %}
+                        selected
+                    {% endif %}
+                >
+                    {{ moznost["stevilo"] }}
+                    {% if moznost["stevilo"] == 1 %}
+                        nočitev
+                    {% elif moznost["stevilo"] == 2 %}
+                        nočitvi
+                    {% else %}
+                        nočitve
+                    {% endif %}
+                </option>
+            {% endfor %}
+        </select>
+        <button type="submit">
+            Prikaži mesta
+        </button>
+        {% if izbrano_stevilo is not none %}
+            <a href="{{ url_for('nocitve') }}">
+                Počisti
+            </a>
+        {% endif %}
+    </form>
+</section>
+{% if izbrano_stevilo is not none %}
+<section>
+    <h2>
+        Predlogi za {{ izbrano_stevilo }}
+        {% if izbrano_stevilo == 1 %}
+            nočitev
+        {% elif izbrano_stevilo == 2 %}
+            nočitvi
+        {% else %}
+            nočitve
+        {% endif %}
+    </h2>
+    {% if mesta %}
+        {% for mesto in mesta %}
+            <article>
+                <h3>
+                    <a href="{{ url_for('mesto', id=mesto['id']) }}">
+                        {{ mesto["ime"] }}
+                    </a>
+                </h3>
+                <p>Država: {{ mesto["drzava"] }}</p>
+                <p>
+                    Priljubljenost:
+                    {{ mesto["priljubljenost"] }}/5
+                </p>
+                <p>
+                    Priporočeno število dni:
+                    {{ mesto["priporoceni_dnevi"] }}
+                </p>
+                <p>
+                    Časovni pas:
+                    {{ mesto["casovni_pas"] }}
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>
+            Za izbrano dolžino bivanja
+            ni najdenih mest.
+        </p>
+    {% endif %}
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% block title %}
+Iskanje aktivnosti
+{% endblock %}
+{% block content %}
+<section>
+    <h1>Najdi aktivnosti</h1>
+    <p>
+        Izberi vrsto aktivnosti in rezultate
+        po potrebi omeji z dodatnimi filtri.
+    </p>
+    <form method="POST">
+        <p>
+            <label for="aktivnost">
+                Aktivnost:
+            </label>
+            <select id="aktivnost" name="aktivnost">
+                <option value="">
+                    Vse aktivnosti
+                </option>
+                {% for aktivnost in vrste_aktivnosti %}
+                    <option
+                        value="{{ aktivnost['ime'] }}"
+                        {% if izbrana_aktivnost == aktivnost['ime'] %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ aktivnost["ime"] }}
+                    </option>
+                {% endfor %}
+            </select>
+        </p>
+        <p>
+            <label for="letni_cas">
+                Letni čas:
+            </label>
+            <select id="letni_cas" name="letni_cas">
+                <option value="">
+                    Vsi letni časi
+                </option>
+                {% for letni_cas in letni_casi %}
+                    <option
+                        value="{{ letni_cas['id'] }}"
+                        {% if izbran_letni_cas|string == letni_cas['id']|string %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ letni_cas["ime"] }}
+                    </option>
+                {% endfor %}
+            </select>
+        </p>
+        <p>
+            <label>
+                <input
+                    type="checkbox"
+                    name="za_otroke"
+                    value="DA"
+                    {% if za_otroke %}checked{% endif %}
+                >
+                Primerno za otroke
+            </label>
+        </p>
+        <p>
+            <label>
+                <input
+                    type="checkbox"
+                    name="celo_leto"
+                    value="DA"
+                    {% if celo_leto %}checked{% endif %}
+                >
+                Na voljo celo leto
+            </label>
+        </p>
+        <button type="submit">Išči</button>
+        <a href="{{ url_for('iskanje') }}">
+            Počisti
+        </a>
+    </form>
+</section>
+<section>
+    <h2>Rezultati</h2>
+    <p>Prikazanih: {{ rezultati|length }}</p>
+    {% if rezultati %}
+        {% for rezultat in rezultati %}
+            <article>
+                <h3>
+                    <a href="{{ url_for(
+                        'aktivnost',
+                        id=rezultat['id']
+                    ) }}">
+                        {{ rezultat["ime"] }}
+                    </a>
+                </h3>
+                <p>
+                    Mesto:
+                    {{ rezultat["mesto"] }},
+                    {{ rezultat["drzava"] }}
+                </p>
+                <p>
+                    Ocena:
+                    {{ rezultat["ocena"] }}/5
+                </p>
+                <p>
+                    Primerno za otroke:
+                    {{ rezultat["za_otroke"] }}
+                </p>
+                <p>
+                    Letni čas:
+                    {% if rezultat["stevilo_letnih_casov"] == 4 %}
+                        celo leto
+                    {% elif rezultat["letni_casi"] %}
+                        {{ rezultat["letni_casi"]|replace(",", ", ") }}
+                    {% else %}
+                        ni podatka
+                    {% endif %}
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>
+            Ni aktivnosti, ki bi ustrezale
+            izbranim pogojem.
+        </p>
+    {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block title %}
+Časovni pasovi
+{% endblock %}
+{% block content %}
+<section>
+    <h1>Filtriranje po časovnem pasu</h1>
+    <p>
+        Izberi časovni pas ali preveri najbolje
+        ocenjeno mesto v posameznem časovnem pasu.
+    </p>
+    <form method="POST">
+        <label for="pas">Časovni pas:</label>
+        <select id="pas" name="pas" required>
+            <option value="">-- izberi --</option>
+            {% for pas in pasi %}
+                <option
+                    value="{{ pas['eu'] }}"
+                    {% if izbran == pas['eu'] %}
+                        selected
+                    {% endif %}
+                >
+                    {{ pas["eu"] }}
+                </option>
+            {% endfor %}
+        </select>
+        <button type="submit">
+            Prikaži mesta
+        </button>
+        {% if izbran %}
+            <a href="{{ url_for('casovni_pas') }}">
+                Počisti
+            </a>
+        {% endif %}
+    </form>
+</section>
+{% if izbran %}
+<section>
+    <h2>{{ izbran }}</h2>
+    <p>
+        Najdenih mest: {{ mesta|length }}.
+        Mesta so razvrščena od najbolje
+        ocenjenega naprej.
+    </p>
+    {% if mesta %}
+        {% for mesto in mesta %}
+            <article>
+                <h3>
+                    <a href="{{ url_for(
+                        'mesto',
+                        id=mesto['id']
+                    ) }}">
+                        {{ mesto["ime"] }}
+                    </a>
+                </h3>
+                <p>Država: {{ mesto["drzava"] }}</p>
+                <p>
+                    Priljubljenost:
+                    {{ mesto["priljubljenost"] }}/5
+                </p>
+                <p>
+                    Priporočeno število dni:
+                    {{ mesto["priporoceni_dnevi"] }}
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>
+            Za izbrani časovni pas ni mest.
+        </p>
+    {% endif %}
+</section>
+{% endif %}
+<section>
+    <h2>
+        Najbolje ocenjeno mesto
+        v vsakem časovnem pasu
+    </h2>
+    <p>
+        Po en predlog za vsak časovni pas,
+        ki je zastopan v podatkovni bazi.
+    </p>
+    {% if predlogi %}
+        {% for predlog in predlogi %}
+            <article>
+                <h3>
+                    <a href="{{ url_for(
+                        'mesto',
+                        id=predlog['id']
+                    ) }}">
+                        {{ predlog["ime"] }}
+                    </a>
+                </h3>
+                <p>
+                    Časovni pas:
+                    {{ predlog["casovni_pas"] }}
+                </p>
+                <p>
+                    Država:
+                    {{ predlog["drzava"] }}
+                </p>
+                <p>
+                    Priljubljenost:
+                    {{ predlog["priljubljenost"] }}/5
+                </p>
+                <p>
+                    Priporočeno število dni:
+                    {{ predlog["priporoceni_dnevi"] }}
+                </p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>Ni podatkov o časovnih pasovih.</p>
+    {% endif %}
+</section>
+{% endblock %}
