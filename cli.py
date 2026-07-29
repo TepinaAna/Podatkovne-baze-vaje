@@ -43,7 +43,7 @@ def izpisi_aktivnosti_v_mestu():
 
 def meni():
     while True:
-        print("\n1 - PrikaÅ¾i mesta")
+        print("\n1 - Prikaži mesta")
         print("2 - Aktivnosti v mestu")
         print("0 - Izhod")
 
