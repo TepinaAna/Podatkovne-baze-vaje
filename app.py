@@ -340,6 +340,114 @@ def nocitve():
         mesta=mesta,
         izbrano_stevilo=izbrano_stevilo
     )
+
+@app.route("/iskanje", methods=["GET", "POST"])
+def iskanje():
+    if request.method == "POST":
+        return redirect(
+            url_for(
+                "iskanje",
+                aktivnost=request.form.get("aktivnost", ""),
+                letni_cas=request.form.get("letni_cas", ""),
+                za_otroke=request.form.get("za_otroke", ""),
+                celo_leto=request.form.get("celo_leto", "")
+            )
+        )
+    izbrana_aktivnost = request.args.get(
+        "aktivnost", ""
+    ).strip()
+    izbran_letni_cas = request.args.get(
+        "letni_cas", ""
+    )
+    za_otroke = request.args.get("za_otroke") == "DA"
+    celo_leto = request.args.get("celo_leto") == "DA"
+    query = """
+        SELECT a.id,
+               a.ime,
+               a.ocena,
+               a.za_otroke,
+               a.vstopnina,
+               m.id AS mesto_id,
+               m.ime AS mesto,
+               d.ime AS drzava,
+               COUNT(
+                   DISTINCT alc.letni_cas_id
+               ) AS stevilo_letnih_casov,
+               GROUP_CONCAT(
+                   DISTINCT lc.ime
+               ) AS letni_casi
+        FROM aktivnost a
+        JOIN mesto m
+             ON m.id = a.mesto_id
+        JOIN drzava d
+             ON d.id = m.drzava_id
+        LEFT JOIN aktivnost_letni_cas alc
+             ON alc.aktivnost_id = a.id
+        LEFT JOIN letni_cas lc
+             ON lc.id = alc.letni_cas_id
+        WHERE 1 = 1
+    """
+    parametri = []
+    if izbrana_aktivnost:
+        query += " AND a.ime LIKE ?"
+        parametri.append(
+            f"{izbrana_aktivnost}%"
+        )
+    if izbran_letni_cas:
+        query += """
+            AND EXISTS (
+                SELECT 1
+                FROM aktivnost_letni_cas alc2
+                WHERE alc2.aktivnost_id = a.id
+                  AND alc2.letni_cas_id = ?
+            )
+        """
+        parametri.append(izbran_letni_cas)
+    if za_otroke:
+        query += " AND a.za_otroke = 'DA'"
+    query += " GROUP BY a.id"
+    if celo_leto:
+        query += """
+            HAVING COUNT(
+                DISTINCT alc.letni_cas_id
+            ) = 4
+        """
+    query += " ORDER BY a.ocena DESC, a.ime LIMIT 200"
+    conn = connect()
+    rezultati = conn.execute(
+        query,
+        parametri
+    ).fetchall()
+    letni_casi = conn.execute("""
+        SELECT id, ime
+        FROM letni_cas
+        ORDER BY id
+    """).fetchall()
+    vrste_aktivnosti = conn.execute("""
+        SELECT DISTINCT
+            CASE
+                WHEN instr(ime, ' – ') > 0
+                THEN substr(
+                    ime,
+                    1,
+                    instr(ime, ' – ') - 1
+                )
+                ELSE ime
+            END AS ime
+        FROM aktivnost
+        ORDER BY ime
+    """).fetchall()
+    conn.close()
+    return render_template(
+        "iskanje.html",
+        rezultati=rezultati,
+        letni_casi=letni_casi,
+        vrste_aktivnosti=vrste_aktivnosti,
+        izbrana_aktivnost=izbrana_aktivnost,
+        izbran_letni_cas=izbran_letni_cas,
+        za_otroke=za_otroke,
+        celo_leto=celo_leto
+    )
     
 if __name__ == "__main__":
     app.run(debug=True)
