@@ -91,7 +91,7 @@
         
         <button type="submit">Uporabi filter</button>
         
-        <a href="{{ url_for("mesto", id=mesto["id"]) }}">
+        <a href="{{ url_for('mesto', id=mesto["id"]) }}">
             Počisti filtre
         </a>
     </form>
@@ -99,7 +99,12 @@
     {% if aktivnosti %}
         {% for aktivnost in aktivnosti %}
             <article>
-                <h3>{{ aktivnost["ime"] }}</h3>
+                
+                <h3>
+                    <a href="{{ url_for('aktivnost', id=aktivnost['id']) }}">
+                        {{ aktivnost["ime"] }}
+                    </a>
+                </h3>
 
                 <p>
                     Ocena: {{ aktivnost["ocena"] }}/5
@@ -138,7 +143,11 @@
     {% if znamenitosti %}
         {% for znamenitost in znamenitosti %}
             <article>
-                <h3>{{ znamenitost["ime"] }}</h3>
+                <h3>
+                    <a href="{{ url_for('znamenitost', id=znamenitost['id']) }}">
+                        {{ znamenitost["ime"] }}
+                    </a>
+                </h3>
                 <p>Ocena: {{ znamenitost["ocena"] }}/5</p>
                 <p>Vstopnina: {{ znamenitost["vstopnina"] }}</p>
                 <p>
@@ -159,9 +168,20 @@
         {% for razdalja in razdalje %}
             <article>
                 <p>
-                    {{ razdalja["znamenitost1"] }}
+                    
+                    <a href="{{ url_for(
+                        'znamenitost',
+                        id=razdalja['znamenitost1_id']
+                    ) }}">
+                        {{ razdalja["znamenitost1"] }}
+                    </a>
                     ->
-                    {{ razdalja["znamenitost2"] }}
+                    <a href="{{ url_for(
+                        'znamenitost',
+                        id=razdalja['znamenitost2_id']
+                    ) }}">
+                        {{ razdalja["znamenitost2"] }}
+                    </a>
                 </p>
                 <p>
                     Razdalja:
@@ -183,7 +203,11 @@
         {% if dogodki %}
             {% for dogodek in dogodki %}
                 <article>
-                    <h3>{{ dogodek["ime"] }}</h3>
+                    <h3>
+                        <a href="{{ url_for('dogodek', id=dogodek['id']) }}">
+                            {{ dogodek["ime"] }}
+                        </a>
+                    </h3>
                     <p>Datum: {{ dogodek["datum"] }}</p>
                     <p>Stanje: {{ dogodek["stanje"] }}</p>
                     <p>Vstopnina: {{ dogodek["vstopnina"] }}</p>
