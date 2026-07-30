@@ -502,7 +502,6 @@ def casovni_pas():
                            m.priljubljenost DESC,
                            m.ime
                    ) AS vrstni_red
-Obisk evropskih mest - navodila | stran 8
             FROM mesto m
             JOIN drzava d
                  ON d.id = m.drzava_id
