@@ -56,7 +56,7 @@ def mesto(id):
  
     if mesto_podatki is None:
         conn.close()
-        return "Mesto ne obstaja.", 404
+        abort(404)
         
     query_aktivnosti = """
         SELECT a.id,
@@ -622,6 +622,9 @@ def oceni(mesto_id):
         ocene=ocene
     )
 
+@app.errorhandler(404)
+def ni_najdeno(_error):
+    return render_template("404.html"), 404
 
 if __name__ == "__main__":
     app.run(debug=True)
