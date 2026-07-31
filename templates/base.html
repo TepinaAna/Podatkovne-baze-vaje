@@ -28,6 +28,15 @@
     </header>
 
     <main>
+        {% with sporocila =
+            get_flashed_messages(with_categories=true)
+        %}
+            {% for kategorija, sporocilo in sporocila %}
+                <div class="flash {{ kategorija }}">
+                    {{ sporocilo }}
+                </div>
+            {% endfor %}
+        {% endwith %}
         {% block content %}{% endblock %}
     </main>
 
