@@ -1,7 +1,8 @@
 import sqlite3
-from flask import Flask, abort, redirect, render_template, request, url_for
+from flask import Flask, abort, flash, redirect, render_template, request, url_for
 
 app = Flask(__name__)
+app.secret_key = "obisk-mest-projekt"
 
 def connect():
     conn = sqlite3.connect("baza.sqlite")
@@ -156,6 +157,14 @@ def mesto(id):
                  m.ime
         LIMIT 5
     """, (id, mesto_podatki["drzava_id"])).fetchall()
+
+    ocena_podatki = conn.execute("""
+        SELECT COUNT(*) AS stevilo_ocen,
+            ROUND(AVG(vrednost), 2) AS povprecje
+        FROM ocena
+        WHERE mesto_id = ?
+    """, (id,)).fetchone()
+
     
     conn.close()
     
@@ -167,6 +176,7 @@ def mesto(id):
         dogodki=dogodki,
         razdalje=razdalje,
         bliznja_mesta=bliznja_mesta,
+        ocena_podatki=ocena_podatki,
         samo_za_otroke=samo_za_otroke,
         samo_celo_leto=samo_celo_leto
     )
@@ -541,7 +551,78 @@ def top():
         "top.html",
         mesta=mesta
     )
-    
+
+@app.route("/oceni/<int:mesto_id>", methods=["GET", "POST"])
+def oceni(mesto_id):
+    conn = connect()
+
+    mesto_podatki = conn.execute("""
+        SELECT m.id,
+               m.ime,
+               d.ime AS drzava
+        FROM mesto m
+        JOIN drzava d
+             ON d.id = m.drzava_id
+        WHERE m.id = ?
+    """, (mesto_id,)).fetchone()
+
+    if mesto_podatki is None:
+        conn.close()
+        abort(404)
+
+    if request.method == "POST":
+        vrednost = request.form.get("vrednost", "")
+
+        try:
+            vrednost = int(vrednost)
+        except ValueError:
+            vrednost = 0
+
+        if vrednost < 1 or vrednost > 5:
+            conn.close()
+
+            flash(
+                "Izberi oceno od 1 do 5.",
+                "napaka"
+            )
+
+            return redirect(
+                url_for("oceni", mesto_id=mesto_id)
+            )
+
+        conn.execute("""
+            INSERT INTO ocena (mesto_id, vrednost)
+            VALUES (?, ?)
+        """, (mesto_id, vrednost))
+
+        conn.commit()
+        conn.close()
+
+        flash(
+            "Ocena je bila uspešno shranjena.",
+            "uspeh"
+        )
+
+        return redirect(
+            url_for("mesto", id=mesto_id)
+        )
+
+    ocene = conn.execute("""
+        SELECT COUNT(*) AS stevilo_ocen,
+               ROUND(AVG(vrednost), 2) AS povprecje
+        FROM ocena
+        WHERE mesto_id = ?
+    """, (mesto_id,)).fetchone()
+
+    conn.close()
+
+    return render_template(
+        "oceni.html",
+        mesto=mesto_podatki,
+        ocene=ocene
+    )
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
