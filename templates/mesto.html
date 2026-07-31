@@ -28,6 +28,26 @@
 </section>
 
 <section>
+    <h2>Ocene uporabnikov</h2>
+    {% if ocena_podatki["stevilo_ocen"] > 0 %}
+        <p>
+            Povprečna uporabniška ocena:
+            {{ ocena_podatki["povprecje"] }}/5
+        </p>
+        <p>
+            Število ocen:
+            {{ ocena_podatki["stevilo_ocen"] }}
+        </p>
+    {% else %}
+        <p>To mesto še nima uporabniških ocen.</p>
+    {% endif %}
+    <a href="{{ url_for('oceni', mesto_id=mesto['id']) }}">
+        Oceni mesto
+    </a>
+</section>
+
+
+<section>
     <h2>Obišči tudi bližnja mesta</h2>
 
     {% if bliznja_mesta %}
