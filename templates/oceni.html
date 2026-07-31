@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}
+Oceni {{ mesto["ime"] }}
+{% endblock %}
+{% block content %}
+<section>
+    <h1>Oceni mesto {{ mesto["ime"] }}</h1>
+    <p>Država: {{ mesto["drzava"] }}</p>
+    {% if ocene["stevilo_ocen"] > 0 %}
+        <p>
+            Trenutno povprečje:
+            {{ ocene["povprecje"] }}/5
+            iz {{ ocene["stevilo_ocen"] }} ocen.
+        </p>
+    {% else %}
+        <p>Mesto še nima uporabniških ocen.</p>
+    {% endif %}
+    <form method="POST">
+        <label for="vrednost">
+            Izberi oceno:
+        </label>
+        <select
+            id="vrednost"
+            name="vrednost"
+            required
+        >
+            <option value="">-- izberi --</option>
+            <option value="1">1 - zelo slabo</option>
+            <option value="2">2 - slabo</option>
+            <option value="3">3 - dobro</option>
+            <option value="4">4 - zelo dobro</option>
+            <option value="5">5 - odlično</option>
+        </select>
+        <button type="submit">
+            Shrani oceno
+        </button>
+    </form>
+    <p>
+        <a href="{{ url_for('mesto', id=mesto['id']) }}">
+            Nazaj na mesto
+        </a>
+    </p>
+</section>
+{% endblock %}
