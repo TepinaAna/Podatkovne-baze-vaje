@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}
+Stran ni najdena
+{% endblock %}
+{% block content %}
+<section class="error-page">
+    <p class="error-code">404</p>
+    <h1>Stran ni najdena</h1>
+    <p>
+        Zahtevana stran ali podatek ne obstaja.
+        Preveri naslov ali se vrni na začetno stran.
+    </p>
+    <a class="button" href="{{ url_for('index') }}">
+        Nazaj na začetno stran
+    </a>
+</section>
+{% endblock %}
