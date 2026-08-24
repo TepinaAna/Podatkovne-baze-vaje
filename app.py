@@ -1,16 +1,10 @@
-import sqlite3
 from flask import Flask, abort, flash, redirect, render_template, request, url_for
-from model import Aktivnost, Dogodek, Mesto, Ocena, Znamenitost
+from model import Aktivnost, Dogodek, Drzava, LetniCas, Mesto, Ocena, Znamenitost
 
 
 app = Flask(__name__)
 app.secret_key = "obisk-mest-projekt"
 
-def connect():
-    conn = sqlite3.connect("baza.sqlite")
-    conn.row_factory = sqlite3.Row
-    conn.execute("PRAGMA foreign_keys = ON")
-    return conn
 
 @app.route("/")
 def index():
@@ -112,39 +106,25 @@ def nocitve():
                 stevilo=request.form.get("stevilo", "")
             )
         )
+
     stevilo = request.args.get("stevilo", "")
     izbrano_stevilo = None
+
     if stevilo:
         try:
             izbrano_stevilo = int(stevilo)
         except ValueError:
             izbrano_stevilo = None
-    conn = connect()
-    moznosti = conn.execute("""
-        SELECT priporoceni_dnevi AS stevilo,
-               COUNT(*) AS st_mest
-        FROM mesto
-        GROUP BY priporoceni_dnevi
-        ORDER BY priporoceni_dnevi
-    """).fetchall()
+
+    moznosti = Mesto.moznosti_nocitev()
+
     mesta = []
+
     if izbrano_stevilo is not None:
-        mesta = conn.execute("""
-            SELECT m.id,
-                   m.ime,
-                   m.priljubljenost,
-                   m.priporoceni_dnevi,
-                   d.ime AS drzava,
-                   d.eu AS casovni_pas
-            FROM mesto m
-            JOIN drzava d
-                 ON d.id = m.drzava_id
-            WHERE m.priporoceni_dnevi = ?
-            ORDER BY m.priljubljenost DESC,
-                     m.ime
-            LIMIT 200
-        """, (izbrano_stevilo,)).fetchall()
-    conn.close()
+        mesta = Mesto.poisci_po_stevilu_dni(
+            izbrano_stevilo
+        )
+
     return render_template(
         "nocitve.html",
         moznosti=moznosti,
@@ -158,97 +138,56 @@ def iskanje():
         return redirect(
             url_for(
                 "iskanje",
-                aktivnost=request.form.get("aktivnost", ""),
-                letni_cas=request.form.get("letni_cas", ""),
-                za_otroke=request.form.get("za_otroke", ""),
-                celo_leto=request.form.get("celo_leto", "")
-            )
-        )
-    izbrana_aktivnost = request.args.get(
-        "aktivnost", ""
-    ).strip()
-    izbran_letni_cas = request.args.get(
-        "letni_cas", ""
-    )
-    za_otroke = request.args.get("za_otroke") == "DA"
-    celo_leto = request.args.get("celo_leto") == "DA"
-    query = """
-        SELECT a.id,
-               a.ime,
-               a.ocena,
-               a.za_otroke,
-               a.vstopnina,
-               m.id AS mesto_id,
-               m.ime AS mesto,
-               d.ime AS drzava,
-               COUNT(
-                   DISTINCT alc.letni_cas_id
-               ) AS stevilo_letnih_casov,
-               GROUP_CONCAT(
-                   DISTINCT lc.ime
-               ) AS letni_casi
-        FROM aktivnost a
-        JOIN mesto m
-             ON m.id = a.mesto_id
-        JOIN drzava d
-             ON d.id = m.drzava_id
-        LEFT JOIN aktivnost_letni_cas alc
-             ON alc.aktivnost_id = a.id
-        LEFT JOIN letni_cas lc
-             ON lc.id = alc.letni_cas_id
-        WHERE 1 = 1
-    """
-    parametri = []
-    if izbrana_aktivnost:
-        query += " AND a.ime LIKE ?"
-        parametri.append(
-            f"{izbrana_aktivnost}%"
-        )
-    if izbran_letni_cas:
-        query += """
-            AND EXISTS (
-                SELECT 1
-                FROM aktivnost_letni_cas alc2
-                WHERE alc2.aktivnost_id = a.id
-                  AND alc2.letni_cas_id = ?
-            )
-        """
-        parametri.append(izbran_letni_cas)
-    if za_otroke:
-        query += " AND a.za_otroke = 'DA'"
-    query += " GROUP BY a.id"
-    if celo_leto:
-        query += """
-            HAVING COUNT(
-                DISTINCT alc.letni_cas_id
-            ) = 4
-        """
-    query += " ORDER BY a.ocena DESC, a.ime LIMIT 200"
-    conn = connect()
-    rezultati = conn.execute(
-        query,
-        parametri
-    ).fetchall()
-    letni_casi = conn.execute("""
-        SELECT id, ime
-        FROM letni_cas
-        ORDER BY id
-    """).fetchall()
-    vrste_aktivnosti = conn.execute("""
-        SELECT DISTINCT
-            CASE
-                WHEN instr(ime, ' – ') > 0
-                THEN substr(
-                    ime,
-                    1,
-                    instr(ime, ' – ') - 1
+                aktivnost=request.form.get(
+                    "aktivnost",
+                    ""
+                ),
+                letni_cas=request.form.get(
+                    "letni_cas",
+                    ""
+                ),
+                za_otroke=request.form.get(
+                    "za_otroke",
+                    ""
+                ),
+                celo_leto=request.form.get(
+                    "celo_leto",
+                    ""
                 )
-                ELSE ime
-            END AS ime
-        FROM aktivnost
-        ORDER BY ime
-    """).fetchall()
-    conn.close()
+            )
+        )
+
+    izbrana_aktivnost = request.args.get(
+        "aktivnost",
+        ""
+    ).strip()
+
+    izbran_letni_cas = request.args.get(
+        "letni_cas",
+        ""
+    )
+
+    za_otroke = (
+        request.args.get("za_otroke") == "DA"
+    )
+
+    celo_leto = (
+        request.args.get("celo_leto") == "DA"
+    )
+
+    rezultati = Aktivnost.isci(
+        izbrana_aktivnost,
+        izbran_letni_cas,
+        za_otroke,
+        celo_leto
+    )
+
+    letni_casi = LetniCas.poisci_vse_za_filter()
+
+    vrste_aktivnosti = (
+        Aktivnost.vrste_aktivnosti()
+    )
+
     return render_template(
         "iskanje.html",
         rezultati=rezultati,
@@ -269,60 +208,22 @@ def casovni_pas():
                 pas=request.form.get("pas", "")
             )
         )
+
     izbran = request.args.get("pas", "")
-    conn = connect()
-    pasi = conn.execute("""
-        SELECT DISTINCT eu
-        FROM drzava
-        WHERE eu IS NOT NULL
-          AND eu <> ''
-        ORDER BY eu
-    """).fetchall()
+
+    pasi = Drzava.casovni_pasovi()
+
     mesta = []
+
     if izbran:
-        mesta = conn.execute("""
-            SELECT m.id,
-                   m.ime,
-                   m.priljubljenost,
-                   m.priporoceni_dnevi,
-                   d.ime AS drzava
-            FROM mesto m
-            JOIN drzava d
-                 ON m.drzava_id = d.id
-            WHERE d.eu = ?
-            ORDER BY m.priljubljenost DESC,
-                     m.ime
-        """, (izbran,)).fetchall()
-    predlogi = conn.execute("""
-        SELECT casovni_pas,
-               id,
-               ime,
-               priljubljenost,
-               priporoceni_dnevi,
-               drzava
-        FROM (
-            SELECT d.eu AS casovni_pas,
-                   m.id,
-                   m.ime,
-                   m.priljubljenost,
-                   m.priporoceni_dnevi,
-                   d.ime AS drzava,
-                   ROW_NUMBER() OVER (
-                       PARTITION BY d.eu
-                       ORDER BY
-                           m.priljubljenost DESC,
-                           m.ime
-                   ) AS vrstni_red
-            FROM mesto m
-            JOIN drzava d
-                 ON d.id = m.drzava_id
-            WHERE d.eu IS NOT NULL
-              AND d.eu <> ''
+        mesta = Mesto.poisci_po_casovnem_pasu(
+            izbran
         )
-        WHERE vrstni_red = 1
-        ORDER BY casovni_pas
-    """).fetchall()
-    conn.close()
+
+    predlogi = (
+        Mesto.predlogi_po_casovnih_pasovih()
+    )
+
     return render_template(
         "casovni_pas.html",
         pasi=pasi,
@@ -340,51 +241,46 @@ def top():
         mesta=mesta
     )
 
-@app.route("/oceni/<int:mesto_id>", methods=["GET", "POST"])
+@app.route(
+    "/oceni/<int:mesto_id>",
+    methods=["GET", "POST"]
+)
 def oceni(mesto_id):
-    conn = connect()
-
-    mesto_podatki = conn.execute("""
-        SELECT m.id,
-               m.ime,
-               d.ime AS drzava
-        FROM mesto m
-        JOIN drzava d
-             ON d.id = m.drzava_id
-        WHERE m.id = ?
-    """, (mesto_id,)).fetchone()
+    mesto_podatki = (
+        Mesto.poisci_za_ocenjevanje(mesto_id)
+    )
 
     if mesto_podatki is None:
-        conn.close()
         abort(404)
 
     if request.method == "POST":
-        vrednost = request.form.get("vrednost", "")
+        vrednost = request.form.get(
+            "vrednost",
+            ""
+        )
 
         try:
             vrednost = int(vrednost)
         except ValueError:
             vrednost = 0
 
-        if vrednost < 1 or vrednost > 5:
-            conn.close()
-
+        try:
+            Ocena.vstavi(
+                mesto_id,
+                vrednost
+            )
+        except ValueError:
             flash(
                 "Izberi oceno od 1 do 5.",
                 "napaka"
             )
 
             return redirect(
-                url_for("oceni", mesto_id=mesto_id)
+                url_for(
+                    "oceni",
+                    mesto_id=mesto_id
+                )
             )
-
-        conn.execute("""
-            INSERT INTO ocena (mesto_id, vrednost)
-            VALUES (?, ?)
-        """, (mesto_id, vrednost))
-
-        conn.commit()
-        conn.close()
 
         flash(
             "Ocena je bila uspešno shranjena.",
@@ -392,17 +288,15 @@ def oceni(mesto_id):
         )
 
         return redirect(
-            url_for("mesto", id=mesto_id)
+            url_for(
+                "mesto",
+                id=mesto_id
+            )
         )
 
-    ocene = conn.execute("""
-        SELECT COUNT(*) AS stevilo_ocen,
-               ROUND(AVG(vrednost), 2) AS povprecje
-        FROM ocena
-        WHERE mesto_id = ?
-    """, (mesto_id,)).fetchone()
-
-    conn.close()
+    ocene = Ocena.statistika_za_mesto(
+        mesto_id
+    )
 
     return render_template(
         "oceni.html",
