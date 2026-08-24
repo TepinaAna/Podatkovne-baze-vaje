@@ -56,6 +56,20 @@ class Drzava:
             vrstica["eu"]
         )
 
+    @staticmethod
+    def poisci_vse_za_filter():
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT id, ime
+            FROM letni_cas
+            ORDER BY id
+        """).fetchall()
+
+        conn.close()
+
+        return vrstice
+
 
 class Mesto:
     def __init__(
@@ -371,6 +385,84 @@ class Mesto:
     def poisci_drzavo(self):
         return Drzava.poisci_po_id(self.drzava_id)
 
+    @staticmethod
+    def poisci_po_casovnem_pasu(pas):
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT m.id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   d.ime AS drzava
+            FROM mesto m
+            JOIN drzava d
+                 ON m.drzava_id = d.id
+            WHERE d.eu = ?
+            ORDER BY m.priljubljenost DESC,
+                     m.ime
+        """, (pas,)).fetchall()
+
+        conn.close()
+
+        return vrstice
+
+    @staticmethod
+    def predlogi_po_casovnih_pasovih():
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT casovni_pas,
+                   id,
+                   ime,
+                   priljubljenost,
+                   priporoceni_dnevi,
+                   drzava
+            FROM (
+                SELECT d.eu AS casovni_pas,
+                       m.id,
+                       m.ime,
+                       m.priljubljenost,
+                       m.priporoceni_dnevi,
+                       d.ime AS drzava,
+                       ROW_NUMBER() OVER (
+                           PARTITION BY d.eu
+                           ORDER BY
+                               m.priljubljenost DESC,
+                               m.ime
+                       ) AS vrstni_red
+                FROM mesto m
+                JOIN drzava d
+                     ON d.id = m.drzava_id
+                WHERE d.eu IS NOT NULL
+                  AND d.eu <> ''
+            )
+            WHERE vrstni_red = 1
+            ORDER BY casovni_pas
+        """).fetchall()
+
+        conn.close()
+
+        return vrstice
+
+    @staticmethod
+    def poisci_za_ocenjevanje(mesto_id):
+        conn = connect()
+
+        vrstica = conn.execute("""
+            SELECT m.id,
+                   m.ime,
+                   d.ime AS drzava
+            FROM mesto m
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE m.id = ?
+        """, (mesto_id,)).fetchone()
+
+        conn.close()
+
+        return vrstica
+
 
 class MestoKoordinate:
     def __init__(
@@ -588,6 +680,117 @@ class Aktivnost:
             for vrstica in vrstice
         ]
 
+    @staticmethod
+    def isci(
+        ime="",
+        letni_cas="",
+        za_otroke=False,
+        celo_leto=False
+    ):
+        conn = connect()
+
+        query = """
+            SELECT a.id,
+                   a.ime,
+                   a.ocena,
+                   a.za_otroke,
+                   a.vstopnina,
+                   m.id AS mesto_id,
+                   m.ime AS mesto,
+                   d.ime AS drzava,
+                   COUNT(
+                       DISTINCT alc.letni_cas_id
+                   ) AS stevilo_letnih_casov,
+                   GROUP_CONCAT(
+                       DISTINCT lc.ime
+                   ) AS letni_casi
+            FROM aktivnost a
+            JOIN mesto m
+                 ON m.id = a.mesto_id
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            LEFT JOIN aktivnost_letni_cas alc
+                 ON alc.aktivnost_id = a.id
+            LEFT JOIN letni_cas lc
+                 ON lc.id = alc.letni_cas_id
+            WHERE 1 = 1
+        """
+
+        parametri = []
+
+        if ime:
+            query += """
+                AND LOWER(a.ime) LIKE LOWER(?)
+            """
+            parametri.append(
+                f"%{ime}%"
+            )
+
+        if letni_cas:
+            query += """
+                AND EXISTS (
+                    SELECT 1
+                    FROM aktivnost_letni_cas alc2
+                    WHERE alc2.aktivnost_id = a.id
+                      AND alc2.letni_cas_id = ?
+                )
+            """
+            parametri.append(letni_cas)
+
+        if za_otroke:
+            query += """
+                AND a.za_otroke = 'DA'
+            """
+
+        query += """
+            GROUP BY a.id
+        """
+
+        if celo_leto:
+            query += """
+                HAVING COUNT(
+                    DISTINCT alc.letni_cas_id
+                ) = 4
+            """
+
+        query += """
+            ORDER BY a.ocena DESC,
+                     a.ime
+            LIMIT 200
+        """
+
+        vrstice = conn.execute(
+            query,
+            parametri
+        ).fetchall()
+
+        conn.close()
+
+        return vrstice
+
+    @staticmethod
+    def vrste_aktivnosti():
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT DISTINCT
+                CASE
+                    WHEN instr(ime, ' – ') > 0
+                    THEN substr(
+                        ime,
+                        1,
+                        instr(ime, ' – ') - 1
+                    )
+                    ELSE ime
+                END AS ime
+            FROM aktivnost
+            ORDER BY ime
+        """).fetchall()
+
+        conn.close()
+
+        return vrstice
+        
 
 class LetniCas:
     def __init__(self, id, ime):
@@ -613,6 +816,20 @@ class LetniCas:
             )
             for vrstica in vrstice
         ]
+
+    @staticmethod
+    def poisci_vse_za_filter():
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT id, ime
+            FROM letni_cas
+            ORDER BY id
+        """).fetchall()
+
+        conn.close()
+
+        return vrstice
 
 
 class AktivnostLetniCas:
