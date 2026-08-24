@@ -9,17 +9,19 @@ def connect():
 
 
 class Drzava:
-    def __init__(self, id, ime, eu):
+    def __init__(self,id,ime,casovni_pas,kontinent):
         self.id = id
         self.ime = ime
-        self.eu = eu
+        self.casovni_pas = casovni_pas
+        self.kontinent = kontinent
+
 
     @staticmethod
     def poisci_vse():
         conn = connect()
 
         vrstice = conn.execute("""
-            SELECT id, ime, eu
+            SELECT id, ime, casovni_pas
             FROM drzava
             ORDER BY ime
         """).fetchall()
@@ -30,7 +32,7 @@ class Drzava:
             Drzava(
                 vrstica["id"],
                 vrstica["ime"],
-                vrstica["eu"]
+                vrstica["casovni_pas"]
             )
             for vrstica in vrstice
         ]
@@ -40,7 +42,7 @@ class Drzava:
         conn = connect()
 
         vrstica = conn.execute("""
-            SELECT id, ime, eu
+            SELECT id, ime, casovni_pas
             FROM drzava
             WHERE id = ?
         """, (id,)).fetchone()
@@ -53,7 +55,7 @@ class Drzava:
         return Drzava(
             vrstica["id"],
             vrstica["ime"],
-            vrstica["eu"]
+            vrstica["casovni_pas"]
         )
 
     @staticmethod
@@ -61,16 +63,33 @@ class Drzava:
         conn = connect()
 
         vrstice = conn.execute("""
-            SELECT DISTINCT eu
+            SELECT DISTINCT casovni_pas
             FROM drzava
-            WHERE eu IS NOT NULL
-              AND eu <> ''
-            ORDER BY eu
+            WHERE casovni_pas IS NOT NULL
+              AND casovni_pas <> ''
+            ORDER BY casovni_pas
         """).fetchall()
 
         conn.close()
 
         return vrstice
+    
+    @staticmethod
+    def kontinenti():
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT DISTINCT kontinent
+            FROM drzava
+            WHERE kontinent IS NOT NULL
+                AND kontinent <> ''
+            ORDER BY kontinent
+        """).fetchall()
+
+        conn.close()
+
+        return vrstice
+
 
 
 class Mesto:
@@ -185,7 +204,7 @@ class Mesto:
                    m.priporoceni_dnevi,
                    m.drzava_id,
                    d.ime AS drzava,
-                   d.eu AS casovni_pas
+                   d.casovni_pas AS casovni_pas
             FROM mesto m
             JOIN drzava d
                  ON d.id = m.drzava_id
@@ -220,7 +239,7 @@ class Mesto:
                    m.priporoceni_dnevi,
                    m.drzava_id,
                    d.ime AS drzava,
-                   d.eu AS casovni_pas
+                   d.casovni_pas AS casovni_pas
             FROM mesto m
             JOIN drzava d
                  ON d.id = m.drzava_id
@@ -411,7 +430,7 @@ class Mesto:
                    m.priporoceni_dnevi,
                    m.drzava_id,
                    d.ime AS drzava,
-                   d.eu AS casovni_pas
+                   d.casovni_pas AS casovni_pas
             FROM mesto m
             JOIN drzava d
                  ON d.id = m.drzava_id
@@ -449,7 +468,7 @@ class Mesto:
             FROM mesto m
             JOIN drzava d
                  ON m.drzava_id = d.id
-            WHERE d.eu = ?
+            WHERE d.casovni_pas = ?
             ORDER BY m.priljubljenost DESC,
                      m.ime
         """, (pas,)).fetchall()
@@ -470,14 +489,14 @@ class Mesto:
                    priporoceni_dnevi,
                    drzava
             FROM (
-                SELECT d.eu AS casovni_pas,
+                SELECT d.casovni_pas AS casovni_pas,
                        m.id,
                        m.ime,
                        m.priljubljenost,
                        m.priporoceni_dnevi,
                        d.ime AS drzava,
                        ROW_NUMBER() OVER (
-                           PARTITION BY d.eu
+                           PARTITION BY d.casovni_pas
                            ORDER BY
                                m.priljubljenost DESC,
                                m.ime
@@ -485,8 +504,8 @@ class Mesto:
                 FROM mesto m
                 JOIN drzava d
                      ON d.id = m.drzava_id
-                WHERE d.eu IS NOT NULL
-                  AND d.eu <> ''
+                WHERE d.casovni_pas IS NOT NULL
+                  AND d.casovni_pas <> ''
             )
             WHERE vrstni_red = 1
             ORDER BY casovni_pas
@@ -517,46 +536,30 @@ class Mesto:
     def poisci_drzavo(self):
         return Drzava.poisci_po_id(self.drzava_id)
 
-
-
-class MestoKoordinate:
-    def __init__(
-        self,
-        mesto_id,
-        latitude,
-        longitude,
-        vir
-    ):
-        self.mesto_id = mesto_id
-        self.latitude = latitude
-        self.longitude = longitude
-        self.vir = vir
-
+    
     @staticmethod
-    def poisci_po_mestu(mesto_id):
+    def poisci_po_kontinentu(kontinent):
         conn = connect()
 
-        vrstica = conn.execute("""
-            SELECT mesto_id,
-                   latitude,
-                   longitude,
-                   vir
-            FROM mesto_koordinate
-            WHERE mesto_id = ?
-        """, (mesto_id,)).fetchone()
+        vrstice = conn.execute("""
+            SELECT m.id,
+                m.ime,
+                m.priljubljenost,
+                m.priporoceni_dnevi,
+                d.ime AS drzava,
+                d.casovni_pas
+            FROM mesto m
+            JOIN drzava d
+                ON d.id = m.drzava_id
+            WHERE d.kontinent = ?
+            ORDER BY m.priljubljenost DESC,
+                    m.ime
+        """, (kontinent,)).fetchall()
 
         conn.close()
 
-        if vrstica is None:
-            return None
-
-        return MestoKoordinate(
-            vrstica["mesto_id"],
-            vrstica["latitude"],
-            vrstica["longitude"],
-            vrstica["vir"]
-        )
-
+        return vrstice
+    
 
 class BliznjeMesto:
     def __init__(

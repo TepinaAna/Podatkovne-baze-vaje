@@ -8,7 +8,8 @@ def ustvari_drzava(conn):
         CREATE TABLE drzava(
             id TEXT PRIMARY KEY,
             ime TEXT NOT NULL,
-            eu TEXT
+            casovni_pas TEXT,
+            kontinent TEXT 
         );
     """)
 
@@ -24,17 +25,6 @@ def ustvari_mesto(conn):
             priporoceni_dnevi INTEGER,
             drzava_id TEXT NOT NULL,
             FOREIGN KEY (drzava_id) REFERENCES drzava(id)
-        );
-    """)
-    
-def ustvari_mesto_koordinate(conn):
-    conn.execute("""
-        CREATE TABLE mesto_koordinate(
-            mesto_id INTEGER PRIMARY KEY,
-            latitude REAL NOT NULL CHECK (latitude BETWEEN -90 AND 90),
-            longitude REAL NOT NULL CHECK (longitude BETWEEN -180 AND 180),
-            vir TEXT,
-            FOREIGN KEY (mesto_id) REFERENCES mesto(id)
         );
     """)
     
@@ -133,7 +123,7 @@ def ustvari_ocena(conn):
     conn.execute("""
         CREATE TABLE ocena(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            mesto_id INTEGER,
+            mesto_id INTEGER NOT NULL,
             vrednost INTEGER CHECK (vrednost BETWEEN 1 AND 5),
             FOREIGN KEY (mesto_id) REFERENCES mesto(id)
         );
@@ -144,7 +134,6 @@ if __name__ == "__main__":
     conn = sqlite3.connect("baza.sqlite")
     ustvari_drzava(conn)
     ustvari_mesto(conn)
-    ustvari_mesto_koordinate(conn)
     ustvari_bliznje_mesto(conn)
     ustvari_letnicas(conn)
     ustvari_znamenitost(conn)

@@ -37,7 +37,6 @@ try:
     # Vrstni red je pomemben zaradi tujih ključev.
     uvozi("drzava.csv", "drzava")
     uvozi("mesto.csv", "mesto")
-    uvozi("mesto_koordinate.csv", "mesto_koordinate")
     uvozi("bliznje_mesto.csv", "bliznje_mesto")
     uvozi("letni_cas.csv", "letni_cas")
     uvozi("znamenitosti.csv", "znamenitost")
