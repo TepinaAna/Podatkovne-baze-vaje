@@ -1,5 +1,7 @@
 import sqlite3
 from flask import Flask, abort, flash, redirect, render_template, request, url_for
+from model import Mesto
+
 
 app = Flask(__name__)
 app.secret_key = "obisk-mest-projekt"
@@ -12,22 +14,7 @@ def connect():
 
 @app.route("/")
 def index():
-    conn = connect()
-
-    mesta = conn.execute("""
-        SELECT m.id,
-               m.ime,
-               m.priljubljenost,
-               m.priporoceni_dnevi,
-               d.id AS drzava_id,
-               d.ime AS drzava
-        FROM mesto m
-        JOIN drzava d ON d.id = m.drzava_id
-        ORDER BY m.priljubljenost DESC, m.ime
-        LIMIT 12
-    """).fetchall()
-
-    conn.close()
+    mesta = Mesto.top_mesta(12)
 
     return render_template(
         "index.html",
@@ -181,7 +168,7 @@ def mesto(id):
         samo_celo_leto=samo_celo_leto
     )
     
-@app.route("/aktivnost/<int:id>")
+@app.("/aktivnost/<int:id>")
 def aktivnost(id):
     conn = connect()
 
@@ -225,7 +212,7 @@ def aktivnost(id):
         celo_leto=len(letni_casi) == 4
     )
 
-@app.route("/znamenitost/<int:id>")
+@app.("/znamenitost/<int:id>")
 def znamenitost(id):
     conn = connect()
     podatek = conn.execute("""
@@ -274,7 +261,7 @@ def znamenitost(id):
         bliznje=bliznje
     )
 
-@app.route("/dogodek/<int:id>")
+@app.("/dogodek/<int:id>")
 def dogodek(id):
     conn = connect()
     podatek = conn.execute("""
@@ -302,7 +289,7 @@ def dogodek(id):
         dogodek=podatek
     )
     
-@app.route("/nocitve", methods=["GET", "POST"])
+@app.("/nocitve", methods=["GET", "POST"])
 def nocitve():
     if request.method == "POST":
         return redirect(
@@ -351,7 +338,7 @@ def nocitve():
         izbrano_stevilo=izbrano_stevilo
     )
 
-@app.route("/iskanje", methods=["GET", "POST"])
+@app.("/iskanje", methods=["GET", "POST"])
 def iskanje():
     if request.method == "POST":
         return redirect(
@@ -459,7 +446,7 @@ def iskanje():
         celo_leto=celo_leto
     )
 
-@app.route("/casovni_pas", methods=["GET", "POST"])
+@app.("/casovni_pas", methods=["GET", "POST"])
 def casovni_pas():
     if request.method == "POST":
         return redirect(
@@ -532,21 +519,8 @@ def casovni_pas():
 
 @app.route("/top")
 def top():
-    conn = connect()
-    mesta = conn.execute("""
-        SELECT m.id,
-               m.ime,
-               m.priljubljenost,
-               m.priporoceni_dnevi,
-               d.ime AS drzava
-        FROM mesto m
-        JOIN drzava d
-             ON d.id = m.drzava_id
-        ORDER BY m.priljubljenost DESC,
-                 m.ime
-        LIMIT 10
-    """).fetchall()
-    conn.close()
+    mesta = Mesto.top_mesta(10)
+
     return render_template(
         "top.html",
         mesta=mesta
