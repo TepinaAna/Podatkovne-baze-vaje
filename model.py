@@ -281,7 +281,9 @@ class Aktivnost:
         ocena,
         vstopnina,
         za_otroke,
-        mesto_id
+        mesto_id,
+        mesto=None,
+        drzava=None
     ):
         self.id = id
         self.ime = ime
@@ -289,6 +291,8 @@ class Aktivnost:
         self.vstopnina = vstopnina
         self.za_otroke = za_otroke
         self.mesto_id = mesto_id
+        self.mesto = mesto
+        self.drzava = drzava
 
     @staticmethod
     def poisci_po_id(id):
@@ -318,6 +322,43 @@ class Aktivnost:
             vrstica["za_otroke"],
             vrstica["mesto_id"]
         )
+        
+    @staticmethod
+    def poisci_podrobnosti(id):
+        conn = connect()
+    
+        vrstica = conn.execute("""
+            SELECT a.id,
+                   a.ime,
+                   a.ocena,
+                   a.vstopnina,
+                   a.za_otroke,
+                   a.mesto_id,
+                   m.ime AS mesto,
+                   d.ime AS drzava
+            FROM aktivnost a
+            JOIN mesto m
+                 ON m.id = a.mesto_id
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE a.id = ?
+        """, (id,)).fetchone()
+    
+        conn.close()
+    
+        if vrstica is None:
+            return None
+    
+        return Aktivnost(
+            vrstica["id"],
+            vrstica["ime"],
+            vrstica["ocena"],
+            vrstica["vstopnina"],
+            vrstica["za_otroke"],
+            vrstica["mesto_id"],
+            vrstica["mesto"],
+            vrstica["drzava"]
+        )
 
     @staticmethod
     def poisci_po_mestu(mesto_id):
@@ -345,6 +386,29 @@ class Aktivnost:
                 vrstica["vstopnina"],
                 vrstica["za_otroke"],
                 vrstica["mesto_id"]
+            )
+            for vrstica in vrstice
+        ]
+        
+    def letni_casi(self):
+        conn = connect()
+    
+        vrstice = conn.execute("""
+            SELECT lc.id,
+                   lc.ime
+            FROM letni_cas lc
+            JOIN aktivnost_letni_cas alc
+                 ON alc.letni_cas_id = lc.id
+            WHERE alc.aktivnost_id = ?
+            ORDER BY lc.id
+        """, (self.id,)).fetchall()
+    
+        conn.close()
+    
+        return [
+            LetniCas(
+                vrstica["id"],
+                vrstica["ime"]
             )
             for vrstica in vrstice
         ]
@@ -416,7 +480,9 @@ class Znamenitost:
         ocena,
         vstopnina,
         za_otroke,
-        mesto_id
+        mesto_id,
+        mesto=None,
+        drzava=None
     ):
         self.id = id
         self.ime = ime
@@ -424,6 +490,8 @@ class Znamenitost:
         self.vstopnina = vstopnina
         self.za_otroke = za_otroke
         self.mesto_id = mesto_id
+        self.mesto = mesto
+        self.drzava = drzava
 
     @staticmethod
     def poisci_po_id(id):
@@ -483,6 +551,78 @@ class Znamenitost:
             )
             for vrstica in vrstice
         ]
+        
+    @staticmethod
+    def poisci_podrobnosti(id):
+        conn = connect()
+        
+        vrstica = conn.execute("""
+            SELECT z.id,
+                   z.ime,
+                   z.ocena,
+                   z.vstopnina,
+                   z.za_otroke,
+                   z.mesto_id,
+                   m.ime AS mesto,
+                   d.ime AS drzava
+            FROM znamenitost z
+            JOIN mesto m
+                 ON m.id = z.mesto_id
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE z.id = ?
+        """, (id,)).fetchone()
+    
+        conn.close()
+
+        if vrstica is None:
+            return None
+
+        return Znamenitost(
+            vrstica["id"],
+            vrstica["ime"],
+            vrstica["ocena"],
+            vrstica["vstopnina"],
+            vrstica["za_otroke"],
+            vrstica["mesto_id"],
+            vrstica["mesto"],
+            vrstica["drzava"]
+        )
+        
+    def poisci_bliznje(self):
+        conn = connect()
+    
+        vrstice = conn.execute("""
+            SELECT
+                CASE
+                    WHEN r.znamenitost1_id = ?
+                    THEN z2.id
+                    ELSE z1.id
+                END AS id,
+                CASE
+                    WHEN r.znamenitost1_id = ?
+                    THEN z2.ime
+                    ELSE z1.ime
+                END AS ime,
+                r.razdalja_km
+            FROM razdalja r
+            JOIN znamenitost z1
+                 ON z1.id = r.znamenitost1_id
+            JOIN znamenitost z2
+                 ON z2.id = r.znamenitost2_id
+            WHERE r.znamenitost1_id = ?
+               OR r.znamenitost2_id = ?
+            ORDER BY r.razdalja_km
+        """, (
+            self.id,
+            self.id,
+            self.id,
+            self.id
+        )).fetchall()
+    
+        conn.close()
+    
+        return vrstice
 
 
 class Dogodek:
@@ -494,7 +634,9 @@ class Dogodek:
         stanje,
         vstopnina,
         za_otroke,
-        mesto_id
+        mesto_id,
+        mesto=None,
+        drzava=None
     ):
         self.id = id
         self.ime = ime
@@ -503,6 +645,8 @@ class Dogodek:
         self.vstopnina = vstopnina
         self.za_otroke = za_otroke
         self.mesto_id = mesto_id
+        self.mesto = mesto
+        self.drzava = drzava
 
     @staticmethod
     def poisci_po_id(id):
@@ -534,7 +678,45 @@ class Dogodek:
             vrstica["za_otroke"],
             vrstica["mesto_id"]
         )
-
+    @staticmethod
+    def poisci_podrobnosti(id):
+        conn = connect()
+    
+        vrstica = conn.execute("""
+            SELECT e.id,
+                   e.ime,
+                   e.datum,
+                   e.stanje,
+                   e.vstopnina,
+                   e.za_otroke,
+                   e.mesto_id,
+                   m.ime AS mesto,
+                   d.ime AS drzava
+            FROM dogodek e
+            JOIN mesto m
+                 ON m.id = e.mesto_id
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE e.id = ?
+        """, (id,)).fetchone()
+    
+        conn.close()
+    
+        if vrstica is None:
+            return None
+    
+        return Dogodek(
+            vrstica["id"],
+            vrstica["ime"],
+            vrstica["datum"],
+            vrstica["stanje"],
+            vrstica["vstopnina"],
+            vrstica["za_otroke"],
+            vrstica["mesto_id"],
+            vrstica["mesto"],
+            vrstica["drzava"]
+        )
+    
     @staticmethod
     def poisci_po_mestu(mesto_id):
         conn = connect()
