@@ -193,7 +193,7 @@ class Mesto:
             for vrstica in vrstice
         ]
 
-    def drzava(self):
+    def poisci_drzavo(self):
         return Drzava.poisci_po_id(self.drzava_id)
 
 
