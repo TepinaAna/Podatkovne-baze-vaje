@@ -57,13 +57,15 @@ class Drzava:
         )
 
     @staticmethod
-    def poisci_vse_za_filter():
+    def casovni_pasovi():
         conn = connect()
 
         vrstice = conn.execute("""
-            SELECT id, ime
-            FROM letni_cas
-            ORDER BY id
+            SELECT DISTINCT eu
+            FROM drzava
+            WHERE eu IS NOT NULL
+              AND eu <> ''
+            ORDER BY eu
         """).fetchall()
 
         conn.close()
@@ -381,10 +383,59 @@ class Mesto:
         conn.close()
 
         return vrstice
-    
-    def poisci_drzavo(self):
-        return Drzava.poisci_po_id(self.drzava_id)
+        
+    @staticmethod
+    def moznosti_nocitev():
+        conn = connect()
 
+        vrstice = conn.execute("""
+            SELECT priporoceni_dnevi AS stevilo,
+                   COUNT(*) AS st_mest
+            FROM mesto
+            GROUP BY priporoceni_dnevi
+            ORDER BY priporoceni_dnevi
+        """).fetchall()
+
+        conn.close()
+
+        return vrstice
+
+    @staticmethod
+    def poisci_po_stevilu_dni(stevilo):
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT m.id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   m.drzava_id,
+                   d.ime AS drzava,
+                   d.eu AS casovni_pas
+            FROM mesto m
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE m.priporoceni_dnevi = ?
+            ORDER BY m.priljubljenost DESC,
+                     m.ime
+            LIMIT 200
+        """, (stevilo,)).fetchall()
+
+        conn.close()
+
+        return [
+            Mesto(
+                vrstica["id"],
+                vrstica["ime"],
+                vrstica["priljubljenost"],
+                vrstica["priporoceni_dnevi"],
+                vrstica["drzava_id"],
+                vrstica["drzava"],
+                vrstica["casovni_pas"]
+            )
+            for vrstica in vrstice
+        ]
+        
     @staticmethod
     def poisci_po_casovnem_pasu(pas):
         conn = connect()
@@ -462,6 +513,10 @@ class Mesto:
         conn.close()
 
         return vrstica
+    
+    def poisci_drzavo(self):
+        return Drzava.poisci_po_id(self.drzava_id)
+
 
 
 class MestoKoordinate:
@@ -628,59 +683,6 @@ class Aktivnost:
         )
 
     @staticmethod
-    def poisci_po_mestu(mesto_id):
-        conn = connect()
-
-        vrstice = conn.execute("""
-            SELECT id,
-                   ime,
-                   ocena,
-                   vstopnina,
-                   za_otroke,
-                   mesto_id
-            FROM aktivnost
-            WHERE mesto_id = ?
-            ORDER BY ocena DESC, ime
-        """, (mesto_id,)).fetchall()
-
-        conn.close()
-
-        return [
-            Aktivnost(
-                vrstica["id"],
-                vrstica["ime"],
-                vrstica["ocena"],
-                vrstica["vstopnina"],
-                vrstica["za_otroke"],
-                vrstica["mesto_id"]
-            )
-            for vrstica in vrstice
-        ]
-        
-    def letni_casi(self):
-        conn = connect()
-    
-        vrstice = conn.execute("""
-            SELECT lc.id,
-                   lc.ime
-            FROM letni_cas lc
-            JOIN aktivnost_letni_cas alc
-                 ON alc.letni_cas_id = lc.id
-            WHERE alc.aktivnost_id = ?
-            ORDER BY lc.id
-        """, (self.id,)).fetchall()
-    
-        conn.close()
-    
-        return [
-            LetniCas(
-                vrstica["id"],
-                vrstica["ime"]
-            )
-            for vrstica in vrstice
-        ]
-
-    @staticmethod
     def isci(
         ime="",
         letni_cas="",
@@ -792,6 +794,60 @@ class Aktivnost:
         return vrstice
         
 
+    @staticmethod
+    def poisci_po_mestu(mesto_id):
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT id,
+                   ime,
+                   ocena,
+                   vstopnina,
+                   za_otroke,
+                   mesto_id
+            FROM aktivnost
+            WHERE mesto_id = ?
+            ORDER BY ocena DESC, ime
+        """, (mesto_id,)).fetchall()
+
+        conn.close()
+
+        return [
+            Aktivnost(
+                vrstica["id"],
+                vrstica["ime"],
+                vrstica["ocena"],
+                vrstica["vstopnina"],
+                vrstica["za_otroke"],
+                vrstica["mesto_id"]
+            )
+            for vrstica in vrstice
+        ]
+        
+    def letni_casi(self):
+        conn = connect()
+    
+        vrstice = conn.execute("""
+            SELECT lc.id,
+                   lc.ime
+            FROM letni_cas lc
+            JOIN aktivnost_letni_cas alc
+                 ON alc.letni_cas_id = lc.id
+            WHERE alc.aktivnost_id = ?
+            ORDER BY lc.id
+        """, (self.id,)).fetchall()
+    
+        conn.close()
+    
+        return [
+            LetniCas(
+                vrstica["id"],
+                vrstica["ime"]
+            )
+            for vrstica in vrstice
+        ]
+
+    
 class LetniCas:
     def __init__(self, id, ime):
         self.id = id
@@ -1070,6 +1126,7 @@ class Dogodek:
             vrstica["za_otroke"],
             vrstica["mesto_id"]
         )
+        
     @staticmethod
     def poisci_podrobnosti(id):
         conn = connect()
