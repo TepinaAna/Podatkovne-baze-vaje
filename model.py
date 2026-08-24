@@ -64,13 +64,17 @@ class Mesto:
         ime,
         priljubljenost,
         priporoceni_dnevi,
-        drzava_id
+        drzava_id,
+        drzava=None,
+        casovni_pas=None
     ):
         self.id = id
         self.ime = ime
         self.priljubljenost = priljubljenost
         self.priporoceni_dnevi = priporoceni_dnevi
         self.drzava_id = drzava_id
+        self.drzava = drzava
+        self.casovni_pas = casovni_pas
 
     @staticmethod
     def poisci_vse():
@@ -157,27 +161,34 @@ class Mesto:
     @staticmethod
     def top_mesta(stevilo=10):
         conn = connect()
-
+    
         vrstice = conn.execute("""
-            SELECT id,
-                   ime,
-                   priljubljenost,
-                   priporoceni_dnevi,
-                   drzava_id
-            FROM mesto
-            ORDER BY priljubljenost DESC, ime
+            SELECT m.id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   m.drzava_id,
+                   d.ime AS drzava,
+                   d.eu AS casovni_pas
+            FROM mesto m
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            ORDER BY m.priljubljenost DESC,
+                     m.ime
             LIMIT ?
         """, (stevilo,)).fetchall()
-
+    
         conn.close()
-
+    
         return [
             Mesto(
                 vrstica["id"],
                 vrstica["ime"],
                 vrstica["priljubljenost"],
                 vrstica["priporoceni_dnevi"],
-                vrstica["drzava_id"]
+                vrstica["drzava_id"],
+                vrstica["drzava"],
+                vrstica["casovni_pas"]
             )
             for vrstica in vrstice
         ]
