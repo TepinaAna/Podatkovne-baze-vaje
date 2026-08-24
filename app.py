@@ -21,7 +21,7 @@ def index():
         mesta=mesta
     )
 
-route("/mesto/<int:id>")
+@app.route("/mesto/<int:id>")
 def mesto(id):
     samo_za_otroke = request.args.get("za_otroke") == "DA"
     samo_celo_leto = request.args.get("celo_leto") == "DA"
