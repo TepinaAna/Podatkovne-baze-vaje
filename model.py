@@ -192,7 +192,182 @@ class Mesto:
             )
             for vrstica in vrstice
         ]
+    
+    @staticmethod
+    def poisci_podrobnosti(id):
+        conn = connect()
 
+        vrstica = conn.execute("""
+            SELECT m.id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   m.drzava_id,
+                   d.ime AS drzava,
+                   d.eu AS casovni_pas
+            FROM mesto m
+            JOIN drzava d
+                 ON d.id = m.drzava_id
+            WHERE m.id = ?
+        """, (id,)).fetchone()
+
+        conn.close()
+
+        if vrstica is None:
+            return None
+
+        return Mesto(
+            vrstica["id"],
+            vrstica["ime"],
+            vrstica["priljubljenost"],
+            vrstica["priporoceni_dnevi"],
+            vrstica["drzava_id"],
+            vrstica["drzava"],
+            vrstica["casovni_pas"]
+        )
+        
+    @staticmethod
+    def aktivnosti(
+        mesto_id,
+        samo_za_otroke=False,
+        samo_celo_leto=False
+    ):
+        conn = connect()
+
+        query = """
+            SELECT a.id,
+                   a.ime,
+                   a.ocena,
+                   a.vstopnina,
+                   a.za_otroke,
+                   COUNT(
+                       DISTINCT alc.letni_cas_id
+                   ) AS stevilo_letnih_casov,
+                   GROUP_CONCAT(
+                       DISTINCT lc.ime
+                   ) AS letni_casi
+            FROM aktivnost a
+            LEFT JOIN aktivnost_letni_cas alc
+                   ON alc.aktivnost_id = a.id
+            LEFT JOIN letni_cas lc
+                   ON lc.id = alc.letni_cas_id
+            WHERE a.mesto_id = ?
+        """
+
+        parametri = [mesto_id]
+
+        if samo_za_otroke:
+            query += """
+                AND a.za_otroke = 'DA'
+            """
+
+        query += """
+            GROUP BY a.id
+        """
+
+        if samo_celo_leto:
+            query += """
+                HAVING COUNT(
+                    DISTINCT alc.letni_cas_id
+                ) = 4
+            """
+
+        query += """
+            ORDER BY a.ocena DESC,
+                     a.ime
+        """
+
+        vrstice = conn.execute(
+            query,
+            parametri
+        ).fetchall()
+
+        conn.close()
+
+        return vrstice
+
+    @staticmethod
+    def znamenitosti(mesto_id):
+        return Znamenitost.poisci_po_mestu(
+            mesto_id
+        )
+        
+    @staticmethod
+    def dogodki(mesto_id):
+        return Dogodek.poisci_po_mestu(
+            mesto_id
+        )
+
+    @staticmethod
+    def razdalje(mesto_id):
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT r.id,
+                   z1.id AS znamenitost1_id,
+                   z1.ime AS znamenitost1,
+                   z2.id AS znamenitost2_id,
+                   z2.ime AS znamenitost2,
+                   r.razdalja_km
+            FROM razdalja r
+            JOIN znamenitost z1
+                 ON z1.id = r.znamenitost1_id
+            JOIN znamenitost z2
+                 ON z2.id = r.znamenitost2_id
+            WHERE z1.mesto_id = ?
+              AND z2.mesto_id = ?
+            ORDER BY r.razdalja_km,
+                     z1.ime,
+                     z2.ime
+        """, (
+            mesto_id,
+            mesto_id
+        )).fetchall()
+
+        conn.close()
+
+        return vrstice
+
+    @staticmethod
+    def bliznja_mesta(mesto_id):
+        conn = connect()
+
+        vrstice = conn.execute("""
+            SELECT bm.bliznje_mesto_id AS id,
+                   m.ime,
+                   m.priljubljenost,
+                   m.priporoceni_dnevi,
+                   bm.razdalja_km,
+                   (
+                       SELECT z.ime
+                       FROM znamenitost z
+                       WHERE z.mesto_id = m.id
+                       ORDER BY z.ocena DESC,
+                                z.ime
+                       LIMIT 1
+                   ) AS top_znamenitost
+            FROM bliznje_mesto bm
+            JOIN mesto m
+                 ON m.id = bm.bliznje_mesto_id
+            WHERE bm.mesto_id = ?
+              AND m.drzava_id = (
+                  SELECT drzava_id
+                  FROM mesto
+                  WHERE id = ?
+              )
+            ORDER BY bm.razdalja_km,
+                     m.priljubljenost DESC,
+                     m.ime
+            LIMIT 5
+        """, (
+            mesto_id,
+            mesto_id
+        )).fetchall()
+
+        conn.close()
+
+        return vrstice
+    
     def poisci_drzavo(self):
         return Drzava.poisci_po_id(self.drzava_id)
 
