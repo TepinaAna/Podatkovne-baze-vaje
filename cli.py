@@ -141,22 +141,6 @@ def izpisi_znamenitosti_v_mestu():
             f"{znamenitost.ocena}/5)"
         )
 
-
-def izpisi_top_mesta():
-    mesta = Mesto.top_mesta(10)
-
-    print("\nTop 10 mest:")
-
-    for i, mesto in enumerate(
-        mesta,
-        start=1
-    ):
-        print(
-            f"{i}. {mesto.ime} "
-            f"- {mesto.priljubljenost}/5"
-        )
-
-
 def meni():
     while True:
         print("\n--- OBISK MEST ---")
@@ -164,7 +148,6 @@ def meni():
         print("2 - Poišči mesto po imenu")
         print("3 - Aktivnosti v mestu")
         print("4 - Znamenitosti v mestu")
-        print("5 - Top 10 mest")
         print("0 - Izhod")
 
         izbira = input(
@@ -182,9 +165,6 @@ def meni():
 
         elif izbira == "4":
             izpisi_znamenitosti_v_mestu()
-
-        elif izbira == "5":
-            izpisi_top_mesta()
 
         elif izbira == "0":
             print("Izhod.")

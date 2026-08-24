@@ -8,11 +8,22 @@ app.secret_key = "obisk-mest-projekt"
 
 @app.route("/")
 def index():
-    mesta = Mesto.top_mesta(12)
+    iskanje = request.args.get(
+        "mesto",
+        ""
+    ).strip()
+
+    if iskanje:
+        mesta = Mesto.poisci_po_imenu(
+            iskanje
+        )
+    else:
+        mesta = Mesto.top_mesta(10)
 
     return render_template(
         "index.html",
-        mesta=mesta
+        mesta=mesta,
+        iskanje=iskanje
     )
 
 @app.route("/mesto/<int:id>")
@@ -199,47 +210,50 @@ def iskanje():
         celo_leto=celo_leto
     )
 
-@app.route("/casovni_pas", methods=["GET", "POST"])
-def casovni_pas():
+@app.route(
+    "/kontinent",
+    methods=["GET", "POST"]
+)
+def kontinent():
     if request.method == "POST":
         return redirect(
             url_for(
-                "casovni_pas",
-                pas=request.form.get("pas", "")
+                "kontinent",
+                kontinent=request.form.get(
+                    "kontinent",
+                    ""
+                )
             )
         )
 
-    izbran = request.args.get("pas", "")
+    izbran = request.args.get(
+        "kontinent",
+        ""
+    )
 
-    pasi = Drzava.casovni_pasovi()
+    kontinenti = Drzava.kontinenti()
 
     mesta = []
 
     if izbran:
-        mesta = Mesto.poisci_po_casovnem_pasu(
+        mesta = Mesto.poisci_po_kontinentu(
             izbran
         )
 
-    predlogi = (
-        Mesto.predlogi_po_casovnih_pasovih()
+    return render_template(
+        "kontinent.html",
+        kontinenti=kontinenti,
+        mesta=mesta,
+        izbran=izbran
     )
 
-    return render_template(
-        "casovni_pas.html",
-        pasi=pasi,
-        mesta=mesta,
-        izbran=izbran,
-        predlogi=predlogi
-    )
 
 @app.route("/top")
 def top():
-    mesta = Mesto.top_mesta(10)
-
-    return render_template(
-        "top.html",
-        mesta=mesta
+    return redirect(
+        url_for("index")
     )
+
 
 @app.route(
     "/oceni/<int:mesto_id>",

@@ -6,7 +6,32 @@ Začetna stran
 
 {% block content %}
 <section>
-    <h1>Obisk evropskih mest</h1>
+    <h1>Obisk mest</h1>
+
+    <form method="GET" action="{{ url_for('index') }}">
+        <label for="mesto">
+            Poišči mesto:
+        </label>
+
+        <input
+            type="text"
+            id="mesto"
+            name="mesto"
+            value="{{ iskanje }}"
+            placeholder="npr. Slovenj Gradec"
+        >
+
+        <button type="submit">
+            Poišči
+        </button>
+
+        {% if iskanje %}
+            <a href="{{ url_for('index') }}">
+                Počisti
+            </a>
+        {% endif %}
+    </form>
+
 
     <p>
         Izberi mesto in preveri njegove aktivnosti,
