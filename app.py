@@ -1,6 +1,6 @@
 import sqlite3
 from flask import Flask, abort, flash, redirect, render_template, request, url_for
-from model import Mesto
+from model import Aktivnost, Dogodek, Mesto, Znamenitost
 
 
 app = Flask(__name__)
@@ -21,7 +21,7 @@ def index():
         mesta=mesta
     )
 
-@app.route("/mesto/<int:id>")
+route("/mesto/<int:id>")
 def mesto(id):
     samo_za_otroke = request.args.get("za_otroke") == "DA"
     samo_celo_leto = request.args.get("celo_leto") == "DA"
@@ -168,42 +168,14 @@ def mesto(id):
         samo_celo_leto=samo_celo_leto
     )
     
-@app.("/aktivnost/<int:id>")
+@app.route("/aktivnost/<int:id>")
 def aktivnost(id):
-    conn = connect()
-
-    podatek = conn.execute("""
-        SELECT a.id,
-               a.ime,
-               a.ocena,
-               a.vstopnina,
-               a.za_otroke,
-               m.id AS mesto_id,
-               m.ime AS mesto,
-               d.ime AS drzava
-        FROM aktivnost a
-        JOIN mesto m
-             ON m.id = a.mesto_id
-        JOIN drzava d
-             ON d.id = m.drzava_id
-        WHERE a.id = ?
-    """, (id,)).fetchone()
+    podatek = Aktivnost.poisci_podrobnosti(id)
 
     if podatek is None:
-        conn.close()
         abort(404)
 
-    letni_casi = conn.execute("""
-        SELECT lc.id,
-               lc.ime
-        FROM letni_cas lc
-        JOIN aktivnost_letni_cas alc
-             ON alc.letni_cas_id = lc.id
-        WHERE alc.aktivnost_id = ?
-        ORDER BY lc.id
-    """, (id,)).fetchall()
-
-    conn.close()
+    letni_casi = podatek.letni_casi()
 
     return render_template(
         "aktivnost.html",
@@ -212,84 +184,34 @@ def aktivnost(id):
         celo_leto=len(letni_casi) == 4
     )
 
-@app.("/znamenitost/<int:id>")
+@app.route("/znamenitost/<int:id>")
 def znamenitost(id):
-    conn = connect()
-    podatek = conn.execute("""
-        SELECT z.id,
-               z.ime,
-               z.ocena,
-               z.vstopnina,
-               z.za_otroke,
-               m.id AS mesto_id,
-               m.ime AS mesto,
-               d.ime AS drzava
-        FROM znamenitost z
-        JOIN mesto m
-             ON m.id = z.mesto_id
-        JOIN drzava d
-             ON d.id = m.drzava_id
-        WHERE z.id = ?
-    """, (id,)).fetchone()
+    podatek = Znamenitost.poisci_podrobnosti(id)
+
     if podatek is None:
-        conn.close()
         abort(404)
-    bliznje = conn.execute("""
-        SELECT
-            CASE
-                WHEN r.znamenitost1_id = ? THEN z2.id
-                ELSE z1.id
-            END AS id,
-            CASE
-                WHEN r.znamenitost1_id = ? THEN z2.ime
-                ELSE z1.ime
-            END AS ime,
-            r.razdalja_km
-        FROM razdalja r
-        JOIN znamenitost z1
-             ON z1.id = r.znamenitost1_id
-        JOIN znamenitost z2
-             ON z2.id = r.znamenitost2_id
-        WHERE r.znamenitost1_id = ?
-           OR r.znamenitost2_id = ?
-        ORDER BY r.razdalja_km
-    """, (id, id, id, id)).fetchall()
-    conn.close()
+
+    bliznje = podatek.poisci_bliznje()
+
     return render_template(
         "znamenitost.html",
         znamenitost=podatek,
         bliznje=bliznje
     )
-
-@app.("/dogodek/<int:id>")
+    
+@app.route("/dogodek/<int:id>")
 def dogodek(id):
-    conn = connect()
-    podatek = conn.execute("""
-        SELECT e.id,
-               e.ime,
-               e.datum,
-               e.stanje,
-               e.vstopnina,
-               e.za_otroke,
-               m.id AS mesto_id,
-               m.ime AS mesto,
-               d.ime AS drzava
-        FROM dogodek e
-        JOIN mesto m
-             ON m.id = e.mesto_id
-        JOIN drzava d
-             ON d.id = m.drzava_id
-        WHERE e.id = ?
-    """, (id,)).fetchone()
-    conn.close()
+    podatek = Dogodek.poisci_podrobnosti(id)
+
     if podatek is None:
         abort(404)
+
     return render_template(
         "dogodek.html",
         dogodek=podatek
     )
     
-@app.("/nocitve", methods=["GET", "POST"])
+@app.route("/nocitve", methods=["GET", "POST"])
 def nocitve():
     if request.method == "POST":
         return redirect(
@@ -338,7 +260,7 @@ def nocitve():
         izbrano_stevilo=izbrano_stevilo
     )
 
-@app.("/iskanje", methods=["GET", "POST"])
+@app.route("/iskanje", methods=["GET", "POST"])
 def iskanje():
     if request.method == "POST":
         return redirect(
@@ -446,7 +368,7 @@ def iskanje():
         celo_leto=celo_leto
     )
 
-@app.("/casovni_pas", methods=["GET", "POST"])
+@app.route("/casovni_pas", methods=["GET", "POST"])
 def casovni_pas():
     if request.method == "POST":
         return redirect(
