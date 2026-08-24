@@ -1,6 +1,6 @@
 import sqlite3
 from flask import Flask, abort, flash, redirect, render_template, request, url_for
-from model import Aktivnost, Dogodek, Mesto, Znamenitost
+from model import Aktivnost, Dogodek, Mesto, Ocena, Znamenitost
 
 
 app = Flask(__name__)
