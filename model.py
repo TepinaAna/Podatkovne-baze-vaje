@@ -149,34 +149,40 @@ class Mesto:
             vrstica["drzava_id"]
         )
 
-    @staticmethod
-    def poisci_po_imenu(iskanje):
-        conn = connect()
+@staticmethod
+def poisci_po_imenu(iskanje):
+    conn = connect()
 
-        vrstice = conn.execute("""
-            SELECT id,
-                   ime,
-                   priljubljenost,
-                   priporoceni_dnevi,
-                   drzava_id
-            FROM mesto
-            WHERE LOWER(ime) LIKE LOWER(?)
-            ORDER BY priljubljenost DESC, ime
-        """, (f"%{iskanje}%",)).fetchall()
+    vrstice = conn.execute("""
+        SELECT m.id,
+               m.ime,
+               m.priljubljenost,
+               m.priporoceni_dnevi,
+               m.drzava_id,
+               d.ime AS drzava,
+               d.casovni_pas AS casovni_pas
+        FROM mesto m
+        JOIN drzava d
+             ON d.id = m.drzava_id
+        WHERE LOWER(m.ime) LIKE LOWER(?)
+        ORDER BY m.priljubljenost DESC,
+                 m.ime
+    """, (f"%{iskanje}%",)).fetchall()
 
-        conn.close()
+    conn.close()
 
-        return [
-            Mesto(
-                vrstica["id"],
-                vrstica["ime"],
-                vrstica["priljubljenost"],
-                vrstica["priporoceni_dnevi"],
-                vrstica["drzava_id"]
-            )
-            for vrstica in vrstice
-        ]
-
+    return [
+        Mesto(
+            vrstica["id"],
+            vrstica["ime"],
+            vrstica["priljubljenost"],
+            vrstica["priporoceni_dnevi"],
+            vrstica["drzava_id"],
+            vrstica["drzava"],
+            vrstica["casovni_pas"]
+        )
+        for vrstica in vrstice
+    ]
     @staticmethod
     def top_mesta(stevilo=10):
         conn = connect()
