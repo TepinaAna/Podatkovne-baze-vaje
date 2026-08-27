@@ -15,12 +15,12 @@
             <option value="">-- izberi --</option>
             {% for pas in pasi %}
                 <option
-                    value="{{ pas['eu'] }}"
-                    {% if izbran == pas['eu'] %}
+                    value="{{ pas['casovni_pas'] }}"
+                    {% if izbran == pas['casovni_pas'] %}
                         selected
                     {% endif %}
                 >
-                    {{ pas["eu"] }}
+                    {{ pas["casovni_pas"] }}
                 </option>
             {% endfor %}
         </select>

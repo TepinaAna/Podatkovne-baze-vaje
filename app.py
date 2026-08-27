@@ -17,8 +17,6 @@ def index():
         mesta = Mesto.poisci_po_imenu(
             iskanje
         )
-    else:
-        mesta = Mesto.top_mesta(10)
 
     return render_template(
         "index.html",

@@ -13,7 +13,6 @@ class Drzava:
         self.id = id
         self.ime = ime
         self.casovni_pas = casovni_pas
-        self.kontinent = kontinent
 
 
     @staticmethod

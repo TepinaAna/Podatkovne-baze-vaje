@@ -8,8 +8,7 @@ def ustvari_drzava(conn):
         CREATE TABLE drzava(
             id TEXT PRIMARY KEY,
             ime TEXT NOT NULL,
-            casovni_pas TEXT,
-            kontinent TEXT 
+            casovni_pas TEXT
         );
     """)
 
