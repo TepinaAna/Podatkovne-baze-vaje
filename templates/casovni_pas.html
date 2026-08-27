@@ -6,8 +6,8 @@
 <section>
     <h1>Filtriranje po časovnem pasu</h1>
     <p>
-        Izberi časovni pas ali preveri najbolje
-        ocenjeno mesto v posameznem časovnem pasu.
+        Izberi časovni pas ali preveri najbolj
+        priljubljeno mesto v posameznem časovnem pasu.
     </p>
     <form method="POST">
         <label for="pas">Časovni pas:</label>
@@ -39,8 +39,8 @@
     <h2>{{ izbran }}</h2>
     <p>
         Najdenih mest: {{ mesta|length }}.
-        Mesta so razvrščena od najbolje
-        ocenjenega naprej.
+        Mesta so razvrščena od najbolj
+        priljubljenega naprej.
     </p>
     {% if mesta %}
         {% for mesto in mesta %}
@@ -73,7 +73,7 @@
 {% endif %}
 <section>
     <h2>
-        Najbolje ocenjeno mesto
+        Najbolj priljubljeno mesto
         v vsakem časovnem pasu
     </h2>
     <p>
