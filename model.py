@@ -9,7 +9,7 @@ def connect():
 
 
 class Drzava:
-    def __init__(self,id,ime,casovni_pas,kontinent):
+    def __init__(self,id,ime,casovni_pas):
         self.id = id
         self.ime = ime
         self.casovni_pas = casovni_pas
