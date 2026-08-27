@@ -65,4 +65,5 @@ CLI omogoča najmanj štiri funkcionalnosti: izpis mest, iskanje mesta po imenu,
 Datoteka baza.sqlite ni vključena v repozitorij, ker je *.sqlite v .gitignore. Baza se ustvari lokalno iz baza.py in podatkov v mapi data.
 
 Če imate staro lokalno baza.sqlite iz prejšnje različice sheme, jo izbrišite in ponovno zaženite baza.py ter import_data.py.
-<img width="756" height="707" alt="image" src="https://github.com/user-attachments/assets/6f4278f3-14c2-4cfa-84b0-03c8385d9c57" />
+<img width="644" height="603" alt="image" src="https://github.com/user-attachments/assets/fa9559bc-4ea4-4d7e-9e66-cac2771b64f1" />
+
