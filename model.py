@@ -73,21 +73,6 @@ class Drzava:
 
         return vrstice
     
-    @staticmethod
-    def kontinenti():
-        conn = connect()
-
-        vrstice = conn.execute("""
-            SELECT DISTINCT kontinent
-            FROM drzava
-            WHERE kontinent IS NOT NULL
-                AND kontinent <> ''
-            ORDER BY kontinent
-        """).fetchall()
-
-        conn.close()
-
-        return vrstice
 
 
 
