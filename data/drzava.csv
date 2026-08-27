@@ -1,123 +1,122 @@
 id,ime,casovni_pas
-AE,United Arab Emirates,Asia/Dubai
-AF,Afghanistan,Asia/Kabul
-AI,Anguilla,America/Anguilla
-AL,Albania,Europe/Tirane
-AM,Armenia,Asia/Yerevan
+AE,Združeni arabski emirati,Asia/Dubai
+AF,Afganistan,Asia/Kabul
+AI,Angvila,America/Anguilla
+AL,Albanija,Europe/Tirane
+AM,Armenija,Asia/Yerevan
 AR,Argentina,America/Argentina/Cordoba
-AU,Australia,Australia/Lord_Howe
-BA,Bosnia and Herzegovina,Europe/Sarajevo
-BD,Bangladesh,Asia/Dhaka
-BG,Bulgaria,Europe/Sofia
-BO,Bolivia,America/La_Paz
-BR,Brazil,America/Sao_Paulo
-BY,Belarus,Europe/Minsk
+AU,Avstralija,Australia/Lord_Howe
+BA,Bosna in Hercegovina,Europe/Sarajevo
+BD,Bangladeš,Asia/Dhaka
+BG,Bolgarija,Europe/Sofia
+BO,Bolivija,America/La_Paz
+BR,Brazilija,America/Sao_Paulo
+BY,Belorusija,Europe/Minsk
 BZ,Belize,America/Belize
-CA,Canada,America/Montreal
-CD,"Congo, The Democratic Republic of the",Africa/Kinshasa
-CG,Congo,Africa/Brazzaville
-CH,Switzerland,Europe/Zurich
-CI,Ivory Coast,Africa/Abidjan
-CL,Chile,America/Santiago
-CM,Cameroon,Africa/Douala
-CN,China,Asia/Shanghai
-CO,Colombia,America/Bogota
-CR,Costa Rica,America/Costa_Rica
-CY,Cyprus,Asia/Nicosia
-CZ,Czech Republic,Europe/Prague
-DE,Germany,Europe/Berlin
-DK,Denmark,Europe/Copenhagen
-DO,Dominican Republic,America/Santo_Domingo
-EC,Ecuador,America/Guayaquil
-EE,Estonia,Europe/Tallinn
-EG,Egypt,Africa/Cairo
-ER,Eritrea,Africa/Asmara
-ET,Ethiopia,Africa/Addis_Ababa
-FI,Finland,Europe/Helsinki
-FO,Faroe Islands,Atlantic/Faroe
-FR,France,Europe/Paris
-GB,United Kingdom,Europe/London
-GE,Georgia,Asia/Tbilisi
-GH,Ghana,Africa/Accra
-GL,Greenland,America/Nuuk
-GN,Guinea,Africa/Conakry
-GQ,Equatorial Guinea,Africa/Malabo
-GR,Greece,Europe/Athens
-GT,Guatemala,America/Guatemala
-GY,Guyana,America/Guyana
+CA,Kanada,America/Montreal
+CD,Demokratična republika Kongo,Africa/Kinshasa
+CG,Kongo - Brazzaville,Africa/Brazzaville
+CH,Švica,Europe/Zurich
+CI,Slonokoščena obala,Africa/Abidjan
+CL,Čile,America/Santiago
+CM,Kamerun,Africa/Douala
+CN,Kitajska,Asia/Shanghai
+CO,Kolumbija,America/Bogota
+CR,Kostarika,America/Costa_Rica
+CY,Ciper,Asia/Nicosia
+CZ,Češka,Europe/Prague
+DE,Nemčija,Europe/Berlin
+DK,Danska,Europe/Copenhagen
+DO,Dominikanska republika,America/Santo_Domingo
+EC,Ekvador,America/Guayaquil
+EE,Estonija,Europe/Tallinn
+EG,Egipt,Africa/Cairo
+ER,Eritreja,Africa/Asmara
+ET,Etiopija,Africa/Addis_Ababa
+FI,Finska,Europe/Helsinki
+FO,Ferski otoki,Atlantic/Faroe
+FR,Francija,Europe/Paris
+GB,Združeno kraljestvo,Europe/London
+GE,Gruzija,Asia/Tbilisi
+GH,Gana,Africa/Accra
+GL,Grenlandija,America/Nuuk
+GN,Gvineja,Africa/Conakry
+GQ,Ekvatorialna Gvineja,Africa/Malabo
+GR,Grčija,Europe/Athens
+GT,Gvatemala,America/Guatemala
+GY,Gvajana,America/Guyana
 HN,Honduras,America/Tegucigalpa
-HR,Croatia,Europe/Zagreb
-ID,Indonesia,Asia/Jakarta
-IE,Ireland,Europe/Dublin
-IL,Israel,Asia/Hebron
-IQ,Iraq,Asia/Baghdad
+HR,Hrvaška,Europe/Zagreb
+ID,Indonezija,Asia/Jakarta
+IE,Irska,Europe/Dublin
+IL,Izrael,Asia/Hebron
+IQ,Irak,Asia/Baghdad
 IR,Iran,Asia/Tehran
-IS,Iceland,Atlantic/Reykjavik
-JM,Jamaica,America/Jamaica
-JO,Jordan,Asia/Amman
-JP,Japan,Asia/Tokyo
-KE,Kenya,Africa/Nairobi
-KH,Cambodia,Asia/Phnom_Penh
-KN,Saint Kitts and Nevis,America/St_Kitts
-KP,"Korea, Democratic People's Republic of",Asia/Pyongyang
-KR,South Korea,Asia/Seoul
-KZ,Kazakhstan,Asia/Almaty
+IS,Islandija,Atlantic/Reykjavik
+JM,Jamajka,America/Jamaica
+JO,Jordanija,Asia/Amman
+JP,Japonska,Asia/Tokyo
+KE,Kenija,Africa/Nairobi
+KH,Kambodža,Asia/Phnom_Penh
+KN,Saint Kitts in Nevis,America/St_Kitts
+KP,Severna Koreja,Asia/Pyongyang
+KR,Južna Koreja,Asia/Seoul
+KZ,Kazahstan,Asia/Almaty
 LA,Laos,Asia/Vientiane
 LC,Saint Lucia,America/St_Lucia
-LR,Liberia,Africa/Monrovia
-LU,Luxembourg,Europe/Luxembourg
-LV,Latvia,Europe/Riga
-LY,Libya,Africa/Tripoli
-MA,Morocco,Africa/Casablanca
-MD,"Moldova, Republic of",Europe/Chisinau
-ME,Montenegro,Europe/Podgorica
-MG,Madagascar,Indian/Antananarivo
-MK,Macedonia,Europe/Skopje
+LR,Liberija,Africa/Monrovia
+LU,Luksemburg,Europe/Luxembourg
+LV,Latvija,Europe/Riga
+LY,Libija,Africa/Tripoli
+MA,Maroko,Africa/Casablanca
+MD,Moldavija,Europe/Chisinau
+ME,Črna gora,Europe/Podgorica
+MG,Madagaskar,Indian/Antananarivo
+MK,Severna Makedonija,Europe/Skopje
 ML,Mali,Africa/Bamako
-MM,Myanmar,Asia/Rangoon
-MN,Mongolia,Asia/Ulaanbaatar
+MM,Mjanmar (Burma),Asia/Rangoon
+MN,Mongolija,Asia/Ulaanbaatar
 MU,Mauritius,Indian/Mauritius
-MX,Mexico,America/Mexico_City
-MY,Malaysia,Asia/Kuala_Lumpur
+MX,Mehika,America/Mexico_City
+MY,Malezija,Asia/Kuala_Lumpur
 NE,Niger,Africa/Niamey
-NG,Nigeria,Africa/Lagos
-NI,Nicaragua,America/Managua
-NL,Netherlands,Europe/Amsterdam
-NO,Norway,Europe/Oslo
-NZ,New Zealand,Pacific/Auckland
+NG,Nigerija,Africa/Lagos
+NI,Nikaragva,America/Managua
+NL,Nizozemska,Europe/Amsterdam
+NO,Norveška,Europe/Oslo
+NZ,Nova Zelandija,Pacific/Auckland
 PA,Panama,America/Panama
 PE,Peru,America/Lima
-PH,Philippines,Asia/Manila
+PH,Filipini,Asia/Manila
 PK,Pakistan,Asia/Karachi
-PL,Poland,Europe/Warsaw
-PT,Portugal,Europe/Lisbon
+PL,Poljska,Europe/Warsaw
+PT,Portugalska,Europe/Lisbon
 PW,Palau,Pacific/Palau
-PY,Paraguay,America/Asuncion
-RS,Serbia,Europe/Belgrade
-RU,Russia,Europe/Moscow
-SA,Saudi Arabia,Asia/Riyadh
-SE,Sweden,Europe/Stockholm
-SI,Slovenia,Europe/Ljubljana
+PY,Paragvaj,America/Asuncion
+RS,Srbija,Europe/Belgrade
+RU,Rusija,Europe/Moscow
+SA,Saudova Arabija,Asia/Riyadh
+SE,Švedska,Europe/Stockholm
+SI,Slovenija,Europe/Ljubljana
 SL,Sierra Leone,Africa/Freetown
-SO,Somalia,Africa/Mogadishu
-SR,Suriname,America/Paramaribo
-SY,Syria,Asia/Damascus
+SO,Somalija,Africa/Mogadishu
+SR,Surinam,America/Paramaribo
+SY,Sirija,Asia/Damascus
 TG,Togo,Africa/Lome
-TH,Thailand,Asia/Bangkok
-TJ,Tajikistan,Asia/Dushanbe
+TH,Tajska,Asia/Bangkok
+TJ,Tadžikistan,Asia/Dushanbe
 TM,Turkmenistan,Asia/Ashgabat
-TN,Tunisia,Africa/Tunis
-TW,"Taiwan, Province of China",Asia/Taipei
-TZ,Tanzania,Africa/Dar_es_Salaam
-UA,Ukraine,Europe/Kiev
+TN,Tunizija,Africa/Tunis
+TW,Tajvan,Asia/Taipei
+TZ,Tanzanija,Africa/Dar_es_Salaam
+UA,Ukrajina,Europe/Kiev
 UG,Uganda,Africa/Kampala
-US,United States,America/New_York
-UY,Uruguay,America/Montevideo
+US,Združene države Amerike,America/New_York
+UY,Urugvaj,America/Montevideo
 UZ,Uzbekistan,Asia/Tashkent
 VE,Venezuela,America/Caracas
 VN,Vietnam,Asia/Ho_Chi_Minh
 XK,Kosovo,Europe/Belgrade
-YE,Yemen,Asia/Aden
-ZA,South Africa,Africa/Johannesburg
-ZW,Zimbabwe,Africa/Harare
-
+YE,Jemen,Asia/Aden
+ZA,Južnoafriška republika,Africa/Johannesburg
+ZW,Zimbabve,Africa/Harare
