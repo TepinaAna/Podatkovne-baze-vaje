@@ -208,43 +208,38 @@ def iskanje():
         celo_leto=celo_leto
     )
 
-@app.route(
-    "/kontinent",
-    methods=["GET", "POST"]
-)
-def kontinent():
+@app.route("/casovni_pas", methods=["GET", "POST"])
+def casovni_pas():
     if request.method == "POST":
         return redirect(
             url_for(
-                "kontinent",
-                kontinent=request.form.get(
-                    "kontinent",
-                    ""
-                )
+                "casovni_pas",
+                pas=request.form.get("pas", "")
             )
         )
 
-    izbran = request.args.get(
-        "kontinent",
-        ""
-    )
+    izbran = request.args.get("pas", "")
 
-    kontinenti = Drzava.kontinenti()
+    pasi = Drzava.casovni_pasovi()
 
     mesta = []
 
     if izbran:
-        mesta = Mesto.poisci_po_kontinentu(
+        mesta = Mesto.poisci_po_casovnem_pasu(
             izbran
         )
 
-    return render_template(
-        "kontinent.html",
-        kontinenti=kontinenti,
-        mesta=mesta,
-        izbran=izbran
+    predlogi = (
+        Mesto.predlogi_po_casovnih_pasovih()
     )
 
+    return render_template(
+        "casovni_pas.html",
+        pasi=pasi,
+        mesta=mesta,
+        izbran=izbran,
+        predlogi=predlogi
+    )
 
 @app.route("/top")
 def top():
