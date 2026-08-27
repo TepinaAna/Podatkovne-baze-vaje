@@ -143,6 +143,31 @@
 </section>
 
 <section>
+    <h2>Dogodki</h2>
+    
+        {% if dogodki %}
+            {% for dogodek in dogodki %}
+                <article>
+                    <h3>
+                        <a href="{{ url_for('dogodek', id=dogodek['id']) }}">
+                            {{ dogodek["ime"] }}
+                        </a>
+                    </h3>
+                    <p>Datum: {{ dogodek["datum"] }}</p>
+                    <p>Stanje: {{ dogodek["stanje"] }}</p>
+                    <p>Vstopnina: {{ dogodek["vstopnina"] }}</p>
+                    <p>
+                        Primerno za otroke:
+                        {{ dogodek["za_otroke"] }}
+                    </p>
+                </article>
+            {% endfor %}
+        {% else %}
+            <p>Za to mesto ni najdenih dogodkov.</p>
+    {% endif %}
+</section>
+
+<section>
     <h2>Razdalje med znamenitostmi</h2>
 
     {% if razdalje %}
@@ -175,31 +200,6 @@
             Za to mesto še ni vnesenih
             razdalj med znamenitostmi.
         </p>
-    {% endif %}
-</section>
-
-<section>
-    <h2>Dogodki</h2>
-    
-        {% if dogodki %}
-            {% for dogodek in dogodki %}
-                <article>
-                    <h3>
-                        <a href="{{ url_for('dogodek', id=dogodek['id']) }}">
-                            {{ dogodek["ime"] }}
-                        </a>
-                    </h3>
-                    <p>Datum: {{ dogodek["datum"] }}</p>
-                    <p>Stanje: {{ dogodek["stanje"] }}</p>
-                    <p>Vstopnina: {{ dogodek["vstopnina"] }}</p>
-                    <p>
-                        Primerno za otroke:
-                        {{ dogodek["za_otroke"] }}
-                    </p>
-                </article>
-            {% endfor %}
-        {% else %}
-            <p>Za to mesto ni najdenih dogodkov.</p>
     {% endif %}
 </section>
 
