@@ -521,29 +521,7 @@ class Mesto:
         return Drzava.poisci_po_id(self.drzava_id)
 
     
-    @staticmethod
-    def poisci_po_kontinentu(kontinent):
-        conn = connect()
 
-        vrstice = conn.execute("""
-            SELECT m.id,
-                m.ime,
-                m.priljubljenost,
-                m.priporoceni_dnevi,
-                d.ime AS drzava,
-                d.casovni_pas
-            FROM mesto m
-            JOIN drzava d
-                ON d.id = m.drzava_id
-            WHERE d.kontinent = ?
-            ORDER BY m.priljubljenost DESC,
-                    m.ime
-        """, (kontinent,)).fetchall()
-
-        conn.close()
-
-        return vrstice
-    
 
 class BliznjeMesto:
     def __init__(
