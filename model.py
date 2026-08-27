@@ -9,7 +9,7 @@ def connect():
 
 
 class Drzava:
-    def __init__(self,id,ime,casovni_pas,kontinent):
+    def __init__(self,id,ime,casovni_pas):
         self.id = id
         self.ime = ime
         self.casovni_pas = casovni_pas
@@ -73,21 +73,6 @@ class Drzava:
 
         return vrstice
     
-    @staticmethod
-    def kontinenti():
-        conn = connect()
-
-        vrstice = conn.execute("""
-            SELECT DISTINCT kontinent
-            FROM drzava
-            WHERE kontinent IS NOT NULL
-                AND kontinent <> ''
-            ORDER BY kontinent
-        """).fetchall()
-
-        conn.close()
-
-        return vrstice
 
 
 
@@ -536,29 +521,7 @@ class Mesto:
         return Drzava.poisci_po_id(self.drzava_id)
 
     
-    @staticmethod
-    def poisci_po_kontinentu(kontinent):
-        conn = connect()
 
-        vrstice = conn.execute("""
-            SELECT m.id,
-                m.ime,
-                m.priljubljenost,
-                m.priporoceni_dnevi,
-                d.ime AS drzava,
-                d.casovni_pas
-            FROM mesto m
-            JOIN drzava d
-                ON d.id = m.drzava_id
-            WHERE d.kontinent = ?
-            ORDER BY m.priljubljenost DESC,
-                    m.ime
-        """, (kontinent,)).fetchall()
-
-        conn.close()
-
-        return vrstice
-    
 
 class BliznjeMesto:
     def __init__(
